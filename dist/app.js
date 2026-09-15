@@ -48,10 +48,10 @@ const slides=[...carousel.querySelectorAll('.featured-slide')];
 const dots=[...carousel.querySelectorAll('[data-slide]')];
 const pauseButton=carousel.querySelector('.featured-pause');
 const reducedMotion=window.matchMedia('(prefers-reduced-motion: reduce)');
-let featuredIndex=0,featuredTimer=null,featuredPaused=reducedMotion.matches;
+let featuredIndex=0,featuredTimer=null,featuredPaused=false;
 function scheduleFeatured(){
  clearTimeout(featuredTimer);
- if(featuredPaused||document.hidden||dialog.open||carousel.contains(document.activeElement))return;
+ if(featuredPaused||document.hidden||dialog.open)return;
  featuredTimer=setTimeout(()=>showFeatured(featuredIndex+1),6000);
 }
 function showFeatured(index,manual=false){
@@ -68,8 +68,6 @@ carousel.querySelector('.featured-prev').addEventListener('click',()=>showFeatur
 carousel.querySelector('.featured-next').addEventListener('click',()=>showFeatured(featuredIndex+1,true));
 dots.forEach(dot=>dot.addEventListener('click',()=>showFeatured(Number(dot.dataset.slide),true)));
 pauseButton.addEventListener('click',()=>{featuredPaused=!featuredPaused;syncFeaturedPause();scheduleFeatured()});
-carousel.addEventListener('focusin',()=>clearTimeout(featuredTimer));
-carousel.addEventListener('focusout',()=>setTimeout(scheduleFeatured,0));
 carousel.addEventListener('keydown',e=>{if(e.key==='ArrowLeft'||e.key==='ArrowRight'){e.preventDefault();if(e.target.closest('.featured-slide'))pauseButton.focus();showFeatured(featuredIndex+(e.key==='ArrowRight'?1:-1),true)}});
 let touchStart=null,suppressFeaturedClick=false;
 const featuredWindow=carousel.querySelector('.featured-window');
@@ -80,5 +78,5 @@ featuredWindow.addEventListener('click',e=>{if(suppressFeaturedClick){e.preventD
 document.addEventListener('visibilitychange',scheduleFeatured);
 dialog.addEventListener('close',scheduleFeatured);
 new MutationObserver(scheduleFeatured).observe(dialog,{attributes:true,attributeFilter:['open']});
-reducedMotion.addEventListener('change',()=>{featuredPaused=reducedMotion.matches;syncFeaturedPause();scheduleFeatured()});
+reducedMotion.addEventListener('change',()=>{featuredPaused=false;syncFeaturedPause();scheduleFeatured()});
 syncFeaturedPause();scheduleFeatured();
