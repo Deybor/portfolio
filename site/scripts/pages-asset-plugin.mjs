@@ -5,7 +5,7 @@ export function pagesAssetPlugin(base) {
   const prefix = (value) => value.startsWith("/") && !value.startsWith("//")
     ? `${base.slice(0, -1)}${value}` : value;
   const isAsset = (value) => /^\/(?!\/)/.test(value) &&
-    (/\.(?:png|jpe?g|webp|avif|gif|svg|mp4|webm|pdf|css|js|ico|webmanifest)(?:[?#]|$)/i.test(value) ||
+    (/\.(?:png|jpe?g|webp|avif|gif|svg|mp4|webm|pdf|html|css|js|ico|webmanifest)(?:[?#]|$)/i.test(value) ||
       /^\/(?:jewellery|objects|portfolio)\/[^/]+\/$/.test(value));
   return {
     name: "portfolio-pages-public-urls",
@@ -32,7 +32,7 @@ export function pagesAssetPlugin(base) {
             if (value !== node.text) { changed = true; return ts.isStringLiteral(node) ? ts.factory.createStringLiteral(value) : ts.factory.createNoSubstitutionTemplateLiteral(value); }
           }
           if (ts.isTemplateExpression(node) && node.head.text.startsWith("/") &&
-              (urlProperty || node.head.text === "/portfolio/" || /\.(?:png|jpe?g|webp|avif|gif|svg|mp4|webm|pdf)(?:[?#]|$)/i.test(node.templateSpans.at(-1).literal.text))) {
+              (urlProperty || node.head.text === "/portfolio/" || /\.(?:png|jpe?g|webp|avif|gif|svg|mp4|webm|pdf|html)(?:[?#]|$)/i.test(node.templateSpans.at(-1).literal.text))) {
             const value = prefix(node.head.text);
             if (value !== node.head.text) { changed = true; return ts.factory.updateTemplateExpression(node, ts.factory.createTemplateHead(value), node.templateSpans); }
           }

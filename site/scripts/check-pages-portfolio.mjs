@@ -33,6 +33,7 @@ try {
     pages.push({ route, title: await page.title(), textLength: text.length });
   }
   const urls = [...assets];
+  for (const url of urls) if (!new URL(url).pathname.startsWith("/portfolio/")) failures.push(`Link outside portfolio path: ${url}`);
   for (let i = 0; i < urls.length; i += 8) await Promise.all(urls.slice(i, i + 8).map(async url => {
     try { const result = await page.request.head(url); if (result.status() !== 200) failures.push(`Link ${result.status()}: ${url}`); }
     catch (error) { failures.push(`Link request failed: ${url}`); }

@@ -2,6 +2,12 @@
 
 This is the continuation handoff for the existing local portfolio. Preserve the current working files. Do not rebuild the site, reset to Git, restore an older design or publish it without a new request. There is no unfinished task from this session; implement the user's next specific change.
 
+## GitHub publication update
+
+The user subsequently requested publishing this approved local portfolio to their existing GitHub site. The repository is `https://github.com/Deybor/portfolio`, and the live URL is `https://deybor.github.io/portfolio/`. Publication uses the clean clone at `C:\Users\Master\Documents\portfolio\.qa\github-publish`. The current editable project is retained under `site/` in the repository, and the existing Pages workflow deploys its committed `dist/` on `main`.
+
+Read `docs/GITHUB-PAGES.md` for the deployment build and verification instructions. All 19 project routes are pre-rendered for Pages, assets are scoped to `/portfolio/`, and local dev remains on 8080. Do not publish later edits without the user's authorization. The first deployment commit was `1948353`; inspect the actual repository HEAD and newest successful Actions run for subsequent publishing fixes.
+
 ## Workspace and preview
 
 - Website: `C:\Users\Master\Documents\portfolio\porfolio update` — this spelling is intentional. The older static site at `C:\Users\Master\Documents\portfolio` is a different project.

@@ -13,6 +13,6 @@ Copy the contents of `dist-pages` into the publishing repository's `dist` direct
 
 ## Check
 
-Run `node scripts/check-pages-portfolio.mjs https://deybor.github.io` from the working web project to inspect all project pages, displayed media, drawings, and download links. The browser smoke helper also supports the published site when `BROWSER_ALLOW_EXTERNAL_HOST=1`; use the reviewer gallery option to check the popup. Confirm the GitHub Actions deployment for the actual commit before reporting the site live.
+Run `node --use-system-ca scripts/check-pages-portfolio.mjs https://deybor.github.io` from the working web project to inspect all project pages, displayed media, drawings, and download links. The browser smoke helper also supports the published site when `BROWSER_ALLOW_EXTERNAL_HOST=1`; use the reviewer gallery option to check the popup. Confirm the GitHub Actions deployment for the actual commit before reporting the site live.
 
 Direct project paths have their own HTML files, so opening or refreshing a jewellery or printed-object page works on GitHub Pages. Route matching tolerates Pages' trailing slashes. The site's approved renders, typography, dimensions, proposals, and production-status wording are preserved.
