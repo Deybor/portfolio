@@ -1,0 +1,316 @@
+body.world-jewel {
+  background: #141210;
+  color: #f3eadf;
+}
+
+body.world-jewel .site-header {
+  position: sticky;
+  background: #141210f2;
+  color: #f3eadf;
+  border-bottom-color: #2c2824;
+}
+
+body.world-jewel .site-footer {
+  background: #141210;
+  color: #f3eadf;
+  border-top-color: #3a342c;
+}
+
+body.world-jewel .site-footer p,
+body.world-jewel .crumb,
+body.world-jewel .honesty,
+body.world-jewel .index-label,
+body.world-jewel .meta-line,
+body.world-jewel .photo-caption,
+body.world-jewel .credit {
+  color: #cbbfae;
+}
+
+body.world-jewel .jewel {
+  background: #141210;
+  color: #f3eadf;
+}
+
+body.world-jewel .jewel h1,
+body.world-jewel .jewel h2,
+body.world-jewel .brief-line,
+body.world-jewel .stop-line,
+body.world-jewel .decision h3,
+body.world-jewel .form-notes h3,
+body.world-jewel .observe h3,
+body.world-jewel .making h3 {
+  color: #f3eadf;
+}
+
+body.world-jewel .study-thought,
+body.world-jewel .moment .prose,
+body.world-jewel .form-notes p,
+body.world-jewel .decision p,
+body.world-jewel .observe p,
+body.world-jewel .not-these p,
+body.world-jewel .plate-copy p,
+body.world-jewel .statement p {
+  color: #ddd2c3;
+}
+
+body.world-jewel .tech,
+body.world-jewel .tech h2,
+body.world-jewel .tech .prose,
+body.world-jewel .tech .making h3,
+body.world-jewel .tech .making p {
+  color: var(--color-tech-ink);
+}
+
+body.world-jewel .plate-copy .index-label,
+body.world-jewel .plate-copy .meta-line,
+body.world-jewel .statement .index-label {
+  color: #cbbfae;
+}
+
+body.world-jewel .plate-copy .stop-line,
+body.world-jewel .statement .brief-line {
+  color: #f3eadf;
+}
+body.world-jewel .tech .index-label,
+body.world-jewel .tech .credit,
+body.world-jewel .tech .making .credit {
+  color: var(--color-tech-muted);
+}
+
+.deck-progress {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 40;
+  width: 100%;
+  height: 2px;
+  background: #e4c99a;
+  transform: scaleX(0);
+  transform-origin: 0 50%;
+  animation: deck-grow linear both;
+  animation-timeline: scroll(root);
+  pointer-events: none;
+}
+
+@keyframes deck-grow {
+  to {
+    transform: scaleX(1);
+  }
+}
+
+.plate {
+  display: grid;
+  grid-template-columns: minmax(240px, 0.82fr) minmax(0, 1fr);
+  gap: clamp(24px, 4vw, 64px);
+  align-items: center;
+  width: min(1040px, calc(100% - 88px));
+  margin: 0 auto;
+  padding: 40px 0 28px;
+  scroll-margin-top: 84px;
+}
+
+.plate-hero {
+  padding-top: clamp(48px, 7vh, 80px);
+}
+
+.plate-copy h1,
+.plate-copy h2 {
+  font-size: clamp(44px, 5vw, 76px);
+  line-height: 0.92;
+  margin: 6px 0 0;
+}
+
+.plate-copy .lede,
+.plate-copy .prose {
+  margin-top: 16px;
+  max-width: 28rem;
+}
+
+.plate-frame {
+  margin: 0;
+  overflow: hidden;
+  background: #1c1916;
+}
+
+.shot {
+  display: block;
+  width: 100%;
+  height: min(52vh, 460px);
+  object-fit: cover;
+}
+
+.shot-tall {
+  height: min(58vh, 520px);
+}
+
+.shot-wear {
+  object-position: 50% 16%;
+}
+
+.shot-nest {
+  object-position: 50% 72%;
+}
+
+.statement {
+  width: min(760px, calc(100% - 88px));
+  margin: 0 auto;
+  padding: 72px 0 28px;
+}
+
+.statement,
+.chapter,
+.tech {
+  scroll-margin-top: 84px;
+}
+
+body.world-jewel .chapter h2 {
+  font-size: clamp(36px, 4vw, 56px);
+  line-height: 0.95;
+  margin: 0 0 18px;
+}
+
+body.world-jewel .frame img,
+body.world-jewel .form-layout img {
+  max-height: 56vh;
+  object-fit: cover;
+}
+
+body.world-jewel .pair img {
+  max-height: 48vh;
+}
+
+.quiet-note {
+  width: min(1080px, calc(100% - 88px));
+  margin: 0 auto;
+  padding: 8px 0 72px;
+  color: #cbbfae;
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+.reveal .line {
+  opacity: 1;
+  transform: none;
+  filter: none;
+  transition: none;
+}
+
+.reveal .shot {
+  clip-path: none;
+  opacity: 1;
+  transform: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .reveal:not(.plate-hero) .shot {
+    transition: transform var(--jewel-image-enter-duration) ease-out;
+  }
+
+  .reveal:not(.plate-hero):not(.is-in) .shot {
+    transform: translateY(var(--jewel-image-enter-distance));
+  }
+}
+
+.chapter-rail {
+  position: fixed;
+  z-index: 30;
+  right: 22px;
+  top: 50%;
+  transform: translateY(-50%);
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.chapter-rail a {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  min-width: 44px;
+  min-height: 18px;
+}
+
+.chapter-rail a span {
+  display: block;
+  width: 16px;
+  height: 2px;
+  background: #f3eadf55;
+  transition:
+    width 240ms ease,
+    background-color 240ms ease;
+}
+
+.chapter-rail a[aria-current="true"] span {
+  width: 32px;
+  background: #e4c99a;
+}
+
+body.world-jewel .decision .chosen {
+  background: #1e1a16;
+  border-color: #e4c99a;
+}
+
+body.world-jewel .decision article,
+body.world-jewel .moment,
+body.world-jewel .next-room {
+  border-top-color: #3a342c;
+}
+
+.split-intro {
+  display: grid;
+  grid-template-columns: 0.8fr 1.2fr;
+  gap: 28px;
+  align-items: end;
+  margin-bottom: 28px;
+}
+
+.split-intro img {
+  width: 100%;
+  aspect-ratio: 1;
+  object-fit: cover;
+  display: block;
+}
+
+@media (max-width: 860px) {
+  .plate,
+  .statement,
+  .quiet-note {
+    width: min(100% - 40px, 1080px);
+  }
+
+  .plate {
+    grid-template-columns: 1fr;
+    gap: 22px;
+    padding: 48px 0;
+  }
+
+  .plate-copy {
+    order: -1;
+  }
+
+  .shot,
+  .shot-tall {
+    height: min(46vh, 360px);
+  }
+
+  .chapter-rail {
+    display: none;
+  }
+
+  .split-intro {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .deck-progress,
+  .reveal .line,
+  .reveal .shot {
+    animation: none;
+    transition: none;
+    opacity: 1;
+    transform: none;
+    filter: none;
+    clip-path: none;
+  }
+}

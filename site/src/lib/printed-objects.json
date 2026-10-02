@@ -1,0 +1,884 @@
+[
+  {
+    "slug": "zenith-cup",
+    "title": "The Zenith Cup",
+    "modelSource": "The Zenith Cup.blend",
+    "card": "/objects/zenith-cup/card.webp",
+    "views": [
+      {
+        "kind": "final",
+        "index": 1,
+        "source": "preview1.png",
+        "width": 2000,
+        "height": 2000,
+        "image": "/objects/zenith-cup/final-01.webp",
+        "full": "/objects/zenith-cup/final-01.png"
+      },
+      {
+        "kind": "final",
+        "index": 2,
+        "source": "preview2.png",
+        "width": 2000,
+        "height": 2000,
+        "image": "/objects/zenith-cup/final-02.webp",
+        "full": "/objects/zenith-cup/final-02.png"
+      },
+      {
+        "kind": "final",
+        "index": 3,
+        "source": "preview3.png",
+        "width": 2000,
+        "height": 2000,
+        "image": "/objects/zenith-cup/final-03.webp",
+        "full": "/objects/zenith-cup/final-03.png"
+      },
+      {
+        "kind": "final",
+        "index": 4,
+        "source": "preview8.png",
+        "width": 2000,
+        "height": 2000,
+        "image": "/objects/zenith-cup/final-04.webp",
+        "full": "/objects/zenith-cup/final-04.png"
+      },
+      {
+        "kind": "final",
+        "index": 5,
+        "source": "preview4.png",
+        "width": 2000,
+        "height": 2000,
+        "image": "/objects/zenith-cup/final-05.webp",
+        "full": "/objects/zenith-cup/final-05.png"
+      },
+      {
+        "kind": "wireframe",
+        "index": 1,
+        "source": "preview6 .png",
+        "width": 1920,
+        "height": 1920,
+        "image": "/objects/zenith-cup/wireframe-01.webp",
+        "full": "/objects/zenith-cup/wireframe-01.png"
+      },
+      {
+        "kind": "wireframe",
+        "index": 2,
+        "source": "preview7.png",
+        "width": 1920,
+        "height": 1920,
+        "image": "/objects/zenith-cup/wireframe-02.webp",
+        "full": "/objects/zenith-cup/wireframe-02.png"
+      },
+      {
+        "kind": "clay",
+        "index": 1,
+        "source": "The Zenith Cup.blend",
+        "width": 1200,
+        "height": 1200,
+        "image": "/objects/zenith-cup/clay-01.webp",
+        "full": "/objects/zenith-cup/clay-01.png",
+        "generated": true
+      },
+      {
+        "kind": "wireframe",
+        "index": 3,
+        "source": "The Zenith Cup.blend",
+        "width": 1200,
+        "height": 1200,
+        "image": "/objects/zenith-cup/topology-01.webp",
+        "full": "/objects/zenith-cup/topology-01.png",
+        "generated": true
+      },
+      {
+        "kind": "dimensions",
+        "index": 1,
+        "source": "The Zenith Cup.blend",
+        "width": 1000,
+        "height": 800,
+        "image": "/objects/zenith-cup/dimensions.svg",
+        "full": "/objects/zenith-cup/dimensions.svg",
+        "generated": true
+      },
+      {
+        "kind": "wireframe",
+        "index": 4,
+        "source": "The Zenith Cup.blend",
+        "width": 1600,
+        "height": 1000,
+        "image": "/objects/zenith-cup/workspace-01.webp",
+        "full": "/objects/zenith-cup/workspace-01.png",
+        "label": "Blender workspace",
+        "generated": true
+      }
+    ],
+    "dimensions": {
+      "width": 214.6,
+      "depth": 224.2,
+      "height": 576.1
+    }
+  },
+  {
+    "slug": "world",
+    "title": "World",
+    "modelSource": "World.blend",
+    "card": "/objects/world/card.webp",
+    "views": [
+      {
+        "kind": "final",
+        "index": 1,
+        "source": "World.png",
+        "width": 512,
+        "height": 512,
+        "image": "/objects/world/final-01.webp",
+        "full": "/objects/world/final-01.png"
+      },
+      {
+        "kind": "final",
+        "index": 2,
+        "source": "World2.png",
+        "width": 512,
+        "height": 512,
+        "image": "/objects/world/final-02.webp",
+        "full": "/objects/world/final-02.png"
+      },
+      {
+        "kind": "final",
+        "index": 3,
+        "source": "World3.png",
+        "width": 512,
+        "height": 512,
+        "image": "/objects/world/final-03.webp",
+        "full": "/objects/world/final-03.png"
+      },
+      {
+        "kind": "final",
+        "index": 4,
+        "source": "World4.png",
+        "width": 512,
+        "height": 512,
+        "image": "/objects/world/final-04.webp",
+        "full": "/objects/world/final-04.png"
+      },
+      {
+        "kind": "final",
+        "index": 5,
+        "source": "world (2).png",
+        "width": 512,
+        "height": 512,
+        "image": "/objects/world/final-05.webp",
+        "full": "/objects/world/final-05.png"
+      },
+      {
+        "kind": "clay",
+        "index": 1,
+        "source": "second.blend",
+        "width": 1200,
+        "height": 1200,
+        "image": "/objects/world/clay-01.webp",
+        "full": "/objects/world/clay-01.png",
+        "generated": true
+      },
+      {
+        "kind": "wireframe",
+        "index": 1,
+        "source": "second.blend",
+        "width": 1200,
+        "height": 1200,
+        "image": "/objects/world/topology-01.webp",
+        "full": "/objects/world/topology-01.png",
+        "generated": true
+      },
+      {
+        "kind": "dimensions",
+        "index": 1,
+        "source": "second.blend",
+        "width": 1000,
+        "height": 800,
+        "image": "/objects/world/dimensions.svg",
+        "full": "/objects/world/dimensions.svg",
+        "generated": true
+      },
+      {
+        "kind": "wireframe",
+        "index": 2,
+        "source": "second.blend",
+        "width": 1600,
+        "height": 1000,
+        "image": "/objects/world/workspace-01.webp",
+        "full": "/objects/world/workspace-01.png",
+        "label": "Blender workspace",
+        "generated": true
+      }
+    ],
+    "dimensions": {
+      "width": 2545.1,
+      "depth": 1426.0,
+      "height": 2517.1
+    }
+  },
+  {
+    "slug": "top-campus-ministry",
+    "title": "Top Campus Ministry",
+    "modelSource": "Top Campus Ministry.blend",
+    "card": "/objects/top-campus-ministry/card.webp",
+    "views": [
+      {
+        "kind": "final",
+        "index": 1,
+        "source": "Top Campus Ministry.png",
+        "width": 512,
+        "height": 512,
+        "image": "/objects/top-campus-ministry/final-01.webp",
+        "full": "/objects/top-campus-ministry/final-01.png"
+      },
+      {
+        "kind": "final",
+        "index": 2,
+        "source": "Top Campus Ministry2.png",
+        "width": 512,
+        "height": 512,
+        "image": "/objects/top-campus-ministry/final-02.webp",
+        "full": "/objects/top-campus-ministry/final-02.png"
+      },
+      {
+        "kind": "final",
+        "index": 3,
+        "source": "Top Campus Ministry3.png",
+        "width": 512,
+        "height": 512,
+        "image": "/objects/top-campus-ministry/final-03.webp",
+        "full": "/objects/top-campus-ministry/final-03.png"
+      },
+      {
+        "kind": "clay",
+        "index": 1,
+        "source": "6.blend",
+        "width": 1200,
+        "height": 1200,
+        "image": "/objects/top-campus-ministry/clay-01.webp",
+        "full": "/objects/top-campus-ministry/clay-01.png",
+        "generated": true
+      },
+      {
+        "kind": "wireframe",
+        "index": 1,
+        "source": "6.blend",
+        "width": 1200,
+        "height": 1200,
+        "image": "/objects/top-campus-ministry/topology-01.webp",
+        "full": "/objects/top-campus-ministry/topology-01.png",
+        "generated": true
+      },
+      {
+        "kind": "dimensions",
+        "index": 1,
+        "source": "6.blend",
+        "width": 1000,
+        "height": 800,
+        "image": "/objects/top-campus-ministry/dimensions.svg",
+        "full": "/objects/top-campus-ministry/dimensions.svg",
+        "generated": true
+      },
+      {
+        "kind": "wireframe",
+        "index": 2,
+        "source": "6.blend",
+        "width": 1600,
+        "height": 1000,
+        "image": "/objects/top-campus-ministry/workspace-01.webp",
+        "full": "/objects/top-campus-ministry/workspace-01.png",
+        "label": "Blender workspace",
+        "generated": true
+      },
+      {
+        "kind": "references",
+        "index": 1,
+        "source": "award-designs.pdf, page 3",
+        "width": 566,
+        "height": 704,
+        "image": "/objects/top-campus-ministry/reference-01.webp",
+        "full": "/objects/top-campus-ministry/reference-01.png",
+        "label": "Original design drawing / PDF page 3",
+        "referencePage": 3
+      }
+    ],
+    "dimensions": {
+      "width": 189.8,
+      "depth": 189.1,
+      "height": 406.9
+    }
+  },
+  {
+    "slug": "top-zone-trophy",
+    "title": "Top Zone Trophy",
+    "modelSource": "Top Zone Trouphy.blend",
+    "card": "/objects/top-zone-trophy/card.webp",
+    "views": [
+      {
+        "kind": "final",
+        "index": 1,
+        "source": "Top Zone Trouphy.png",
+        "width": 512,
+        "height": 512,
+        "image": "/objects/top-zone-trophy/final-01.webp",
+        "full": "/objects/top-zone-trophy/final-01.png"
+      },
+      {
+        "kind": "final",
+        "index": 2,
+        "source": "Top Zone Trouphy 2.png",
+        "width": 512,
+        "height": 512,
+        "image": "/objects/top-zone-trophy/final-02.webp",
+        "full": "/objects/top-zone-trophy/final-02.png"
+      },
+      {
+        "kind": "clay",
+        "index": 1,
+        "source": "untitled2.blend",
+        "width": 1200,
+        "height": 1200,
+        "image": "/objects/top-zone-trophy/clay-01.webp",
+        "full": "/objects/top-zone-trophy/clay-01.png",
+        "generated": true
+      },
+      {
+        "kind": "wireframe",
+        "index": 1,
+        "source": "untitled2.blend",
+        "width": 1200,
+        "height": 1200,
+        "image": "/objects/top-zone-trophy/topology-01.webp",
+        "full": "/objects/top-zone-trophy/topology-01.png",
+        "generated": true
+      },
+      {
+        "kind": "dimensions",
+        "index": 1,
+        "source": "untitled2.blend",
+        "width": 1000,
+        "height": 800,
+        "image": "/objects/top-zone-trophy/dimensions.svg",
+        "full": "/objects/top-zone-trophy/dimensions.svg",
+        "generated": true
+      },
+      {
+        "kind": "wireframe",
+        "index": 2,
+        "source": "untitled2.blend",
+        "width": 1600,
+        "height": 1000,
+        "image": "/objects/top-zone-trophy/workspace-01.webp",
+        "full": "/objects/top-zone-trophy/workspace-01.png",
+        "label": "Blender workspace",
+        "generated": true
+      },
+      {
+        "kind": "references",
+        "index": 1,
+        "source": "award-designs.pdf, page 3",
+        "width": 1032,
+        "height": 1102,
+        "image": "/objects/top-zone-trophy/reference-01.webp",
+        "full": "/objects/top-zone-trophy/reference-01.png",
+        "label": "Original design drawing / PDF page 3",
+        "referencePage": 3
+      }
+    ],
+    "dimensions": {
+      "width": 935.0,
+      "depth": 802.7,
+      "height": 2038.2
+    }
+  },
+  {
+    "slug": "bible-projects-for-programs",
+    "title": "Bible Projects for Programs",
+    "modelSource": "Bilble Projects for Programs.blend",
+    "card": "/objects/bible-projects-for-programs/card.webp",
+    "views": [
+      {
+        "kind": "final",
+        "index": 1,
+        "source": "Bilble Projects for Programs.png",
+        "width": 512,
+        "height": 512,
+        "image": "/objects/bible-projects-for-programs/final-01.webp",
+        "full": "/objects/bible-projects-for-programs/final-01.png"
+      },
+      {
+        "kind": "final",
+        "index": 2,
+        "source": "Bilble Projects for Programs 2.png",
+        "width": 512,
+        "height": 512,
+        "image": "/objects/bible-projects-for-programs/final-02.webp",
+        "full": "/objects/bible-projects-for-programs/final-02.png"
+      },
+      {
+        "kind": "clay",
+        "index": 1,
+        "source": "Bilble Projects for Programs.blend",
+        "width": 1200,
+        "height": 1200,
+        "image": "/objects/bible-projects-for-programs/clay-01.webp",
+        "full": "/objects/bible-projects-for-programs/clay-01.png",
+        "generated": true
+      },
+      {
+        "kind": "wireframe",
+        "index": 1,
+        "source": "Bilble Projects for Programs.blend",
+        "width": 1200,
+        "height": 1200,
+        "image": "/objects/bible-projects-for-programs/topology-01.webp",
+        "full": "/objects/bible-projects-for-programs/topology-01.png",
+        "generated": true
+      },
+      {
+        "kind": "dimensions",
+        "index": 1,
+        "source": "Bilble Projects for Programs.blend",
+        "width": 1000,
+        "height": 800,
+        "image": "/objects/bible-projects-for-programs/dimensions.svg",
+        "full": "/objects/bible-projects-for-programs/dimensions.svg",
+        "generated": true
+      },
+      {
+        "kind": "wireframe",
+        "index": 2,
+        "source": "Bilble Projects for Programs.blend",
+        "width": 1600,
+        "height": 1000,
+        "image": "/objects/bible-projects-for-programs/workspace-01.webp",
+        "full": "/objects/bible-projects-for-programs/workspace-01.png",
+        "label": "Blender workspace",
+        "generated": true
+      },
+      {
+        "kind": "references",
+        "index": 1,
+        "source": "award-designs.pdf, page 4",
+        "width": 1022,
+        "height": 1203,
+        "image": "/objects/bible-projects-for-programs/reference-01.webp",
+        "full": "/objects/bible-projects-for-programs/reference-01.png",
+        "label": "Original design drawing / PDF page 4",
+        "referencePage": 4
+      }
+    ],
+    "dimensions": {
+      "width": 410.4,
+      "depth": 307.8,
+      "height": 893.1
+    }
+  },
+  {
+    "slug": "projects-and-programs",
+    "title": "Projects & Programs",
+    "modelSource": "Project & Programs.blend",
+    "card": "/objects/projects-and-programs/card.webp",
+    "views": [
+      {
+        "kind": "final",
+        "index": 1,
+        "source": "Project & Programs.png",
+        "width": 512,
+        "height": 512,
+        "image": "/objects/projects-and-programs/final-01.webp",
+        "full": "/objects/projects-and-programs/final-01.png"
+      },
+      {
+        "kind": "final",
+        "index": 2,
+        "source": "Project & Programs 2.png",
+        "width": 512,
+        "height": 512,
+        "image": "/objects/projects-and-programs/final-02.webp",
+        "full": "/objects/projects-and-programs/final-02.png"
+      },
+      {
+        "kind": "clay",
+        "index": 1,
+        "source": "5.blend",
+        "width": 1200,
+        "height": 1200,
+        "image": "/objects/projects-and-programs/clay-01.webp",
+        "full": "/objects/projects-and-programs/clay-01.png",
+        "generated": true
+      },
+      {
+        "kind": "wireframe",
+        "index": 1,
+        "source": "5.blend",
+        "width": 1200,
+        "height": 1200,
+        "image": "/objects/projects-and-programs/topology-01.webp",
+        "full": "/objects/projects-and-programs/topology-01.png",
+        "generated": true
+      },
+      {
+        "kind": "wireframe",
+        "index": 2,
+        "source": "5.blend",
+        "width": 1600,
+        "height": 1000,
+        "image": "/objects/projects-and-programs/workspace-01.webp",
+        "full": "/objects/projects-and-programs/workspace-01.png",
+        "label": "Blender workspace",
+        "generated": true
+      },
+      {
+        "kind": "references",
+        "index": 1,
+        "source": "award-designs.pdf, page 8",
+        "width": 1023,
+        "height": 1148,
+        "image": "/objects/projects-and-programs/reference-01.webp",
+        "full": "/objects/projects-and-programs/reference-01.png",
+        "label": "Original design drawing / PDF page 8",
+        "referencePage": 8
+      },
+      {
+        "kind": "dimensions",
+        "index": 1,
+        "source": "5.blend",
+        "width": 1000,
+        "height": 800,
+        "image": "/objects/projects-and-programs/dimensions.svg",
+        "full": "/objects/projects-and-programs/dimensions.svg",
+        "generated": true
+      }
+    ],
+    "dimensions": {
+      "width": 242.6,
+      "depth": 129.4,
+      "height": 401.3
+    }
+  },
+  {
+    "slug": "individual-category",
+    "title": "Individual Category",
+    "modelSource": "Individual Category.blend",
+    "card": "/objects/individual-category/card.webp",
+    "views": [
+      {
+        "kind": "final",
+        "index": 1,
+        "source": "Individual Category.png",
+        "width": 512,
+        "height": 512,
+        "image": "/objects/individual-category/final-01.webp",
+        "full": "/objects/individual-category/final-01.png"
+      },
+      {
+        "kind": "final",
+        "index": 2,
+        "source": "Individual Category 2.png",
+        "width": 512,
+        "height": 512,
+        "image": "/objects/individual-category/final-02.webp",
+        "full": "/objects/individual-category/final-02.png"
+      },
+      {
+        "kind": "clay",
+        "index": 1,
+        "source": "Individual Category.blend",
+        "width": 1200,
+        "height": 1200,
+        "image": "/objects/individual-category/clay-01.webp",
+        "full": "/objects/individual-category/clay-01.png",
+        "generated": true
+      },
+      {
+        "kind": "wireframe",
+        "index": 1,
+        "source": "Individual Category.blend",
+        "width": 1200,
+        "height": 1200,
+        "image": "/objects/individual-category/topology-01.webp",
+        "full": "/objects/individual-category/topology-01.png",
+        "generated": true
+      },
+      {
+        "kind": "dimensions",
+        "index": 1,
+        "source": "Individual Category.blend",
+        "width": 1000,
+        "height": 800,
+        "image": "/objects/individual-category/dimensions.svg",
+        "full": "/objects/individual-category/dimensions.svg",
+        "generated": true
+      },
+      {
+        "kind": "wireframe",
+        "index": 2,
+        "source": "Individual Category.blend",
+        "width": 1600,
+        "height": 1000,
+        "image": "/objects/individual-category/workspace-01.webp",
+        "full": "/objects/individual-category/workspace-01.png",
+        "label": "Blender workspace",
+        "generated": true
+      },
+      {
+        "kind": "references",
+        "index": 1,
+        "source": "award-designs.pdf, page 8",
+        "width": 1164,
+        "height": 1071,
+        "image": "/objects/individual-category/reference-01.webp",
+        "full": "/objects/individual-category/reference-01.png",
+        "label": "Original design drawing / PDF page 8",
+        "referencePage": 8
+      }
+    ],
+    "dimensions": {
+      "width": 146.5,
+      "depth": 157.1,
+      "height": 374.0
+    }
+  },
+  {
+    "slug": "tuff",
+    "title": "Tuff",
+    "modelSource": "tuff.blend",
+    "card": "/objects/tuff/card.webp",
+    "views": [
+      {
+        "kind": "final",
+        "index": 1,
+        "source": "tuff.png",
+        "width": 512,
+        "height": 512,
+        "image": "/objects/tuff/final-01.webp",
+        "full": "/objects/tuff/final-01.png"
+      },
+      {
+        "kind": "final",
+        "index": 2,
+        "source": "tuff (2).png",
+        "width": 512,
+        "height": 512,
+        "image": "/objects/tuff/final-02.webp",
+        "full": "/objects/tuff/final-02.png"
+      },
+      {
+        "kind": "final",
+        "index": 3,
+        "source": "tuff (3).png",
+        "width": 512,
+        "height": 512,
+        "image": "/objects/tuff/final-03.webp",
+        "full": "/objects/tuff/final-03.png"
+      },
+      {
+        "kind": "clay",
+        "index": 1,
+        "source": "tuff.blend",
+        "width": 1200,
+        "height": 1200,
+        "image": "/objects/tuff/clay-01.webp",
+        "full": "/objects/tuff/clay-01.png",
+        "generated": true
+      },
+      {
+        "kind": "wireframe",
+        "index": 1,
+        "source": "tuff.blend",
+        "width": 1200,
+        "height": 1200,
+        "image": "/objects/tuff/topology-01.webp",
+        "full": "/objects/tuff/topology-01.png",
+        "generated": true
+      },
+      {
+        "kind": "wireframe",
+        "index": 2,
+        "source": "tuff.blend",
+        "width": 1600,
+        "height": 1000,
+        "image": "/objects/tuff/workspace-01.webp",
+        "full": "/objects/tuff/workspace-01.png",
+        "label": "Blender workspace",
+        "generated": true
+      },
+      {
+        "kind": "references",
+        "index": 1,
+        "source": "award-designs.pdf, page 7",
+        "width": 1255,
+        "height": 1087,
+        "image": "/objects/tuff/reference-01.webp",
+        "full": "/objects/tuff/reference-01.png",
+        "label": "Original design drawing / PDF page 7",
+        "referencePage": 7
+      },
+      {
+        "kind": "references",
+        "index": 2,
+        "source": "2.jpg",
+        "width": 158,
+        "height": 239,
+        "image": "/objects/tuff/reference-02.webp",
+        "full": "/objects/tuff/reference-02.jpg",
+        "label": "Trophy reference drawing"
+      },
+      {
+        "kind": "dimensions",
+        "index": 1,
+        "source": "tuff.blend",
+        "width": 1000,
+        "height": 800,
+        "image": "/objects/tuff/dimensions.svg",
+        "full": "/objects/tuff/dimensions.svg",
+        "generated": true
+      }
+    ],
+    "dimensions": {
+      "width": 9220.9,
+      "depth": 12568.8,
+      "height": 20223.1
+    }
+  },
+  {
+    "slug": "vit",
+    "title": "Vit",
+    "modelSource": "vit.blend",
+    "card": "/objects/vit/card.webp",
+    "views": [
+      {
+        "kind": "final",
+        "index": 1,
+        "source": "vit.png",
+        "width": 512,
+        "height": 512,
+        "image": "/objects/vit/final-01.webp",
+        "full": "/objects/vit/final-01.png"
+      },
+      {
+        "kind": "final",
+        "index": 2,
+        "source": "vit (2).png",
+        "width": 512,
+        "height": 512,
+        "image": "/objects/vit/final-02.webp",
+        "full": "/objects/vit/final-02.png"
+      },
+      {
+        "kind": "final",
+        "index": 3,
+        "source": "vit (3).png",
+        "width": 512,
+        "height": 512,
+        "image": "/objects/vit/final-03.webp",
+        "full": "/objects/vit/final-03.png"
+      },
+      {
+        "kind": "clay",
+        "index": 1,
+        "source": "vit.blend",
+        "width": 1200,
+        "height": 1200,
+        "image": "/objects/vit/clay-01.webp",
+        "full": "/objects/vit/clay-01.png",
+        "generated": true
+      },
+      {
+        "kind": "wireframe",
+        "index": 1,
+        "source": "vit.blend",
+        "width": 1200,
+        "height": 1200,
+        "image": "/objects/vit/topology-01.webp",
+        "full": "/objects/vit/topology-01.png",
+        "generated": true
+      },
+      {
+        "kind": "dimensions",
+        "index": 1,
+        "source": "vit.blend",
+        "width": 1000,
+        "height": 800,
+        "image": "/objects/vit/dimensions.svg",
+        "full": "/objects/vit/dimensions.svg",
+        "generated": true
+      },
+      {
+        "kind": "wireframe",
+        "index": 2,
+        "source": "vit.blend",
+        "width": 1600,
+        "height": 1000,
+        "image": "/objects/vit/workspace-01.webp",
+        "full": "/objects/vit/workspace-01.png",
+        "label": "Blender workspace",
+        "generated": true
+      },
+      {
+        "kind": "references",
+        "index": 1,
+        "source": "award-designs.pdf, page 8",
+        "width": 460,
+        "height": 826,
+        "image": "/objects/vit/reference-01.webp",
+        "full": "/objects/vit/reference-01.png",
+        "label": "Original design drawing / PDF page 8",
+        "referencePage": 8
+      }
+    ],
+    "dimensions": {
+      "width": 657.1,
+      "depth": 449.1,
+      "height": 1601.4
+    }
+  },
+  {
+    "slug": "medal",
+    "title": "Medal",
+    "modelSource": "medal.blend",
+    "card": "/objects/medal/card.webp",
+    "views": [
+      {
+        "kind": "final",
+        "index": 1,
+        "source": "medal.png",
+        "width": 512,
+        "height": 512,
+        "image": "/objects/medal/final-01.webp",
+        "full": "/objects/medal/final-01.png"
+      },
+      {
+        "kind": "clay",
+        "index": 1,
+        "source": "medal.blend",
+        "width": 1200,
+        "height": 1200,
+        "image": "/objects/medal/clay-01.webp",
+        "full": "/objects/medal/clay-01.png",
+        "generated": true
+      },
+      {
+        "kind": "wireframe",
+        "index": 1,
+        "source": "medal.blend",
+        "width": 1200,
+        "height": 1200,
+        "image": "/objects/medal/topology-01.webp",
+        "full": "/objects/medal/topology-01.png",
+        "generated": true
+      },
+      {
+        "kind": "wireframe",
+        "index": 2,
+        "source": "medal.blend",
+        "width": 1600,
+        "height": 1000,
+        "image": "/objects/medal/workspace-01.webp",
+        "full": "/objects/medal/workspace-01.png",
+        "label": "Blender workspace",
+        "generated": true
+      }
+    ]
+  }
+]

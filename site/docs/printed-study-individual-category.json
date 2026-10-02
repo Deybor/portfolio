@@ -1,0 +1,29 @@
+{
+  "slug": "individual-category",
+  "sourceFile": "C:\\Users\\Master\\Documents\\blender\\blender filesss\\troo\\new\\cad-3d print\\Individual Category.blend",
+  "sha256": "df4b77bf58d9203ccf84488e160228a53476c55ff1d5bd3a4879a6e8386a3132",
+  "parts": [
+    "Retopo_Sphere"
+  ],
+  "dimension": {
+    "width": 146.5,
+    "depth": 157.1,
+    "height": 374.0,
+    "bounds": [
+      [
+        -0.029046569019556046,
+        -0.07233341038227081,
+        -0.0003160620981361717
+      ],
+      [
+        0.12808534502983093,
+        0.07415244728326797,
+        0.3737136423587799
+      ]
+    ],
+    "widthAxis": 1,
+    "depthAxis": 0,
+    "orthoScale": 0.46753711998462677
+  },
+  "sourceUnchanged": true
+}

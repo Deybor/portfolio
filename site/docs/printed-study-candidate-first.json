@@ -1,0 +1,10 @@
+{
+  "slug": "candidate-first",
+  "parts": [
+    "Cube.001",
+    "Cube",
+    "Cylinder"
+  ],
+  "dimension": null,
+  "sourceUnchanged": true
+}

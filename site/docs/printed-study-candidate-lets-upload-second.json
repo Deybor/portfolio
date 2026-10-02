@@ -1,0 +1,15 @@
+{
+  "slug": "candidate-lets-upload-second",
+  "parts": [
+    "Sphere",
+    "Cube.002",
+    "Cube.003",
+    "Circle.001",
+    "Circle",
+    "Plane",
+    "Circle.002",
+    "Circle.003"
+  ],
+  "dimension": null,
+  "sourceUnchanged": true
+}

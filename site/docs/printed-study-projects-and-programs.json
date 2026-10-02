@@ -1,0 +1,29 @@
+{
+  "slug": "projects-and-programs",
+  "sourceFile": "C:\\Users\\Master\\Documents\\blender\\blender filesss\\troo\\white back\\throuphy upload\\5.blend",
+  "sha256": "923d2b6ba4a375301756f3980e0d1bf2d248dcbed1aa24b342ff22ed80878235",
+  "parts": [
+    "Circle.002"
+  ],
+  "dimension": {
+    "width": 242.6,
+    "depth": 129.4,
+    "height": 401.3,
+    "bounds": [
+      [
+        -0.12645353376865387,
+        -0.059606894850730896,
+        0.002061012201011181
+      ],
+      [
+        0.11618523299694061,
+        0.06978565454483032,
+        0.40331605076789856
+      ]
+    ],
+    "widthAxis": 0,
+    "depthAxis": 1,
+    "orthoScale": 0.5015688017010689
+  },
+  "sourceUnchanged": true
+}

@@ -1,0 +1,352 @@
+[
+  {
+    "slug": "zenith-cup",
+    "title": "The Zenith Cup",
+    "modelSource": "The Zenith Cup.blend",
+    "card": "/objects/zenith-cup/card.webp",
+    "views": [
+      {
+        "kind": "final",
+        "index": 1,
+        "source": "preview1.png",
+        "width": 2000,
+        "height": 2000,
+        "image": "/objects/zenith-cup/final-01.webp",
+        "full": "/objects/zenith-cup/final-01.png"
+      },
+      {
+        "kind": "final",
+        "index": 2,
+        "source": "preview2.png",
+        "width": 2000,
+        "height": 2000,
+        "image": "/objects/zenith-cup/final-02.webp",
+        "full": "/objects/zenith-cup/final-02.png"
+      },
+      {
+        "kind": "final",
+        "index": 3,
+        "source": "preview3.png",
+        "width": 2000,
+        "height": 2000,
+        "image": "/objects/zenith-cup/final-03.webp",
+        "full": "/objects/zenith-cup/final-03.png"
+      },
+      {
+        "kind": "final",
+        "index": 4,
+        "source": "preview8.png",
+        "width": 2000,
+        "height": 2000,
+        "image": "/objects/zenith-cup/final-04.webp",
+        "full": "/objects/zenith-cup/final-04.png"
+      },
+      {
+        "kind": "final",
+        "index": 5,
+        "source": "preview4.png",
+        "width": 2000,
+        "height": 2000,
+        "image": "/objects/zenith-cup/final-05.webp",
+        "full": "/objects/zenith-cup/final-05.png"
+      },
+      {
+        "kind": "wireframe",
+        "index": 1,
+        "source": "preview6 .png",
+        "width": 1920,
+        "height": 1920,
+        "image": "/objects/zenith-cup/wireframe-01.webp",
+        "full": "/objects/zenith-cup/wireframe-01.png"
+      },
+      {
+        "kind": "wireframe",
+        "index": 2,
+        "source": "preview7.png",
+        "width": 1920,
+        "height": 1920,
+        "image": "/objects/zenith-cup/wireframe-02.webp",
+        "full": "/objects/zenith-cup/wireframe-02.png"
+      }
+    ]
+  },
+  {
+    "slug": "world",
+    "title": "World",
+    "modelSource": "World.blend",
+    "card": "/objects/world/card.webp",
+    "views": [
+      {
+        "kind": "final",
+        "index": 1,
+        "source": "World.png",
+        "width": 512,
+        "height": 512,
+        "image": "/objects/world/final-01.webp",
+        "full": "/objects/world/final-01.png"
+      },
+      {
+        "kind": "final",
+        "index": 2,
+        "source": "World2.png",
+        "width": 512,
+        "height": 512,
+        "image": "/objects/world/final-02.webp",
+        "full": "/objects/world/final-02.png"
+      },
+      {
+        "kind": "final",
+        "index": 3,
+        "source": "World3.png",
+        "width": 512,
+        "height": 512,
+        "image": "/objects/world/final-03.webp",
+        "full": "/objects/world/final-03.png"
+      },
+      {
+        "kind": "final",
+        "index": 4,
+        "source": "World4.png",
+        "width": 512,
+        "height": 512,
+        "image": "/objects/world/final-04.webp",
+        "full": "/objects/world/final-04.png"
+      },
+      {
+        "kind": "final",
+        "index": 5,
+        "source": "world (2).png",
+        "width": 512,
+        "height": 512,
+        "image": "/objects/world/final-05.webp",
+        "full": "/objects/world/final-05.png"
+      }
+    ]
+  },
+  {
+    "slug": "top-campus-ministry",
+    "title": "Top Campus Ministry",
+    "modelSource": "Top Campus Ministry.blend",
+    "card": "/objects/top-campus-ministry/card.webp",
+    "views": [
+      {
+        "kind": "final",
+        "index": 1,
+        "source": "Top Campus Ministry.png",
+        "width": 512,
+        "height": 512,
+        "image": "/objects/top-campus-ministry/final-01.webp",
+        "full": "/objects/top-campus-ministry/final-01.png"
+      },
+      {
+        "kind": "final",
+        "index": 2,
+        "source": "Top Campus Ministry2.png",
+        "width": 512,
+        "height": 512,
+        "image": "/objects/top-campus-ministry/final-02.webp",
+        "full": "/objects/top-campus-ministry/final-02.png"
+      },
+      {
+        "kind": "final",
+        "index": 3,
+        "source": "Top Campus Ministry3.png",
+        "width": 512,
+        "height": 512,
+        "image": "/objects/top-campus-ministry/final-03.webp",
+        "full": "/objects/top-campus-ministry/final-03.png"
+      }
+    ]
+  },
+  {
+    "slug": "top-zone-trophy",
+    "title": "Top Zone Trophy",
+    "modelSource": "Top Zone Trouphy.blend",
+    "card": "/objects/top-zone-trophy/card.webp",
+    "views": [
+      {
+        "kind": "final",
+        "index": 1,
+        "source": "Top Zone Trouphy.png",
+        "width": 512,
+        "height": 512,
+        "image": "/objects/top-zone-trophy/final-01.webp",
+        "full": "/objects/top-zone-trophy/final-01.png"
+      },
+      {
+        "kind": "final",
+        "index": 2,
+        "source": "Top Zone Trouphy 2.png",
+        "width": 512,
+        "height": 512,
+        "image": "/objects/top-zone-trophy/final-02.webp",
+        "full": "/objects/top-zone-trophy/final-02.png"
+      }
+    ]
+  },
+  {
+    "slug": "bible-projects-for-programs",
+    "title": "Bible Projects for Programs",
+    "modelSource": "Bilble Projects for Programs.blend",
+    "card": "/objects/bible-projects-for-programs/card.webp",
+    "views": [
+      {
+        "kind": "final",
+        "index": 1,
+        "source": "Bilble Projects for Programs.png",
+        "width": 512,
+        "height": 512,
+        "image": "/objects/bible-projects-for-programs/final-01.webp",
+        "full": "/objects/bible-projects-for-programs/final-01.png"
+      },
+      {
+        "kind": "final",
+        "index": 2,
+        "source": "Bilble Projects for Programs 2.png",
+        "width": 512,
+        "height": 512,
+        "image": "/objects/bible-projects-for-programs/final-02.webp",
+        "full": "/objects/bible-projects-for-programs/final-02.png"
+      }
+    ]
+  },
+  {
+    "slug": "projects-and-programs",
+    "title": "Projects & Programs",
+    "modelSource": "Project & Programs.blend",
+    "card": "/objects/projects-and-programs/card.webp",
+    "views": [
+      {
+        "kind": "final",
+        "index": 1,
+        "source": "Project & Programs.png",
+        "width": 512,
+        "height": 512,
+        "image": "/objects/projects-and-programs/final-01.webp",
+        "full": "/objects/projects-and-programs/final-01.png"
+      },
+      {
+        "kind": "final",
+        "index": 2,
+        "source": "Project & Programs 2.png",
+        "width": 512,
+        "height": 512,
+        "image": "/objects/projects-and-programs/final-02.webp",
+        "full": "/objects/projects-and-programs/final-02.png"
+      }
+    ]
+  },
+  {
+    "slug": "individual-category",
+    "title": "Individual Category",
+    "modelSource": "Individual Category.blend",
+    "card": "/objects/individual-category/card.webp",
+    "views": [
+      {
+        "kind": "final",
+        "index": 1,
+        "source": "Individual Category.png",
+        "width": 512,
+        "height": 512,
+        "image": "/objects/individual-category/final-01.webp",
+        "full": "/objects/individual-category/final-01.png"
+      },
+      {
+        "kind": "final",
+        "index": 2,
+        "source": "Individual Category 2.png",
+        "width": 512,
+        "height": 512,
+        "image": "/objects/individual-category/final-02.webp",
+        "full": "/objects/individual-category/final-02.png"
+      }
+    ]
+  },
+  {
+    "slug": "tuff",
+    "title": "Tuff",
+    "modelSource": "tuff.blend",
+    "card": "/objects/tuff/card.webp",
+    "views": [
+      {
+        "kind": "final",
+        "index": 1,
+        "source": "tuff.png",
+        "width": 512,
+        "height": 512,
+        "image": "/objects/tuff/final-01.webp",
+        "full": "/objects/tuff/final-01.png"
+      },
+      {
+        "kind": "final",
+        "index": 2,
+        "source": "tuff (2).png",
+        "width": 512,
+        "height": 512,
+        "image": "/objects/tuff/final-02.webp",
+        "full": "/objects/tuff/final-02.png"
+      },
+      {
+        "kind": "final",
+        "index": 3,
+        "source": "tuff (3).png",
+        "width": 512,
+        "height": 512,
+        "image": "/objects/tuff/final-03.webp",
+        "full": "/objects/tuff/final-03.png"
+      }
+    ]
+  },
+  {
+    "slug": "vit",
+    "title": "Vit",
+    "modelSource": "vit.blend",
+    "card": "/objects/vit/card.webp",
+    "views": [
+      {
+        "kind": "final",
+        "index": 1,
+        "source": "vit.png",
+        "width": 512,
+        "height": 512,
+        "image": "/objects/vit/final-01.webp",
+        "full": "/objects/vit/final-01.png"
+      },
+      {
+        "kind": "final",
+        "index": 2,
+        "source": "vit (2).png",
+        "width": 512,
+        "height": 512,
+        "image": "/objects/vit/final-02.webp",
+        "full": "/objects/vit/final-02.png"
+      },
+      {
+        "kind": "final",
+        "index": 3,
+        "source": "vit (3).png",
+        "width": 512,
+        "height": 512,
+        "image": "/objects/vit/final-03.webp",
+        "full": "/objects/vit/final-03.png"
+      }
+    ]
+  },
+  {
+    "slug": "medal",
+    "title": "Medal",
+    "modelSource": "medal.blend",
+    "card": "/objects/medal/card.webp",
+    "views": [
+      {
+        "kind": "final",
+        "index": 1,
+        "source": "medal.png",
+        "width": 512,
+        "height": 512,
+        "image": "/objects/medal/final-01.webp",
+        "full": "/objects/medal/final-01.png"
+      }
+    ]
+  }
+]

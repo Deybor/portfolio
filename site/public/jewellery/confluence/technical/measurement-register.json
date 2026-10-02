@@ -1,0 +1,606 @@
+{
+  "source": "C:\\Users\\Master\\Documents\\portfolio\\porfolio update\\public\\jewellery\\confluence\\technical\\Confluence-Refined-Centre-Prongs-CAD.blend",
+  "source_object": "Confluence - refined centre-prong CAD body",
+  "source_sha256": "e53e30c18b5efca3f4165d868b4d2afd045e4d75fa17013333251ead4a189fb5",
+  "units": "mm",
+  "metal": {
+    "boundary_edges": 0,
+    "nonmanifold_edges": 0,
+    "signed_volume_mm3": 265.99254291644684,
+    "bounds": {
+      "min": [
+        -10.709853172302246,
+        -2.9999988079071045,
+        -0.30984750390052795
+      ],
+      "max": [
+        10.709853172302246,
+        2.9999985694885254,
+        22.76827049255371
+      ],
+      "size": [
+        21.419706344604492,
+        5.99999737739563,
+        23.07811799645424
+      ]
+    },
+    "stored_vertices": 231923,
+    "coincident_vertex_weld_check": {
+      "analysis_only": true,
+      "distance_mm": 1e-05,
+      "vertices": 231923,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "signed_volume_mm3": 265.99254291644684
+    }
+  },
+  "assembly": {
+    "min": [
+      -10.709853172302246,
+      -2.9999988079071045,
+      -0.30984750390052795
+    ],
+    "max": [
+      10.709853172302246,
+      2.9999985694885254,
+      22.76827049255371
+    ],
+    "size": [
+      21.419706344604492,
+      5.99999737739563,
+      23.07811799645424
+    ]
+  },
+  "stone_count": 0,
+  "stone_bounds": [],
+  "section_plane": {
+    "axis": 1,
+    "value": 0
+  },
+  "views": {
+    "front": {
+      "file": "front.png",
+      "ortho_scale": 30.636202075481414,
+      "centre": [
+        0.0,
+        -1.1920921139108032e-07,
+        11.229211807250977
+      ],
+      "rotation_inverse": [
+        [
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          -1.6292068494294654e-07,
+          1.0
+        ],
+        [
+          0.0,
+          -1.0,
+          -1.6292068494294654e-07
+        ]
+      ],
+      "pixel_size": [
+        1800,
+        1600
+      ],
+      "display_only_exploded": false
+    },
+    "side": {
+      "file": "side.png",
+      "ortho_scale": 30.636202075481414,
+      "centre": [
+        -2.084321417176148e-14,
+        -1.1920928955078125e-07,
+        11.229211807250977
+      ],
+      "rotation_inverse": [
+        [
+          -4.371138828673793e-08,
+          1.0,
+          0.0
+        ],
+        [
+          4.371138828673793e-08,
+          1.910685676922942e-15,
+          1.0
+        ],
+        [
+          1.0,
+          4.371138828673793e-08,
+          -4.371138828673793e-08
+        ]
+      ],
+      "pixel_size": [
+        1800,
+        1600
+      ],
+      "display_only_exploded": false
+    },
+    "top": {
+      "file": "top.png",
+      "ortho_scale": 25.2752534866333,
+      "centre": [
+        0.0,
+        -1.1920928955078125e-07,
+        11.229211807250977
+      ],
+      "rotation_inverse": [
+        [
+          -1.0,
+          -1.5099580252808664e-07,
+          0.0
+        ],
+        [
+          1.5099580252808664e-07,
+          -1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "pixel_size": [
+        1800,
+        1600
+      ],
+      "display_only_exploded": false
+    },
+    "isometric": {
+      "file": "isometric.png",
+      "ortho_scale": 29.803845841884613,
+      "centre": [
+        -0.04265808314085007,
+        0.042688291519880295,
+        11.335894584655762
+      ],
+      "rotation_inverse": [
+        [
+          0.7071067690849304,
+          0.7071067690849304,
+          1.1451578529886319e-07
+        ],
+        [
+          -0.3481554090976715,
+          0.34815526008605957,
+          0.8703882694244385
+        ],
+        [
+          0.6154574155807495,
+          -0.6154574751853943,
+          0.4923659861087799
+        ]
+      ],
+      "pixel_size": [
+        1800,
+        1600
+      ],
+      "display_only_exploded": false
+    },
+    "metal-only": {
+      "file": "metal-only.png",
+      "ortho_scale": 29.803845841884613,
+      "centre": [
+        -0.04265808314085007,
+        0.042688291519880295,
+        11.335894584655762
+      ],
+      "rotation_inverse": [
+        [
+          0.7071067690849304,
+          0.7071067690849304,
+          1.1451578529886319e-07
+        ],
+        [
+          -0.3481554090976715,
+          0.34815526008605957,
+          0.8703882694244385
+        ],
+        [
+          0.6154574155807495,
+          -0.6154574751853943,
+          0.4923659861087799
+        ]
+      ],
+      "pixel_size": [
+        1800,
+        1600
+      ],
+      "display_only_exploded": false
+    },
+    "exploded": {
+      "file": "exploded.png",
+      "ortho_scale": 29.803845841884613,
+      "centre": [
+        -0.04265808314085007,
+        0.042688291519880295,
+        11.335894584655762
+      ],
+      "rotation_inverse": [
+        [
+          0.7071067690849304,
+          0.7071067690849304,
+          1.1451578529886319e-07
+        ],
+        [
+          -0.3481554090976715,
+          0.34815526008605957,
+          0.8703882694244385
+        ],
+        [
+          0.6154574155807495,
+          -0.6154574751853943,
+          0.4923659861087799
+        ]
+      ],
+      "pixel_size": [
+        1800,
+        1600
+      ],
+      "display_only_exploded": true
+    },
+    "setting-detail": {
+      "file": "setting-detail.png",
+      "ortho_scale": 12,
+      "centre": [
+        0.0,
+        0.0,
+        21.0
+      ],
+      "rotation_inverse": [
+        [
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          -0.0,
+          0.24253559112548828,
+          0.9701424837112427
+        ],
+        [
+          0.0,
+          -0.9701424837112427,
+          0.24253559112548828
+        ]
+      ],
+      "pixel_size": [
+        1800,
+        1600
+      ],
+      "display_only_exploded": false
+    },
+    "wireframe-01": {
+      "file": "wireframe-01.png",
+      "ortho_scale": 29.803845841884613,
+      "centre": [
+        -0.04265808314085007,
+        0.042688291519880295,
+        11.335894584655762
+      ],
+      "rotation_inverse": [
+        [
+          0.7071067690849304,
+          0.7071067690849304,
+          1.1451578529886319e-07
+        ],
+        [
+          -0.3481554090976715,
+          0.34815526008605957,
+          0.8703882694244385
+        ],
+        [
+          0.6154574155807495,
+          -0.6154574751853943,
+          0.4923659861087799
+        ]
+      ],
+      "pixel_size": [
+        1800,
+        1600
+      ],
+      "display_only_exploded": false
+    },
+    "wireframe-02": {
+      "file": "wireframe-02.png",
+      "ortho_scale": 12,
+      "centre": [
+        0.0,
+        0.0,
+        21.0
+      ],
+      "rotation_inverse": [
+        [
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          -0.0,
+          0.24253559112548828,
+          0.9701424837112427
+        ],
+        [
+          0.0,
+          -0.9701424837112427,
+          0.24253559112548828
+        ]
+      ],
+      "pixel_size": [
+        1800,
+        1600
+      ],
+      "display_only_exploded": false
+    }
+  },
+  "original_source": "C:\\Users\\Master\\Documents\\itura\\PORFOLIO PIECES\\Confluence_First_Ring\\Approved_Model\\Confluence_Refined_Print.blend",
+  "original_source_sha256": "bf4e8b8d67d89c38eea1e2d73390b76193431c92d2e1644901c1c6a3a6fef94e",
+  "casting_stock_parameters": [
+    {
+      "name": "Center casting prong 1",
+      "bounds_mm": {
+        "min": [
+          0.3300343155860901,
+          0.32723402976989746,
+          19.788488388061523
+        ],
+        "max": [
+          2.3344216346740723,
+          2.3344218730926514,
+          22.772321701049805
+        ]
+      }
+    },
+    {
+      "name": "Center casting prong 2",
+      "bounds_mm": {
+        "min": [
+          -2.3344216346740723,
+          0.32723402976989746,
+          19.788488388061523
+        ],
+        "max": [
+          -0.3300343155860901,
+          2.3344218730926514,
+          22.772321701049805
+        ]
+      }
+    },
+    {
+      "name": "Center casting prong 3",
+      "bounds_mm": {
+        "min": [
+          -2.3344216346740723,
+          -2.3344218730926514,
+          19.788488388061523
+        ],
+        "max": [
+          -0.3300343155860901,
+          -0.32723402976989746,
+          22.772321701049805
+        ]
+      }
+    },
+    {
+      "name": "Center casting prong 4",
+      "bounds_mm": {
+        "min": [
+          0.3300343155860901,
+          -2.3344218730926514,
+          19.788488388061523
+        ],
+        "max": [
+          2.3344216346740723,
+          -0.32723402976989746,
+          22.772321701049805
+        ]
+      }
+    },
+    {
+      "name": "Left casting prong 1",
+      "bounds_mm": {
+        "min": [
+          -3.659085750579834,
+          -0.16067884862422943,
+          19.537538528442383
+        ],
+        "max": [
+          -2.5242116451263428,
+          0.9757882952690125,
+          21.525455474853516
+        ]
+      }
+    },
+    {
+      "name": "Left casting prong 2",
+      "bounds_mm": {
+        "min": [
+          -5.275788307189941,
+          -0.16067878901958466,
+          19.537538528442383
+        ],
+        "max": [
+          -4.140913963317871,
+          0.9757883548736572,
+          21.525453567504883
+        ]
+      }
+    },
+    {
+      "name": "Left casting prong 3",
+      "bounds_mm": {
+        "min": [
+          -5.275788307189941,
+          -1.775788426399231,
+          19.537538528442383
+        ],
+        "max": [
+          -4.140913486480713,
+          -0.6393210887908936,
+          21.525453567504883
+        ]
+      }
+    },
+    {
+      "name": "Left casting prong 4",
+      "bounds_mm": {
+        "min": [
+          -3.659085750579834,
+          -1.7757883071899414,
+          19.537538528442383
+        ],
+        "max": [
+          -2.5242116451263428,
+          -0.6393210291862488,
+          21.525455474853516
+        ]
+      }
+    },
+    {
+      "name": "Right casting prong 1",
+      "bounds_mm": {
+        "min": [
+          4.140913486480713,
+          0.6393210887908936,
+          19.537538528442383
+        ],
+        "max": [
+          5.275788307189941,
+          1.775788426399231,
+          21.525453567504883
+        ]
+      }
+    },
+    {
+      "name": "Right casting prong 2",
+      "bounds_mm": {
+        "min": [
+          2.5242116451263428,
+          0.6393210291862488,
+          19.537538528442383
+        ],
+        "max": [
+          3.659085750579834,
+          1.7757883071899414,
+          21.525455474853516
+        ]
+      }
+    },
+    {
+      "name": "Right casting prong 3",
+      "bounds_mm": {
+        "min": [
+          2.5242116451263428,
+          -0.9757882952690125,
+          19.537538528442383
+        ],
+        "max": [
+          3.659085750579834,
+          0.16067884862422943,
+          21.525455474853516
+        ]
+      }
+    },
+    {
+      "name": "Right casting prong 4",
+      "bounds_mm": {
+        "min": [
+          4.140913963317871,
+          -0.9757883548736572,
+          19.537538528442383
+        ],
+        "max": [
+          5.275788307189941,
+          0.16067878901958466,
+          21.525453567504883
+        ]
+      }
+    }
+  ],
+  "centre_prong_refinement": {
+    "source": "C:\\Users\\Master\\Documents\\portfolio\\porfolio update\\public\\jewellery\\confluence\\technical\\Confluence-Casting-Stock-CAD.blend",
+    "source_sha256": "1a05e0387d4b7d3e04a0444c181230a4785ea661a344281af767d66b586227a7",
+    "original_source": "C:\\Users\\Master\\Documents\\itura\\PORFOLIO PIECES\\Confluence_First_Ring\\Approved_Model\\Confluence_Refined_Print.blend",
+    "original_source_sha256": "bf4e8b8d67d89c38eea1e2d73390b76193431c92d2e1644901c1c6a3a6fef94e",
+    "sources_preserved": true,
+    "derived_model": "C:\\Users\\Master\\Documents\\portfolio\\porfolio update\\public\\jewellery\\confluence\\technical\\Confluence-Refined-Centre-Prongs-CAD.blend",
+    "changed_vertices": 10202,
+    "unchanged_vertices": 221721,
+    "maximum_tip_translation_mm": 0.3647054218049779,
+    "transition_start_z_mm": 21.75,
+    "transition_end_z_mm": 22.15,
+    "straight_tip_length_mm": 0.6182704925537109,
+    "original_stem_axes": [
+      {
+        "quadrant": [
+          1,
+          1
+        ],
+        "slope_xy": [
+          0.31632426381111145,
+          0.31399038434028625
+        ],
+        "centre_at_21_8": [
+          1.648860216140747,
+          1.6504237651824951
+        ]
+      },
+      {
+        "quadrant": [
+          -1,
+          1
+        ],
+        "slope_xy": [
+          -0.31632426381111145,
+          0.31399038434028625
+        ],
+        "centre_at_21_8": [
+          -1.648860216140747,
+          1.6504237651824951
+        ]
+      },
+      {
+        "quadrant": [
+          -1,
+          -1
+        ],
+        "slope_xy": [
+          -0.31632426381111145,
+          -0.31399038434028625
+        ],
+        "centre_at_21_8": [
+          -1.648860216140747,
+          -1.6504237651824951
+        ]
+      },
+      {
+        "quadrant": [
+          1,
+          -1
+        ],
+        "slope_xy": [
+          0.31632426381111145,
+          -0.31399038434028625
+        ],
+        "centre_at_21_8": [
+          1.648860216140747,
+          -1.6504237651824951
+        ]
+      }
+    ],
+    "audit": {
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "volume_mm3": 265.99254291644684,
+      "zero_area_faces": 0
+    },
+    "scope": "Free centre-prong ends only; roots, galleries, side prongs and band unchanged",
+    "manufacturing_release": false
+  },
+  "source_preserved": true
+}

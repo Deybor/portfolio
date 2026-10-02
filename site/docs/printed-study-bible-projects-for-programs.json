@@ -1,0 +1,31 @@
+{
+  "slug": "bible-projects-for-programs",
+  "sourceFile": "C:\\Users\\Master\\Documents\\blender\\blender filesss\\troo\\new\\cad-3d print\\Bilble Projects for Programs.blend",
+  "sha256": "c958569470b736ee344904c6e5c396758f5e9a0e36a2a88632b184b3b69acb8a",
+  "parts": [
+    "Plane.002",
+    "Circle.001",
+    "Circle.002"
+  ],
+  "dimension": {
+    "width": 410.4,
+    "depth": 307.8,
+    "height": 893.1,
+    "bounds": [
+      [
+        -0.19524700939655304,
+        1.4403157234191895,
+        0.20201607048511505
+      ],
+      [
+        0.21516111493110657,
+        1.7480731010437012,
+        1.0950876474380493
+      ]
+    ],
+    "widthAxis": 0,
+    "depthAxis": 1,
+    "orthoScale": 1.1163394898176193
+  },
+  "sourceUnchanged": true
+}

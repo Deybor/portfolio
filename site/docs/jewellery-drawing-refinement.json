@@ -1,0 +1,15 @@
+{
+  "method": "Original orthographic source images; dimensions retained from supplied sheets; new vector labels and layout",
+  "original_sources_preserved": true,
+  "sources": {
+    "C:\\Users\\Master\\Documents\\itura\\PORFOLIO PIECES\\Confluence_First_Ring\\Renders_and_Dimensions\\Confluence_Specification.pdf": "d6915a377d2aad429abe61d237ca9f324f7d94a65f0c3af2d0b500472a28fadc",
+    "C:\\Users\\Master\\Documents\\itura\\PORFOLIO PIECES\\Ring_Iced_Out_03\\Ring_Base_CAD_Drawings.svg": "0698a99c05d7f075e68fe85c5b2934afcd2fa9bb4ea08c595dae569c71267e52"
+  },
+  "removed": "Revision labels, file paths, mesh counts, workflow history and process text unrelated to reading the drawing",
+  "outputs": [
+    "confluence/dimensions.pdf",
+    "confluence/dimensions.svg",
+    "iced-out-ring/dimensions.pdf",
+    "iced-out-ring/dimensions.svg"
+  ]
+}

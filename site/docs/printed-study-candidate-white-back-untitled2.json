@@ -1,0 +1,14 @@
+{
+  "slug": "candidate-white-back-untitled2",
+  "parts": [
+    "Sphere",
+    "Plane.002",
+    "Cylinder.003",
+    "Cylinder.002",
+    "Cylinder.001",
+    "Cube.001",
+    "Circle"
+  ],
+  "dimension": null,
+  "sourceUnchanged": true
+}

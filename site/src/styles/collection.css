@@ -1,0 +1,928 @@
+.collection {
+  background: var(--color-collection-bg);
+  color: var(--color-collection-fg);
+  padding-bottom: 48px;
+}
+.collection-wrap {
+  width: min(1200px, calc(100% - 80px));
+  margin-inline: auto;
+}
+.collection-intro {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  gap: 32px;
+  padding: 36px 0 28px;
+}
+.collection-kicker {
+  margin: 0;
+  color: var(--color-collection-muted);
+  font-size: 10px;
+  font-weight: 600;
+  letter-spacing: 0.13em;
+  text-transform: uppercase;
+  line-height: 1.5;
+}
+.collection h1,
+.collection h2,
+.collection h3 {
+  font-family: var(--font-serif);
+  font-weight: 500;
+  letter-spacing: -0.025em;
+}
+.collection-intro h1 {
+  margin: 12px 0 0;
+  font-size: clamp(48px, 5.5vw, 80px);
+  line-height: 0.94;
+}
+.collection-intro > p {
+  font-size: 14px;
+  line-height: 1.65;
+  color: var(--color-collection-muted);
+  margin: 0 0 2px;
+}
+.collection-nav {
+  display: flex;
+  gap: 32px;
+  border-top: 1px solid var(--color-collection-line);
+  border-bottom: 1px solid var(--color-collection-line);
+  margin-bottom: 28px;
+}
+.collection-nav a {
+  display: inline-flex;
+  min-height: 56px;
+  align-items: center;
+  gap: 12px;
+  font-size: 13px;
+  border-bottom: 2px solid transparent;
+  margin-bottom: -1px;
+  color: var(--color-collection-muted);
+}
+.collection-nav a[aria-current="page"] {
+  color: var(--color-collection-fg);
+  border-color: var(--color-collection-accent);
+}
+.collection-nav span {
+  font-size: 10px;
+  color: var(--color-collection-muted);
+}
+.collection-link {
+  display: inline-flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 24px;
+  min-height: 44px;
+  font-size: 12px;
+  border-bottom: 1px solid var(--color-collection-line);
+}
+.collection-link:hover {
+  color: var(--color-collection-accent);
+  border-color: currentColor;
+}
+.jewellery-project {
+  display: grid;
+  grid-template-columns: minmax(0, 1.5fr) minmax(0, 1fr);
+  gap: 24px;
+}
+.jewellery-pieces {
+  padding: 20px 0 48px;
+  border-bottom: 1px solid var(--color-collection-line);
+  scroll-margin-top: 112px;
+}
+.jewellery-pieces-heading {
+  margin-bottom: 28px;
+}
+.jewellery-pieces-heading h2 {
+  font-size: clamp(36px, 4vw, 48px);
+  line-height: 1;
+  margin: 12px 0 0;
+}
+.jewellery-piece-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 24px;
+}
+.jewellery-piece-card {
+  min-width: 0;
+}
+.jewellery-piece-card > a {
+  display: block;
+}
+.jewellery-piece-image {
+  position: relative;
+  aspect-ratio: 1;
+  overflow: hidden;
+  background: var(--color-collection-surface);
+}
+.jewellery-piece-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  transition: transform 240ms ease;
+}
+.jewellery-piece-card a:hover img {
+  transform: scale(1.025);
+}
+.jewellery-piece-wireframe {
+  position: absolute;
+  inset: 0;
+  background: var(--color-wireframe-paper);
+  clip-path: polygon(100% 36%, 100% 100%, 0 100%, 0 80%);
+  pointer-events: none;
+}
+.jewellery-piece-image::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: var(--color-collection-muted);
+  clip-path: polygon(0 79.85%, 100% 35.85%, 100% 36.15%, 0 80.15%);
+  pointer-events: none;
+}
+.jewellery-piece-image > span {
+  z-index: 1;
+  position: absolute;
+  right: 12px;
+  bottom: 12px;
+  width: 32px;
+  height: 32px;
+  display: grid;
+  place-items: center;
+  background: var(--color-collection-bg);
+}
+.jewellery-piece-copy {
+  padding-top: 20px;
+}
+.jewellery-piece-copy h3 {
+  font-size: 32px;
+  line-height: 1.1;
+  margin: 8px 0 12px;
+}
+.jewellery-piece-copy > p:not(.collection-kicker) {
+  font-size: 13px;
+  line-height: 1.6;
+  color: var(--color-collection-muted);
+  margin: 0 0 12px;
+}
+.jewellery-piece-card a:hover h3 {
+  color: var(--color-collection-accent);
+}
+.jewellery-piece-about > p:not(.collection-kicker) {
+  font-size: 14px;
+  line-height: 1.7;
+  color: var(--color-collection-muted);
+}
+.jewellery-piece-about .jewellery-piece-note {
+  font-size: 12px;
+  border-top: 1px solid var(--color-collection-line);
+  padding-top: 20px;
+  margin-top: 24px;
+}
+.jewellery-piece-downloads {
+  margin-top: 24px;
+}
+.jewellery-specification-title {
+  margin: 20px 0;
+}
+.jewellery-piece-downloads .collection-link {
+  margin-top: 8px;
+}
+.jewellery-piece-page .object-main-view img.jewellery-drawing-view {
+  height: auto;
+}
+.jewellery-final {
+  display: block;
+  position: relative;
+  overflow: hidden;
+  background: var(--color-ivory);
+  color: var(--color-ivory-ink);
+}
+.jewellery-final img {
+  display: block;
+  width: 100%;
+  height: 350px;
+  object-fit: contain;
+  transition: transform 240ms ease-out;
+}
+.jewellery-final:hover img {
+  transform: scale(1.015);
+}
+.image-caption {
+  position: absolute;
+  bottom: 16px;
+  left: 20px;
+  font-size: 10px;
+  letter-spacing: 0.07em;
+  text-transform: uppercase;
+}
+.image-open {
+  position: absolute;
+  right: 20px;
+  bottom: 12px;
+  font-size: 24px;
+}
+.jewellery-card-copy {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 24px;
+  padding: 20px 0 0;
+}
+.jewellery-card-copy h2 {
+  font-size: 36px;
+  line-height: 1;
+  margin: 8px 0 10px;
+}
+.jewellery-card-copy p:not(.collection-kicker) {
+  font-size: 13px;
+  margin: 0;
+  color: var(--color-collection-muted);
+}
+.jewellery-card-copy > .collection-link {
+  flex-shrink: 0;
+  margin-top: 20px;
+}
+.jewellery-reference figure {
+  margin: 0;
+}
+.jewellery-reference figure img {
+  display: block;
+  width: 100%;
+  height: 350px;
+  object-fit: cover;
+  object-position: 50% 52%;
+}
+.jewellery-reference figcaption {
+  font-size: 10px;
+  text-transform: uppercase;
+  letter-spacing: 0.07em;
+  color: var(--color-collection-muted);
+  margin-top: 12px;
+}
+.reference-copy {
+  padding-top: 16px;
+}
+.reference-copy h3 {
+  font-size: 27px;
+  line-height: 1.1;
+  margin: 8px 0;
+}
+.reference-copy > p:not(.collection-kicker) {
+  font-size: 13px;
+  color: var(--color-collection-muted);
+  margin: 0 0 12px;
+}
+.jewellery-evidence {
+  display: grid;
+  grid-template-columns: 180px minmax(0, 1fr) 170px;
+  gap: 32px;
+  align-items: center;
+  padding: 24px;
+  background: var(--color-collection-surface);
+  margin-top: 48px;
+}
+.evidence-visual img {
+  display: block;
+  width: 100%;
+  height: 150px;
+  object-fit: contain;
+  background: var(--color-ivory);
+}
+.jewellery-evidence h2 {
+  font-size: 36px;
+  line-height: 1.05;
+  margin: 8px 0 12px;
+}
+.jewellery-evidence p:not(.collection-kicker) {
+  font-size: 13px;
+  color: var(--color-collection-muted);
+}
+.evidence-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px 24px;
+}
+.collection-stage {
+  border-left: 1px solid var(--color-collection-line);
+  padding-left: 24px;
+  line-height: 1.7;
+}
+.collection-sibling {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(0, 1.3fr);
+  gap: 48px;
+  align-items: center;
+  border-top: 1px solid var(--color-collection-line);
+  padding-top: 40px;
+  margin-top: 56px;
+}
+.collection-sibling h2 {
+  font-size: 44px;
+  line-height: 1;
+  margin: 12px 0;
+}
+.collection-sibling p:not(.collection-kicker) {
+  font-size: 13px;
+  color: var(--color-collection-muted);
+}
+.collection-sibling-images {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 8px;
+}
+.collection-sibling-images img {
+  display: block;
+  width: 100%;
+  height: 180px;
+  object-fit: contain;
+  background: var(--color-collection-surface);
+}
+.object-index-tools {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+  margin-bottom: 24px;
+}
+.object-filters {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+}
+.object-filters button {
+  border: 0;
+  border-bottom: 1px solid transparent;
+  background: transparent;
+  padding: 0;
+  min-height: 44px;
+  font-size: 12px;
+  color: var(--color-collection-muted);
+}
+.object-filters button[aria-pressed="true"] {
+  color: var(--color-collection-fg);
+  border-color: var(--color-collection-accent);
+}
+.object-filters span {
+  margin-left: 8px;
+  font-size: 10px;
+}
+.object-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 36px 24px;
+}
+.catalog-card {
+  min-width: 0;
+}
+.object-card-link {
+  display: flex;
+  flex-direction: column;
+}
+.object-card-image {
+  aspect-ratio: 1;
+  background: var(--color-collection-surface);
+  overflow: hidden;
+  position: relative;
+}
+.catalog-card .shot {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+.object-card-image > span {
+  position: absolute;
+  bottom: 12px;
+  right: 12px;
+  width: 32px;
+  height: 32px;
+  display: grid;
+  place-items: center;
+  background: var(--color-collection-bg);
+  color: var(--color-collection-fg);
+}
+.object-card-copy {
+  order: -1;
+  padding-bottom: 16px;
+  min-height: 112px;
+}
+.object-card-copy h2 {
+  font-size: 27px;
+  line-height: 1.08;
+  margin: 6px 0 10px;
+}
+.object-card-copy > p:not(.collection-kicker) {
+  font-size: 12px;
+  color: var(--color-collection-muted);
+  margin: 0;
+}
+.object-card-link:hover h2 {
+  color: var(--color-collection-accent);
+}
+.award-drawings {
+  border-top: 1px solid var(--color-collection-line);
+  margin-top: 64px;
+  padding-top: 36px;
+  scroll-margin-top: 110px;
+}
+.drawings-heading {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  gap: 24px;
+}
+.drawings-heading h2 {
+  font-size: 44px;
+  line-height: 1;
+  margin: 12px 0 0;
+}
+.sketch-disclosure {
+  margin-top: 28px;
+}
+.sketch-disclosure summary {
+  display: flex;
+  justify-content: space-between;
+  gap: 16px;
+  list-style: none;
+  padding: 16px 0;
+  border-top: 1px solid var(--color-collection-line);
+  border-bottom: 1px solid var(--color-collection-line);
+  cursor: pointer;
+  font-size: 13px;
+}
+.sketch-disclosure summary::-webkit-details-marker {
+  display: none;
+}
+.sketch-disclosure[open] summary span {
+  transform: rotate(45deg);
+}
+.award-sketch-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 24px;
+  padding-top: 24px;
+}
+.award-sketch-grid > a:first-child {
+  grid-column: 1 / -1;
+}
+.award-sketch-grid figure {
+  margin: 0;
+}
+.award-sketch-grid img {
+  display: block;
+  width: 100%;
+  height: auto;
+  background: var(--color-ivory);
+}
+.award-sketch-grid figcaption {
+  display: flex;
+  justify-content: space-between;
+  gap: 16px;
+  font-size: 12px;
+  color: var(--color-collection-muted);
+  padding-top: 12px;
+}
+.collection-end {
+  display: flex;
+  justify-content: space-between;
+  gap: 24px;
+  margin-top: 48px;
+  padding-top: 24px;
+  border-top: 1px solid var(--color-collection-line);
+}
+.object-project-nav {
+  display: flex;
+  justify-content: space-between;
+  gap: 24px;
+  padding-top: 24px;
+}
+.object-project-heading {
+  padding: 28px 0;
+}
+.object-project-heading h1 {
+  font-size: clamp(44px, 5vw, 72px);
+  line-height: 0.95;
+  margin: 10px 0 16px;
+  max-width: 900px;
+}
+.object-project-heading > p:last-child {
+  font-size: 13px;
+  color: var(--color-collection-muted);
+  margin: 0;
+}
+.object-project-layout {
+  display: grid;
+  grid-template-columns: minmax(0, 2fr) minmax(0, 1fr);
+  gap: 48px;
+  align-items: start;
+}
+.object-view-tabs {
+  display: flex;
+  flex-wrap: wrap;
+  border-bottom: 1px solid var(--color-collection-line);
+  gap: clamp(12px, 2vw, 28px);
+  margin-bottom: 20px;
+}
+.object-view-tabs button {
+  border: 0;
+  border-bottom: 2px solid transparent;
+  min-height: 48px;
+  padding: 0;
+  background: transparent;
+  color: var(--color-collection-muted);
+  font-size: 13px;
+}
+.object-view-tabs button[aria-selected="true"] {
+  color: var(--color-collection-fg);
+  border-color: var(--color-collection-accent);
+}
+.object-view-tabs button span {
+  margin-left: 6px;
+  font-size: 10px;
+}
+.object-view-label {
+  margin: 0 0 20px;
+  min-height: 48px;
+  display: flex;
+  align-items: center;
+  font-size: 13px;
+  border-bottom: 1px solid var(--color-collection-line);
+}
+.object-main-view {
+  margin: 0;
+}
+.object-main-view > a {
+  display: block;
+  background: var(--color-ivory);
+}
+.object-main-view img {
+  width: 100%;
+  height: min(62vh, 640px);
+  object-fit: contain;
+  display: block;
+  animation: object-view-enter 420ms ease both;
+}
+.object-unit {
+  font-size: 12px;
+  color: var(--color-collection-muted);
+}
+.object-drawing-link {
+  display: flex;
+  gap: 12px;
+  margin: 18px 0 8px;
+  padding: 0;
+  border: 0;
+  background: transparent;
+  text-align: left;
+}
+@keyframes object-view-enter {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  .object-main-view img {
+    animation: none;
+  }
+}
+.object-main-view figcaption {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 16px;
+  font-size: 11px;
+  color: var(--color-collection-muted);
+}
+.object-main-view figcaption a {
+  min-height: 44px;
+  display: inline-flex;
+  align-items: center;
+}
+.object-thumbnails {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-top: 12px;
+}
+.object-thumbnails button {
+  padding: 4px;
+  border: 1px solid var(--color-collection-line);
+  background: transparent;
+  text-align: left;
+  width: 80px;
+}
+.object-thumbnails button[aria-pressed="true"] {
+  border-color: var(--color-collection-accent);
+}
+.object-thumbnails img {
+  display: block;
+  width: 100%;
+  height: 64px;
+  object-fit: contain;
+  background: var(--color-ivory);
+}
+.object-thumbnails span {
+  display: block;
+  font-size: 10px;
+  padding: 6px 2px 2px;
+}
+.object-specification {
+  padding-top: 12px;
+  position: sticky;
+  top: 112px;
+}
+.object-specification h2 {
+  font-size: 36px;
+  line-height: 1;
+  margin: 12px 0 28px;
+}
+.object-specification dl {
+  margin: 0;
+}
+.object-specification dl > div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 24px;
+  border-top: 1px solid var(--color-collection-line);
+  padding: 20px 0;
+}
+.object-specification dt {
+  font-size: 13px;
+}
+.object-specification dd {
+  margin: 0;
+  font-size: 18px;
+}
+.object-spec-note {
+  font-size: 11px;
+  color: var(--color-collection-muted);
+  margin-top: 12px;
+}
+.object-project-resources {
+  margin-top: 36px;
+  padding-top: 24px;
+  border-top: 1px solid var(--color-collection-line);
+}
+.object-project-resources > .collection-link {
+  display: flex;
+  margin-top: 12px;
+}
+.design-collections {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+  gap: 32px;
+}
+.design-collections .jewel-entry {
+  grid-template-columns: 1fr;
+  gap: 24px;
+  margin: 36px 0 8px;
+  align-self: start;
+}
+.design-collections .jewel-entry > img {
+  order: -1;
+  aspect-ratio: 4 / 3;
+  object-fit: contain;
+  background: var(--color-ivory);
+}
+.home-object-images {
+  order: -1;
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  aspect-ratio: 4 / 3;
+  gap: 8px;
+  background: var(--color-soft);
+  overflow: hidden;
+}
+.home-object-images img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+.site-nav a {
+  white-space: nowrap;
+}
+@media (max-width: 900px) {
+  .collection-wrap {
+    width: calc(100% - 48px);
+  }
+  .collection-intro {
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 20px;
+  }
+  .object-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+  .jewellery-card-copy {
+    flex-direction: column;
+    gap: 12px;
+  }
+  .jewellery-card-copy > .collection-link {
+    margin-top: 0;
+  }
+  .jewellery-evidence {
+    grid-template-columns: 140px minmax(0, 1fr);
+    gap: 24px;
+  }
+  .collection-stage {
+    grid-column: 2;
+    padding-left: 0;
+    border-left: 0;
+    margin: 0;
+  }
+  .object-project-layout {
+    gap: 28px;
+    grid-template-columns: minmax(0, 1.5fr) minmax(0, 1fr);
+  }
+}
+@media (max-width: 700px) {
+  .jewellery-piece-grid {
+    grid-template-columns: 1fr;
+    gap: 36px;
+  }
+  .jewellery-pieces {
+    padding-bottom: 36px;
+  }
+  .site-nav {
+    gap: 10px;
+    font-size: 12px;
+  }
+  .collection-wrap {
+    width: calc(100% - 40px);
+  }
+  .collection-intro {
+    padding: 28px 0 24px;
+  }
+  .collection-intro h1 {
+    font-size: 48px;
+  }
+  .collection-intro > p {
+    font-size: 13px;
+  }
+  .desktop-break {
+    display: none;
+  }
+  .collection-nav {
+    gap: 24px;
+    margin-bottom: 24px;
+  }
+  .collection-nav a {
+    font-size: 12px;
+    gap: 8px;
+  }
+  .jewellery-project,
+  .collection-sibling,
+  .object-project-layout {
+    grid-template-columns: 1fr;
+  }
+  .jewellery-project {
+    gap: 32px;
+  }
+  .jewellery-selected {
+    display: flex;
+    flex-direction: column;
+  }
+  .jewellery-final img {
+    height: 320px;
+  }
+  .image-caption {
+    left: 16px;
+    font-size: 9px;
+  }
+  .jewellery-card-copy {
+    order: -1;
+    padding: 0 0 20px;
+  }
+  .jewellery-card-copy h2 {
+    font-size: 36px;
+  }
+  .jewellery-reference figure img {
+    height: 300px;
+  }
+  .reference-copy {
+    padding-top: 16px;
+  }
+  .jewellery-evidence {
+    grid-template-columns: 1fr;
+    padding: 20px;
+    margin-top: 36px;
+    gap: 20px;
+  }
+  .evidence-visual img {
+    height: 180px;
+  }
+  .collection-stage {
+    grid-column: auto;
+    border-top: 1px solid var(--color-collection-line);
+    padding-top: 16px;
+  }
+  .collection-sibling {
+    gap: 24px;
+    margin-top: 40px;
+    padding-top: 32px;
+  }
+  .collection-sibling-images img {
+    height: 130px;
+  }
+  .object-index-tools {
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 12px;
+  }
+  .object-filters {
+    gap: 24px;
+  }
+  .object-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 28px 16px;
+  }
+  .object-card-copy h2 {
+    font-size: 22px;
+  }
+  .object-card-copy {
+    min-height: 112px;
+  }
+  .object-card-copy .collection-kicker {
+    font-size: 9px;
+  }
+  .object-card-copy > p:not(.collection-kicker) {
+    font-size: 11px;
+  }
+  .award-drawings {
+    margin-top: 48px;
+  }
+  .drawings-heading {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+  .drawings-heading h2,
+  .collection-sibling h2 {
+    font-size: 38px;
+  }
+  .award-sketch-grid {
+    grid-template-columns: 1fr;
+  }
+  .award-sketch-grid > a:first-child {
+    grid-column: auto;
+  }
+  .sketch-disclosure summary {
+    font-size: 12px;
+  }
+  .collection-end {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 12px;
+  }
+  .object-project-nav {
+    font-size: 11px;
+    gap: 16px;
+  }
+  .object-project-nav .collection-link {
+    font-size: 11px;
+    gap: 8px;
+  }
+  .object-project-nav > a:last-child {
+    text-align: right;
+  }
+  .object-project-heading {
+    padding: 24px 0;
+  }
+  .object-main-view img {
+    height: 360px;
+  }
+  .object-thumbnails {
+    gap: 8px;
+  }
+  .object-thumbnails button {
+    width: 60px;
+  }
+  .object-thumbnails img {
+    height: 48px;
+  }
+  .object-specification {
+    position: static;
+    padding-top: 12px;
+  }
+  .design-collections {
+    grid-template-columns: 1fr;
+    gap: 12px;
+  }
+}
+@media (max-width: 360px) {
+  .site-nav {
+    font-size: 11px;
+    gap: 6px;
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  .jewellery-final img {
+    transition: none;
+  }
+  .jewellery-final:hover img {
+    transform: none;
+  }
+}

@@ -1,0 +1,10 @@
+node_modules/
+.qa/
+.vercel/
+.tanstack/
+dist-pages/
+screenshots/
+tmp/
+.env*
+*.blend
+*.blend1

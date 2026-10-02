@@ -1,0 +1,20 @@
+{
+  "source": "C:\\Users\\Master\\Documents\\itura\\PORFOLIO PIECES\\BlenderKit_Beauty\\Iced_Ring_Gallery.png",
+  "sha256": "b7d986d8432631c1ef1ddc67a23df67e21cdf0702cb3533d20fd764759e06125",
+  "size": [
+    3000,
+    2250
+  ],
+  "gallery_order": [
+    "render-01-gallery",
+    "render-01"
+  ],
+  "removed_from_gallery": [
+    "render-02",
+    "render-03"
+  ],
+  "covers": [
+    "confluence: render-01-environment",
+    "iced-out-ring: render-01-gallery"
+  ]
+}

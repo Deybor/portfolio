@@ -1,0 +1,36 @@
+{
+  "slug": "world",
+  "sourceFile": "C:\\Users\\Master\\Documents\\blender\\blender filesss\\troo\\new\\lets upload\\second.blend",
+  "sha256": "0bc4e5b4c99b4322f1f8f0ccaa79acdf6b775a7dbe6b64fc841e1c8b17313931",
+  "parts": [
+    "Sphere",
+    "Cube.002",
+    "Cube.003",
+    "Circle.001",
+    "Circle",
+    "Plane",
+    "Circle.002",
+    "Circle.003"
+  ],
+  "dimension": {
+    "width": 2545.1,
+    "depth": 1426.0,
+    "height": 2517.1,
+    "bounds": [
+      [
+        -2.1690173149108887,
+        -0.5933737754821777,
+        0.0020316243171691895
+      ],
+      [
+        0.3760364055633545,
+        0.8325810432434082,
+        2.5190861225128174
+      ]
+    ],
+    "widthAxis": 0,
+    "depthAxis": 1,
+    "orthoScale": 3.181317150592804
+  },
+  "sourceUnchanged": true
+}

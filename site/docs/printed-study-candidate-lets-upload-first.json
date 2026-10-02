@@ -1,0 +1,13 @@
+{
+  "slug": "candidate-lets-upload-first",
+  "parts": [
+    "Cylinder.002",
+    "Cylinder.001",
+    "Cylinder",
+    "Circle.002",
+    "Circle.001",
+    "Circle"
+  ],
+  "dimension": null,
+  "sourceUnchanged": true
+}

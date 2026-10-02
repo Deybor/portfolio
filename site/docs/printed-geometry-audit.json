@@ -1,0 +1,3164 @@
+[
+  {
+    "slug": "zenith-cup",
+    "source": "The Zenith Cup.blend",
+    "sha256": "d90e98dd496032c24b3b414a23c1d762fa27b28c9b074fb1282b0d5002b8b250",
+    "scale": 1.0,
+    "camera": null,
+    "objects": [
+      {
+        "name": "cup",
+        "type": "MESH",
+        "hidden": false,
+        "viewport": false,
+        "collections": [
+          "Collection"
+        ],
+        "min": [
+          -0.10110990703105927,
+          -0.10110896825790405,
+          0.05745648592710495
+        ],
+        "max": [
+          0.10110989958047867,
+          0.10111086070537567,
+          0.5195958018302917
+        ],
+        "vertices": 16960,
+        "modifiers": []
+      },
+      {
+        "name": "base",
+        "type": "MESH",
+        "hidden": false,
+        "viewport": false,
+        "collections": [
+          "Collection"
+        ],
+        "min": [
+          -0.10731592774391174,
+          -0.10731542855501175,
+          -0.05646591633558273
+        ],
+        "max": [
+          0.10731592774391174,
+          0.10731639713048935,
+          0.056465793401002884
+        ],
+        "vertices": 1538,
+        "modifiers": []
+      },
+      {
+        "name": "Decorative ball 1",
+        "type": "MESH",
+        "hidden": false,
+        "viewport": false,
+        "collections": [
+          "Collection"
+        ],
+        "min": [
+          -0.02745863050222397,
+          0.058424826711416245,
+          0.0783815011382103
+        ],
+        "max": [
+          0.026047956198453903,
+          0.11193860322237015,
+          0.13232959806919098
+        ],
+        "vertices": 47162,
+        "modifiers": []
+      },
+      {
+        "name": "Decorative ball 2",
+        "type": "MESH",
+        "hidden": false,
+        "viewport": false,
+        "collections": [
+          "Collection"
+        ],
+        "min": [
+          -0.02745863050222397,
+          -0.11223243176937103,
+          0.0783815011382103
+        ],
+        "max": [
+          0.026047956198453903,
+          -0.05871865525841713,
+          0.13232959806919098
+        ],
+        "vertices": 47162,
+        "modifiers": []
+      }
+    ]
+  },
+  {
+    "slug": "world",
+    "source": "World.blend",
+    "sha256": "7ec778ab64ed5690f9e56d736c3ce83f0e5748730fabcd0bff830e2f2cfdd726",
+    "scale": 1.0,
+    "camera": "Camera.001",
+    "objects": [
+      {
+        "name": "Sphere",
+        "type": "MESH",
+        "hidden": false,
+        "viewport": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "min": [
+          -1.4093760251998901,
+          -0.48030000925064087,
+          0.3549904525279999
+        ],
+        "max": [
+          -0.4113139808177948,
+          0.5177620053291321,
+          0.6815924644470215
+        ],
+        "vertices": 225,
+        "modifiers": [
+          "SUBSURF"
+        ]
+      },
+      {
+        "name": "Cube.002",
+        "type": "MESH",
+        "hidden": false,
+        "viewport": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "min": [
+          -1.8208719491958618,
+          -0.8568955063819885,
+          0.6078836917877197
+        ],
+        "max": [
+          0.03943982720375061,
+          1.0028676986694336,
+          1.9313939809799194
+        ],
+        "vertices": 197768,
+        "modifiers": []
+      },
+      {
+        "name": "Cube.003",
+        "type": "MESH",
+        "hidden": false,
+        "viewport": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "min": [
+          -1.8776723146438599,
+          -0.5032653212547302,
+          0.0020316243171691895
+        ],
+        "max": [
+          0.05698216333985329,
+          0.5782420635223389,
+          0.4260748326778412
+        ],
+        "vertices": 144,
+        "modifiers": [
+          "BEVEL"
+        ]
+      },
+      {
+        "name": "Circle.001",
+        "type": "MESH",
+        "hidden": false,
+        "viewport": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "min": [
+          -1.7819252014160156,
+          -0.07364026457071304,
+          0.40331149101257324
+        ],
+        "max": [
+          -0.05318403244018555,
+          0.017983313649892807,
+          2.0985429286956787
+        ],
+        "vertices": 186,
+        "modifiers": [
+          "BEVEL",
+          "SUBSURF"
+        ]
+      },
+      {
+        "name": "Circle",
+        "type": "MESH",
+        "hidden": false,
+        "viewport": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "min": [
+          -1.8919265270233154,
+          -0.08623875677585602,
+          0.2933102250099182
+        ],
+        "max": [
+          0.05681723356246948,
+          0.018731161952018738,
+          2.242053985595703
+        ],
+        "vertices": 416,
+        "modifiers": [
+          "BEVEL",
+          "SUBSURF"
+        ]
+      },
+      {
+        "name": "Plane",
+        "type": "MESH",
+        "hidden": false,
+        "viewport": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "min": [
+          -1.237613558769226,
+          -0.4657032787799835,
+          0.028610706329345703
+        ],
+        "max": [
+          -0.6315690279006958,
+          -0.3924957513809204,
+          0.3151915371417999
+        ],
+        "vertices": 88,
+        "modifiers": [
+          "BEVEL",
+          "SUBSURF"
+        ]
+      },
+      {
+        "name": "Circle.002",
+        "type": "MESH",
+        "hidden": false,
+        "viewport": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "min": [
+          -2.1827690601348877,
+          -0.37115687131881714,
+          1.1542747020721436
+        ],
+        "max": [
+          0.3901408910751343,
+          0.7992901802062988,
+          1.3575596809387207
+        ],
+        "vertices": 140,
+        "modifiers": [
+          "SUBSURF"
+        ]
+      },
+      {
+        "name": "Circle.003",
+        "type": "MESH",
+        "hidden": false,
+        "viewport": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "min": [
+          -1.0323772430419922,
+          -0.023473545908927917,
+          0.15148614346981049
+        ],
+        "max": [
+          -0.7501779198646545,
+          0.8415400981903076,
+          2.5238325595855713
+        ],
+        "vertices": 200,
+        "modifiers": [
+          "SUBSURF"
+        ]
+      },
+      {
+        "name": "Reflection Light",
+        "type": "MESH",
+        "hidden": false,
+        "viewport": false,
+        "collections": [
+          "Collection 1"
+        ],
+        "min": [
+          -7.657108306884766,
+          -3.75,
+          0.5
+        ],
+        "max": [
+          -7.657108306884766,
+          3.75,
+          5.5
+        ],
+        "vertices": 4,
+        "modifiers": []
+      },
+      {
+        "name": "Top_Softbox",
+        "type": "MESH",
+        "hidden": false,
+        "viewport": false,
+        "collections": [
+          "Collection 1"
+        ],
+        "min": [
+          -3.7500007152557373,
+          -5.000000476837158,
+          8.633896827697754
+        ],
+        "max": [
+          3.7500007152557373,
+          5.000000476837158,
+          12.633898735046387
+        ],
+        "vertices": 13,
+        "modifiers": []
+      },
+      {
+        "name": "Top_Softbox_Light",
+        "type": "MESH",
+        "hidden": false,
+        "viewport": false,
+        "collections": [
+          "Collection 1"
+        ],
+        "min": [
+          -3.75,
+          -5.0,
+          8.635313987731934
+        ],
+        "max": [
+          3.75,
+          5.0,
+          8.635313987731934
+        ],
+        "vertices": 4,
+        "modifiers": []
+      },
+      {
+        "name": "R_Softbox",
+        "type": "MESH",
+        "hidden": false,
+        "viewport": false,
+        "collections": [
+          "Collection 1"
+        ],
+        "min": [
+          -3.750000238418579,
+          -9.996460914611816,
+          0.6081199645996094
+        ],
+        "max": [
+          3.750000238418579,
+          -5.996459484100342,
+          8.10811996459961
+        ],
+        "vertices": 13,
+        "modifiers": []
+      },
+      {
+        "name": "R_Softbox_Light",
+        "type": "MESH",
+        "hidden": false,
+        "viewport": false,
+        "collections": [
+          "Collection 1"
+        ],
+        "min": [
+          -3.75,
+          -6.000000953674316,
+          0.6081199645996094
+        ],
+        "max": [
+          3.75,
+          -6.0,
+          8.10811996459961
+        ],
+        "vertices": 4,
+        "modifiers": []
+      },
+      {
+        "name": "L_Softbox",
+        "type": "MESH",
+        "hidden": true,
+        "viewport": false,
+        "collections": [
+          "Collection 1"
+        ],
+        "min": [
+          -3.75,
+          5.9964599609375,
+          0.6081199645996094
+        ],
+        "max": [
+          3.75,
+          9.9964599609375,
+          8.10811996459961
+        ],
+        "vertices": 13,
+        "modifiers": []
+      },
+      {
+        "name": "L_Softbox_Light",
+        "type": "MESH",
+        "hidden": true,
+        "viewport": false,
+        "collections": [
+          "Collection 1"
+        ],
+        "min": [
+          -3.75,
+          6.0,
+          0.6081194877624512
+        ],
+        "max": [
+          3.75,
+          6.000000953674316,
+          8.10811996459961
+        ],
+        "vertices": 4,
+        "modifiers": []
+      },
+      {
+        "name": "Backdrop",
+        "type": "MESH",
+        "hidden": false,
+        "viewport": false,
+        "collections": [
+          "Collection 1"
+        ],
+        "min": [
+          -7.8266777992248535,
+          -8.093935012817383,
+          3.156822724835629e-18
+        ],
+        "max": [
+          6.40264892578125,
+          8.122369766235352,
+          9.917244911193848
+        ],
+        "vertices": 1105,
+        "modifiers": []
+      }
+    ]
+  },
+  {
+    "slug": "top-campus-ministry",
+    "source": "Top Campus Ministry.blend",
+    "sha256": "bd93ec7bc9279be965fe64d274dabf214b7ddcbae8e6e5f0e3ae3612b7cef132",
+    "scale": 1.0,
+    "camera": "Camera.001",
+    "objects": [
+      {
+        "name": "Plane.011",
+        "type": "MESH",
+        "hidden": false,
+        "viewport": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "min": [
+          -2.61250638961792,
+          -0.6175116300582886,
+          0.26249104738235474
+        ],
+        "max": [
+          -1.534818410873413,
+          0.43563312292099,
+          1.7858290672302246
+        ],
+        "vertices": 494,
+        "modifiers": [
+          "SUBSURF"
+        ]
+      },
+      {
+        "name": "Plane.009",
+        "type": "MESH",
+        "hidden": false,
+        "viewport": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "min": [
+          -2.356279134750366,
+          -0.5485741496086121,
+          0.22093109786510468
+        ],
+        "max": [
+          -1.7156821489334106,
+          -0.008519371971487999,
+          1.7842957973480225
+        ],
+        "vertices": 130,
+        "modifiers": [
+          "SUBSURF"
+        ]
+      },
+      {
+        "name": "Plane.008",
+        "type": "MESH",
+        "hidden": false,
+        "viewport": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "min": [
+          -1.8043255805969238,
+          -0.323318213224411,
+          0.7680203914642334
+        ],
+        "max": [
+          -1.5392405986785889,
+          0.07601551711559296,
+          0.9402303695678711
+        ],
+        "vertices": 266,
+        "modifiers": [
+          "BEVEL",
+          "SUBSURF"
+        ]
+      },
+      {
+        "name": "Plane.007",
+        "type": "MESH",
+        "hidden": false,
+        "viewport": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "min": [
+          -2.5298104286193848,
+          -0.21860115230083466,
+          0.8395299315452576
+        ],
+        "max": [
+          -2.303253650665283,
+          0.17541326582431793,
+          1.038097858428955
+        ],
+        "vertices": 266,
+        "modifiers": [
+          "BEVEL",
+          "SUBSURF"
+        ]
+      },
+      {
+        "name": "Plane.002",
+        "type": "MESH",
+        "hidden": false,
+        "viewport": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "min": [
+          -2.124691963195801,
+          -0.06895334273576736,
+          0.28930944204330444
+        ],
+        "max": [
+          -1.5814515352249146,
+          0.5261484384536743,
+          1.8046265840530396
+        ],
+        "vertices": 130,
+        "modifiers": [
+          "SUBSURF"
+        ]
+      },
+      {
+        "name": "Female__0.003",
+        "type": "MESH",
+        "hidden": false,
+        "viewport": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "min": [
+          -1.8774182796478271,
+          0.23942290246486664,
+          1.5448302030563354
+        ],
+        "max": [
+          -1.7203683853149414,
+          0.40492501854896545,
+          1.6963456869125366
+        ],
+        "vertices": 90,
+        "modifiers": [
+          "SUBSURF"
+        ]
+      },
+      {
+        "name": "Female__0.002",
+        "type": "MESH",
+        "hidden": false,
+        "viewport": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "min": [
+          -2.049480438232422,
+          -0.41983282566070557,
+          1.471184253692627
+        ],
+        "max": [
+          -1.8739902973175049,
+          -0.23071283102035522,
+          1.6451914310455322
+        ],
+        "vertices": 90,
+        "modifiers": [
+          "SUBSURF"
+        ]
+      },
+      {
+        "name": "Female__0.001",
+        "type": "MESH",
+        "hidden": false,
+        "viewport": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "min": [
+          -2.470426321029663,
+          -0.0996798500418663,
+          1.4782239198684692
+        ],
+        "max": [
+          -2.3144450187683105,
+          0.02267380803823471,
+          1.646043062210083
+        ],
+        "vertices": 90,
+        "modifiers": [
+          "SUBSURF"
+        ]
+      },
+      {
+        "name": "Cylinder_Globe_0.001",
+        "type": "MESH",
+        "hidden": false,
+        "viewport": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "min": [
+          -2.41241455078125,
+          -0.3830806612968445,
+          1.4485670328140259
+        ],
+        "max": [
+          -1.6649049520492554,
+          0.3631245195865631,
+          2.0906472206115723
+        ],
+        "vertices": 197768,
+        "modifiers": []
+      },
+      {
+        "name": "Cube.001",
+        "type": "MESH",
+        "hidden": false,
+        "viewport": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "min": [
+          -2.261462450027466,
+          -0.34765878319740295,
+          0.18147653341293335
+        ],
+        "max": [
+          -1.9360257387161255,
+          -0.19289156794548035,
+          0.33854466676712036
+        ],
+        "vertices": 8,
+        "modifiers": [
+          "BEVEL",
+          "SUBSURF"
+        ]
+      },
+      {
+        "name": "Circle.001",
+        "type": "MESH",
+        "hidden": false,
+        "viewport": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "min": [
+          -2.305096387863159,
+          -0.276582807302475,
+          0.17427198588848114
+        ],
+        "max": [
+          -1.773675560951233,
+          0.25483787059783936,
+          0.27786844968795776
+        ],
+        "vertices": 433,
+        "modifiers": [
+          "SUBSURF"
+        ]
+      },
+      {
+        "name": "Circle",
+        "type": "MESH",
+        "hidden": false,
+        "viewport": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "min": [
+          -2.641968250274658,
+          -0.6164876222610474,
+          -0.004501447081565857
+        ],
+        "max": [
+          -1.4329824447631836,
+          0.5924691557884216,
+          0.18858183920383453
+        ],
+        "vertices": 273,
+        "modifiers": [
+          "BEVEL",
+          "SUBSURF"
+        ]
+      },
+      {
+        "name": "Reflection Light",
+        "type": "MESH",
+        "hidden": false,
+        "viewport": false,
+        "collections": [
+          "Collection 1"
+        ],
+        "min": [
+          -7.657108306884766,
+          -3.75,
+          0.5
+        ],
+        "max": [
+          -7.657108306884766,
+          3.75,
+          5.5
+        ],
+        "vertices": 4,
+        "modifiers": []
+      },
+      {
+        "name": "Top_Softbox",
+        "type": "MESH",
+        "hidden": false,
+        "viewport": false,
+        "collections": [
+          "Collection 1"
+        ],
+        "min": [
+          -3.7500007152557373,
+          -5.000000476837158,
+          8.633896827697754
+        ],
+        "max": [
+          3.7500007152557373,
+          5.000000476837158,
+          12.633898735046387
+        ],
+        "vertices": 13,
+        "modifiers": []
+      },
+      {
+        "name": "Top_Softbox_Light",
+        "type": "MESH",
+        "hidden": false,
+        "viewport": false,
+        "collections": [
+          "Collection 1"
+        ],
+        "min": [
+          -3.75,
+          -5.0,
+          8.635313987731934
+        ],
+        "max": [
+          3.75,
+          5.0,
+          8.635313987731934
+        ],
+        "vertices": 4,
+        "modifiers": []
+      },
+      {
+        "name": "R_Softbox",
+        "type": "MESH",
+        "hidden": false,
+        "viewport": false,
+        "collections": [
+          "Collection 1"
+        ],
+        "min": [
+          -3.750000238418579,
+          -9.996460914611816,
+          0.6081199645996094
+        ],
+        "max": [
+          3.750000238418579,
+          -5.996459484100342,
+          8.10811996459961
+        ],
+        "vertices": 13,
+        "modifiers": []
+      },
+      {
+        "name": "R_Softbox_Light",
+        "type": "MESH",
+        "hidden": false,
+        "viewport": true,
+        "collections": [
+          "Collection 1"
+        ],
+        "min": [
+          -3.75,
+          -6.000000953674316,
+          0.6081199645996094
+        ],
+        "max": [
+          3.75,
+          -6.0,
+          8.10811996459961
+        ],
+        "vertices": 4,
+        "modifiers": []
+      },
+      {
+        "name": "L_Softbox",
+        "type": "MESH",
+        "hidden": false,
+        "viewport": false,
+        "collections": [
+          "Collection 1"
+        ],
+        "min": [
+          -3.75,
+          5.9964599609375,
+          0.6081199645996094
+        ],
+        "max": [
+          3.75,
+          9.9964599609375,
+          8.10811996459961
+        ],
+        "vertices": 13,
+        "modifiers": []
+      },
+      {
+        "name": "L_Softbox_Light",
+        "type": "MESH",
+        "hidden": false,
+        "viewport": false,
+        "collections": [
+          "Collection 1"
+        ],
+        "min": [
+          -3.75,
+          6.0,
+          0.6081194877624512
+        ],
+        "max": [
+          3.75,
+          6.000000953674316,
+          8.10811996459961
+        ],
+        "vertices": 4,
+        "modifiers": []
+      },
+      {
+        "name": "Backdrop",
+        "type": "MESH",
+        "hidden": false,
+        "viewport": false,
+        "collections": [
+          "Collection 1"
+        ],
+        "min": [
+          -7.8266777992248535,
+          -8.108152389526367,
+          0.0
+        ],
+        "max": [
+          6.40264892578125,
+          8.108152389526367,
+          9.917244911193848
+        ],
+        "vertices": 1105,
+        "modifiers": []
+      }
+    ]
+  },
+  {
+    "slug": "top-zone-trophy",
+    "source": "Top Zone Trouphy.blend",
+    "sha256": "c5b451909f94ee8dfdc379edefc1251b3f8384c671f1f4972b09cb05fac0574c",
+    "scale": 1.0,
+    "camera": "Camera",
+    "objects": [
+      {
+        "name": "Cylinder",
+        "type": "MESH",
+        "hidden": false,
+        "viewport": false,
+        "collections": [
+          "Collection.002"
+        ],
+        "min": [
+          -0.19871902465820312,
+          -0.19871902465820312,
+          -0.3721667230129242
+        ],
+        "max": [
+          0.19871902465820312,
+          0.19871902465820312,
+          -9.66973602771759e-05
+        ],
+        "vertices": 128,
+        "modifiers": [
+          "SUBSURF",
+          "COLLISION"
+        ]
+      },
+      {
+        "name": "Plane",
+        "type": "MESH",
+        "hidden": false,
+        "viewport": false,
+        "collections": [
+          "Collection.002"
+        ],
+        "min": [
+          -0.3327629864215851,
+          0.328602135181427,
+          -0.421242356300354
+        ],
+        "max": [
+          0.2794039249420166,
+          0.6376734972000122,
+          0.856822669506073
+        ],
+        "vertices": 4489,
+        "modifiers": []
+      },
+      {
+        "name": "Plane.001",
+        "type": "MESH",
+        "hidden": false,
+        "viewport": false,
+        "collections": [
+          "Collection.002"
+        ],
+        "min": [
+          -0.6057177186012268,
+          0.04864362254738808,
+          -0.4188750386238098
+        ],
+        "max": [
+          -0.15227238833904266,
+          0.7110715508460999,
+          0.8569868206977844
+        ],
+        "vertices": 17689,
+        "modifiers": []
+      },
+      {
+        "name": "Plane.003",
+        "type": "MESH",
+        "hidden": false,
+        "viewport": false,
+        "collections": [
+          "Collection.002"
+        ],
+        "min": [
+          0.13770349323749542,
+          0.050956424325704575,
+          -0.4188750386238098
+        ],
+        "max": [
+          0.5475600361824036,
+          0.7248769998550415,
+          0.8569868206977844
+        ],
+        "vertices": 17689,
+        "modifiers": []
+      },
+      {
+        "name": "Plane.004",
+        "type": "MESH",
+        "hidden": false,
+        "viewport": false,
+        "collections": [
+          "Collection.002"
+        ],
+        "min": [
+          -0.14987409114837646,
+          -0.181212916970253,
+          0.5761757493019104
+        ],
+        "max": [
+          0.13063612580299377,
+          0.09929729998111725,
+          0.5761757493019104
+        ],
+        "vertices": 4,
+        "modifiers": []
+      },
+      {
+        "name": "Plane.005",
+        "type": "MESH",
+        "hidden": false,
+        "viewport": false,
+        "collections": [
+          "Collection.002"
+        ],
+        "min": [
+          0.4436120390892029,
+          -0.08944728970527649,
+          0.060323894023895264
+        ],
+        "max": [
+          0.5815810561180115,
+          0.039708275347948074,
+          0.38477322459220886
+        ],
+        "vertices": 4,
+        "modifiers": []
+      },
+      {
+        "name": "Plane.006",
+        "type": "MESH",
+        "hidden": false,
+        "viewport": false,
+        "collections": [
+          "Collection.002"
+        ],
+        "min": [
+          -0.32802313566207886,
+          -0.3311315178871155,
+          -0.2628052830696106
+        ],
+        "max": [
+          0.3295814096927643,
+          0.32682615518569946,
+          0.008732172660529613
+        ],
+        "vertices": 7921,
+        "modifiers": [
+          "SUBSURF"
+        ]
+      },
+      {
+        "name": "Sphere",
+        "type": "MESH",
+        "hidden": false,
+        "viewport": false,
+        "collections": [
+          "Collection.002"
+        ],
+        "min": [
+          -0.03148085996508598,
+          -0.05404933914542198,
+          0.29373276233673096
+        ],
+        "max": [
+          0.031480878591537476,
+          0.008912419900298119,
+          0.3566945195198059
+        ],
+        "vertices": 482,
+        "modifiers": [
+          "SUBSURF"
+        ]
+      },
+      {
+        "name": "Plane.002",
+        "type": "MESH",
+        "hidden": false,
+        "viewport": false,
+        "collections": [
+          "Collection.002"
+        ],
+        "min": [
+          0.05482388660311699,
+          -0.06165221706032753,
+          0.08856886625289917
+        ],
+        "max": [
+          0.059088584035634995,
+          0.013233829289674759,
+          0.200346440076828
+        ],
+        "vertices": 16,
+        "modifiers": [
+          "BEVEL"
+        ]
+      },
+      {
+        "name": "Cylinder.001",
+        "type": "MESH",
+        "hidden": false,
+        "viewport": false,
+        "collections": [
+          "Collection.002"
+        ],
+        "min": [
+          -0.048016421496868134,
+          -0.10312269628047943,
+          0.16781941056251526
+        ],
+        "max": [
+          0.048016421496868134,
+          0.05798575282096863,
+          0.3327246904373169
+        ],
+        "vertices": 353,
+        "modifiers": [
+          "MIRROR",
+          "SUBSURF"
+        ]
+      },
+      {
+        "name": "Cube",
+        "type": "MESH",
+        "hidden": false,
+        "viewport": false,
+        "collections": [
+          "Collection.002"
+        ],
+        "min": [
+          -0.027976354584097862,
+          -0.09310257434844971,
+          0.1697010099887848
+        ],
+        "max": [
+          0.02079036459326744,
+          0.04995069280266762,
+          0.32313472032546997
+        ],
+        "vertices": 32,
+        "modifiers": [
+          "BEVEL",
+          "SUBSURF",
+          "MIRROR"
+        ]
+      },
+      {
+        "name": "Circle",
+        "type": "MESH",
+        "hidden": false,
+        "viewport": false,
+        "collections": [
+          "Collection.002"
+        ],
+        "min": [
+          -0.06936559081077576,
+          -0.09193406254053116,
+          0.006666555069386959
+        ],
+        "max": [
+          0.06936559081077576,
+          0.04679711535573006,
+          0.1723013073205948
+        ],
+        "vertices": 494,
+        "modifiers": [
+          "BEVEL",
+          "SUBSURF"
+        ]
+      },
+      {
+        "name": "Cylinder.002",
+        "type": "MESH",
+        "hidden": false,
+        "viewport": false,
+        "collections": [
+          "Collection.002"
+        ],
+        "min": [
+          -0.02300509810447693,
+          -0.07564186304807663,
+          0.03125442937016487
+        ],
+        "max": [
+          0.024523001164197922,
+          0.030702417716383934,
+          0.07878253608942032
+        ],
+        "vertices": 290,
+        "modifiers": [
+          "BEVEL",
+          "SUBSURF"
+        ]
+      },
+      {
+        "name": "Cylinder.003",
+        "type": "MESH",
+        "hidden": false,
+        "viewport": false,
+        "collections": [
+          "Collection.002"
+        ],
+        "min": [
+          -0.052413199096918106,
+          -0.04623378440737724,
+          0.03125443309545517
+        ],
+        "max": [
+          0.05393107980489731,
+          0.0012943190522491932,
+          0.07878253608942032
+        ],
+        "vertices": 290,
+        "modifiers": [
+          "BEVEL",
+          "SUBSURF"
+        ]
+      },
+      {
+        "name": "Sphere.004",
+        "type": "MESH",
+        "hidden": false,
+        "viewport": false,
+        "collections": [
+          "hh"
+        ],
+        "min": [
+          -0.9999990463256836,
+          -0.9999993443489075,
+          -0.3537541329860687
+        ],
+        "max": [
+          0.9999997019767761,
+          1.0,
+          1.0
+        ],
+        "vertices": 289,
+        "modifiers": [
+          "SUBSURF"
+        ]
+      },
+      {
+        "name": "Sphere.003",
+        "type": "MESH",
+        "hidden": false,
+        "viewport": false,
+        "collections": [
+          "hh"
+        ],
+        "min": [
+          -0.9999990463256836,
+          -0.9999993443489075,
+          -0.3537541329860687
+        ],
+        "max": [
+          0.9999997019767761,
+          1.0,
+          1.0
+        ],
+        "vertices": 289,
+        "modifiers": [
+          "SUBSURF"
+        ]
+      },
+      {
+        "name": "Sphere.002",
+        "type": "MESH",
+        "hidden": false,
+        "viewport": false,
+        "collections": [
+          "hh"
+        ],
+        "min": [
+          -0.9999990463256836,
+          -0.9999993443489075,
+          -0.3537541329860687
+        ],
+        "max": [
+          0.9999997019767761,
+          1.0,
+          1.0
+        ],
+        "vertices": 289,
+        "modifiers": [
+          "SUBSURF"
+        ]
+      },
+      {
+        "name": "Sphere.001",
+        "type": "MESH",
+        "hidden": false,
+        "viewport": false,
+        "collections": [
+          "hh"
+        ],
+        "min": [
+          -0.9999990463256836,
+          -0.9999993443489075,
+          -0.3537541329860687
+        ],
+        "max": [
+          0.9999997019767761,
+          1.0,
+          1.0
+        ],
+        "vertices": 289,
+        "modifiers": [
+          "SUBSURF"
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "bible-projects-for-programs",
+    "source": "Bilble Projects for Programs.blend",
+    "sha256": "c958569470b736ee344904c6e5c396758f5e9a0e36a2a88632b184b3b69acb8a",
+    "scale": 1.0,
+    "camera": "Camera",
+    "objects": [
+      {
+        "name": "Plane.002",
+        "type": "MESH",
+        "hidden": false,
+        "viewport": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "min": [
+          -0.21564893424510956,
+          1.2240608930587769,
+          0.2648041546344757
+        ],
+        "max": [
+          0.239118292927742,
+          2.0400238037109375,
+          1.0402450561523438
+        ],
+        "vertices": 736,
+        "modifiers": [
+          "MIRROR",
+          "SUBSURF"
+        ]
+      },
+      {
+        "name": "Circle.001",
+        "type": "MESH",
+        "hidden": false,
+        "viewport": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "min": [
+          -0.02984839864075184,
+          1.709311842918396,
+          0.972528874874115
+        ],
+        "max": [
+          0.0869918018579483,
+          1.7244988679885864,
+          1.0950876474380493
+        ],
+        "vertices": 20,
+        "modifiers": [
+          "BEVEL"
+        ]
+      },
+      {
+        "name": "Circle.002",
+        "type": "MESH",
+        "hidden": false,
+        "viewport": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "min": [
+          -0.1523558497428894,
+          1.4302550554275513,
+          0.20201607048511505
+        ],
+        "max": [
+          0.17091098427772522,
+          1.7535218000411987,
+          0.35922741889953613
+        ],
+        "vertices": 746,
+        "modifiers": [
+          "BEVEL",
+          "SUBSURF"
+        ]
+      },
+      {
+        "name": "Plane",
+        "type": "MESH",
+        "hidden": false,
+        "viewport": false,
+        "collections": [
+          "Room and lights"
+        ],
+        "min": [
+          -2.5,
+          -2.5,
+          0.0
+        ],
+        "max": [
+          2.5,
+          2.5,
+          2.5999999046325684
+        ],
+        "vertices": 7,
+        "modifiers": []
+      },
+      {
+        "name": "Circle",
+        "type": "MESH",
+        "hidden": false,
+        "viewport": false,
+        "collections": [
+          "Room and lights"
+        ],
+        "min": [
+          -0.75,
+          0.6906639933586121,
+          0.0
+        ],
+        "max": [
+          0.75,
+          2.190664052963257,
+          0.19999998807907104
+        ],
+        "vertices": 3588,
+        "modifiers": []
+      },
+      {
+        "name": "jacaranda_tree_trunk",
+        "type": "MESH",
+        "hidden": false,
+        "viewport": false,
+        "collections": [
+          "tree"
+        ],
+        "min": [
+          -5.1332011222839355,
+          -1.2483032941818237,
+          0.17159754037857056
+        ],
+        "max": [
+          -3.4193928241729736,
+          0.007622838020324707,
+          2.174304246902466
+        ],
+        "vertices": 14439,
+        "modifiers": [
+          "SUBSURF",
+          "DISPLACE"
+        ]
+      },
+      {
+        "name": "jacaranda_tree_branches",
+        "type": "MESH",
+        "hidden": false,
+        "viewport": false,
+        "collections": [
+          "tree"
+        ],
+        "min": [
+          -6.953032493591309,
+          -2.4893224239349365,
+          0.6904967427253723
+        ],
+        "max": [
+          -2.2748775482177734,
+          1.000205397605896,
+          3.9293057918548584
+        ],
+        "vertices": 151320,
+        "modifiers": [
+          "SHRINKWRAP",
+          "NODES",
+          "NODES"
+        ]
+      },
+      {
+        "name": "jacaranda_tree_leaves_e",
+        "type": "MESH",
+        "hidden": false,
+        "viewport": false,
+        "collections": [
+          "tree.001"
+        ],
+        "min": [
+          -4.491138935089111,
+          -0.7316780090332031,
+          0.16203877329826355
+        ],
+        "max": [
+          -4.417418479919434,
+          -0.5764791369438171,
+          0.22709330916404724
+        ],
+        "vertices": 40,
+        "modifiers": [
+          "NODES"
+        ]
+      },
+      {
+        "name": "jacaranda_tree_leaves_c",
+        "type": "MESH",
+        "hidden": false,
+        "viewport": false,
+        "collections": [
+          "tree.001"
+        ],
+        "min": [
+          -4.5012288093566895,
+          -0.7319483757019043,
+          0.18646270036697388
+        ],
+        "max": [
+          -4.427233695983887,
+          -0.6375377178192139,
+          0.22704632580280304
+        ],
+        "vertices": 36,
+        "modifiers": [
+          "NODES"
+        ]
+      },
+      {
+        "name": "jacaranda_tree_leaves_d",
+        "type": "MESH",
+        "hidden": false,
+        "viewport": false,
+        "collections": [
+          "tree.001"
+        ],
+        "min": [
+          -4.491499423980713,
+          -0.7321463227272034,
+          0.18839581310749054
+        ],
+        "max": [
+          -4.407899379730225,
+          -0.5638569593429565,
+          0.22100971639156342
+        ],
+        "vertices": 37,
+        "modifiers": [
+          "NODES"
+        ]
+      },
+      {
+        "name": "jacaranda_tree_leaves_a",
+        "type": "MESH",
+        "hidden": false,
+        "viewport": false,
+        "collections": [
+          "tree.001"
+        ],
+        "min": [
+          -4.554443359375,
+          -0.7317214012145996,
+          0.0913185328245163
+        ],
+        "max": [
+          -4.232319355010986,
+          -0.4207131564617157,
+          0.2221560776233673
+        ],
+        "vertices": 294,
+        "modifiers": []
+      },
+      {
+        "name": "jacaranda_tree_leaves_b",
+        "type": "MESH",
+        "hidden": false,
+        "viewport": false,
+        "collections": [
+          "tree.001"
+        ],
+        "min": [
+          -4.574730396270752,
+          -0.7317214012145996,
+          0.11097180098295212
+        ],
+        "max": [
+          -4.333996772766113,
+          -0.45620250701904297,
+          0.22506354749202728
+        ],
+        "vertices": 239,
+        "modifiers": []
+      }
+    ]
+  },
+  {
+    "slug": "projects-and-programs",
+    "source": "Project & Programs.blend",
+    "sha256": "29cdf3ef4abb8dcbf330c530944dbd60c3107fd9e833b0ac9eb7fb96670b8122",
+    "scale": 1.0,
+    "camera": "Camera.001",
+    "objects": [
+      {
+        "name": "trumpet",
+        "type": "MESH",
+        "hidden": false,
+        "viewport": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "min": [
+          -2.778376340866089,
+          -0.2160533368587494,
+          1.4550989866256714
+        ],
+        "max": [
+          -2.1236283779144287,
+          0.19923117756843567,
+          2.0065982341766357
+        ],
+        "vertices": 768,
+        "modifiers": [
+          "SUBSURF"
+        ]
+      },
+      {
+        "name": "trumoet dude",
+        "type": "MESH",
+        "hidden": false,
+        "viewport": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "min": [
+          -2.5030157566070557,
+          -0.18109111487865448,
+          0.3432181179523468
+        ],
+        "max": [
+          -1.937410593032837,
+          0.13084052503108978,
+          1.7020235061645508
+        ],
+        "vertices": 117812,
+        "modifiers": []
+      },
+      {
+        "name": "stand",
+        "type": "MESH",
+        "hidden": false,
+        "viewport": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "min": [
+          -2.423994779586792,
+          -0.29758766293525696,
+          0.00021689511777367443
+        ],
+        "max": [
+          -1.8303523063659668,
+          0.29762783646583557,
+          0.34983617067337036
+        ],
+        "vertices": 1930584,
+        "modifiers": []
+      },
+      {
+        "name": "Sphere.005",
+        "type": "MESH",
+        "hidden": false,
+        "viewport": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "min": [
+          -1.9665238857269287,
+          0.007748035714030266,
+          1.3798596858978271
+        ],
+        "max": [
+          -1.6897226572036743,
+          0.2581987679004669,
+          1.6884349584579468
+        ],
+        "vertices": 482,
+        "modifiers": [
+          "SUBSURF"
+        ]
+      },
+      {
+        "name": "Sphere",
+        "type": "MESH",
+        "hidden": false,
+        "viewport": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "min": [
+          -2.256296396255493,
+          -0.09175078570842743,
+          1.516999363899231
+        ],
+        "max": [
+          -2.0539650917053223,
+          0.06889524310827255,
+          1.708725094795227
+        ],
+        "vertices": 482,
+        "modifiers": [
+          "SUBSURF"
+        ]
+      },
+      {
+        "name": "Circle.002",
+        "type": "MESH",
+        "hidden": false,
+        "viewport": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "min": [
+          -2.555785655975342,
+          -0.26391562819480896,
+          0.4838467538356781
+        ],
+        "max": [
+          -1.6714186668395996,
+          0.35221388936042786,
+          1.5588513612747192
+        ],
+        "vertices": 136916,
+        "modifiers": []
+      },
+      {
+        "name": "Circle",
+        "type": "MESH",
+        "hidden": false,
+        "viewport": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "min": [
+          -2.6042332649230957,
+          -0.2672090232372284,
+          0.21287189424037933
+        ],
+        "max": [
+          -1.674833059310913,
+          -0.10835976153612137,
+          1.1347650289535522
+        ],
+        "vertices": 62,
+        "modifiers": [
+          "BEVEL"
+        ]
+      },
+      {
+        "name": "book",
+        "type": "MESH",
+        "hidden": false,
+        "viewport": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "min": [
+          -1.7480831146240234,
+          -0.07027526944875717,
+          1.204447865486145
+        ],
+        "max": [
+          -1.5453979969024658,
+          0.31941869854927063,
+          1.4272218942642212
+        ],
+        "vertices": 64,
+        "modifiers": []
+      },
+      {
+        "name": "Reflection Light",
+        "type": "MESH",
+        "hidden": false,
+        "viewport": false,
+        "collections": [
+          "Collection 1"
+        ],
+        "min": [
+          -7.657108306884766,
+          -3.75,
+          0.5
+        ],
+        "max": [
+          -7.657108306884766,
+          3.75,
+          5.5
+        ],
+        "vertices": 4,
+        "modifiers": []
+      },
+      {
+        "name": "Top_Softbox",
+        "type": "MESH",
+        "hidden": false,
+        "viewport": false,
+        "collections": [
+          "Collection 1"
+        ],
+        "min": [
+          -3.7500007152557373,
+          -5.000000476837158,
+          8.633896827697754
+        ],
+        "max": [
+          3.7500007152557373,
+          5.000000476837158,
+          12.633898735046387
+        ],
+        "vertices": 13,
+        "modifiers": []
+      },
+      {
+        "name": "Top_Softbox_Light",
+        "type": "MESH",
+        "hidden": false,
+        "viewport": false,
+        "collections": [
+          "Collection 1"
+        ],
+        "min": [
+          -3.75,
+          -5.0,
+          8.635313987731934
+        ],
+        "max": [
+          3.75,
+          5.0,
+          8.635313987731934
+        ],
+        "vertices": 4,
+        "modifiers": []
+      },
+      {
+        "name": "R_Softbox",
+        "type": "MESH",
+        "hidden": false,
+        "viewport": false,
+        "collections": [
+          "Collection 1"
+        ],
+        "min": [
+          -3.750000238418579,
+          -9.996460914611816,
+          0.6081199645996094
+        ],
+        "max": [
+          3.750000238418579,
+          -5.996459484100342,
+          8.10811996459961
+        ],
+        "vertices": 13,
+        "modifiers": []
+      },
+      {
+        "name": "R_Softbox_Light",
+        "type": "MESH",
+        "hidden": false,
+        "viewport": false,
+        "collections": [
+          "Collection 1"
+        ],
+        "min": [
+          -3.75,
+          -6.000000953674316,
+          0.6081199645996094
+        ],
+        "max": [
+          3.75,
+          -6.0,
+          8.10811996459961
+        ],
+        "vertices": 4,
+        "modifiers": []
+      },
+      {
+        "name": "L_Softbox",
+        "type": "MESH",
+        "hidden": false,
+        "viewport": false,
+        "collections": [
+          "Collection 1"
+        ],
+        "min": [
+          -3.75,
+          5.9964599609375,
+          0.6081199645996094
+        ],
+        "max": [
+          3.75,
+          9.9964599609375,
+          8.10811996459961
+        ],
+        "vertices": 13,
+        "modifiers": []
+      },
+      {
+        "name": "L_Softbox_Light",
+        "type": "MESH",
+        "hidden": false,
+        "viewport": false,
+        "collections": [
+          "Collection 1"
+        ],
+        "min": [
+          -3.75,
+          6.0,
+          0.6081194877624512
+        ],
+        "max": [
+          3.75,
+          6.000000953674316,
+          8.10811996459961
+        ],
+        "vertices": 4,
+        "modifiers": []
+      },
+      {
+        "name": "Backdrop",
+        "type": "MESH",
+        "hidden": false,
+        "viewport": false,
+        "collections": [
+          "Collection 1"
+        ],
+        "min": [
+          -7.8266777992248535,
+          -8.108152389526367,
+          0.0
+        ],
+        "max": [
+          6.40264892578125,
+          8.108152389526367,
+          9.917244911193848
+        ],
+        "vertices": 1105,
+        "modifiers": []
+      }
+    ]
+  },
+  {
+    "slug": "individual-category",
+    "source": "Individual Category.blend",
+    "sha256": "df4b77bf58d9203ccf84488e160228a53476c55ff1d5bd3a4879a6e8386a3132",
+    "scale": 1.0,
+    "camera": null,
+    "objects": [
+      {
+        "name": "Retopo_Sphere",
+        "type": "MESH",
+        "hidden": false,
+        "viewport": false,
+        "collections": [
+          "Collection.002"
+        ],
+        "min": [
+          -0.047531209886074066,
+          -0.0739748552441597,
+          -0.02851765789091587
+        ],
+        "max": [
+          0.18957450985908508,
+          0.07678306102752686,
+          0.3779495060443878
+        ],
+        "vertices": 30428,
+        "modifiers": []
+      }
+    ]
+  },
+  {
+    "slug": "tuff",
+    "source": "tuff.blend",
+    "sha256": "5f51a6ca7af0f23b3cfeea1e49f3cfdc674a3fe07b1473835eaca28ed9ceddf4",
+    "scale": 1.0,
+    "camera": null,
+    "objects": [
+      {
+        "name": "Cylinder.002",
+        "type": "MESH",
+        "hidden": false,
+        "viewport": false,
+        "collections": [
+          "Collection"
+        ],
+        "min": [
+          -5.099870204925537,
+          -6.258111000061035,
+          -0.41953039169311523
+        ],
+        "max": [
+          2.9547157287597656,
+          6.310727596282959,
+          14.401447296142578
+        ],
+        "vertices": 5090,
+        "modifiers": []
+      },
+      {
+        "name": "Cube.002",
+        "type": "MESH",
+        "hidden": false,
+        "viewport": false,
+        "collections": [
+          "Collection"
+        ],
+        "min": [
+          -4.248526573181152,
+          -3.8767499923706055,
+          11.475336074829102
+        ],
+        "max": [
+          4.121076583862305,
+          4.508603572845459,
+          19.803571701049805
+        ],
+        "vertices": 197768,
+        "modifiers": []
+      },
+      {
+        "name": "Cube.003",
+        "type": "MESH",
+        "hidden": false,
+        "viewport": false,
+        "collections": [
+          "Collection"
+        ],
+        "min": [
+          -1.3593449592590332,
+          1.612453579902649,
+          8.437674522399902
+        ],
+        "max": [
+          1.4436620473861694,
+          4.4207353591918945,
+          11.226827621459961
+        ],
+        "vertices": 197768,
+        "modifiers": []
+      },
+      {
+        "name": "Cylinder",
+        "type": "MESH",
+        "hidden": false,
+        "viewport": false,
+        "collections": [
+          "Collection"
+        ],
+        "min": [
+          0.3132280707359314,
+          -0.6460734605789185,
+          6.668010234832764
+        ],
+        "max": [
+          1.9382007122039795,
+          1.1403177976608276,
+          8.454401969909668
+        ],
+        "vertices": 385,
+        "modifiers": [
+          "SUBSURF"
+        ]
+      },
+      {
+        "name": "Cylinder.005",
+        "type": "MESH",
+        "hidden": false,
+        "viewport": false,
+        "collections": [
+          "Collection"
+        ],
+        "min": [
+          1.1580580472946167,
+          -1.6190133094787598,
+          1.573240876197815
+        ],
+        "max": [
+          2.488396406173706,
+          2.0543081760406494,
+          4.823991775512695
+        ],
+        "vertices": 24,
+        "modifiers": [
+          "BEVEL",
+          "SUBSURF"
+        ]
+      },
+      {
+        "name": "Cube.017",
+        "type": "MESH",
+        "hidden": false,
+        "viewport": false,
+        "collections": [
+          "Collection"
+        ],
+        "min": [
+          -1.359345555305481,
+          -4.144848346710205,
+          8.437674522399902
+        ],
+        "max": [
+          1.4436613321304321,
+          -1.33656644821167,
+          11.226827621459961
+        ],
+        "vertices": 197768,
+        "modifiers": []
+      },
+      {
+        "name": "Cylinder.004",
+        "type": "MESH",
+        "hidden": false,
+        "viewport": false,
+        "collections": [
+          "Collection"
+        ],
+        "min": [
+          -1.8495547771453857,
+          -0.6460737586021423,
+          6.668010234832764
+        ],
+        "max": [
+          -0.2245815396308899,
+          1.1403181552886963,
+          8.454401969909668
+        ],
+        "vertices": 385,
+        "modifiers": [
+          "SUBSURF"
+        ]
+      },
+      {
+        "name": "Cylinder.007",
+        "type": "MESH",
+        "hidden": false,
+        "viewport": false,
+        "collections": [
+          "Collection"
+        ],
+        "min": [
+          -2.5866267681121826,
+          -3.2674002647399902,
+          0.9206929206848145
+        ],
+        "max": [
+          2.2350564002990723,
+          3.320028066635132,
+          1.412384271621704
+        ],
+        "vertices": 288,
+        "modifiers": [
+          "SUBSURF"
+        ]
+      },
+      {
+        "name": "Cube.004",
+        "type": "MESH",
+        "hidden": false,
+        "viewport": false,
+        "collections": [
+          "earth"
+        ],
+        "min": [
+          1.8427382707595825,
+          -1.6500468254089355,
+          0.8079731464385986
+        ],
+        "max": [
+          2.6656529903411865,
+          -0.8255834579467773,
+          1.626820683479309
+        ],
+        "vertices": 197768,
+        "modifiers": []
+      },
+      {
+        "name": "Cube.005",
+        "type": "MESH",
+        "hidden": false,
+        "viewport": false,
+        "collections": [
+          "earth"
+        ],
+        "min": [
+          2.038530111312866,
+          -0.20201173424720764,
+          0.8202757835388184
+        ],
+        "max": [
+          2.8614449501037598,
+          0.622451663017273,
+          1.6391233205795288
+        ],
+        "vertices": 197768,
+        "modifiers": []
+      },
+      {
+        "name": "Cube.006",
+        "type": "MESH",
+        "hidden": false,
+        "viewport": false,
+        "collections": [
+          "earth"
+        ],
+        "min": [
+          1.894877314567566,
+          1.151464819908142,
+          0.8202757835388184
+        ],
+        "max": [
+          2.71779203414917,
+          1.9759281873703003,
+          1.6391233205795288
+        ],
+        "vertices": 197768,
+        "modifiers": []
+      },
+      {
+        "name": "Cube.007",
+        "type": "MESH",
+        "hidden": false,
+        "viewport": false,
+        "collections": [
+          "earth"
+        ],
+        "min": [
+          1.115329384803772,
+          2.3553173542022705,
+          0.8202757835388184
+        ],
+        "max": [
+          1.9382442235946655,
+          3.1797807216644287,
+          1.6391233205795288
+        ],
+        "vertices": 197768,
+        "modifiers": []
+      },
+      {
+        "name": "Cube.008",
+        "type": "MESH",
+        "hidden": false,
+        "viewport": false,
+        "collections": [
+          "earth"
+        ],
+        "min": [
+          1.1335980892181396,
+          -3.127708673477173,
+          0.8202757835388184
+        ],
+        "max": [
+          1.9565129280090332,
+          -2.3032453060150146,
+          1.6391233205795288
+        ],
+        "vertices": 197768,
+        "modifiers": []
+      },
+      {
+        "name": "Cube.009",
+        "type": "MESH",
+        "hidden": false,
+        "viewport": false,
+        "collections": [
+          "earth"
+        ],
+        "min": [
+          -0.3159583508968353,
+          -3.717771530151367,
+          0.8202757835388184
+        ],
+        "max": [
+          0.5069564580917358,
+          -2.893308162689209,
+          1.6391233205795288
+        ],
+        "vertices": 197768,
+        "modifiers": []
+      },
+      {
+        "name": "Cube.010",
+        "type": "MESH",
+        "hidden": false,
+        "viewport": false,
+        "collections": [
+          "earth"
+        ],
+        "min": [
+          -1.603071928024292,
+          -3.1655545234680176,
+          0.8202757835388184
+        ],
+        "max": [
+          -0.7801571488380432,
+          -2.3410911560058594,
+          1.6391233205795288
+        ],
+        "vertices": 197768,
+        "modifiers": []
+      },
+      {
+        "name": "Cube.012",
+        "type": "MESH",
+        "hidden": false,
+        "viewport": false,
+        "collections": [
+          "earth"
+        ],
+        "min": [
+          -2.512672185897827,
+          -2.3048813343048096,
+          0.8202757835388184
+        ],
+        "max": [
+          -1.689757227897644,
+          -1.4804179668426514,
+          1.6391233205795288
+        ],
+        "vertices": 197768,
+        "modifiers": []
+      },
+      {
+        "name": "Cube.013",
+        "type": "MESH",
+        "hidden": false,
+        "viewport": false,
+        "collections": [
+          "earth"
+        ],
+        "min": [
+          -3.0415689945220947,
+          -1.2221825122833252,
+          0.8202757835388184
+        ],
+        "max": [
+          -2.218654155731201,
+          -0.3977191746234894,
+          1.6391233205795288
+        ],
+        "vertices": 197768,
+        "modifiers": []
+      },
+      {
+        "name": "Cube.014",
+        "type": "MESH",
+        "hidden": false,
+        "viewport": false,
+        "collections": [
+          "earth"
+        ],
+        "min": [
+          -3.057753801345825,
+          0.34981223940849304,
+          0.8202757835388184
+        ],
+        "max": [
+          -2.2348389625549316,
+          1.1742756366729736,
+          1.6391233205795288
+        ],
+        "vertices": 197768,
+        "modifiers": []
+      },
+      {
+        "name": "Cube.015",
+        "type": "MESH",
+        "hidden": false,
+        "viewport": false,
+        "collections": [
+          "earth"
+        ],
+        "min": [
+          -2.2862982749938965,
+          1.455032467842102,
+          0.8202757835388184
+        ],
+        "max": [
+          -1.463383436203003,
+          2.2794957160949707,
+          1.6391233205795288
+        ],
+        "vertices": 197768,
+        "modifiers": []
+      },
+      {
+        "name": "Cube.016",
+        "type": "MESH",
+        "hidden": false,
+        "viewport": false,
+        "collections": [
+          "earth"
+        ],
+        "min": [
+          -1.5667277574539185,
+          2.415321111679077,
+          0.8202757835388184
+        ],
+        "max": [
+          -0.7438129782676697,
+          3.2397844791412354,
+          1.6391233205795288
+        ],
+        "vertices": 197768,
+        "modifiers": []
+      },
+      {
+        "name": "Cube.018",
+        "type": "MESH",
+        "hidden": false,
+        "viewport": false,
+        "collections": [
+          "earth"
+        ],
+        "min": [
+          -0.37626323103904724,
+          3.004962205886841,
+          0.8202757835388184
+        ],
+        "max": [
+          0.44665154814720154,
+          3.829425573348999,
+          1.6391233205795288
+        ],
+        "vertices": 197768,
+        "modifiers": []
+      },
+      {
+        "name": "Plane",
+        "type": "MESH",
+        "hidden": false,
+        "viewport": false,
+        "collections": [
+          "earth"
+        ],
+        "min": [
+          0.9397475719451904,
+          -2.2836954593658447,
+          4.720751762390137
+        ],
+        "max": [
+          1.6938291788101196,
+          2.6084835529327393,
+          9.322091102600098
+        ],
+        "vertices": 130,
+        "modifiers": [
+          "BEVEL",
+          "SUBSURF"
+        ]
+      },
+      {
+        "name": "Plane.001",
+        "type": "MESH",
+        "hidden": false,
+        "viewport": false,
+        "collections": [
+          "earth"
+        ],
+        "min": [
+          -1.6732404232025146,
+          -2.2836954593658447,
+          4.720751762390137
+        ],
+        "max": [
+          -0.9191588163375854,
+          2.6084835529327393,
+          9.322091102600098
+        ],
+        "vertices": 130,
+        "modifiers": [
+          "BEVEL",
+          "SUBSURF"
+        ]
+      },
+      {
+        "name": "Cylinder.001",
+        "type": "MESH",
+        "hidden": false,
+        "viewport": false,
+        "collections": [
+          "not'"
+        ],
+        "min": [
+          -4.626215934753418,
+          -3.095310926437378,
+          -6.4432854652404785
+        ],
+        "max": [
+          4.626215934753418,
+          5.099902629852295,
+          8.257080078125
+        ],
+        "vertices": 6771,
+        "modifiers": []
+      },
+      {
+        "name": "Cylinder.003",
+        "type": "MESH",
+        "hidden": false,
+        "viewport": false,
+        "collections": [
+          "not'"
+        ],
+        "min": [
+          -6.237861156463623,
+          -2.9624359607696533,
+          -4.4220170974731445
+        ],
+        "max": [
+          6.342310428619385,
+          5.101081848144531,
+          10.450160026550293
+        ],
+        "vertices": 312,
+        "modifiers": [
+          "SUBSURF"
+        ]
+      },
+      {
+        "name": "Cylinder.006",
+        "type": "MESH",
+        "hidden": false,
+        "viewport": false,
+        "collections": [
+          "not'"
+        ],
+        "min": [
+          -4.630387306213379,
+          -3.359055995941162,
+          -0.4707319736480713
+        ],
+        "max": [
+          4.630387306213379,
+          5.101081848144531,
+          14.330825805664062
+        ],
+        "vertices": 420,
+        "modifiers": [
+          "SUBSURF"
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "vit",
+    "source": "vit.blend",
+    "sha256": "178c39fa737b98a45a7e4b0eb2ed2d8f9cb9575cfc0dcabb74b3d274e9b1555b",
+    "scale": 1.0,
+    "camera": "Camera.001",
+    "objects": [
+      {
+        "name": "Cylinder.002",
+        "type": "MESH",
+        "hidden": false,
+        "viewport": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "min": [
+          -2.3623340129852295,
+          -0.08069339394569397,
+          0.010284259915351868
+        ],
+        "max": [
+          -2.2532541751861572,
+          0.0018660144414752722,
+          0.11936397105455399
+        ],
+        "vertices": 401,
+        "modifiers": [
+          "SUBSURF"
+        ]
+      },
+      {
+        "name": "Cylinder.001",
+        "type": "MESH",
+        "hidden": false,
+        "viewport": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "min": [
+          -2.6215765476226807,
+          -0.08069349825382233,
+          0.012127941474318504
+        ],
+        "max": [
+          -2.5124967098236084,
+          0.0018658830085769296,
+          0.12120763957500458
+        ],
+        "vertices": 401,
+        "modifiers": [
+          "SUBSURF"
+        ]
+      },
+      {
+        "name": "Cylinder",
+        "type": "MESH",
+        "hidden": false,
+        "viewport": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "min": [
+          -2.641655921936035,
+          -0.24148385226726532,
+          0.012707144021987915
+        ],
+        "max": [
+          -2.23519229888916,
+          0.16380305588245392,
+          0.3724931478500366
+        ],
+        "vertices": 132,
+        "modifiers": [
+          "SUBSURF"
+        ]
+      },
+      {
+        "name": "Circle.002",
+        "type": "MESH",
+        "hidden": false,
+        "viewport": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "min": [
+          -2.6644294261932373,
+          -0.26541897654533386,
+          -0.0003701038658618927
+        ],
+        "max": [
+          -2.212418794631958,
+          0.1865915060043335,
+          0.03211130201816559
+        ],
+        "vertices": 209,
+        "modifiers": [
+          "BEVEL",
+          "SUBSURF"
+        ]
+      },
+      {
+        "name": "Circle.001",
+        "type": "MESH",
+        "hidden": false,
+        "viewport": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "min": [
+          -2.641028881072998,
+          -0.1540430188179016,
+          0.23609459400177002
+        ],
+        "max": [
+          -2.235872745513916,
+          0.051824238151311874,
+          1.6016573905944824
+        ],
+        "vertices": 34,
+        "modifiers": [
+          "SOLIDIFY",
+          "BEVEL",
+          "SUBSURF"
+        ]
+      },
+      {
+        "name": "Circle",
+        "type": "MESH",
+        "hidden": false,
+        "viewport": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "min": [
+          -2.7681498527526855,
+          -0.2050294727087021,
+          0.2676228880882263
+        ],
+        "max": [
+          -2.1083898544311523,
+          0.12798742949962616,
+          1.4483147859573364
+        ],
+        "vertices": 34,
+        "modifiers": [
+          "SOLIDIFY",
+          "BEVEL",
+          "SUBSURF"
+        ]
+      },
+      {
+        "name": "Reflection Light",
+        "type": "MESH",
+        "hidden": false,
+        "viewport": false,
+        "collections": [
+          "Collection 1"
+        ],
+        "min": [
+          -7.657108306884766,
+          -3.75,
+          0.5
+        ],
+        "max": [
+          -7.657108306884766,
+          3.75,
+          5.5
+        ],
+        "vertices": 4,
+        "modifiers": []
+      },
+      {
+        "name": "Top_Softbox",
+        "type": "MESH",
+        "hidden": false,
+        "viewport": false,
+        "collections": [
+          "Collection 1"
+        ],
+        "min": [
+          -3.7500007152557373,
+          -5.000000476837158,
+          8.633896827697754
+        ],
+        "max": [
+          3.7500007152557373,
+          5.000000476837158,
+          12.633898735046387
+        ],
+        "vertices": 13,
+        "modifiers": []
+      },
+      {
+        "name": "Top_Softbox_Light",
+        "type": "MESH",
+        "hidden": false,
+        "viewport": false,
+        "collections": [
+          "Collection 1"
+        ],
+        "min": [
+          -3.75,
+          -5.0,
+          8.635313987731934
+        ],
+        "max": [
+          3.75,
+          5.0,
+          8.635313987731934
+        ],
+        "vertices": 4,
+        "modifiers": []
+      },
+      {
+        "name": "R_Softbox",
+        "type": "MESH",
+        "hidden": false,
+        "viewport": false,
+        "collections": [
+          "Collection 1"
+        ],
+        "min": [
+          -3.750000238418579,
+          -9.996460914611816,
+          0.6081199645996094
+        ],
+        "max": [
+          3.750000238418579,
+          -5.996459484100342,
+          8.10811996459961
+        ],
+        "vertices": 13,
+        "modifiers": []
+      },
+      {
+        "name": "R_Softbox_Light",
+        "type": "MESH",
+        "hidden": false,
+        "viewport": false,
+        "collections": [
+          "Collection 1"
+        ],
+        "min": [
+          -3.75,
+          -6.000000953674316,
+          0.6081199645996094
+        ],
+        "max": [
+          3.75,
+          -6.0,
+          8.10811996459961
+        ],
+        "vertices": 4,
+        "modifiers": []
+      },
+      {
+        "name": "L_Softbox",
+        "type": "MESH",
+        "hidden": false,
+        "viewport": false,
+        "collections": [
+          "Collection 1"
+        ],
+        "min": [
+          -3.75,
+          5.9964599609375,
+          0.6081199645996094
+        ],
+        "max": [
+          3.75,
+          9.9964599609375,
+          8.10811996459961
+        ],
+        "vertices": 13,
+        "modifiers": []
+      },
+      {
+        "name": "L_Softbox_Light",
+        "type": "MESH",
+        "hidden": false,
+        "viewport": false,
+        "collections": [
+          "Collection 1"
+        ],
+        "min": [
+          -3.75,
+          6.0,
+          0.6081194877624512
+        ],
+        "max": [
+          3.75,
+          6.000000953674316,
+          8.10811996459961
+        ],
+        "vertices": 4,
+        "modifiers": []
+      },
+      {
+        "name": "Backdrop",
+        "type": "MESH",
+        "hidden": false,
+        "viewport": false,
+        "collections": [
+          "Collection 1"
+        ],
+        "min": [
+          -7.8266777992248535,
+          -8.093935012817383,
+          3.156822724835629e-18
+        ],
+        "max": [
+          6.40264892578125,
+          8.122369766235352,
+          9.917244911193848
+        ],
+        "vertices": 1105,
+        "modifiers": []
+      }
+    ]
+  },
+  {
+    "slug": "medal",
+    "source": "medal.blend",
+    "sha256": "1419ab4585ad592603d7a484a7c9fc27a22bf4a63cd92c39dad2b49e24a28d86",
+    "scale": 1.0,
+    "camera": "Camera.001",
+    "objects": [
+      {
+        "name": "Cylinder",
+        "type": "MESH",
+        "hidden": true,
+        "viewport": true,
+        "collections": [
+          "Scene Collection"
+        ],
+        "min": [
+          -2.843212842941284,
+          0.09105555713176727,
+          0.20497341454029083
+        ],
+        "max": [
+          -1.5805720090866089,
+          0.14607128500938416,
+          1.4413964748382568
+        ],
+        "vertices": 58860,
+        "modifiers": []
+      },
+      {
+        "name": "Cylinder.001",
+        "type": "MESH",
+        "hidden": false,
+        "viewport": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "min": [
+          -0.20402704179286957,
+          -0.5934880375862122,
+          0.33785760402679443
+        ],
+        "max": [
+          -0.061862003058195114,
+          0.593488335609436,
+          1.3743467330932617
+        ],
+        "vertices": 3026,
+        "modifiers": [
+          "BOOLEAN",
+          "BOOLEAN",
+          "BOOLEAN",
+          "BOOLEAN",
+          "BOOLEAN",
+          "BOOLEAN",
+          "BOOLEAN",
+          "BOOLEAN",
+          "BOOLEAN"
+        ]
+      },
+      {
+        "name": "Cylinder.002",
+        "type": "MESH",
+        "hidden": false,
+        "viewport": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "min": [
+          -0.13072019815444946,
+          -0.9935594797134399,
+          0.026899097487330437
+        ],
+        "max": [
+          -0.010526551865041256,
+          0.9935594797134399,
+          2.0140180587768555
+        ],
+        "vertices": 62101,
+        "modifiers": []
+      },
+      {
+        "name": "Circle.001",
+        "type": "MESH",
+        "hidden": false,
+        "viewport": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "min": [
+          -0.09714099764823914,
+          -0.16890181601047516,
+          1.9706765413284302
+        ],
+        "max": [
+          -0.03404892235994339,
+          0.21797993779182434,
+          2.123253107070923
+        ],
+        "vertices": 288,
+        "modifiers": [
+          "SUBSURF"
+        ]
+      },
+      {
+        "name": "Reflection Light",
+        "type": "MESH",
+        "hidden": false,
+        "viewport": false,
+        "collections": [
+          "Collection 1"
+        ],
+        "min": [
+          -7.657108306884766,
+          -3.75,
+          0.5
+        ],
+        "max": [
+          -7.657108306884766,
+          3.75,
+          5.5
+        ],
+        "vertices": 4,
+        "modifiers": []
+      },
+      {
+        "name": "Top_Softbox",
+        "type": "MESH",
+        "hidden": false,
+        "viewport": false,
+        "collections": [
+          "Collection 1"
+        ],
+        "min": [
+          -3.7500007152557373,
+          -5.000000476837158,
+          8.633896827697754
+        ],
+        "max": [
+          3.7500007152557373,
+          5.000000476837158,
+          12.633898735046387
+        ],
+        "vertices": 13,
+        "modifiers": []
+      },
+      {
+        "name": "Top_Softbox_Light",
+        "type": "MESH",
+        "hidden": false,
+        "viewport": false,
+        "collections": [
+          "Collection 1"
+        ],
+        "min": [
+          -3.75,
+          -5.0,
+          8.635313987731934
+        ],
+        "max": [
+          3.75,
+          5.0,
+          8.635313987731934
+        ],
+        "vertices": 4,
+        "modifiers": []
+      },
+      {
+        "name": "R_Softbox",
+        "type": "MESH",
+        "hidden": false,
+        "viewport": false,
+        "collections": [
+          "Collection 1"
+        ],
+        "min": [
+          -3.750000238418579,
+          -9.996460914611816,
+          0.6081199645996094
+        ],
+        "max": [
+          3.750000238418579,
+          -5.996459484100342,
+          8.10811996459961
+        ],
+        "vertices": 13,
+        "modifiers": []
+      },
+      {
+        "name": "R_Softbox_Light",
+        "type": "MESH",
+        "hidden": false,
+        "viewport": false,
+        "collections": [
+          "Collection 1"
+        ],
+        "min": [
+          -3.75,
+          -6.000000953674316,
+          0.6081199645996094
+        ],
+        "max": [
+          3.75,
+          -6.0,
+          8.10811996459961
+        ],
+        "vertices": 4,
+        "modifiers": []
+      },
+      {
+        "name": "L_Softbox",
+        "type": "MESH",
+        "hidden": false,
+        "viewport": false,
+        "collections": [
+          "Collection 1"
+        ],
+        "min": [
+          -3.75,
+          5.9964599609375,
+          0.6081199645996094
+        ],
+        "max": [
+          3.75,
+          9.9964599609375,
+          8.10811996459961
+        ],
+        "vertices": 13,
+        "modifiers": []
+      },
+      {
+        "name": "L_Softbox_Light",
+        "type": "MESH",
+        "hidden": false,
+        "viewport": false,
+        "collections": [
+          "Collection 1"
+        ],
+        "min": [
+          -3.75,
+          6.0,
+          0.6081194877624512
+        ],
+        "max": [
+          3.75,
+          6.000000953674316,
+          8.10811996459961
+        ],
+        "vertices": 4,
+        "modifiers": []
+      },
+      {
+        "name": "Backdrop",
+        "type": "MESH",
+        "hidden": false,
+        "viewport": false,
+        "collections": [
+          "Collection 1"
+        ],
+        "min": [
+          -7.8266777992248535,
+          -8.108152389526367,
+          0.0
+        ],
+        "max": [
+          6.40264892578125,
+          8.108152389526367,
+          9.917244911193848
+        ],
+        "vertices": 1105,
+        "modifiers": []
+      }
+    ]
+  }
+]

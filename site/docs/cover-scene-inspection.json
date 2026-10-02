@@ -1,0 +1,8799 @@
+{
+  "confluence": {
+    "source": "C:\\Users\\Master\\Documents\\itura\\PORFOLIO PIECES\\BlenderKit_Beauty\\Confluence_Environment.blend",
+    "sha256": "c71b15cb51fdad36fbbce1efca55b211605e69469920bb9780fd5adcc2aff076",
+    "camera": "Camera.004",
+    "resolution": [
+      2400,
+      2400
+    ],
+    "collections": [
+      {
+        "name": "Arpa Open double-sided bookcase",
+        "hide_render": false,
+        "objects": 2,
+        "children": []
+      },
+      {
+        "name": "Book Harry Potter",
+        "hide_render": false,
+        "objects": 1,
+        "children": []
+      },
+      {
+        "name": "Cam",
+        "hide_render": false,
+        "objects": 2,
+        "children": []
+      },
+      {
+        "name": "Collection",
+        "hide_render": false,
+        "objects": 3,
+        "children": []
+      },
+      {
+        "name": "Collection.001",
+        "hide_render": false,
+        "objects": 8,
+        "children": []
+      },
+      {
+        "name": "Collection.002",
+        "hide_render": false,
+        "objects": 9,
+        "children": []
+      },
+      {
+        "name": "Collection.003",
+        "hide_render": false,
+        "objects": 27,
+        "children": [
+          "Tola Dining Chair",
+          "Platner Table",
+          "Raining lights carpet",
+          "Book Harry Potter",
+          "Turkish tea",
+          "Arpa Open double-sided bookcase",
+          "Sono Salmon Rug by The Rug Company",
+          "Wander Rug",
+          "Modern Rug"
+        ]
+      },
+      {
+        "name": "Environment",
+        "hide_render": false,
+        "objects": 5,
+        "children": []
+      },
+      {
+        "name": "Light",
+        "hide_render": false,
+        "objects": 3,
+        "children": []
+      },
+      {
+        "name": "LIghts",
+        "hide_render": false,
+        "objects": 7,
+        "children": []
+      },
+      {
+        "name": "Modern Rug",
+        "hide_render": false,
+        "objects": 1,
+        "children": []
+      },
+      {
+        "name": "Object",
+        "hide_render": false,
+        "objects": 1,
+        "children": []
+      },
+      {
+        "name": "Platner Table",
+        "hide_render": false,
+        "objects": 5,
+        "children": []
+      },
+      {
+        "name": "Raining lights carpet",
+        "hide_render": false,
+        "objects": 1,
+        "children": []
+      },
+      {
+        "name": "Sono Salmon Rug by The Rug Company",
+        "hide_render": false,
+        "objects": 7,
+        "children": []
+      },
+      {
+        "name": "Tola Dining Chair",
+        "hide_render": false,
+        "objects": 27,
+        "children": []
+      },
+      {
+        "name": "Turkish tea",
+        "hide_render": false,
+        "objects": 20,
+        "children": []
+      },
+      {
+        "name": "Wander Rug",
+        "hide_render": false,
+        "objects": 1,
+        "children": []
+      }
+    ],
+    "objects": [
+      {
+        "name": "Confluence finished metal \u2014 single solid",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 221941
+      },
+      {
+        "name": "Center presentation stone",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 65
+      },
+      {
+        "name": "Left presentation stone",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 65
+      },
+      {
+        "name": "Right presentation stone",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 65
+      },
+      {
+        "name": "Jewellery travertine dish",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 192
+      },
+      {
+        "name": "Macro silk",
+        "type": "LIGHT",
+        "hidden": true,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 0
+      },
+      {
+        "name": "Macro strip",
+        "type": "LIGHT",
+        "hidden": true,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 0
+      },
+      {
+        "name": "Macro fill",
+        "type": "LIGHT",
+        "hidden": true,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 0
+      },
+      {
+        "name": "Room silk key",
+        "type": "LIGHT",
+        "hidden": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 0
+      },
+      {
+        "name": "Room rim",
+        "type": "LIGHT",
+        "hidden": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 0
+      },
+      {
+        "name": "Room fill",
+        "type": "LIGHT",
+        "hidden": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 0
+      },
+      {
+        "name": "Table set Planter table and Tola Chair",
+        "type": "EMPTY",
+        "hidden": false,
+        "collections": [
+          "Collection.003"
+        ],
+        "vertices": 0
+      },
+      {
+        "name": "Plane.022",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Collection.003"
+        ],
+        "vertices": 363
+      },
+      {
+        "name": "Camera.004",
+        "type": "CAMERA",
+        "hidden": false,
+        "collections": [
+          "Collection.003"
+        ],
+        "vertices": 0
+      },
+      {
+        "name": "Plane.027",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Collection.003"
+        ],
+        "vertices": 16
+      },
+      {
+        "name": "Window",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Collection.003"
+        ],
+        "vertices": 144
+      },
+      {
+        "name": "Window_Group",
+        "type": "EMPTY",
+        "hidden": false,
+        "collections": [
+          "Collection.003"
+        ],
+        "vertices": 0
+      },
+      {
+        "name": "CTRL_Hole",
+        "type": "MESH",
+        "hidden": true,
+        "collections": [
+          "Collection.003"
+        ],
+        "vertices": 8
+      },
+      {
+        "name": "Sun",
+        "type": "LIGHT",
+        "hidden": false,
+        "collections": [
+          "Collection.003"
+        ],
+        "vertices": 0
+      },
+      {
+        "name": "Icosphere.001",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Collection.003"
+        ],
+        "vertices": 42
+      },
+      {
+        "name": "Cube.007",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Collection.003"
+        ],
+        "vertices": 8
+      },
+      {
+        "name": "Tense Pendant Lamp",
+        "type": "EMPTY",
+        "hidden": false,
+        "collections": [
+          "Collection.003"
+        ],
+        "vertices": 0
+      },
+      {
+        "name": "Point-C 120x180_spot.004",
+        "type": "LIGHT",
+        "hidden": false,
+        "collections": [
+          "Collection.003"
+        ],
+        "vertices": 0
+      },
+      {
+        "name": "Cylinder.006",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Collection.003"
+        ],
+        "vertices": 352
+      },
+      {
+        "name": "Cylinder.004",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Collection.003"
+        ],
+        "vertices": 258
+      },
+      {
+        "name": "Cylinder.005",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Collection.003"
+        ],
+        "vertices": 608
+      },
+      {
+        "name": "Cylinder.007",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Collection.003"
+        ],
+        "vertices": 64
+      },
+      {
+        "name": "Cube.045",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Collection.003"
+        ],
+        "vertices": 154
+      },
+      {
+        "name": "Cube.044",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Collection.003"
+        ],
+        "vertices": 12
+      },
+      {
+        "name": "Cube.008",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Collection.003"
+        ],
+        "vertices": 8
+      },
+      {
+        "name": "Circle.020",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Collection.003"
+        ],
+        "vertices": 960
+      },
+      {
+        "name": "Circle.021",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Collection.003"
+        ],
+        "vertices": 608
+      },
+      {
+        "name": "Plane.028",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Collection.003"
+        ],
+        "vertices": 363
+      },
+      {
+        "name": "Plane.029",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Collection.003"
+        ],
+        "vertices": 16
+      },
+      {
+        "name": "Plane.030",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Collection.003"
+        ],
+        "vertices": 4
+      },
+      {
+        "name": "Plane.031",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Collection.003"
+        ],
+        "vertices": 4
+      },
+      {
+        "name": "Plane.032",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Collection.003"
+        ],
+        "vertices": 4
+      },
+      {
+        "name": "Plane.033",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Collection.003"
+        ],
+        "vertices": 8
+      },
+      {
+        "name": "Plane.005",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Tola Dining Chair"
+        ],
+        "vertices": 378
+      },
+      {
+        "name": "Plane.004",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Tola Dining Chair"
+        ],
+        "vertices": 8
+      },
+      {
+        "name": "Plane.003",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Tola Dining Chair"
+        ],
+        "vertices": 12
+      },
+      {
+        "name": "Plane.006",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Tola Dining Chair"
+        ],
+        "vertices": 48
+      },
+      {
+        "name": "Plane.007",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Tola Dining Chair"
+        ],
+        "vertices": 312
+      },
+      {
+        "name": "Cube.002",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Tola Dining Chair"
+        ],
+        "vertices": 32
+      },
+      {
+        "name": "Circle",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Tola Dining Chair"
+        ],
+        "vertices": 306
+      },
+      {
+        "name": "Plane.008",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Tola Dining Chair"
+        ],
+        "vertices": 378
+      },
+      {
+        "name": "Plane.009",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Tola Dining Chair"
+        ],
+        "vertices": 8
+      },
+      {
+        "name": "Plane.010",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Tola Dining Chair"
+        ],
+        "vertices": 12
+      },
+      {
+        "name": "Plane.011",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Tola Dining Chair"
+        ],
+        "vertices": 48
+      },
+      {
+        "name": "Plane.012",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Tola Dining Chair"
+        ],
+        "vertices": 312
+      },
+      {
+        "name": "Cube.003",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Tola Dining Chair"
+        ],
+        "vertices": 32
+      },
+      {
+        "name": "Circle.003",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Tola Dining Chair"
+        ],
+        "vertices": 306
+      },
+      {
+        "name": "Plane.013",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Tola Dining Chair"
+        ],
+        "vertices": 378
+      },
+      {
+        "name": "Plane.014",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Tola Dining Chair"
+        ],
+        "vertices": 8
+      },
+      {
+        "name": "Plane.015",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Tola Dining Chair"
+        ],
+        "vertices": 48
+      },
+      {
+        "name": "Plane.016",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Tola Dining Chair"
+        ],
+        "vertices": 312
+      },
+      {
+        "name": "Cube.004",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Tola Dining Chair"
+        ],
+        "vertices": 32
+      },
+      {
+        "name": "Circle.004",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Tola Dining Chair"
+        ],
+        "vertices": 306
+      },
+      {
+        "name": "Plane.017",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Tola Dining Chair"
+        ],
+        "vertices": 378
+      },
+      {
+        "name": "Plane.018",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Tola Dining Chair"
+        ],
+        "vertices": 8
+      },
+      {
+        "name": "Plane.019",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Tola Dining Chair"
+        ],
+        "vertices": 12
+      },
+      {
+        "name": "Plane.020",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Tola Dining Chair"
+        ],
+        "vertices": 48
+      },
+      {
+        "name": "Plane.021",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Tola Dining Chair"
+        ],
+        "vertices": 312
+      },
+      {
+        "name": "Cube.005",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Tola Dining Chair"
+        ],
+        "vertices": 32
+      },
+      {
+        "name": "Circle.005",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Tola Dining Chair"
+        ],
+        "vertices": 306
+      },
+      {
+        "name": "Platner Table",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Platner Table"
+        ],
+        "vertices": 7488
+      },
+      {
+        "name": "Circle.006",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Platner Table"
+        ],
+        "vertices": 672
+      },
+      {
+        "name": "Circle.007",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Platner Table"
+        ],
+        "vertices": 322
+      },
+      {
+        "name": "B\u00e9zierCircle.001",
+        "type": "CURVE",
+        "hidden": false,
+        "collections": [
+          "Platner Table"
+        ],
+        "vertices": 0
+      },
+      {
+        "name": "B\u00e9zierCircle",
+        "type": "CURVE",
+        "hidden": false,
+        "collections": [
+          "Platner Table"
+        ],
+        "vertices": 0
+      },
+      {
+        "name": "Raining lights carpet",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Raining lights carpet"
+        ],
+        "vertices": 794
+      },
+      {
+        "name": "Book Harry Potter",
+        "type": "MESH",
+        "hidden": true,
+        "collections": [
+          "Book Harry Potter"
+        ],
+        "vertices": 164
+      },
+      {
+        "name": "Turkish tea",
+        "type": "EMPTY",
+        "hidden": false,
+        "collections": [
+          "Turkish tea"
+        ],
+        "vertices": 0
+      },
+      {
+        "name": "Plane.023",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Turkish tea"
+        ],
+        "vertices": 160
+      },
+      {
+        "name": "Circle.008",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Turkish tea"
+        ],
+        "vertices": 256
+      },
+      {
+        "name": "Circle.009",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Turkish tea"
+        ],
+        "vertices": 448
+      },
+      {
+        "name": "Circle.010",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Turkish tea"
+        ],
+        "vertices": 674
+      },
+      {
+        "name": "Turkish tea.001",
+        "type": "EMPTY",
+        "hidden": false,
+        "collections": [
+          "Turkish tea"
+        ],
+        "vertices": 0
+      },
+      {
+        "name": "Plane.024",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Turkish tea"
+        ],
+        "vertices": 160
+      },
+      {
+        "name": "Circle.011",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Turkish tea"
+        ],
+        "vertices": 256
+      },
+      {
+        "name": "Circle.012",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Turkish tea"
+        ],
+        "vertices": 448
+      },
+      {
+        "name": "Circle.013",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Turkish tea"
+        ],
+        "vertices": 674
+      },
+      {
+        "name": "Turkish tea.002",
+        "type": "EMPTY",
+        "hidden": false,
+        "collections": [
+          "Turkish tea"
+        ],
+        "vertices": 0
+      },
+      {
+        "name": "Plane.025",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Turkish tea"
+        ],
+        "vertices": 160
+      },
+      {
+        "name": "Circle.014",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Turkish tea"
+        ],
+        "vertices": 256
+      },
+      {
+        "name": "Circle.015",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Turkish tea"
+        ],
+        "vertices": 448
+      },
+      {
+        "name": "Circle.016",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Turkish tea"
+        ],
+        "vertices": 674
+      },
+      {
+        "name": "Turkish tea.003",
+        "type": "EMPTY",
+        "hidden": false,
+        "collections": [
+          "Turkish tea"
+        ],
+        "vertices": 0
+      },
+      {
+        "name": "Plane.026",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Turkish tea"
+        ],
+        "vertices": 160
+      },
+      {
+        "name": "Circle.017",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Turkish tea"
+        ],
+        "vertices": 256
+      },
+      {
+        "name": "Circle.018",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Turkish tea"
+        ],
+        "vertices": 448
+      },
+      {
+        "name": "Circle.019",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Turkish tea"
+        ],
+        "vertices": 674
+      },
+      {
+        "name": "Cube.006",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Arpa Open double-sided bookcase"
+        ],
+        "vertices": 3024
+      },
+      {
+        "name": "Arpa Open double-sided bookcase",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Arpa Open double-sided bookcase"
+        ],
+        "vertices": 2050
+      },
+      {
+        "name": "Sono Salmon Rug by The Rug Company",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Sono Salmon Rug by The Rug Company"
+        ],
+        "vertices": 834
+      },
+      {
+        "name": "Sono Salmon Rug by The Rug Company.001",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Sono Salmon Rug by The Rug Company"
+        ],
+        "vertices": 68
+      },
+      {
+        "name": "Sono Salmon Rug by The Rug Company.002",
+        "type": "CURVE",
+        "hidden": false,
+        "collections": [
+          "Sono Salmon Rug by The Rug Company"
+        ],
+        "vertices": 0
+      },
+      {
+        "name": "Sono Salmon Rug by The Rug Company.003",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Sono Salmon Rug by The Rug Company"
+        ],
+        "vertices": 68
+      },
+      {
+        "name": "Sono Salmon Rug by The Rug Company.004",
+        "type": "CURVE",
+        "hidden": false,
+        "collections": [
+          "Sono Salmon Rug by The Rug Company"
+        ],
+        "vertices": 0
+      },
+      {
+        "name": "Sono Salmon Rug by The Rug Company.005",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Sono Salmon Rug by The Rug Company"
+        ],
+        "vertices": 68
+      },
+      {
+        "name": "Sono Salmon Rug by The Rug Company.006",
+        "type": "CURVE",
+        "hidden": false,
+        "collections": [
+          "Sono Salmon Rug by The Rug Company"
+        ],
+        "vertices": 0
+      },
+      {
+        "name": "Wander Rug.002",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Wander Rug"
+        ],
+        "vertices": 794
+      },
+      {
+        "name": "Modern Rug",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Modern Rug"
+        ],
+        "vertices": 794
+      }
+    ]
+  },
+  "iced-out-ring": {
+    "source": "C:\\Users\\Master\\Documents\\itura\\PORFOLIO PIECES\\BlenderKit_Beauty\\Iced_Ring_Gallery.blend",
+    "sha256": "933ae5bbb1f4250d2c5d2aeef964aaebe3a16c9bd37d58efa6f3b2643195ad7f",
+    "camera": "Camera.002",
+    "resolution": [
+      3000,
+      2250
+    ],
+    "collections": [
+      {
+        "name": "Collection",
+        "hide_render": false,
+        "objects": 3,
+        "children": []
+      },
+      {
+        "name": "Collection.001",
+        "hide_render": false,
+        "objects": 8,
+        "children": []
+      },
+      {
+        "name": "Collection.002",
+        "hide_render": false,
+        "objects": 28,
+        "children": []
+      },
+      {
+        "name": "LIghts",
+        "hide_render": false,
+        "objects": 7,
+        "children": []
+      }
+    ],
+    "objects": [
+      {
+        "name": "Ring beauty - refined prongs",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 313023
+      },
+      {
+        "name": "Diamond_CentreUpper_01",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 112
+      },
+      {
+        "name": "Diamond_CentreUpper_02",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 112
+      },
+      {
+        "name": "Diamond_CentreUpper_03",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 112
+      },
+      {
+        "name": "Diamond_CentreUpper_04",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 112
+      },
+      {
+        "name": "Diamond_CentreUpper_05",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 112
+      },
+      {
+        "name": "Diamond_CentreUpper_06",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 112
+      },
+      {
+        "name": "Diamond_CentreUpper_07",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 112
+      },
+      {
+        "name": "Diamond_CentreUpper_08",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 112
+      },
+      {
+        "name": "Diamond_CentreUpper_09",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 112
+      },
+      {
+        "name": "Diamond_CentreUpper_10",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 112
+      },
+      {
+        "name": "Diamond_CentreUpper_11",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 112
+      },
+      {
+        "name": "Diamond_CentreUpper_12",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 112
+      },
+      {
+        "name": "Diamond_CentreUpper_13",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 112
+      },
+      {
+        "name": "Diamond_CentreUpper_14",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 112
+      },
+      {
+        "name": "Diamond_CentreUpper_15",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 112
+      },
+      {
+        "name": "Diamond_CentreUpper_16",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 112
+      },
+      {
+        "name": "Diamond_CentreUpper_17",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 112
+      },
+      {
+        "name": "Diamond_CentreUpper_18",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 112
+      },
+      {
+        "name": "Diamond_CentreUpper_19",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 112
+      },
+      {
+        "name": "Diamond_CentreUpper_20",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 112
+      },
+      {
+        "name": "Diamond_CentreUpper_21",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 112
+      },
+      {
+        "name": "Diamond_CentreUpper_22",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 112
+      },
+      {
+        "name": "Diamond_CentreUpper_23",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 112
+      },
+      {
+        "name": "Diamond_CentreUpper_24",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 112
+      },
+      {
+        "name": "Diamond_CentreUpper_25",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 112
+      },
+      {
+        "name": "Diamond_CentreUpper_26",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 112
+      },
+      {
+        "name": "Diamond_CentreUpper_27",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 112
+      },
+      {
+        "name": "Diamond_CentreUpper_28",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 112
+      },
+      {
+        "name": "Diamond_CentreUpper_29",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 112
+      },
+      {
+        "name": "Diamond_CentreUpper_30",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 112
+      },
+      {
+        "name": "Diamond_CentreUpper_31",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 112
+      },
+      {
+        "name": "Diamond_CentreUpper_32",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 112
+      },
+      {
+        "name": "Diamond_CentreUpper_33",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 112
+      },
+      {
+        "name": "Diamond_CentreUpper_34",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 112
+      },
+      {
+        "name": "Diamond_CentreUpper_35",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 112
+      },
+      {
+        "name": "Diamond_CentreUpper_36",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 112
+      },
+      {
+        "name": "Diamond_CentreUpper_37",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 112
+      },
+      {
+        "name": "Diamond_CentreUpper_38",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 112
+      },
+      {
+        "name": "Diamond_CentreUpper_39",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 112
+      },
+      {
+        "name": "Diamond_CentreUpper_40",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 112
+      },
+      {
+        "name": "Diamond_CentreUpper_41",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 112
+      },
+      {
+        "name": "Diamond_CentreUpper_42",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 112
+      },
+      {
+        "name": "Diamond_CentreUpper_43",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 112
+      },
+      {
+        "name": "Diamond_CentreUpper_44",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 112
+      },
+      {
+        "name": "Diamond_CentreUpper_45",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 112
+      },
+      {
+        "name": "Diamond_CentreUpper_46",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 112
+      },
+      {
+        "name": "Diamond_CentreUpper_47",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 112
+      },
+      {
+        "name": "Diamond_CentreUpper_48",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 112
+      },
+      {
+        "name": "Diamond_CentreUpper_49",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 112
+      },
+      {
+        "name": "Diamond_CentreUpper_50",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 112
+      },
+      {
+        "name": "Diamond_CentreUpper_51",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 112
+      },
+      {
+        "name": "Diamond_CentreUpper_52",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 112
+      },
+      {
+        "name": "Diamond_CentreLower_01",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 112
+      },
+      {
+        "name": "Diamond_CentreLower_02",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 112
+      },
+      {
+        "name": "Diamond_CentreLower_03",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 112
+      },
+      {
+        "name": "Diamond_CentreLower_04",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 112
+      },
+      {
+        "name": "Diamond_CentreLower_05",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 112
+      },
+      {
+        "name": "Diamond_CentreLower_06",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 112
+      },
+      {
+        "name": "Diamond_CentreLower_07",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 112
+      },
+      {
+        "name": "Diamond_CentreLower_08",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 112
+      },
+      {
+        "name": "Diamond_CentreLower_09",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 112
+      },
+      {
+        "name": "Diamond_CentreLower_10",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 112
+      },
+      {
+        "name": "Diamond_CentreLower_11",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 112
+      },
+      {
+        "name": "Diamond_CentreLower_12",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 112
+      },
+      {
+        "name": "Diamond_CentreLower_13",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 112
+      },
+      {
+        "name": "Diamond_CentreLower_14",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 112
+      },
+      {
+        "name": "Diamond_CentreLower_15",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 112
+      },
+      {
+        "name": "Diamond_CentreLower_16",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 112
+      },
+      {
+        "name": "Diamond_CentreLower_17",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 112
+      },
+      {
+        "name": "Diamond_CentreLower_18",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 112
+      },
+      {
+        "name": "Diamond_CentreLower_19",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 112
+      },
+      {
+        "name": "Diamond_CentreLower_20",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 112
+      },
+      {
+        "name": "Diamond_CentreLower_21",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 112
+      },
+      {
+        "name": "Diamond_CentreLower_22",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 112
+      },
+      {
+        "name": "Diamond_CentreLower_23",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 112
+      },
+      {
+        "name": "Diamond_CentreLower_24",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 112
+      },
+      {
+        "name": "Diamond_CentreLower_25",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 112
+      },
+      {
+        "name": "Diamond_CentreLower_26",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 112
+      },
+      {
+        "name": "Diamond_CentreLower_27",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 112
+      },
+      {
+        "name": "Diamond_CentreLower_28",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 112
+      },
+      {
+        "name": "Diamond_CentreLower_29",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 112
+      },
+      {
+        "name": "Diamond_CentreLower_30",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 112
+      },
+      {
+        "name": "Diamond_CentreLower_31",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 112
+      },
+      {
+        "name": "Diamond_CentreLower_32",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 112
+      },
+      {
+        "name": "Diamond_CentreLower_33",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 112
+      },
+      {
+        "name": "Diamond_CentreLower_34",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 112
+      },
+      {
+        "name": "Diamond_CentreLower_35",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 112
+      },
+      {
+        "name": "Diamond_CentreLower_36",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 112
+      },
+      {
+        "name": "Diamond_CentreLower_37",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 112
+      },
+      {
+        "name": "Diamond_CentreLower_38",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 112
+      },
+      {
+        "name": "Diamond_CentreLower_39",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 112
+      },
+      {
+        "name": "Diamond_CentreLower_40",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 112
+      },
+      {
+        "name": "Diamond_CentreLower_41",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 112
+      },
+      {
+        "name": "Diamond_CentreLower_42",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 112
+      },
+      {
+        "name": "Diamond_CentreLower_43",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 112
+      },
+      {
+        "name": "Diamond_CentreLower_44",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 112
+      },
+      {
+        "name": "Diamond_CentreLower_45",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 112
+      },
+      {
+        "name": "Diamond_CentreLower_46",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 112
+      },
+      {
+        "name": "Diamond_CentreLower_47",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 112
+      },
+      {
+        "name": "Diamond_CentreLower_48",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 112
+      },
+      {
+        "name": "Diamond_CentreLower_49",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 112
+      },
+      {
+        "name": "Diamond_CentreLower_50",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 112
+      },
+      {
+        "name": "Diamond_CentreLower_51",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 112
+      },
+      {
+        "name": "Diamond_CentreLower_52",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 112
+      },
+      {
+        "name": "Diamond_Upper_01",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 112
+      },
+      {
+        "name": "Diamond_Upper_02",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 112
+      },
+      {
+        "name": "Diamond_Upper_03",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 112
+      },
+      {
+        "name": "Diamond_Upper_04",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 112
+      },
+      {
+        "name": "Diamond_Upper_05",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 112
+      },
+      {
+        "name": "Diamond_Upper_06",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 112
+      },
+      {
+        "name": "Diamond_Upper_07",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 112
+      },
+      {
+        "name": "Diamond_Upper_08",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 112
+      },
+      {
+        "name": "Diamond_Upper_09",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 112
+      },
+      {
+        "name": "Diamond_Upper_10",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 112
+      },
+      {
+        "name": "Diamond_Upper_11",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 112
+      },
+      {
+        "name": "Diamond_Upper_12",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 112
+      },
+      {
+        "name": "Diamond_Upper_13",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 112
+      },
+      {
+        "name": "Diamond_Upper_14",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 112
+      },
+      {
+        "name": "Diamond_Upper_15",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 112
+      },
+      {
+        "name": "Diamond_Upper_16",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 112
+      },
+      {
+        "name": "Diamond_Upper_17",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 112
+      },
+      {
+        "name": "Diamond_Upper_18",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 112
+      },
+      {
+        "name": "Diamond_Upper_19",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 112
+      },
+      {
+        "name": "Diamond_Upper_20",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 112
+      },
+      {
+        "name": "Diamond_Upper_21",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 112
+      },
+      {
+        "name": "Diamond_Upper_22",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 112
+      },
+      {
+        "name": "Diamond_Upper_23",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 112
+      },
+      {
+        "name": "Diamond_Upper_24",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 112
+      },
+      {
+        "name": "Diamond_Upper_25",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 112
+      },
+      {
+        "name": "Diamond_Upper_26",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 112
+      },
+      {
+        "name": "Diamond_Upper_27",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 112
+      },
+      {
+        "name": "Diamond_Upper_28",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 112
+      },
+      {
+        "name": "Diamond_Upper_29",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 112
+      },
+      {
+        "name": "Diamond_Upper_30",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 112
+      },
+      {
+        "name": "Diamond_Upper_31",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 112
+      },
+      {
+        "name": "Diamond_Upper_32",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 112
+      },
+      {
+        "name": "Diamond_Upper_33",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 112
+      },
+      {
+        "name": "Diamond_Upper_34",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 112
+      },
+      {
+        "name": "Diamond_Upper_35",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 112
+      },
+      {
+        "name": "Diamond_Upper_36",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 112
+      },
+      {
+        "name": "Diamond_Upper_37",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 112
+      },
+      {
+        "name": "Diamond_Upper_38",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 112
+      },
+      {
+        "name": "Diamond_Upper_39",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 112
+      },
+      {
+        "name": "Diamond_Upper_40",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 112
+      },
+      {
+        "name": "Diamond_Upper_41",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 112
+      },
+      {
+        "name": "Diamond_Upper_42",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 112
+      },
+      {
+        "name": "Diamond_Upper_43",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 112
+      },
+      {
+        "name": "Diamond_Upper_44",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 112
+      },
+      {
+        "name": "Diamond_Upper_45",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 112
+      },
+      {
+        "name": "Diamond_Upper_46",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 112
+      },
+      {
+        "name": "Diamond_Upper_47",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 112
+      },
+      {
+        "name": "Diamond_Upper_48",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 112
+      },
+      {
+        "name": "Diamond_Upper_49",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 112
+      },
+      {
+        "name": "Diamond_Upper_50",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 112
+      },
+      {
+        "name": "Diamond_Upper_51",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 112
+      },
+      {
+        "name": "Diamond_Upper_52",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 112
+      },
+      {
+        "name": "Diamond_Lower_01",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 112
+      },
+      {
+        "name": "Diamond_Lower_02",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 112
+      },
+      {
+        "name": "Diamond_Lower_03",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 112
+      },
+      {
+        "name": "Diamond_Lower_04",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 112
+      },
+      {
+        "name": "Diamond_Lower_05",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 112
+      },
+      {
+        "name": "Diamond_Lower_06",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 112
+      },
+      {
+        "name": "Diamond_Lower_07",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 112
+      },
+      {
+        "name": "Diamond_Lower_08",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 112
+      },
+      {
+        "name": "Diamond_Lower_09",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 112
+      },
+      {
+        "name": "Diamond_Lower_10",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 112
+      },
+      {
+        "name": "Diamond_Lower_11",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 112
+      },
+      {
+        "name": "Diamond_Lower_12",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 112
+      },
+      {
+        "name": "Diamond_Lower_13",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 112
+      },
+      {
+        "name": "Diamond_Lower_14",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 112
+      },
+      {
+        "name": "Diamond_Lower_15",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 112
+      },
+      {
+        "name": "Diamond_Lower_16",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 112
+      },
+      {
+        "name": "Diamond_Lower_17",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 112
+      },
+      {
+        "name": "Diamond_Lower_18",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 112
+      },
+      {
+        "name": "Diamond_Lower_19",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 112
+      },
+      {
+        "name": "Diamond_Lower_20",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 112
+      },
+      {
+        "name": "Diamond_Lower_21",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 112
+      },
+      {
+        "name": "Diamond_Lower_22",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 112
+      },
+      {
+        "name": "Diamond_Lower_23",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 112
+      },
+      {
+        "name": "Diamond_Lower_24",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 112
+      },
+      {
+        "name": "Diamond_Lower_25",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 112
+      },
+      {
+        "name": "Diamond_Lower_26",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 112
+      },
+      {
+        "name": "Diamond_Lower_27",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 112
+      },
+      {
+        "name": "Diamond_Lower_28",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 112
+      },
+      {
+        "name": "Diamond_Lower_29",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 112
+      },
+      {
+        "name": "Diamond_Lower_30",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 112
+      },
+      {
+        "name": "Diamond_Lower_31",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 112
+      },
+      {
+        "name": "Diamond_Lower_32",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 112
+      },
+      {
+        "name": "Diamond_Lower_33",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 112
+      },
+      {
+        "name": "Diamond_Lower_34",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 112
+      },
+      {
+        "name": "Diamond_Lower_35",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 112
+      },
+      {
+        "name": "Diamond_Lower_36",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 112
+      },
+      {
+        "name": "Diamond_Lower_37",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 112
+      },
+      {
+        "name": "Diamond_Lower_38",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 112
+      },
+      {
+        "name": "Diamond_Lower_39",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 112
+      },
+      {
+        "name": "Diamond_Lower_40",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 112
+      },
+      {
+        "name": "Diamond_Lower_41",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 112
+      },
+      {
+        "name": "Diamond_Lower_42",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 112
+      },
+      {
+        "name": "Diamond_Lower_43",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 112
+      },
+      {
+        "name": "Diamond_Lower_44",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 112
+      },
+      {
+        "name": "Diamond_Lower_45",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 112
+      },
+      {
+        "name": "Diamond_Lower_46",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 112
+      },
+      {
+        "name": "Diamond_Lower_47",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 112
+      },
+      {
+        "name": "Diamond_Lower_48",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 112
+      },
+      {
+        "name": "Diamond_Lower_49",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 112
+      },
+      {
+        "name": "Diamond_Lower_50",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 112
+      },
+      {
+        "name": "Diamond_Lower_51",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 112
+      },
+      {
+        "name": "Diamond_Lower_52",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 112
+      },
+      {
+        "name": "Silk key",
+        "type": "LIGHT",
+        "hidden": true,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 0
+      },
+      {
+        "name": "Crisp strip",
+        "type": "LIGHT",
+        "hidden": true,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 0
+      },
+      {
+        "name": "Front fill",
+        "type": "LIGHT",
+        "hidden": true,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 0
+      },
+      {
+        "name": "Companion Ring beauty - refined prongs",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 313023
+      },
+      {
+        "name": "Companion Diamond_CentreUpper_01",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 112
+      },
+      {
+        "name": "Companion Diamond_CentreUpper_02",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 112
+      },
+      {
+        "name": "Companion Diamond_CentreUpper_03",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 112
+      },
+      {
+        "name": "Companion Diamond_CentreUpper_04",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 112
+      },
+      {
+        "name": "Companion Diamond_CentreUpper_05",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 112
+      },
+      {
+        "name": "Companion Diamond_CentreUpper_06",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 112
+      },
+      {
+        "name": "Companion Diamond_CentreUpper_07",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 112
+      },
+      {
+        "name": "Companion Diamond_CentreUpper_08",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 112
+      },
+      {
+        "name": "Companion Diamond_CentreUpper_09",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 112
+      },
+      {
+        "name": "Companion Diamond_CentreUpper_10",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 112
+      },
+      {
+        "name": "Companion Diamond_CentreUpper_11",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 112
+      },
+      {
+        "name": "Companion Diamond_CentreUpper_12",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 112
+      },
+      {
+        "name": "Companion Diamond_CentreUpper_13",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 112
+      },
+      {
+        "name": "Companion Diamond_CentreUpper_14",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 112
+      },
+      {
+        "name": "Companion Diamond_CentreUpper_15",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 112
+      },
+      {
+        "name": "Companion Diamond_CentreUpper_16",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 112
+      },
+      {
+        "name": "Companion Diamond_CentreUpper_17",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 112
+      },
+      {
+        "name": "Companion Diamond_CentreUpper_18",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 112
+      },
+      {
+        "name": "Companion Diamond_CentreUpper_19",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 112
+      },
+      {
+        "name": "Companion Diamond_CentreUpper_20",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 112
+      },
+      {
+        "name": "Companion Diamond_CentreUpper_21",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 112
+      },
+      {
+        "name": "Companion Diamond_CentreUpper_22",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 112
+      },
+      {
+        "name": "Companion Diamond_CentreUpper_23",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 112
+      },
+      {
+        "name": "Companion Diamond_CentreUpper_24",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 112
+      },
+      {
+        "name": "Companion Diamond_CentreUpper_25",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 112
+      },
+      {
+        "name": "Companion Diamond_CentreUpper_26",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 112
+      },
+      {
+        "name": "Companion Diamond_CentreUpper_27",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 112
+      },
+      {
+        "name": "Companion Diamond_CentreUpper_28",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 112
+      },
+      {
+        "name": "Companion Diamond_CentreUpper_29",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 112
+      },
+      {
+        "name": "Companion Diamond_CentreUpper_30",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 112
+      },
+      {
+        "name": "Companion Diamond_CentreUpper_31",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 112
+      },
+      {
+        "name": "Companion Diamond_CentreUpper_32",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 112
+      },
+      {
+        "name": "Companion Diamond_CentreUpper_33",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 112
+      },
+      {
+        "name": "Companion Diamond_CentreUpper_34",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 112
+      },
+      {
+        "name": "Companion Diamond_CentreUpper_35",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 112
+      },
+      {
+        "name": "Companion Diamond_CentreUpper_36",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 112
+      },
+      {
+        "name": "Companion Diamond_CentreUpper_37",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 112
+      },
+      {
+        "name": "Companion Diamond_CentreUpper_38",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 112
+      },
+      {
+        "name": "Companion Diamond_CentreUpper_39",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 112
+      },
+      {
+        "name": "Companion Diamond_CentreUpper_40",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 112
+      },
+      {
+        "name": "Companion Diamond_CentreUpper_41",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 112
+      },
+      {
+        "name": "Companion Diamond_CentreUpper_42",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 112
+      },
+      {
+        "name": "Companion Diamond_CentreUpper_43",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 112
+      },
+      {
+        "name": "Companion Diamond_CentreUpper_44",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 112
+      },
+      {
+        "name": "Companion Diamond_CentreUpper_45",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 112
+      },
+      {
+        "name": "Companion Diamond_CentreUpper_46",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 112
+      },
+      {
+        "name": "Companion Diamond_CentreUpper_47",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 112
+      },
+      {
+        "name": "Companion Diamond_CentreUpper_48",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 112
+      },
+      {
+        "name": "Companion Diamond_CentreUpper_49",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 112
+      },
+      {
+        "name": "Companion Diamond_CentreUpper_50",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 112
+      },
+      {
+        "name": "Companion Diamond_CentreUpper_51",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 112
+      },
+      {
+        "name": "Companion Diamond_CentreUpper_52",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 112
+      },
+      {
+        "name": "Companion Diamond_CentreLower_01",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 112
+      },
+      {
+        "name": "Companion Diamond_CentreLower_02",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 112
+      },
+      {
+        "name": "Companion Diamond_CentreLower_03",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 112
+      },
+      {
+        "name": "Companion Diamond_CentreLower_04",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 112
+      },
+      {
+        "name": "Companion Diamond_CentreLower_05",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 112
+      },
+      {
+        "name": "Companion Diamond_CentreLower_06",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 112
+      },
+      {
+        "name": "Companion Diamond_CentreLower_07",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 112
+      },
+      {
+        "name": "Companion Diamond_CentreLower_08",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 112
+      },
+      {
+        "name": "Companion Diamond_CentreLower_09",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 112
+      },
+      {
+        "name": "Companion Diamond_CentreLower_10",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 112
+      },
+      {
+        "name": "Companion Diamond_CentreLower_11",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 112
+      },
+      {
+        "name": "Companion Diamond_CentreLower_12",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 112
+      },
+      {
+        "name": "Companion Diamond_CentreLower_13",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 112
+      },
+      {
+        "name": "Companion Diamond_CentreLower_14",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 112
+      },
+      {
+        "name": "Companion Diamond_CentreLower_15",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 112
+      },
+      {
+        "name": "Companion Diamond_CentreLower_16",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 112
+      },
+      {
+        "name": "Companion Diamond_CentreLower_17",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 112
+      },
+      {
+        "name": "Companion Diamond_CentreLower_18",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 112
+      },
+      {
+        "name": "Companion Diamond_CentreLower_19",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 112
+      },
+      {
+        "name": "Companion Diamond_CentreLower_20",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 112
+      },
+      {
+        "name": "Companion Diamond_CentreLower_21",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 112
+      },
+      {
+        "name": "Companion Diamond_CentreLower_22",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 112
+      },
+      {
+        "name": "Companion Diamond_CentreLower_23",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 112
+      },
+      {
+        "name": "Companion Diamond_CentreLower_24",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 112
+      },
+      {
+        "name": "Companion Diamond_CentreLower_25",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 112
+      },
+      {
+        "name": "Companion Diamond_CentreLower_26",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 112
+      },
+      {
+        "name": "Companion Diamond_CentreLower_27",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 112
+      },
+      {
+        "name": "Companion Diamond_CentreLower_28",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 112
+      },
+      {
+        "name": "Companion Diamond_CentreLower_29",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 112
+      },
+      {
+        "name": "Companion Diamond_CentreLower_30",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 112
+      },
+      {
+        "name": "Companion Diamond_CentreLower_31",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 112
+      },
+      {
+        "name": "Companion Diamond_CentreLower_32",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 112
+      },
+      {
+        "name": "Companion Diamond_CentreLower_33",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 112
+      },
+      {
+        "name": "Companion Diamond_CentreLower_34",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 112
+      },
+      {
+        "name": "Companion Diamond_CentreLower_35",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 112
+      },
+      {
+        "name": "Companion Diamond_CentreLower_36",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 112
+      },
+      {
+        "name": "Companion Diamond_CentreLower_37",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 112
+      },
+      {
+        "name": "Companion Diamond_CentreLower_38",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 112
+      },
+      {
+        "name": "Companion Diamond_CentreLower_39",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 112
+      },
+      {
+        "name": "Companion Diamond_CentreLower_40",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 112
+      },
+      {
+        "name": "Companion Diamond_CentreLower_41",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 112
+      },
+      {
+        "name": "Companion Diamond_CentreLower_42",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 112
+      },
+      {
+        "name": "Companion Diamond_CentreLower_43",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 112
+      },
+      {
+        "name": "Companion Diamond_CentreLower_44",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 112
+      },
+      {
+        "name": "Companion Diamond_CentreLower_45",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 112
+      },
+      {
+        "name": "Companion Diamond_CentreLower_46",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 112
+      },
+      {
+        "name": "Companion Diamond_CentreLower_47",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 112
+      },
+      {
+        "name": "Companion Diamond_CentreLower_48",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 112
+      },
+      {
+        "name": "Companion Diamond_CentreLower_49",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 112
+      },
+      {
+        "name": "Companion Diamond_CentreLower_50",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 112
+      },
+      {
+        "name": "Companion Diamond_CentreLower_51",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 112
+      },
+      {
+        "name": "Companion Diamond_CentreLower_52",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 112
+      },
+      {
+        "name": "Companion Diamond_Upper_01",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 112
+      },
+      {
+        "name": "Companion Diamond_Upper_02",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 112
+      },
+      {
+        "name": "Companion Diamond_Upper_03",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 112
+      },
+      {
+        "name": "Companion Diamond_Upper_04",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 112
+      },
+      {
+        "name": "Companion Diamond_Upper_05",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 112
+      },
+      {
+        "name": "Companion Diamond_Upper_06",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 112
+      },
+      {
+        "name": "Companion Diamond_Upper_07",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 112
+      },
+      {
+        "name": "Companion Diamond_Upper_08",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 112
+      },
+      {
+        "name": "Companion Diamond_Upper_09",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 112
+      },
+      {
+        "name": "Companion Diamond_Upper_10",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 112
+      },
+      {
+        "name": "Companion Diamond_Upper_11",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 112
+      },
+      {
+        "name": "Companion Diamond_Upper_12",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 112
+      },
+      {
+        "name": "Companion Diamond_Upper_13",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 112
+      },
+      {
+        "name": "Companion Diamond_Upper_14",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 112
+      },
+      {
+        "name": "Companion Diamond_Upper_15",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 112
+      },
+      {
+        "name": "Companion Diamond_Upper_16",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 112
+      },
+      {
+        "name": "Companion Diamond_Upper_17",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 112
+      },
+      {
+        "name": "Companion Diamond_Upper_18",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 112
+      },
+      {
+        "name": "Companion Diamond_Upper_19",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 112
+      },
+      {
+        "name": "Companion Diamond_Upper_20",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 112
+      },
+      {
+        "name": "Companion Diamond_Upper_21",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 112
+      },
+      {
+        "name": "Companion Diamond_Upper_22",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 112
+      },
+      {
+        "name": "Companion Diamond_Upper_23",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 112
+      },
+      {
+        "name": "Companion Diamond_Upper_24",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 112
+      },
+      {
+        "name": "Companion Diamond_Upper_25",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 112
+      },
+      {
+        "name": "Companion Diamond_Upper_26",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 112
+      },
+      {
+        "name": "Companion Diamond_Upper_27",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 112
+      },
+      {
+        "name": "Companion Diamond_Upper_28",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 112
+      },
+      {
+        "name": "Companion Diamond_Upper_29",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 112
+      },
+      {
+        "name": "Companion Diamond_Upper_30",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 112
+      },
+      {
+        "name": "Companion Diamond_Upper_31",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 112
+      },
+      {
+        "name": "Companion Diamond_Upper_32",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 112
+      },
+      {
+        "name": "Companion Diamond_Upper_33",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 112
+      },
+      {
+        "name": "Companion Diamond_Upper_34",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 112
+      },
+      {
+        "name": "Companion Diamond_Upper_35",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 112
+      },
+      {
+        "name": "Companion Diamond_Upper_36",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 112
+      },
+      {
+        "name": "Companion Diamond_Upper_37",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 112
+      },
+      {
+        "name": "Companion Diamond_Upper_38",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 112
+      },
+      {
+        "name": "Companion Diamond_Upper_39",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 112
+      },
+      {
+        "name": "Companion Diamond_Upper_40",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 112
+      },
+      {
+        "name": "Companion Diamond_Upper_41",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 112
+      },
+      {
+        "name": "Companion Diamond_Upper_42",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 112
+      },
+      {
+        "name": "Companion Diamond_Upper_43",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 112
+      },
+      {
+        "name": "Companion Diamond_Upper_44",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 112
+      },
+      {
+        "name": "Companion Diamond_Upper_45",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 112
+      },
+      {
+        "name": "Companion Diamond_Upper_46",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 112
+      },
+      {
+        "name": "Companion Diamond_Upper_47",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 112
+      },
+      {
+        "name": "Companion Diamond_Upper_48",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 112
+      },
+      {
+        "name": "Companion Diamond_Upper_49",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 112
+      },
+      {
+        "name": "Companion Diamond_Upper_50",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 112
+      },
+      {
+        "name": "Companion Diamond_Upper_51",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 112
+      },
+      {
+        "name": "Companion Diamond_Upper_52",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 112
+      },
+      {
+        "name": "Companion Diamond_Lower_01",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 112
+      },
+      {
+        "name": "Companion Diamond_Lower_02",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 112
+      },
+      {
+        "name": "Companion Diamond_Lower_03",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 112
+      },
+      {
+        "name": "Companion Diamond_Lower_04",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 112
+      },
+      {
+        "name": "Companion Diamond_Lower_05",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 112
+      },
+      {
+        "name": "Companion Diamond_Lower_06",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 112
+      },
+      {
+        "name": "Companion Diamond_Lower_07",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 112
+      },
+      {
+        "name": "Companion Diamond_Lower_08",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 112
+      },
+      {
+        "name": "Companion Diamond_Lower_09",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 112
+      },
+      {
+        "name": "Companion Diamond_Lower_10",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 112
+      },
+      {
+        "name": "Companion Diamond_Lower_11",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 112
+      },
+      {
+        "name": "Companion Diamond_Lower_12",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 112
+      },
+      {
+        "name": "Companion Diamond_Lower_13",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 112
+      },
+      {
+        "name": "Companion Diamond_Lower_14",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 112
+      },
+      {
+        "name": "Companion Diamond_Lower_15",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 112
+      },
+      {
+        "name": "Companion Diamond_Lower_16",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 112
+      },
+      {
+        "name": "Companion Diamond_Lower_17",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 112
+      },
+      {
+        "name": "Companion Diamond_Lower_18",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 112
+      },
+      {
+        "name": "Companion Diamond_Lower_19",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 112
+      },
+      {
+        "name": "Companion Diamond_Lower_20",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 112
+      },
+      {
+        "name": "Companion Diamond_Lower_21",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 112
+      },
+      {
+        "name": "Companion Diamond_Lower_22",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 112
+      },
+      {
+        "name": "Companion Diamond_Lower_23",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 112
+      },
+      {
+        "name": "Companion Diamond_Lower_24",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 112
+      },
+      {
+        "name": "Companion Diamond_Lower_25",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 112
+      },
+      {
+        "name": "Companion Diamond_Lower_26",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 112
+      },
+      {
+        "name": "Companion Diamond_Lower_27",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 112
+      },
+      {
+        "name": "Companion Diamond_Lower_28",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 112
+      },
+      {
+        "name": "Companion Diamond_Lower_29",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 112
+      },
+      {
+        "name": "Companion Diamond_Lower_30",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 112
+      },
+      {
+        "name": "Companion Diamond_Lower_31",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 112
+      },
+      {
+        "name": "Companion Diamond_Lower_32",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 112
+      },
+      {
+        "name": "Companion Diamond_Lower_33",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 112
+      },
+      {
+        "name": "Companion Diamond_Lower_34",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 112
+      },
+      {
+        "name": "Companion Diamond_Lower_35",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 112
+      },
+      {
+        "name": "Companion Diamond_Lower_36",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 112
+      },
+      {
+        "name": "Companion Diamond_Lower_37",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 112
+      },
+      {
+        "name": "Companion Diamond_Lower_38",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 112
+      },
+      {
+        "name": "Companion Diamond_Lower_39",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 112
+      },
+      {
+        "name": "Companion Diamond_Lower_40",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 112
+      },
+      {
+        "name": "Companion Diamond_Lower_41",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 112
+      },
+      {
+        "name": "Companion Diamond_Lower_42",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 112
+      },
+      {
+        "name": "Companion Diamond_Lower_43",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 112
+      },
+      {
+        "name": "Companion Diamond_Lower_44",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 112
+      },
+      {
+        "name": "Companion Diamond_Lower_45",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 112
+      },
+      {
+        "name": "Companion Diamond_Lower_46",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 112
+      },
+      {
+        "name": "Companion Diamond_Lower_47",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 112
+      },
+      {
+        "name": "Companion Diamond_Lower_48",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 112
+      },
+      {
+        "name": "Companion Diamond_Lower_49",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 112
+      },
+      {
+        "name": "Companion Diamond_Lower_50",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 112
+      },
+      {
+        "name": "Companion Diamond_Lower_51",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 112
+      },
+      {
+        "name": "Companion Diamond_Lower_52",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 112
+      },
+      {
+        "name": "Broad window",
+        "type": "LIGHT",
+        "hidden": true,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 0
+      },
+      {
+        "name": "White strip",
+        "type": "LIGHT",
+        "hidden": true,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 0
+      },
+      {
+        "name": "Gold edge",
+        "type": "LIGHT",
+        "hidden": true,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 0
+      },
+      {
+        "name": "Small glint",
+        "type": "LIGHT",
+        "hidden": true,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 0
+      },
+      {
+        "name": "Large neutral window",
+        "type": "LIGHT",
+        "hidden": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 0
+      },
+      {
+        "name": "White vertical strip",
+        "type": "LIGHT",
+        "hidden": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 0
+      },
+      {
+        "name": "Warm architecture rim",
+        "type": "LIGHT",
+        "hidden": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 0
+      },
+      {
+        "name": "Portal wash",
+        "type": "LIGHT",
+        "hidden": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 0
+      },
+      {
+        "name": "Facet glint",
+        "type": "LIGHT",
+        "hidden": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 0
+      },
+      {
+        "name": "Camera.002",
+        "type": "CAMERA",
+        "hidden": false,
+        "collections": [
+          "Collection.002"
+        ],
+        "vertices": 0
+      },
+      {
+        "name": "Plane.002",
+        "type": "MESH",
+        "hidden": true,
+        "collections": [
+          "Collection.002"
+        ],
+        "vertices": 4
+      },
+      {
+        "name": "CircleBack",
+        "type": "MESH",
+        "hidden": true,
+        "collections": [
+          "Collection.002"
+        ],
+        "vertices": 384
+      },
+      {
+        "name": "Circle.001",
+        "type": "MESH",
+        "hidden": true,
+        "collections": [
+          "Collection.002"
+        ],
+        "vertices": 192
+      },
+      {
+        "name": "Circle.002",
+        "type": "MESH",
+        "hidden": true,
+        "collections": [
+          "Collection.002"
+        ],
+        "vertices": 384
+      },
+      {
+        "name": "Cylinder.001",
+        "type": "MESH",
+        "hidden": true,
+        "collections": [
+          "Collection.002"
+        ],
+        "vertices": 384
+      },
+      {
+        "name": "Cylinder.002",
+        "type": "MESH",
+        "hidden": true,
+        "collections": [
+          "Collection.002"
+        ],
+        "vertices": 384
+      },
+      {
+        "name": "Volume",
+        "type": "MESH",
+        "hidden": true,
+        "collections": [
+          "Collection.002"
+        ],
+        "vertices": 8
+      },
+      {
+        "name": "Cylinder.003",
+        "type": "MESH",
+        "hidden": true,
+        "collections": [
+          "Collection.002"
+        ],
+        "vertices": 384
+      },
+      {
+        "name": "Blue slate display slab",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Collection.002"
+        ],
+        "vertices": 8
+      },
+      {
+        "name": "Stone pedestal stem",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Collection.002"
+        ],
+        "vertices": 8
+      },
+      {
+        "name": "Gallery floor",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Collection.002"
+        ],
+        "vertices": 8
+      },
+      {
+        "name": "Gallery far wall",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Collection.002"
+        ],
+        "vertices": 8
+      },
+      {
+        "name": "Bronze screen 00",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Collection.002"
+        ],
+        "vertices": 8
+      },
+      {
+        "name": "Bronze screen 01",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Collection.002"
+        ],
+        "vertices": 8
+      },
+      {
+        "name": "Bronze screen 02",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Collection.002"
+        ],
+        "vertices": 8
+      },
+      {
+        "name": "Bronze screen 03",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Collection.002"
+        ],
+        "vertices": 8
+      },
+      {
+        "name": "Bronze screen 04",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Collection.002"
+        ],
+        "vertices": 8
+      },
+      {
+        "name": "Bronze screen 05",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Collection.002"
+        ],
+        "vertices": 8
+      },
+      {
+        "name": "Bronze screen 06",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Collection.002"
+        ],
+        "vertices": 8
+      },
+      {
+        "name": "Bronze screen 07",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Collection.002"
+        ],
+        "vertices": 8
+      },
+      {
+        "name": "Bronze screen 08",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Collection.002"
+        ],
+        "vertices": 8
+      },
+      {
+        "name": "Bronze screen 09",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Collection.002"
+        ],
+        "vertices": 8
+      },
+      {
+        "name": "Bronze screen 10",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Collection.002"
+        ],
+        "vertices": 8
+      },
+      {
+        "name": "Bronze screen 11",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Collection.002"
+        ],
+        "vertices": 8
+      },
+      {
+        "name": "Bronze screen 12",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Collection.002"
+        ],
+        "vertices": 8
+      },
+      {
+        "name": "Bronze circular portal",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Collection.002"
+        ],
+        "vertices": 2048
+      },
+      {
+        "name": "Low sculptural step",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Collection.002"
+        ],
+        "vertices": 8
+      },
+      {
+        "name": "Point.003",
+        "type": "LIGHT",
+        "hidden": true,
+        "collections": [
+          "LIghts"
+        ],
+        "vertices": 0
+      },
+      {
+        "name": "Point.004",
+        "type": "LIGHT",
+        "hidden": true,
+        "collections": [
+          "LIghts"
+        ],
+        "vertices": 0
+      },
+      {
+        "name": "Point.002",
+        "type": "LIGHT",
+        "hidden": true,
+        "collections": [
+          "LIghts"
+        ],
+        "vertices": 0
+      },
+      {
+        "name": "Point.005",
+        "type": "LIGHT",
+        "hidden": true,
+        "collections": [
+          "LIghts"
+        ],
+        "vertices": 0
+      },
+      {
+        "name": "Point.006",
+        "type": "LIGHT",
+        "hidden": true,
+        "collections": [
+          "LIghts"
+        ],
+        "vertices": 0
+      },
+      {
+        "name": "Point.007",
+        "type": "LIGHT",
+        "hidden": true,
+        "collections": [
+          "LIghts"
+        ],
+        "vertices": 0
+      },
+      {
+        "name": "Point.008",
+        "type": "LIGHT",
+        "hidden": true,
+        "collections": [
+          "LIghts"
+        ],
+        "vertices": 0
+      }
+    ]
+  },
+  "heartline-pendant": {
+    "source": "C:\\Users\\Master\\Documents\\itura\\PORFOLIO PIECES\\BlenderKit_Beauty\\Heartline_Studio.blend",
+    "sha256": "b69b498bf114c3a69a53aa84d620a22846d00604cb609e4bbf83e70f94e9cbd4",
+    "camera": "Camera.003",
+    "resolution": [
+      2400,
+      2400
+    ],
+    "collections": [
+      {
+        "name": "Cam",
+        "hide_render": false,
+        "objects": 2,
+        "children": []
+      },
+      {
+        "name": "Collection",
+        "hide_render": false,
+        "objects": 3,
+        "children": []
+      },
+      {
+        "name": "Collection.001",
+        "hide_render": false,
+        "objects": 8,
+        "children": []
+      },
+      {
+        "name": "Collection.002",
+        "hide_render": false,
+        "objects": 9,
+        "children": []
+      },
+      {
+        "name": "Environment",
+        "hide_render": false,
+        "objects": 5,
+        "children": []
+      },
+      {
+        "name": "Light",
+        "hide_render": false,
+        "objects": 3,
+        "children": []
+      },
+      {
+        "name": "LIghts",
+        "hide_render": false,
+        "objects": 7,
+        "children": []
+      },
+      {
+        "name": "Object",
+        "hide_render": false,
+        "objects": 0,
+        "children": []
+      }
+    ],
+    "objects": [
+      {
+        "name": "Heartline_Pendant_Finished",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 1051093
+      },
+      {
+        "name": "Heartline_Melee_01",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 112
+      },
+      {
+        "name": "Heartline_Melee_02",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 112
+      },
+      {
+        "name": "Heartline_Melee_03",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 112
+      },
+      {
+        "name": "Heartline_Melee_04",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 112
+      },
+      {
+        "name": "Heartline_Melee_05",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 112
+      },
+      {
+        "name": "Heartline_Melee_06",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 112
+      },
+      {
+        "name": "Heartline_Melee_07",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 112
+      },
+      {
+        "name": "Heartline_Melee_08",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 112
+      },
+      {
+        "name": "Heartline_Melee_09",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 112
+      },
+      {
+        "name": "Heartline_Melee_10",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 112
+      },
+      {
+        "name": "Heartline_Melee_11",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 112
+      },
+      {
+        "name": "Heartline_Melee_12",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 112
+      },
+      {
+        "name": "Heartline_Melee_13",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 112
+      },
+      {
+        "name": "Heartline_Melee_14",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 112
+      },
+      {
+        "name": "Heartline_Melee_15",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 112
+      },
+      {
+        "name": "Heartline_Melee_16",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 112
+      },
+      {
+        "name": "Heartline_Melee_17",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 112
+      },
+      {
+        "name": "Heartline_Melee_18",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 112
+      },
+      {
+        "name": "Heartline_Melee_19",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 112
+      },
+      {
+        "name": "Heartline_Melee_20",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 112
+      },
+      {
+        "name": "Heartline_Melee_21",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 112
+      },
+      {
+        "name": "Heartline_Melee_22",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 112
+      },
+      {
+        "name": "Heartline_Melee_23",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 112
+      },
+      {
+        "name": "Heartline_Melee_24",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 112
+      },
+      {
+        "name": "Heartline_Melee_25",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 112
+      },
+      {
+        "name": "Heartline_Melee_26",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 112
+      },
+      {
+        "name": "Heartline_Melee_27",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 112
+      },
+      {
+        "name": "Heartline_Melee_28",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 112
+      },
+      {
+        "name": "Heartline_Melee_29",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 112
+      },
+      {
+        "name": "Heartline_Melee_30",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 112
+      },
+      {
+        "name": "Heartline_Melee_31",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 112
+      },
+      {
+        "name": "Heartline_Melee_32",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 112
+      },
+      {
+        "name": "Heartline_Melee_33",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 112
+      },
+      {
+        "name": "Heartline_Melee_34",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 112
+      },
+      {
+        "name": "Heartline_Melee_35",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 112
+      },
+      {
+        "name": "Heartline_Melee_36",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 112
+      },
+      {
+        "name": "Heartline_Melee_37",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 112
+      },
+      {
+        "name": "Heartline_Melee_38",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 112
+      },
+      {
+        "name": "Chain_Link_001",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 400
+      },
+      {
+        "name": "Chain_Link_002",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 400
+      },
+      {
+        "name": "Chain_Link_003",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 400
+      },
+      {
+        "name": "Chain_Link_004",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 400
+      },
+      {
+        "name": "Chain_Link_005",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 400
+      },
+      {
+        "name": "Chain_Link_006",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 400
+      },
+      {
+        "name": "Chain_Link_007",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 400
+      },
+      {
+        "name": "Chain_Link_008",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 400
+      },
+      {
+        "name": "Chain_Link_009",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 400
+      },
+      {
+        "name": "Chain_Link_010",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 400
+      },
+      {
+        "name": "Chain_Link_011",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 400
+      },
+      {
+        "name": "Chain_Link_012",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 400
+      },
+      {
+        "name": "Chain_Link_013",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 400
+      },
+      {
+        "name": "Chain_Link_014",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 400
+      },
+      {
+        "name": "Chain_Link_015",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 400
+      },
+      {
+        "name": "Chain_Link_016",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 400
+      },
+      {
+        "name": "Chain_Link_017",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 400
+      },
+      {
+        "name": "Chain_Link_018",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 400
+      },
+      {
+        "name": "Chain_Link_019",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 400
+      },
+      {
+        "name": "Chain_Link_020",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 400
+      },
+      {
+        "name": "Chain_Link_021",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 400
+      },
+      {
+        "name": "Chain_Link_022",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 400
+      },
+      {
+        "name": "Chain_Link_023",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 400
+      },
+      {
+        "name": "Chain_Link_024",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 400
+      },
+      {
+        "name": "Chain_Link_025",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 400
+      },
+      {
+        "name": "Chain_Link_026",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 400
+      },
+      {
+        "name": "Chain_Link_027",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 400
+      },
+      {
+        "name": "Chain_Link_028",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 400
+      },
+      {
+        "name": "Chain_Link_029",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 400
+      },
+      {
+        "name": "Chain_Link_030",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 400
+      },
+      {
+        "name": "Chain_Link_031",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 400
+      },
+      {
+        "name": "Chain_Link_032",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 400
+      },
+      {
+        "name": "Chain_Link_033",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 400
+      },
+      {
+        "name": "Chain_Link_034",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 400
+      },
+      {
+        "name": "Chain_Link_035",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 400
+      },
+      {
+        "name": "Chain_Link_036",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 400
+      },
+      {
+        "name": "Chain_Link_037",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 400
+      },
+      {
+        "name": "Chain_Link_038",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 400
+      },
+      {
+        "name": "Chain_Link_039",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 400
+      },
+      {
+        "name": "Chain_Link_040",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 400
+      },
+      {
+        "name": "Chain_Link_041",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 400
+      },
+      {
+        "name": "Chain_Link_042",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 400
+      },
+      {
+        "name": "Chain_Link_043",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 400
+      },
+      {
+        "name": "Chain_Link_044",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 400
+      },
+      {
+        "name": "Chain_Link_045",
+        "type": "MESH",
+        "hidden": true,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 400
+      },
+      {
+        "name": "Chain_Link_046",
+        "type": "MESH",
+        "hidden": true,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 400
+      },
+      {
+        "name": "Chain_Link_047",
+        "type": "MESH",
+        "hidden": true,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 400
+      },
+      {
+        "name": "Chain_Link_048",
+        "type": "MESH",
+        "hidden": true,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 400
+      },
+      {
+        "name": "Chain_Link_049",
+        "type": "MESH",
+        "hidden": true,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 400
+      },
+      {
+        "name": "Chain_Link_050",
+        "type": "MESH",
+        "hidden": true,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 400
+      },
+      {
+        "name": "Chain_Link_051",
+        "type": "MESH",
+        "hidden": true,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 400
+      },
+      {
+        "name": "Chain_Link_052",
+        "type": "MESH",
+        "hidden": true,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 400
+      },
+      {
+        "name": "Chain_Link_053",
+        "type": "MESH",
+        "hidden": true,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 400
+      },
+      {
+        "name": "Chain_Link_054",
+        "type": "MESH",
+        "hidden": true,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 400
+      },
+      {
+        "name": "Chain_Link_055",
+        "type": "MESH",
+        "hidden": true,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 400
+      },
+      {
+        "name": "Chain_Link_056",
+        "type": "MESH",
+        "hidden": true,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 400
+      },
+      {
+        "name": "Chain_Link_057",
+        "type": "MESH",
+        "hidden": true,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 400
+      },
+      {
+        "name": "Chain_Link_058",
+        "type": "MESH",
+        "hidden": true,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 400
+      },
+      {
+        "name": "Chain_Link_059",
+        "type": "MESH",
+        "hidden": true,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 400
+      },
+      {
+        "name": "Chain_Link_060",
+        "type": "MESH",
+        "hidden": true,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 400
+      },
+      {
+        "name": "Chain_Link_061",
+        "type": "MESH",
+        "hidden": true,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 400
+      },
+      {
+        "name": "Chain_Link_062",
+        "type": "MESH",
+        "hidden": true,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 400
+      },
+      {
+        "name": "Chain_Link_063",
+        "type": "MESH",
+        "hidden": true,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 400
+      },
+      {
+        "name": "Chain_Link_064",
+        "type": "MESH",
+        "hidden": true,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 400
+      },
+      {
+        "name": "Chain_Link_065",
+        "type": "MESH",
+        "hidden": true,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 400
+      },
+      {
+        "name": "Chain_Link_066",
+        "type": "MESH",
+        "hidden": true,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 400
+      },
+      {
+        "name": "Chain_Link_067",
+        "type": "MESH",
+        "hidden": true,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 400
+      },
+      {
+        "name": "Chain_Link_068",
+        "type": "MESH",
+        "hidden": true,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 400
+      },
+      {
+        "name": "Chain_Link_069",
+        "type": "MESH",
+        "hidden": true,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 400
+      },
+      {
+        "name": "Chain_Link_070",
+        "type": "MESH",
+        "hidden": true,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 400
+      },
+      {
+        "name": "Chain_Link_071",
+        "type": "MESH",
+        "hidden": true,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 400
+      },
+      {
+        "name": "Chain_Link_072",
+        "type": "MESH",
+        "hidden": true,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 400
+      },
+      {
+        "name": "Chain_Link_073",
+        "type": "MESH",
+        "hidden": true,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 400
+      },
+      {
+        "name": "Chain_Link_074",
+        "type": "MESH",
+        "hidden": true,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 400
+      },
+      {
+        "name": "Chain_Link_075",
+        "type": "MESH",
+        "hidden": true,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 400
+      },
+      {
+        "name": "Chain_Link_076",
+        "type": "MESH",
+        "hidden": true,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 400
+      },
+      {
+        "name": "Chain_Link_077",
+        "type": "MESH",
+        "hidden": true,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 400
+      },
+      {
+        "name": "Chain_Link_078",
+        "type": "MESH",
+        "hidden": true,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 400
+      },
+      {
+        "name": "Chain_Link_079",
+        "type": "MESH",
+        "hidden": true,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 400
+      },
+      {
+        "name": "Chain_Link_080",
+        "type": "MESH",
+        "hidden": true,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 400
+      },
+      {
+        "name": "Chain_Link_081",
+        "type": "MESH",
+        "hidden": true,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 400
+      },
+      {
+        "name": "Chain_Link_082",
+        "type": "MESH",
+        "hidden": true,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 400
+      },
+      {
+        "name": "Chain_Link_083",
+        "type": "MESH",
+        "hidden": true,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 400
+      },
+      {
+        "name": "Chain_Link_084",
+        "type": "MESH",
+        "hidden": true,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 400
+      },
+      {
+        "name": "Chain_Link_085",
+        "type": "MESH",
+        "hidden": true,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 400
+      },
+      {
+        "name": "Chain_Link_086",
+        "type": "MESH",
+        "hidden": true,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 400
+      },
+      {
+        "name": "Chain_Link_087",
+        "type": "MESH",
+        "hidden": true,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 400
+      },
+      {
+        "name": "Chain_Link_088",
+        "type": "MESH",
+        "hidden": true,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 400
+      },
+      {
+        "name": "Chain_Link_089",
+        "type": "MESH",
+        "hidden": true,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 400
+      },
+      {
+        "name": "Chain_Link_090",
+        "type": "MESH",
+        "hidden": true,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 400
+      },
+      {
+        "name": "Chain_Link_091",
+        "type": "MESH",
+        "hidden": true,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 400
+      },
+      {
+        "name": "Chain_Link_092",
+        "type": "MESH",
+        "hidden": true,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 400
+      },
+      {
+        "name": "Chain_Link_093",
+        "type": "MESH",
+        "hidden": true,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 400
+      },
+      {
+        "name": "Chain_Link_094",
+        "type": "MESH",
+        "hidden": true,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 400
+      },
+      {
+        "name": "Chain_Link_095",
+        "type": "MESH",
+        "hidden": true,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 400
+      },
+      {
+        "name": "Chain_Link_096",
+        "type": "MESH",
+        "hidden": true,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 400
+      },
+      {
+        "name": "Chain_Link_097",
+        "type": "MESH",
+        "hidden": true,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 400
+      },
+      {
+        "name": "Chain_Link_098",
+        "type": "MESH",
+        "hidden": true,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 400
+      },
+      {
+        "name": "Chain_Link_099",
+        "type": "MESH",
+        "hidden": true,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 400
+      },
+      {
+        "name": "Chain_Link_100",
+        "type": "MESH",
+        "hidden": true,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 400
+      },
+      {
+        "name": "Chain_Link_101",
+        "type": "MESH",
+        "hidden": true,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 400
+      },
+      {
+        "name": "Chain_Link_102",
+        "type": "MESH",
+        "hidden": true,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 400
+      },
+      {
+        "name": "Chain_Link_103",
+        "type": "MESH",
+        "hidden": true,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 400
+      },
+      {
+        "name": "Chain_Link_104",
+        "type": "MESH",
+        "hidden": true,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 400
+      },
+      {
+        "name": "Chain_Link_105",
+        "type": "MESH",
+        "hidden": true,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 400
+      },
+      {
+        "name": "Chain_Link_106",
+        "type": "MESH",
+        "hidden": true,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 400
+      },
+      {
+        "name": "Chain_Link_107",
+        "type": "MESH",
+        "hidden": true,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 400
+      },
+      {
+        "name": "Chain_Link_108",
+        "type": "MESH",
+        "hidden": true,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 400
+      },
+      {
+        "name": "Chain_Link_109",
+        "type": "MESH",
+        "hidden": true,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 400
+      },
+      {
+        "name": "Chain_Link_110",
+        "type": "MESH",
+        "hidden": true,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 400
+      },
+      {
+        "name": "Chain_Link_111",
+        "type": "MESH",
+        "hidden": true,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 400
+      },
+      {
+        "name": "Chain_Link_112",
+        "type": "MESH",
+        "hidden": true,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 400
+      },
+      {
+        "name": "Chain_Link_113",
+        "type": "MESH",
+        "hidden": true,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 400
+      },
+      {
+        "name": "Chain_Link_114",
+        "type": "MESH",
+        "hidden": true,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 400
+      },
+      {
+        "name": "Chain_Link_115",
+        "type": "MESH",
+        "hidden": true,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 400
+      },
+      {
+        "name": "Chain_Link_116",
+        "type": "MESH",
+        "hidden": true,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 400
+      },
+      {
+        "name": "Chain_Link_117",
+        "type": "MESH",
+        "hidden": true,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 400
+      },
+      {
+        "name": "Chain_Link_118",
+        "type": "MESH",
+        "hidden": true,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 400
+      },
+      {
+        "name": "Chain_Link_119",
+        "type": "MESH",
+        "hidden": true,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 400
+      },
+      {
+        "name": "Chain_Link_120",
+        "type": "MESH",
+        "hidden": true,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 400
+      },
+      {
+        "name": "Chain_Link_121",
+        "type": "MESH",
+        "hidden": true,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 400
+      },
+      {
+        "name": "Chain_Link_122",
+        "type": "MESH",
+        "hidden": true,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 400
+      },
+      {
+        "name": "Chain_Link_123",
+        "type": "MESH",
+        "hidden": true,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 400
+      },
+      {
+        "name": "Chain_Link_124",
+        "type": "MESH",
+        "hidden": true,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 400
+      },
+      {
+        "name": "Chain_Link_125",
+        "type": "MESH",
+        "hidden": true,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 400
+      },
+      {
+        "name": "Chain_Link_126",
+        "type": "MESH",
+        "hidden": true,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 400
+      },
+      {
+        "name": "Chain_Link_127",
+        "type": "MESH",
+        "hidden": true,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 400
+      },
+      {
+        "name": "Chain_Link_128",
+        "type": "MESH",
+        "hidden": true,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 400
+      },
+      {
+        "name": "Chain_Link_129",
+        "type": "MESH",
+        "hidden": true,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 400
+      },
+      {
+        "name": "Chain_Link_130",
+        "type": "MESH",
+        "hidden": true,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 400
+      },
+      {
+        "name": "Chain_Link_131",
+        "type": "MESH",
+        "hidden": true,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 400
+      },
+      {
+        "name": "Chain_Link_132",
+        "type": "MESH",
+        "hidden": true,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 400
+      },
+      {
+        "name": "Chain_Link_133",
+        "type": "MESH",
+        "hidden": true,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 400
+      },
+      {
+        "name": "Chain_Link_134",
+        "type": "MESH",
+        "hidden": true,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 400
+      },
+      {
+        "name": "Chain_Link_135",
+        "type": "MESH",
+        "hidden": true,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 400
+      },
+      {
+        "name": "Chain_Link_136",
+        "type": "MESH",
+        "hidden": true,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 400
+      },
+      {
+        "name": "Chain_Link_137",
+        "type": "MESH",
+        "hidden": true,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 400
+      },
+      {
+        "name": "Chain_Link_138",
+        "type": "MESH",
+        "hidden": true,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 400
+      },
+      {
+        "name": "Chain_Link_139",
+        "type": "MESH",
+        "hidden": true,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 400
+      },
+      {
+        "name": "Chain_Link_140",
+        "type": "MESH",
+        "hidden": true,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 400
+      },
+      {
+        "name": "Chain_Link_141",
+        "type": "MESH",
+        "hidden": true,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 400
+      },
+      {
+        "name": "Chain_Link_142",
+        "type": "MESH",
+        "hidden": true,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 400
+      },
+      {
+        "name": "Chain_Link_143",
+        "type": "MESH",
+        "hidden": true,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 400
+      },
+      {
+        "name": "Chain_Link_144",
+        "type": "MESH",
+        "hidden": true,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 400
+      },
+      {
+        "name": "Chain_Link_145",
+        "type": "MESH",
+        "hidden": true,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 400
+      },
+      {
+        "name": "Chain_Link_146",
+        "type": "MESH",
+        "hidden": true,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 400
+      },
+      {
+        "name": "Chain_Link_147",
+        "type": "MESH",
+        "hidden": true,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 400
+      },
+      {
+        "name": "Chain_Link_148",
+        "type": "MESH",
+        "hidden": true,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 400
+      },
+      {
+        "name": "Chain_Link_149",
+        "type": "MESH",
+        "hidden": true,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 400
+      },
+      {
+        "name": "Chain_Link_150",
+        "type": "MESH",
+        "hidden": true,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 400
+      },
+      {
+        "name": "Chain_Link_151",
+        "type": "MESH",
+        "hidden": true,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 400
+      },
+      {
+        "name": "Chain_Link_152",
+        "type": "MESH",
+        "hidden": true,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 400
+      },
+      {
+        "name": "Chain_Link_153",
+        "type": "MESH",
+        "hidden": true,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 400
+      },
+      {
+        "name": "Chain_Link_154",
+        "type": "MESH",
+        "hidden": true,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 400
+      },
+      {
+        "name": "Chain_Link_155",
+        "type": "MESH",
+        "hidden": true,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 400
+      },
+      {
+        "name": "Chain_Link_156",
+        "type": "MESH",
+        "hidden": true,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 400
+      },
+      {
+        "name": "Chain_Link_157",
+        "type": "MESH",
+        "hidden": true,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 400
+      },
+      {
+        "name": "Chain_Link_158",
+        "type": "MESH",
+        "hidden": true,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 400
+      },
+      {
+        "name": "Chain_Link_159",
+        "type": "MESH",
+        "hidden": true,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 400
+      },
+      {
+        "name": "Chain_Link_160",
+        "type": "MESH",
+        "hidden": true,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 400
+      },
+      {
+        "name": "Chain_Link_161",
+        "type": "MESH",
+        "hidden": true,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 400
+      },
+      {
+        "name": "Chain_Link_162",
+        "type": "MESH",
+        "hidden": true,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 400
+      },
+      {
+        "name": "Chain_Link_163",
+        "type": "MESH",
+        "hidden": true,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 400
+      },
+      {
+        "name": "Chain_Link_164",
+        "type": "MESH",
+        "hidden": true,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 400
+      },
+      {
+        "name": "Chain_Link_165",
+        "type": "MESH",
+        "hidden": true,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 400
+      },
+      {
+        "name": "Chain_Link_166",
+        "type": "MESH",
+        "hidden": true,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 400
+      },
+      {
+        "name": "Chain_Link_167",
+        "type": "MESH",
+        "hidden": true,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 400
+      },
+      {
+        "name": "Chain_Link_168",
+        "type": "MESH",
+        "hidden": true,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 400
+      },
+      {
+        "name": "Chain_Link_169",
+        "type": "MESH",
+        "hidden": true,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 400
+      },
+      {
+        "name": "Chain_Link_170",
+        "type": "MESH",
+        "hidden": true,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 400
+      },
+      {
+        "name": "Chain_Link_171",
+        "type": "MESH",
+        "hidden": true,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 400
+      },
+      {
+        "name": "Chain_Link_172",
+        "type": "MESH",
+        "hidden": true,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 400
+      },
+      {
+        "name": "Chain_Link_173",
+        "type": "MESH",
+        "hidden": true,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 400
+      },
+      {
+        "name": "Chain_Link_174",
+        "type": "MESH",
+        "hidden": true,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 400
+      },
+      {
+        "name": "Chain_Link_175",
+        "type": "MESH",
+        "hidden": true,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 400
+      },
+      {
+        "name": "Chain_Link_176",
+        "type": "MESH",
+        "hidden": true,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 400
+      },
+      {
+        "name": "Chain_Link_177",
+        "type": "MESH",
+        "hidden": true,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 400
+      },
+      {
+        "name": "Chain_Link_178",
+        "type": "MESH",
+        "hidden": true,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 400
+      },
+      {
+        "name": "Chain_Link_179",
+        "type": "MESH",
+        "hidden": true,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 400
+      },
+      {
+        "name": "Chain_Link_180",
+        "type": "MESH",
+        "hidden": true,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 400
+      },
+      {
+        "name": "Chain_Link_181",
+        "type": "MESH",
+        "hidden": true,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 400
+      },
+      {
+        "name": "Chain_Link_182",
+        "type": "MESH",
+        "hidden": true,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 400
+      },
+      {
+        "name": "Chain_Link_183",
+        "type": "MESH",
+        "hidden": true,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 400
+      },
+      {
+        "name": "Chain_Link_184",
+        "type": "MESH",
+        "hidden": true,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 400
+      },
+      {
+        "name": "Chain_Link_185",
+        "type": "MESH",
+        "hidden": true,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 400
+      },
+      {
+        "name": "Chain_Link_186",
+        "type": "MESH",
+        "hidden": true,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 400
+      },
+      {
+        "name": "Chain_Link_187",
+        "type": "MESH",
+        "hidden": true,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 400
+      },
+      {
+        "name": "Chain_Link_188",
+        "type": "MESH",
+        "hidden": true,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 400
+      },
+      {
+        "name": "Chain_Link_189",
+        "type": "MESH",
+        "hidden": true,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 400
+      },
+      {
+        "name": "Chain_Link_190",
+        "type": "MESH",
+        "hidden": true,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 400
+      },
+      {
+        "name": "Chain_Link_191",
+        "type": "MESH",
+        "hidden": true,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 400
+      },
+      {
+        "name": "Chain_Link_192",
+        "type": "MESH",
+        "hidden": true,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 400
+      },
+      {
+        "name": "Chain_Link_193",
+        "type": "MESH",
+        "hidden": true,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 400
+      },
+      {
+        "name": "Chain_Link_194",
+        "type": "MESH",
+        "hidden": true,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 400
+      },
+      {
+        "name": "Chain_Link_195",
+        "type": "MESH",
+        "hidden": true,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 400
+      },
+      {
+        "name": "Chain_Link_196",
+        "type": "MESH",
+        "hidden": true,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 400
+      },
+      {
+        "name": "Chain_Link_197",
+        "type": "MESH",
+        "hidden": true,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 400
+      },
+      {
+        "name": "Chain_Link_198",
+        "type": "MESH",
+        "hidden": true,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 400
+      },
+      {
+        "name": "Chain_Link_199",
+        "type": "MESH",
+        "hidden": true,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 400
+      },
+      {
+        "name": "Chain_Link_200",
+        "type": "MESH",
+        "hidden": true,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 400
+      },
+      {
+        "name": "Chain_Link_201",
+        "type": "MESH",
+        "hidden": true,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 400
+      },
+      {
+        "name": "Chain_Link_202",
+        "type": "MESH",
+        "hidden": true,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 400
+      },
+      {
+        "name": "Chain_Link_203",
+        "type": "MESH",
+        "hidden": true,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 400
+      },
+      {
+        "name": "Chain_Link_204",
+        "type": "MESH",
+        "hidden": true,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 400
+      },
+      {
+        "name": "Chain_Link_205",
+        "type": "MESH",
+        "hidden": true,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 400
+      },
+      {
+        "name": "Chain_Link_206",
+        "type": "MESH",
+        "hidden": true,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 400
+      },
+      {
+        "name": "Chain_Link_207",
+        "type": "MESH",
+        "hidden": true,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 400
+      },
+      {
+        "name": "Chain_Link_208",
+        "type": "MESH",
+        "hidden": true,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 400
+      },
+      {
+        "name": "Chain_Link_209",
+        "type": "MESH",
+        "hidden": true,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 400
+      },
+      {
+        "name": "Chain_Link_210",
+        "type": "MESH",
+        "hidden": true,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 400
+      },
+      {
+        "name": "Chain_Link_211",
+        "type": "MESH",
+        "hidden": true,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 400
+      },
+      {
+        "name": "Chain_Link_212",
+        "type": "MESH",
+        "hidden": true,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 400
+      },
+      {
+        "name": "Chain_Link_213",
+        "type": "MESH",
+        "hidden": true,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 400
+      },
+      {
+        "name": "Chain_Link_214",
+        "type": "MESH",
+        "hidden": true,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 400
+      },
+      {
+        "name": "Chain_Link_215",
+        "type": "MESH",
+        "hidden": true,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 400
+      },
+      {
+        "name": "Chain_Link_216",
+        "type": "MESH",
+        "hidden": true,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 400
+      },
+      {
+        "name": "Chain_Link_217",
+        "type": "MESH",
+        "hidden": true,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 400
+      },
+      {
+        "name": "Chain_Link_218",
+        "type": "MESH",
+        "hidden": true,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 400
+      },
+      {
+        "name": "Chain_Link_219",
+        "type": "MESH",
+        "hidden": true,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 400
+      },
+      {
+        "name": "Chain_Link_220",
+        "type": "MESH",
+        "hidden": true,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 400
+      },
+      {
+        "name": "Chain_Link_221",
+        "type": "MESH",
+        "hidden": true,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 400
+      },
+      {
+        "name": "Chain_Link_222",
+        "type": "MESH",
+        "hidden": true,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 400
+      },
+      {
+        "name": "Chain_Link_223",
+        "type": "MESH",
+        "hidden": true,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 400
+      },
+      {
+        "name": "Chain_Link_224",
+        "type": "MESH",
+        "hidden": true,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 400
+      },
+      {
+        "name": "Chain_Link_225",
+        "type": "MESH",
+        "hidden": true,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 400
+      },
+      {
+        "name": "Chain_Link_226",
+        "type": "MESH",
+        "hidden": true,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 400
+      },
+      {
+        "name": "Chain_Link_227",
+        "type": "MESH",
+        "hidden": true,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 400
+      },
+      {
+        "name": "Chain_Link_228",
+        "type": "MESH",
+        "hidden": true,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 400
+      },
+      {
+        "name": "Chain_Link_229",
+        "type": "MESH",
+        "hidden": true,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 400
+      },
+      {
+        "name": "Chain_Link_230",
+        "type": "MESH",
+        "hidden": true,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 400
+      },
+      {
+        "name": "Chain_Link_231",
+        "type": "MESH",
+        "hidden": true,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 400
+      },
+      {
+        "name": "Chain_Link_232",
+        "type": "MESH",
+        "hidden": true,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 400
+      },
+      {
+        "name": "Chain_Link_233",
+        "type": "MESH",
+        "hidden": true,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 400
+      },
+      {
+        "name": "Chain_Link_234",
+        "type": "MESH",
+        "hidden": true,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 400
+      },
+      {
+        "name": "Chain_Link_235",
+        "type": "MESH",
+        "hidden": true,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 400
+      },
+      {
+        "name": "Chain_Link_236",
+        "type": "MESH",
+        "hidden": true,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 400
+      },
+      {
+        "name": "Chain_Link_237",
+        "type": "MESH",
+        "hidden": true,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 400
+      },
+      {
+        "name": "Chain_Link_238",
+        "type": "MESH",
+        "hidden": true,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 400
+      },
+      {
+        "name": "Chain_Link_239",
+        "type": "MESH",
+        "hidden": true,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 400
+      },
+      {
+        "name": "Chain_Link_240",
+        "type": "MESH",
+        "hidden": true,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 400
+      },
+      {
+        "name": "Chain_Link_241",
+        "type": "MESH",
+        "hidden": true,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 400
+      },
+      {
+        "name": "Chain_Link_242",
+        "type": "MESH",
+        "hidden": true,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 400
+      },
+      {
+        "name": "Chain_Link_243",
+        "type": "MESH",
+        "hidden": true,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 400
+      },
+      {
+        "name": "Chain_Link_244",
+        "type": "MESH",
+        "hidden": true,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 400
+      },
+      {
+        "name": "Chain_Link_245",
+        "type": "MESH",
+        "hidden": true,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 400
+      },
+      {
+        "name": "Chain_Link_246",
+        "type": "MESH",
+        "hidden": true,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 400
+      },
+      {
+        "name": "Chain_Link_247",
+        "type": "MESH",
+        "hidden": true,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 400
+      },
+      {
+        "name": "Chain_Link_248",
+        "type": "MESH",
+        "hidden": true,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 400
+      },
+      {
+        "name": "Chain_Link_249",
+        "type": "MESH",
+        "hidden": true,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 400
+      },
+      {
+        "name": "Chain_Link_250",
+        "type": "MESH",
+        "hidden": true,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 400
+      },
+      {
+        "name": "Chain_Link_251",
+        "type": "MESH",
+        "hidden": true,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 400
+      },
+      {
+        "name": "Chain_Link_252",
+        "type": "MESH",
+        "hidden": true,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 400
+      },
+      {
+        "name": "Chain_Link_253",
+        "type": "MESH",
+        "hidden": true,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 400
+      },
+      {
+        "name": "Chain_Link_254",
+        "type": "MESH",
+        "hidden": true,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 400
+      },
+      {
+        "name": "Chain_Link_255",
+        "type": "MESH",
+        "hidden": true,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 400
+      },
+      {
+        "name": "Chain_Link_256",
+        "type": "MESH",
+        "hidden": true,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 400
+      },
+      {
+        "name": "Chain_Link_257",
+        "type": "MESH",
+        "hidden": true,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 400
+      },
+      {
+        "name": "Chain_Link_258",
+        "type": "MESH",
+        "hidden": true,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 400
+      },
+      {
+        "name": "Chain_Link_259",
+        "type": "MESH",
+        "hidden": true,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 400
+      },
+      {
+        "name": "Chain_Link_260",
+        "type": "MESH",
+        "hidden": true,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 400
+      },
+      {
+        "name": "Chain_Link_261",
+        "type": "MESH",
+        "hidden": true,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 400
+      },
+      {
+        "name": "Chain_Link_262",
+        "type": "MESH",
+        "hidden": true,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 400
+      },
+      {
+        "name": "Chain_Link_263",
+        "type": "MESH",
+        "hidden": true,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 400
+      },
+      {
+        "name": "Chain_Link_264",
+        "type": "MESH",
+        "hidden": true,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 400
+      },
+      {
+        "name": "Chain_Link_265",
+        "type": "MESH",
+        "hidden": true,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 400
+      },
+      {
+        "name": "Chain_Link_266",
+        "type": "MESH",
+        "hidden": true,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 400
+      },
+      {
+        "name": "Chain_Link_267",
+        "type": "MESH",
+        "hidden": true,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 400
+      },
+      {
+        "name": "Chain_Link_268",
+        "type": "MESH",
+        "hidden": true,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 400
+      },
+      {
+        "name": "Chain_Link_269",
+        "type": "MESH",
+        "hidden": true,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 400
+      },
+      {
+        "name": "Chain_Link_270",
+        "type": "MESH",
+        "hidden": true,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 400
+      },
+      {
+        "name": "Chain_Link_271",
+        "type": "MESH",
+        "hidden": true,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 400
+      },
+      {
+        "name": "Chain_Link_272",
+        "type": "MESH",
+        "hidden": true,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 400
+      },
+      {
+        "name": "Chain_Link_273",
+        "type": "MESH",
+        "hidden": true,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 400
+      },
+      {
+        "name": "Chain_Link_274",
+        "type": "MESH",
+        "hidden": true,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 400
+      },
+      {
+        "name": "Chain_Link_275",
+        "type": "MESH",
+        "hidden": true,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 400
+      },
+      {
+        "name": "Chain_Link_276",
+        "type": "MESH",
+        "hidden": true,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 400
+      },
+      {
+        "name": "Chain_Link_277",
+        "type": "MESH",
+        "hidden": true,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 400
+      },
+      {
+        "name": "Chain_Link_278",
+        "type": "MESH",
+        "hidden": true,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 400
+      },
+      {
+        "name": "Chain_Link_279",
+        "type": "MESH",
+        "hidden": true,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 400
+      },
+      {
+        "name": "Chain_Link_280",
+        "type": "MESH",
+        "hidden": true,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 400
+      },
+      {
+        "name": "Chain_Link_281",
+        "type": "MESH",
+        "hidden": true,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 400
+      },
+      {
+        "name": "Chain_Link_282",
+        "type": "MESH",
+        "hidden": true,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 400
+      },
+      {
+        "name": "Chain_Link_283",
+        "type": "MESH",
+        "hidden": true,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 400
+      },
+      {
+        "name": "Chain_Link_284",
+        "type": "MESH",
+        "hidden": true,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 400
+      },
+      {
+        "name": "Chain_Link_285",
+        "type": "MESH",
+        "hidden": true,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 400
+      },
+      {
+        "name": "Chain_Link_286",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 400
+      },
+      {
+        "name": "Chain_Link_287",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 400
+      },
+      {
+        "name": "Chain_Link_288",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 400
+      },
+      {
+        "name": "Chain_Link_289",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 400
+      },
+      {
+        "name": "Chain_Link_290",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 400
+      },
+      {
+        "name": "Chain_Link_291",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 400
+      },
+      {
+        "name": "Chain_Link_292",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 400
+      },
+      {
+        "name": "Chain_Link_293",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 400
+      },
+      {
+        "name": "Chain_Link_294",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 400
+      },
+      {
+        "name": "Chain_Link_295",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 400
+      },
+      {
+        "name": "Chain_Link_296",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 400
+      },
+      {
+        "name": "Chain_Link_297",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 400
+      },
+      {
+        "name": "Chain_Link_298",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 400
+      },
+      {
+        "name": "Chain_Link_299",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 400
+      },
+      {
+        "name": "Chain_Link_300",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 400
+      },
+      {
+        "name": "Chain_Link_301",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 400
+      },
+      {
+        "name": "Chain_Link_302",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 400
+      },
+      {
+        "name": "Chain_Link_303",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 400
+      },
+      {
+        "name": "Chain_Link_304",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 400
+      },
+      {
+        "name": "Chain_Link_305",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 400
+      },
+      {
+        "name": "Chain_Link_306",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 400
+      },
+      {
+        "name": "Chain_Link_307",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 400
+      },
+      {
+        "name": "Chain_Link_308",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 400
+      },
+      {
+        "name": "Chain_Link_309",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 400
+      },
+      {
+        "name": "Chain_Link_310",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 400
+      },
+      {
+        "name": "Chain_Link_311",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 400
+      },
+      {
+        "name": "Chain_Link_312",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 400
+      },
+      {
+        "name": "Chain_Link_313",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 400
+      },
+      {
+        "name": "Chain_Link_314",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 400
+      },
+      {
+        "name": "Chain_Link_315",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 400
+      },
+      {
+        "name": "Chain_Link_316",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 400
+      },
+      {
+        "name": "Chain_Link_317",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 400
+      },
+      {
+        "name": "Chain_Link_318",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 400
+      },
+      {
+        "name": "Chain_Link_319",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 400
+      },
+      {
+        "name": "Chain_Link_320",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 400
+      },
+      {
+        "name": "Chain_Link_321",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 400
+      },
+      {
+        "name": "Chain_Link_322",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 400
+      },
+      {
+        "name": "Chain_Link_323",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 400
+      },
+      {
+        "name": "Chain_Link_324",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 400
+      },
+      {
+        "name": "Chain_Link_325",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 400
+      },
+      {
+        "name": "Chain_Link_326",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 400
+      },
+      {
+        "name": "Chain_Link_327",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 400
+      },
+      {
+        "name": "Chain_Link_328",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 400
+      },
+      {
+        "name": "Chain_Link_329",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 400
+      },
+      {
+        "name": "Commercial clasp envelope",
+        "type": "MESH",
+        "hidden": true,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 1152
+      },
+      {
+        "name": "Chain_Link_000",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 768
+      },
+      {
+        "name": "Heartline_Connector_Ring",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 1152
+      },
+      {
+        "name": "Silk key",
+        "type": "LIGHT",
+        "hidden": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 0
+      },
+      {
+        "name": "Gold edge",
+        "type": "LIGHT",
+        "hidden": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 0
+      },
+      {
+        "name": "Camera fill",
+        "type": "LIGHT",
+        "hidden": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "vertices": 0
+      },
+      {
+        "name": "Arc Gate",
+        "type": "MESH",
+        "hidden": true,
+        "collections": [
+          "Environment"
+        ],
+        "vertices": 228
+      },
+      {
+        "name": "Stage",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Environment"
+        ],
+        "vertices": 72
+      },
+      {
+        "name": "Background",
+        "type": "MESH",
+        "hidden": false,
+        "collections": [
+          "Environment"
+        ],
+        "vertices": 4
+      },
+      {
+        "name": "Ring Light",
+        "type": "MESH",
+        "hidden": true,
+        "collections": [
+          "Environment"
+        ],
+        "vertices": 320
+      },
+      {
+        "name": "Area",
+        "type": "LIGHT",
+        "hidden": false,
+        "collections": [
+          "Environment"
+        ],
+        "vertices": 0
+      },
+      {
+        "name": "TriLamp-Back",
+        "type": "LIGHT",
+        "hidden": false,
+        "collections": [
+          "Light"
+        ],
+        "vertices": 0
+      },
+      {
+        "name": "TriLamp-Fill",
+        "type": "LIGHT",
+        "hidden": false,
+        "collections": [
+          "Light"
+        ],
+        "vertices": 0
+      },
+      {
+        "name": "TriLamp-Key",
+        "type": "LIGHT",
+        "hidden": false,
+        "collections": [
+          "Light"
+        ],
+        "vertices": 0
+      },
+      {
+        "name": "Camera.003",
+        "type": "CAMERA",
+        "hidden": false,
+        "collections": [
+          "Cam"
+        ],
+        "vertices": 0
+      },
+      {
+        "name": "Focus",
+        "type": "EMPTY",
+        "hidden": false,
+        "collections": [
+          "Cam"
+        ],
+        "vertices": 0
+      }
+    ]
+  }
+}

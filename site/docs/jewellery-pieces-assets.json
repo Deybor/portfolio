@@ -1,0 +1,120 @@
+[
+  {
+    "source": "C:\\Users\\Master\\Documents\\itura\\PORFOLIO PIECES\\Confluence_First_Ring\\Renders_and_Dimensions\\Beauty_Ivory.png",
+    "destination": "C:\\Users\\Master\\Documents\\portfolio\\porfolio update\\public\\jewellery\\confluence\\render-01.png",
+    "size": [
+      2800,
+      2800
+    ],
+    "sha256": "85eebb65110da2a3ab61e55eaa2985f3fe9548c7e660d173879e3dfb6a7cfc1f",
+    "preserved": true
+  },
+  {
+    "source": "C:\\Users\\Master\\Documents\\itura\\PORFOLIO PIECES\\Confluence_First_Ring\\Renders_and_Dimensions\\Beauty_Profile.png",
+    "destination": "C:\\Users\\Master\\Documents\\portfolio\\porfolio update\\public\\jewellery\\confluence\\render-02.png",
+    "size": [
+      2800,
+      2800
+    ],
+    "sha256": "f57be124abdf7ee9f2360f99d2f3b7d1c46edca491d3daabc31bbce61ef626ec",
+    "preserved": true
+  },
+  {
+    "source": "C:\\Users\\Master\\Documents\\itura\\PORFOLIO PIECES\\Confluence_First_Ring\\Renders_and_Dimensions\\Beauty_Setting.png",
+    "destination": "C:\\Users\\Master\\Documents\\portfolio\\porfolio update\\public\\jewellery\\confluence\\render-03.png",
+    "size": [
+      2800,
+      2800
+    ],
+    "sha256": "fe201170c18f90dfc9e4901c495f78b0aaa553a2557725ca0d3015111b6219e6",
+    "preserved": true
+  },
+  {
+    "source": "C:\\Users\\Master\\Documents\\itura\\PORFOLIO PIECES\\Confluence_First_Ring\\Renders_and_Dimensions\\Wireframe_Final.png",
+    "destination": "C:\\Users\\Master\\Documents\\portfolio\\porfolio update\\public\\jewellery\\confluence\\wireframe-01.png",
+    "size": [
+      2400,
+      2400
+    ],
+    "sha256": "8a4f411524d0aae5e8582d75eea118132a84afdcc46e3765519cc0d8eba95b7f",
+    "preserved": true
+  },
+  {
+    "source": "C:\\Users\\Master\\Documents\\itura\\PORFOLIO PIECES\\Confluence_First_Ring\\Renders_and_Dimensions\\Wireframe_Setting.png",
+    "destination": "C:\\Users\\Master\\Documents\\portfolio\\porfolio update\\public\\jewellery\\confluence\\wireframe-02.png",
+    "size": [
+      2400,
+      2400
+    ],
+    "sha256": "72ffba96d700ad6ca7d02fa0c7b398be5b916f407d1e199325eebd6d51a41a86",
+    "preserved": true
+  },
+  {
+    "source": "C:\\Users\\Master\\Documents\\itura\\PORFOLIO PIECES\\Confluence_First_Ring\\Renders_and_Dimensions\\Specification_Preview.png",
+    "destination": "C:\\Users\\Master\\Documents\\portfolio\\porfolio update\\public\\jewellery\\confluence\\dimensions-01.png",
+    "size": [
+      990,
+      1400
+    ],
+    "sha256": "58c0bb1712b652b5bd778d4cdcdf9877248f604052f8fd1daf19ef9564381b54",
+    "preserved": true
+  },
+  {
+    "source": "C:\\Users\\Master\\Documents\\itura\\PORFOLIO PIECES\\Confluence_First_Ring\\SVG_Concept_Drawings\\Confluence_Concept_Sketches_v02_Preview.png",
+    "destination": "C:\\Users\\Master\\Documents\\portfolio\\porfolio update\\public\\jewellery\\confluence\\sketches-01.png",
+    "size": [
+      1600,
+      1380
+    ],
+    "sha256": "c16a307cd766490c0202b25b702773ad2ef0998e05dcce37366271654a6ce24d",
+    "preserved": true
+  },
+  {
+    "source": "C:\\Users\\Master\\Documents\\itura\\PORFOLIO PIECES\\Ring_Iced_Out_03\\Ring_Beauty_Angle.png",
+    "destination": "C:\\Users\\Master\\Documents\\portfolio\\porfolio update\\public\\jewellery\\iced-out-ring\\render-01.png",
+    "size": [
+      1600,
+      1400
+    ],
+    "sha256": "181d593fa194b23399f95300cb489df382e7a93a7e0b668ef3edd089feaad7aa",
+    "preserved": true
+  },
+  {
+    "source": "C:\\Users\\Master\\Documents\\itura\\PORFOLIO PIECES\\Ring_Iced_Out_03\\Ring_Beauty_Low_Angle.png",
+    "destination": "C:\\Users\\Master\\Documents\\portfolio\\porfolio update\\public\\jewellery\\iced-out-ring\\render-02.png",
+    "size": [
+      1600,
+      1400
+    ],
+    "sha256": "80c92f3891f85a58eae0e36471a0167e2e83d2610d7bef1e6480ee32efb93f6c",
+    "preserved": true
+  },
+  {
+    "source": "C:\\Users\\Master\\Documents\\itura\\PORFOLIO PIECES\\Ring_Iced_Out_03\\Ring_Diamond_Prongs_Closeup.png",
+    "destination": "C:\\Users\\Master\\Documents\\portfolio\\porfolio update\\public\\jewellery\\iced-out-ring\\render-03.png",
+    "size": [
+      1500,
+      1150
+    ],
+    "sha256": "22dfc8d77f49948ac361c615132285e9fe4f6eb0008e5b60791c9c3671174b1d",
+    "preserved": true
+  },
+  {
+    "source": "C:\\Users\\Master\\Documents\\itura\\PORFOLIO PIECES\\Ring_Iced_Out_03\\Ring_Base_CAD_Drawings.png",
+    "destination": "C:\\Users\\Master\\Documents\\portfolio\\porfolio update\\public\\jewellery\\iced-out-ring\\dimensions-01.png",
+    "size": [
+      1600,
+      1440
+    ],
+    "sha256": "6fc9608a9dbb9c40d3fe5e22ba49cc498181d471ba1fbd49ef15e8116a93c56c",
+    "preserved": true
+  },
+  {
+    "source": "C:\\Users\\Master\\Documents\\portfolio\\porfolio update\\public\\jewellery\\heartline-pendant\\render-01.png",
+    "size": [
+      1700,
+      1900
+    ],
+    "method": "Actual saved-scene Blender render"
+  }
+]

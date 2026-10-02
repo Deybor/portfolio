@@ -1,0 +1,143 @@
+{
+  "source": "C:\\Users\\Master\\Documents\\itura\\PORFOLIO PIECES\\Confluence_First_Ring\\Approved_Model\\Confluence_Refined_Print.blend",
+  "source_sha256": "bf4e8b8d67d89c38eea1e2d73390b76193431c92d2e1644901c1c6a3a6fef94e",
+  "source_preserved": true,
+  "derived_model": "C:\\Users\\Master\\Documents\\portfolio\\porfolio update\\public\\jewellery\\confluence\\technical\\Confluence-Straight-Prong-CAD.blend",
+  "prongs": [
+    {
+      "name": "Centre straight prong 1",
+      "axis": "Z - straight",
+      "centre_xy_mm": [
+        1.85969083452062,
+        1.85969083452062
+      ],
+      "diameter_mm": 0.95,
+      "z0_mm": 19.65,
+      "z1_mm": 22.75
+    },
+    {
+      "name": "Centre straight prong 2",
+      "axis": "Z - straight",
+      "centre_xy_mm": [
+        -1.8596908345206198,
+        1.85969083452062
+      ],
+      "diameter_mm": 0.95,
+      "z0_mm": 19.65,
+      "z1_mm": 22.75
+    },
+    {
+      "name": "Centre straight prong 3",
+      "axis": "Z - straight",
+      "centre_xy_mm": [
+        -1.8596908345206202,
+        -1.8596908345206198
+      ],
+      "diameter_mm": 0.95,
+      "z0_mm": 19.65,
+      "z1_mm": 22.75
+    },
+    {
+      "name": "Centre straight prong 4",
+      "axis": "Z - straight",
+      "centre_xy_mm": [
+        1.8596908345206196,
+        -1.8596908345206202
+      ],
+      "diameter_mm": 0.95,
+      "z0_mm": 19.65,
+      "z1_mm": 22.75
+    },
+    {
+      "name": "Left straight prong 1",
+      "axis": "Z - straight",
+      "centre_xy_mm": [
+        -2.9241926419625646,
+        0.5758073580374355
+      ],
+      "diameter_mm": 0.8,
+      "z0_mm": 19.35,
+      "z1_mm": 21.52
+    },
+    {
+      "name": "Left straight prong 2",
+      "axis": "Z - straight",
+      "centre_xy_mm": [
+        -4.875807358037435,
+        0.5758073580374355
+      ],
+      "diameter_mm": 0.8,
+      "z0_mm": 19.35,
+      "z1_mm": 21.52
+    },
+    {
+      "name": "Left straight prong 3",
+      "axis": "Z - straight",
+      "centre_xy_mm": [
+        -4.875807358037435,
+        -1.3758073580374355
+      ],
+      "diameter_mm": 0.8,
+      "z0_mm": 19.35,
+      "z1_mm": 21.52
+    },
+    {
+      "name": "Left straight prong 4",
+      "axis": "Z - straight",
+      "centre_xy_mm": [
+        -2.9241926419625646,
+        -1.3758073580374357
+      ],
+      "diameter_mm": 0.8,
+      "z0_mm": 19.35,
+      "z1_mm": 21.52
+    },
+    {
+      "name": "Right straight prong 1",
+      "axis": "Z - straight",
+      "centre_xy_mm": [
+        4.875807358037435,
+        1.3758073580374357
+      ],
+      "diameter_mm": 0.8,
+      "z0_mm": 19.35,
+      "z1_mm": 21.52
+    },
+    {
+      "name": "Right straight prong 2",
+      "axis": "Z - straight",
+      "centre_xy_mm": [
+        2.9241926419625646,
+        1.3758073580374357
+      ],
+      "diameter_mm": 0.8,
+      "z0_mm": 19.35,
+      "z1_mm": 21.52
+    },
+    {
+      "name": "Right straight prong 3",
+      "axis": "Z - straight",
+      "centre_xy_mm": [
+        2.924192641962564,
+        -0.5758073580374354
+      ],
+      "diameter_mm": 0.8,
+      "z0_mm": 19.35,
+      "z1_mm": 21.52
+    },
+    {
+      "name": "Right straight prong 4",
+      "axis": "Z - straight",
+      "centre_xy_mm": [
+        4.875807358037435,
+        -0.5758073580374357
+      ],
+      "diameter_mm": 0.8,
+      "z0_mm": 19.35,
+      "z1_mm": 21.52
+    }
+  ],
+  "stone_count": 0,
+  "approval_basis": "User requested diamonds removed and all prongs straight",
+  "manufacturing_release": false
+}

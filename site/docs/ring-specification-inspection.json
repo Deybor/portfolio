@@ -1,0 +1,7477 @@
+{
+  "confluence": {
+    "source": "C:\\Users\\Master\\Documents\\itura\\PORFOLIO PIECES\\Confluence_First_Ring\\Approved_Model\\Confluence_Refined_Print.blend",
+    "sha256": "bf4e8b8d67d89c38eea1e2d73390b76193431c92d2e1644901c1c6a3a6fef94e",
+    "active_scene": "Scene",
+    "unit_scale": 0.0010000000474974513,
+    "scenes": [
+      {
+        "name": "Scene",
+        "visible_meshes": [
+          "Render8",
+          "2",
+          "Ring_8",
+          "Bypass shank \u2022 source 2",
+          "Platinum shoulder inlay 1",
+          "Platinum shoulder inlay 2",
+          "Architectural crown \u2022 source Ring_8",
+          "Central brilliant",
+          "Side brilliant -1",
+          "Side brilliant 1",
+          "Side claw",
+          "Side claw.001",
+          "Side claw.002",
+          "Side claw.003",
+          "Side claw.004",
+          "Side claw.005",
+          "Side claw.006",
+          "Side claw.007",
+          "Shoulder diamond 1",
+          "Shoulder diamond 2",
+          "Shoulder diamond 3",
+          "Shoulder diamond 4",
+          "Shoulder diamond 5",
+          "Shoulder diamond 6",
+          "Shoulder diamond 7",
+          "Shoulder diamond 8",
+          "Shoulder diamond 9",
+          "Shoulder diamond 10",
+          "Side gallery \u2022 source Render8 -1",
+          "Side gallery \u2022 source Render8 1",
+          "Refined original bypass shank",
+          "Center upper gallery",
+          "Center lower open gallery",
+          "Center finished claw 1",
+          "Center finished claw 2",
+          "Center finished claw 3",
+          "Center finished claw 4",
+          "Left upper gallery",
+          "Left lower open gallery",
+          "Left finished claw 1",
+          "Left finished claw 2",
+          "Left finished claw 3",
+          "Left finished claw 4",
+          "Right upper gallery",
+          "Right lower open gallery",
+          "Right finished claw 1",
+          "Right finished claw 2",
+          "Right finished claw 3",
+          "Right finished claw 4",
+          "Shoulder bridge -1",
+          "Trilogy under-gallery tie -1",
+          "Shoulder bridge 1",
+          "Trilogy under-gallery tie 1",
+          "Continuous sculpted bypass \u2014 nominal 18 mm bore",
+          "Flowing shoulder support -1",
+          "Flowing shoulder support 1",
+          "Center casting prong 1",
+          "Center casting prong 2",
+          "Center casting prong 3",
+          "Center casting prong 4",
+          "Left casting prong 1",
+          "Left casting prong 2",
+          "Left casting prong 3",
+          "Left casting prong 4",
+          "Right casting prong 1",
+          "Right casting prong 2",
+          "Right casting prong 3",
+          "Right casting prong 4",
+          "Confluence finished metal \u2014 single solid",
+          "Center presentation stone",
+          "Left presentation stone",
+          "Right presentation stone",
+          "Confluence casting pattern \u2014 uncut prong stock"
+        ]
+      }
+    ],
+    "meshes": [
+      {
+        "name": "2",
+        "collections": [
+          "01 \u2022 Original three rings \u2014 preserved"
+        ],
+        "hidden_render": false,
+        "hidden_viewport": false,
+        "dimensions": [
+          20.79953384399414,
+          8.266465187072754,
+          22.49552059173584
+        ],
+        "min": [
+          -10.398821830749512,
+          -4.130836486816406,
+          -15.982008934020996
+        ],
+        "max": [
+          10.400712013244629,
+          4.135628700256348,
+          6.513511657714844
+        ],
+        "vertices": 4838,
+        "faces": 9632
+      },
+      {
+        "name": "Architectural crown \u2022 source Ring_8",
+        "collections": [
+          "02 \u2022 Confluence \u2014 combined design"
+        ],
+        "hidden_render": false,
+        "hidden_viewport": false,
+        "dimensions": [
+          7.590816020965576,
+          4.648653745651245,
+          3.5975990295410156
+        ],
+        "min": [
+          -3.795393228530884,
+          -2.3338825702667236,
+          18.99735450744629
+        ],
+        "max": [
+          3.7954227924346924,
+          2.3147711753845215,
+          22.594953536987305
+        ],
+        "vertices": 97116,
+        "faces": 97114
+      },
+      {
+        "name": "Audit frame \u2014 prongs excluded",
+        "collections": [
+          "03 \u2022 Editable construction \u2014 hidden"
+        ],
+        "hidden_render": true,
+        "hidden_viewport": false,
+        "dimensions": [
+          21.419718742370605,
+          5.999998092651367,
+          21.37593001127243
+        ],
+        "min": [
+          -10.709853172302246,
+          -2.9999985694885254,
+          -0.30986136198043823
+        ],
+        "max": [
+          10.70986557006836,
+          2.999999523162842,
+          21.066068649291992
+        ],
+        "vertices": 212227,
+        "faces": 266801
+      },
+      {
+        "name": "Bypass shank \u2022 source 2",
+        "collections": [
+          "02 \u2022 Confluence \u2014 combined design"
+        ],
+        "hidden_render": false,
+        "hidden_viewport": false,
+        "dimensions": [
+          20.769078254699707,
+          8.154622077941895,
+          22.416412197053432
+        ],
+        "min": [
+          -10.384538650512695,
+          -4.077311038970947,
+          0.0859166756272316
+        ],
+        "max": [
+          10.384539604187012,
+          4.077311038970947,
+          22.502328872680664
+        ],
+        "vertices": 140096,
+        "faces": 140094
+      },
+      {
+        "name": "Center casting prong 1",
+        "collections": [
+          "03 \u2022 Editable construction \u2014 hidden"
+        ],
+        "hidden_render": false,
+        "hidden_viewport": false,
+        "dimensions": [
+          2.004387319087982,
+          2.007187843322754,
+          2.9838333129882812
+        ],
+        "min": [
+          0.3300343155860901,
+          0.32723402976989746,
+          19.788488388061523
+        ],
+        "max": [
+          2.3344216346740723,
+          2.3344218730926514,
+          22.772321701049805
+        ],
+        "vertices": 560,
+        "faces": 542
+      },
+      {
+        "name": "Center casting prong 2",
+        "collections": [
+          "03 \u2022 Editable construction \u2014 hidden"
+        ],
+        "hidden_render": false,
+        "hidden_viewport": false,
+        "dimensions": [
+          2.004387319087982,
+          2.007187843322754,
+          2.9838333129882812
+        ],
+        "min": [
+          -2.3344216346740723,
+          0.32723402976989746,
+          19.788488388061523
+        ],
+        "max": [
+          -0.3300343155860901,
+          2.3344218730926514,
+          22.772321701049805
+        ],
+        "vertices": 560,
+        "faces": 542
+      },
+      {
+        "name": "Center casting prong 3",
+        "collections": [
+          "03 \u2022 Editable construction \u2014 hidden"
+        ],
+        "hidden_render": false,
+        "hidden_viewport": false,
+        "dimensions": [
+          2.004387319087982,
+          2.007187843322754,
+          2.9838333129882812
+        ],
+        "min": [
+          -2.3344216346740723,
+          -2.3344218730926514,
+          19.788488388061523
+        ],
+        "max": [
+          -0.3300343155860901,
+          -0.32723402976989746,
+          22.772321701049805
+        ],
+        "vertices": 560,
+        "faces": 542
+      },
+      {
+        "name": "Center casting prong 4",
+        "collections": [
+          "03 \u2022 Editable construction \u2014 hidden"
+        ],
+        "hidden_render": false,
+        "hidden_viewport": false,
+        "dimensions": [
+          2.004387319087982,
+          2.007187843322754,
+          2.9838333129882812
+        ],
+        "min": [
+          0.3300343155860901,
+          -2.3344218730926514,
+          19.788488388061523
+        ],
+        "max": [
+          2.3344216346740723,
+          -0.32723402976989746,
+          22.772321701049805
+        ],
+        "vertices": 560,
+        "faces": 542
+      },
+      {
+        "name": "Center finished claw 1",
+        "collections": [
+          "03 \u2022 Editable construction \u2014 hidden"
+        ],
+        "hidden_render": false,
+        "hidden_viewport": false,
+        "dimensions": [
+          1.8922972977161407,
+          1.8953258395195007,
+          2.993927001953125
+        ],
+        "min": [
+          0.3311788737773895,
+          0.32815104722976685,
+          19.784610748291016
+        ],
+        "max": [
+          2.2234761714935303,
+          2.2234768867492676,
+          22.77853775024414
+        ],
+        "vertices": 1021,
+        "faces": 1021
+      },
+      {
+        "name": "Center finished claw 2",
+        "collections": [
+          "03 \u2022 Editable construction \u2014 hidden"
+        ],
+        "hidden_render": false,
+        "hidden_viewport": false,
+        "dimensions": [
+          1.8922972977161407,
+          1.8953258395195007,
+          2.993927001953125
+        ],
+        "min": [
+          -2.2234761714935303,
+          0.32815104722976685,
+          19.784610748291016
+        ],
+        "max": [
+          -0.3311788737773895,
+          2.2234768867492676,
+          22.77853775024414
+        ],
+        "vertices": 1021,
+        "faces": 1021
+      },
+      {
+        "name": "Center finished claw 3",
+        "collections": [
+          "03 \u2022 Editable construction \u2014 hidden"
+        ],
+        "hidden_render": false,
+        "hidden_viewport": false,
+        "dimensions": [
+          1.8922972977161407,
+          1.8953258395195007,
+          2.993927001953125
+        ],
+        "min": [
+          -2.2234761714935303,
+          -2.2234768867492676,
+          19.784610748291016
+        ],
+        "max": [
+          -0.3311788737773895,
+          -0.32815104722976685,
+          22.77853775024414
+        ],
+        "vertices": 1021,
+        "faces": 1021
+      },
+      {
+        "name": "Center finished claw 4",
+        "collections": [
+          "03 \u2022 Editable construction \u2014 hidden"
+        ],
+        "hidden_render": false,
+        "hidden_viewport": false,
+        "dimensions": [
+          1.8922972977161407,
+          1.8953258395195007,
+          2.993927001953125
+        ],
+        "min": [
+          0.3311788737773895,
+          -2.2234768867492676,
+          19.784610748291016
+        ],
+        "max": [
+          2.2234761714935303,
+          -0.32815104722976685,
+          22.77853775024414
+        ],
+        "vertices": 1021,
+        "faces": 1021
+      },
+      {
+        "name": "Center lower open gallery",
+        "collections": [
+          "03 \u2022 Editable construction \u2014 hidden"
+        ],
+        "hidden_render": false,
+        "hidden_viewport": false,
+        "dimensions": [
+          2.9600000381469727,
+          2.9600000381469727,
+          0.7599983215332031
+        ],
+        "min": [
+          -1.4800000190734863,
+          -1.4800000190734863,
+          19.6200008392334
+        ],
+        "max": [
+          1.4800000190734863,
+          1.4800000190734863,
+          20.3799991607666
+        ],
+        "vertices": 1920,
+        "faces": 1920
+      },
+      {
+        "name": "Center presentation stone",
+        "collections": [
+          "04 \u2022 Finished appearance \u2014 joined metal"
+        ],
+        "hidden_render": false,
+        "hidden_viewport": false,
+        "dimensions": [
+          5.0,
+          5.0,
+          2.700000762939453
+        ],
+        "min": [
+          -2.5,
+          -2.5,
+          20.27499771118164
+        ],
+        "max": [
+          2.5,
+          2.5,
+          22.974998474121094
+        ],
+        "vertices": 65,
+        "faces": 65
+      },
+      {
+        "name": "Center upper gallery",
+        "collections": [
+          "03 \u2022 Editable construction \u2014 hidden"
+        ],
+        "hidden_render": false,
+        "hidden_viewport": false,
+        "dimensions": [
+          4.78000020980835,
+          4.78000020980835,
+          0.6399993896484375
+        ],
+        "min": [
+          -2.390000104904175,
+          -2.390000104904175,
+          20.43000030517578
+        ],
+        "max": [
+          2.390000104904175,
+          2.390000104904175,
+          21.06999969482422
+        ],
+        "vertices": 1920,
+        "faces": 1920
+      },
+      {
+        "name": "Central brilliant",
+        "collections": [
+          "02 \u2022 Confluence \u2014 combined design"
+        ],
+        "hidden_render": false,
+        "hidden_viewport": false,
+        "dimensions": [
+          5.0,
+          5.0,
+          2.700000762939453
+        ],
+        "min": [
+          -2.5,
+          -2.5,
+          19.625
+        ],
+        "max": [
+          2.5,
+          2.5,
+          22.325000762939453
+        ],
+        "vertices": 65,
+        "faces": 65
+      },
+      {
+        "name": "Confluence casting pattern \u2014 uncut prong stock",
+        "collections": [
+          "05 \u2022 CASTING PATTERN \u2014 stock prongs, no stones"
+        ],
+        "hidden_render": false,
+        "hidden_viewport": false,
+        "dimensions": [
+          21.419706344604492,
+          5.99999737739563,
+          23.07811799645424
+        ],
+        "min": [
+          -10.709853172302246,
+          -2.9999988079071045,
+          -0.30984750390052795
+        ],
+        "max": [
+          10.709853172302246,
+          2.9999985694885254,
+          22.76827049255371
+        ],
+        "vertices": 231923,
+        "faces": 299782
+      },
+      {
+        "name": "Confluence finished metal \u2014 single solid",
+        "collections": [
+          "04 \u2022 Finished appearance \u2014 joined metal"
+        ],
+        "hidden_render": false,
+        "hidden_viewport": false,
+        "dimensions": [
+          21.419737815856934,
+          5.999996900558472,
+          23.08593338727951
+        ],
+        "min": [
+          -10.709884643554688,
+          -2.999997138977051,
+          -0.3098675608634949
+        ],
+        "max": [
+          10.709853172302246,
+          2.999999761581421,
+          22.776065826416016
+        ],
+        "vertices": 221941,
+        "faces": 443926
+      },
+      {
+        "name": "Continuous sculpted bypass \u2014 nominal 18 mm bore",
+        "collections": [
+          "03 \u2022 Editable construction \u2014 hidden"
+        ],
+        "hidden_render": false,
+        "hidden_viewport": false,
+        "dimensions": [
+          21.419925689697266,
+          6.0,
+          21.249887943267822
+        ],
+        "min": [
+          -10.709962844848633,
+          -3.0,
+          -0.3098912239074707
+        ],
+        "max": [
+          10.709962844848633,
+          3.0,
+          20.93999671936035
+        ],
+        "vertices": 26786,
+        "faces": 26820
+      },
+      {
+        "name": "Flowing shoulder support -1",
+        "collections": [
+          "03 \u2022 Editable construction \u2014 hidden"
+        ],
+        "hidden_render": false,
+        "hidden_viewport": false,
+        "dimensions": [
+          2.2704849243164062,
+          2.372077703475952,
+          2.7287940979003906
+        ],
+        "min": [
+          -6.910756587982178,
+          -0.8889502286911011,
+          17.461795806884766
+        ],
+        "max": [
+          -4.6402716636657715,
+          1.483127474784851,
+          20.190589904785156
+        ],
+        "vertices": 800,
+        "faces": 782
+      },
+      {
+        "name": "Flowing shoulder support 1",
+        "collections": [
+          "03 \u2022 Editable construction \u2014 hidden"
+        ],
+        "hidden_render": false,
+        "hidden_viewport": false,
+        "dimensions": [
+          2.2704849243164062,
+          2.372077703475952,
+          2.7287940979003906
+        ],
+        "min": [
+          4.6402716636657715,
+          -1.483127474784851,
+          17.461795806884766
+        ],
+        "max": [
+          6.910756587982178,
+          0.8889502286911011,
+          20.190589904785156
+        ],
+        "vertices": 800,
+        "faces": 782
+      },
+      {
+        "name": "Left casting prong 1",
+        "collections": [
+          "03 \u2022 Editable construction \u2014 hidden"
+        ],
+        "hidden_render": false,
+        "hidden_viewport": false,
+        "dimensions": [
+          1.1348741054534912,
+          1.1364671438932419,
+          1.9879169464111328
+        ],
+        "min": [
+          -3.659085750579834,
+          -0.16067884862422943,
+          19.537538528442383
+        ],
+        "max": [
+          -2.5242116451263428,
+          0.9757882952690125,
+          21.525455474853516
+        ],
+        "vertices": 560,
+        "faces": 542
+      },
+      {
+        "name": "Left casting prong 2",
+        "collections": [
+          "03 \u2022 Editable construction \u2014 hidden"
+        ],
+        "hidden_render": false,
+        "hidden_viewport": false,
+        "dimensions": [
+          1.1348743438720703,
+          1.1364671438932419,
+          1.9879150390625
+        ],
+        "min": [
+          -5.275788307189941,
+          -0.16067878901958466,
+          19.537538528442383
+        ],
+        "max": [
+          -4.140913963317871,
+          0.9757883548736572,
+          21.525453567504883
+        ],
+        "vertices": 560,
+        "faces": 542
+      },
+      {
+        "name": "Left casting prong 3",
+        "collections": [
+          "03 \u2022 Editable construction \u2014 hidden"
+        ],
+        "hidden_render": false,
+        "hidden_viewport": false,
+        "dimensions": [
+          1.1348748207092285,
+          1.1364673376083374,
+          1.9879150390625
+        ],
+        "min": [
+          -5.275788307189941,
+          -1.775788426399231,
+          19.537538528442383
+        ],
+        "max": [
+          -4.140913486480713,
+          -0.6393210887908936,
+          21.525453567504883
+        ],
+        "vertices": 560,
+        "faces": 542
+      },
+      {
+        "name": "Left casting prong 4",
+        "collections": [
+          "03 \u2022 Editable construction \u2014 hidden"
+        ],
+        "hidden_render": false,
+        "hidden_viewport": false,
+        "dimensions": [
+          1.1348741054534912,
+          1.1364672780036926,
+          1.9879169464111328
+        ],
+        "min": [
+          -3.659085750579834,
+          -1.7757883071899414,
+          19.537538528442383
+        ],
+        "max": [
+          -2.5242116451263428,
+          -0.6393210291862488,
+          21.525455474853516
+        ],
+        "vertices": 560,
+        "faces": 542
+      },
+      {
+        "name": "Left finished claw 1",
+        "collections": [
+          "03 \u2022 Editable construction \u2014 hidden"
+        ],
+        "hidden_render": false,
+        "hidden_viewport": false,
+        "dimensions": [
+          0.9716062545776367,
+          0.9732576757669449,
+          1.7773189544677734
+        ],
+        "min": [
+          -3.658975839614868,
+          -0.1605876237154007,
+          19.537107467651367
+        ],
+        "max": [
+          -2.6873695850372314,
+          0.8126700520515442,
+          21.31442642211914
+        ],
+        "vertices": 1021,
+        "faces": 1021
+      },
+      {
+        "name": "Left finished claw 2",
+        "collections": [
+          "03 \u2022 Editable construction \u2014 hidden"
+        ],
+        "hidden_render": false,
+        "hidden_viewport": false,
+        "dimensions": [
+          0.9716076850891113,
+          0.9732575863599777,
+          1.7773189544677734
+        ],
+        "min": [
+          -5.112631320953369,
+          -0.1605875939130783,
+          19.537107467651367
+        ],
+        "max": [
+          -4.141023635864258,
+          0.8126699924468994,
+          21.31442642211914
+        ],
+        "vertices": 1021,
+        "faces": 1021
+      },
+      {
+        "name": "Left finished claw 3",
+        "collections": [
+          "03 \u2022 Editable construction \u2014 hidden"
+        ],
+        "hidden_render": false,
+        "hidden_viewport": false,
+        "dimensions": [
+          0.9716076850891113,
+          0.9732574820518494,
+          1.7773189544677734
+        ],
+        "min": [
+          -5.112631320953369,
+          -1.6126700639724731,
+          19.537107467651367
+        ],
+        "max": [
+          -4.141023635864258,
+          -0.6394125819206238,
+          21.31442642211914
+        ],
+        "vertices": 1021,
+        "faces": 1021
+      },
+      {
+        "name": "Left finished claw 4",
+        "collections": [
+          "03 \u2022 Editable construction \u2014 hidden"
+        ],
+        "hidden_render": false,
+        "hidden_viewport": false,
+        "dimensions": [
+          0.9716062545776367,
+          0.9732575416564941,
+          1.7773189544677734
+        ],
+        "min": [
+          -3.658975839614868,
+          -1.6126700639724731,
+          19.537107467651367
+        ],
+        "max": [
+          -2.6873695850372314,
+          -0.639412522315979,
+          21.31442642211914
+        ],
+        "vertices": 1021,
+        "faces": 1021
+      },
+      {
+        "name": "Left lower open gallery",
+        "collections": [
+          "03 \u2022 Editable construction \u2014 hidden"
+        ],
+        "hidden_render": false,
+        "hidden_viewport": false,
+        "dimensions": [
+          2.5199997425079346,
+          2.5199999809265137,
+          0.7600002288818359
+        ],
+        "min": [
+          -5.159999847412109,
+          -1.659999966621399,
+          19.31999969482422
+        ],
+        "max": [
+          -2.640000104904175,
+          0.8600000143051147,
+          20.079999923706055
+        ],
+        "vertices": 1920,
+        "faces": 1920
+      },
+      {
+        "name": "Left presentation stone",
+        "collections": [
+          "04 \u2022 Finished appearance \u2014 joined metal"
+        ],
+        "hidden_render": false,
+        "hidden_viewport": false,
+        "dimensions": [
+          2.499999523162842,
+          2.5,
+          1.3499984741210938
+        ],
+        "min": [
+          -5.149999618530273,
+          -1.649999976158142,
+          20.057497024536133
+        ],
+        "max": [
+          -2.6500000953674316,
+          0.8500000238418579,
+          21.407495498657227
+        ],
+        "vertices": 65,
+        "faces": 65
+      },
+      {
+        "name": "Left upper gallery",
+        "collections": [
+          "03 \u2022 Editable construction \u2014 hidden"
+        ],
+        "hidden_render": false,
+        "hidden_viewport": false,
+        "dimensions": [
+          2.760000228881836,
+          2.759999990463257,
+          0.5599994659423828
+        ],
+        "min": [
+          -5.28000020980835,
+          -1.7799999713897705,
+          19.920000076293945
+        ],
+        "max": [
+          -2.5199999809265137,
+          0.9800000190734863,
+          20.479999542236328
+        ],
+        "vertices": 1920,
+        "faces": 1920
+      },
+      {
+        "name": "Platinum shoulder inlay 1",
+        "collections": [
+          "02 \u2022 Confluence \u2014 combined design"
+        ],
+        "hidden_render": false,
+        "hidden_viewport": false,
+        "dimensions": [
+          7.147254467010498,
+          1.943187654018402,
+          5.982631683349609
+        ],
+        "min": [
+          1.9358611106872559,
+          -0.7484788298606873,
+          14.001363754272461
+        ],
+        "max": [
+          9.083115577697754,
+          1.1947088241577148,
+          19.98399543762207
+        ],
+        "vertices": 31298,
+        "faces": 31298
+      },
+      {
+        "name": "Platinum shoulder inlay 2",
+        "collections": [
+          "02 \u2022 Confluence \u2014 combined design"
+        ],
+        "hidden_render": false,
+        "hidden_viewport": false,
+        "dimensions": [
+          7.147254467010498,
+          1.9431875944137573,
+          5.982631683349609
+        ],
+        "min": [
+          -9.083115577697754,
+          -1.1947088241577148,
+          14.001363754272461
+        ],
+        "max": [
+          -1.9358611106872559,
+          0.7484787702560425,
+          19.98399543762207
+        ],
+        "vertices": 31298,
+        "faces": 31298
+      },
+      {
+        "name": "Refined original bypass shank",
+        "collections": [
+          "03 \u2022 Editable construction \u2014 hidden"
+        ],
+        "hidden_render": false,
+        "hidden_viewport": false,
+        "dimensions": [
+          21.211654663085938,
+          6.1137330532073975,
+          20.91431415081024
+        ],
+        "min": [
+          -10.605827331542969,
+          -3.056866407394409,
+          -0.1241072416305542
+        ],
+        "max": [
+          10.605827331542969,
+          3.0568666458129883,
+          20.790206909179688
+        ],
+        "vertices": 560378,
+        "faces": 560376
+      },
+      {
+        "name": "Render8",
+        "collections": [
+          "01 \u2022 Original three rings \u2014 preserved"
+        ],
+        "hidden_render": false,
+        "hidden_viewport": false,
+        "dimensions": [
+          19.891334533691406,
+          7.851334095001221,
+          23.845335006713867
+        ],
+        "min": [
+          -9.94686508178711,
+          -3.9259042739868164,
+          -15.491317749023438
+        ],
+        "max": [
+          9.944469451904297,
+          3.9254298210144043,
+          8.35401725769043
+        ],
+        "vertices": 85092,
+        "faces": 136102
+      },
+      {
+        "name": "Right casting prong 1",
+        "collections": [
+          "03 \u2022 Editable construction \u2014 hidden"
+        ],
+        "hidden_render": false,
+        "hidden_viewport": false,
+        "dimensions": [
+          1.1348748207092285,
+          1.1364673376083374,
+          1.9879150390625
+        ],
+        "min": [
+          4.140913486480713,
+          0.6393210887908936,
+          19.537538528442383
+        ],
+        "max": [
+          5.275788307189941,
+          1.775788426399231,
+          21.525453567504883
+        ],
+        "vertices": 560,
+        "faces": 542
+      },
+      {
+        "name": "Right casting prong 2",
+        "collections": [
+          "03 \u2022 Editable construction \u2014 hidden"
+        ],
+        "hidden_render": false,
+        "hidden_viewport": false,
+        "dimensions": [
+          1.1348741054534912,
+          1.1364672780036926,
+          1.9879169464111328
+        ],
+        "min": [
+          2.5242116451263428,
+          0.6393210291862488,
+          19.537538528442383
+        ],
+        "max": [
+          3.659085750579834,
+          1.7757883071899414,
+          21.525455474853516
+        ],
+        "vertices": 560,
+        "faces": 542
+      },
+      {
+        "name": "Right casting prong 3",
+        "collections": [
+          "03 \u2022 Editable construction \u2014 hidden"
+        ],
+        "hidden_render": false,
+        "hidden_viewport": false,
+        "dimensions": [
+          1.1348741054534912,
+          1.1364671438932419,
+          1.9879169464111328
+        ],
+        "min": [
+          2.5242116451263428,
+          -0.9757882952690125,
+          19.537538528442383
+        ],
+        "max": [
+          3.659085750579834,
+          0.16067884862422943,
+          21.525455474853516
+        ],
+        "vertices": 560,
+        "faces": 542
+      },
+      {
+        "name": "Right casting prong 4",
+        "collections": [
+          "03 \u2022 Editable construction \u2014 hidden"
+        ],
+        "hidden_render": false,
+        "hidden_viewport": false,
+        "dimensions": [
+          1.1348743438720703,
+          1.1364671438932419,
+          1.9879150390625
+        ],
+        "min": [
+          4.140913963317871,
+          -0.9757883548736572,
+          19.537538528442383
+        ],
+        "max": [
+          5.275788307189941,
+          0.16067878901958466,
+          21.525453567504883
+        ],
+        "vertices": 560,
+        "faces": 542
+      },
+      {
+        "name": "Right finished claw 1",
+        "collections": [
+          "03 \u2022 Editable construction \u2014 hidden"
+        ],
+        "hidden_render": false,
+        "hidden_viewport": false,
+        "dimensions": [
+          0.9716076850891113,
+          0.9732574820518494,
+          1.7773189544677734
+        ],
+        "min": [
+          4.141023635864258,
+          0.6394125819206238,
+          19.537107467651367
+        ],
+        "max": [
+          5.112631320953369,
+          1.6126700639724731,
+          21.31442642211914
+        ],
+        "vertices": 1021,
+        "faces": 1021
+      },
+      {
+        "name": "Right finished claw 2",
+        "collections": [
+          "03 \u2022 Editable construction \u2014 hidden"
+        ],
+        "hidden_render": false,
+        "hidden_viewport": false,
+        "dimensions": [
+          0.9716062545776367,
+          0.9732575416564941,
+          1.7773189544677734
+        ],
+        "min": [
+          2.6873695850372314,
+          0.639412522315979,
+          19.537107467651367
+        ],
+        "max": [
+          3.658975839614868,
+          1.6126700639724731,
+          21.31442642211914
+        ],
+        "vertices": 1021,
+        "faces": 1021
+      },
+      {
+        "name": "Right finished claw 3",
+        "collections": [
+          "03 \u2022 Editable construction \u2014 hidden"
+        ],
+        "hidden_render": false,
+        "hidden_viewport": false,
+        "dimensions": [
+          0.9716062545776367,
+          0.9732576757669449,
+          1.7773189544677734
+        ],
+        "min": [
+          2.6873695850372314,
+          -0.8126700520515442,
+          19.537107467651367
+        ],
+        "max": [
+          3.658975839614868,
+          0.1605876237154007,
+          21.31442642211914
+        ],
+        "vertices": 1021,
+        "faces": 1021
+      },
+      {
+        "name": "Right finished claw 4",
+        "collections": [
+          "03 \u2022 Editable construction \u2014 hidden"
+        ],
+        "hidden_render": false,
+        "hidden_viewport": false,
+        "dimensions": [
+          0.9716076850891113,
+          0.9732575863599777,
+          1.7773189544677734
+        ],
+        "min": [
+          4.141023635864258,
+          -0.8126699924468994,
+          19.537107467651367
+        ],
+        "max": [
+          5.112631320953369,
+          0.1605875939130783,
+          21.31442642211914
+        ],
+        "vertices": 1021,
+        "faces": 1021
+      },
+      {
+        "name": "Right lower open gallery",
+        "collections": [
+          "03 \u2022 Editable construction \u2014 hidden"
+        ],
+        "hidden_render": false,
+        "hidden_viewport": false,
+        "dimensions": [
+          2.5199997425079346,
+          2.5199999809265137,
+          0.7600002288818359
+        ],
+        "min": [
+          2.640000104904175,
+          -0.8600000143051147,
+          19.31999969482422
+        ],
+        "max": [
+          5.159999847412109,
+          1.659999966621399,
+          20.079999923706055
+        ],
+        "vertices": 1920,
+        "faces": 1920
+      },
+      {
+        "name": "Right presentation stone",
+        "collections": [
+          "04 \u2022 Finished appearance \u2014 joined metal"
+        ],
+        "hidden_render": false,
+        "hidden_viewport": false,
+        "dimensions": [
+          2.499999523162842,
+          2.5000001192092896,
+          1.3499984741210938
+        ],
+        "min": [
+          2.65000057220459,
+          -0.8500000238418579,
+          20.057497024536133
+        ],
+        "max": [
+          5.150000095367432,
+          1.6500000953674316,
+          21.407495498657227
+        ],
+        "vertices": 65,
+        "faces": 65
+      },
+      {
+        "name": "Right upper gallery",
+        "collections": [
+          "03 \u2022 Editable construction \u2014 hidden"
+        ],
+        "hidden_render": false,
+        "hidden_viewport": false,
+        "dimensions": [
+          2.760000228881836,
+          2.759999990463257,
+          0.5599994659423828
+        ],
+        "min": [
+          2.5199999809265137,
+          -0.9800000190734863,
+          19.920000076293945
+        ],
+        "max": [
+          5.28000020980835,
+          1.7799999713897705,
+          20.479999542236328
+        ],
+        "vertices": 1920,
+        "faces": 1920
+      },
+      {
+        "name": "Ring_8",
+        "collections": [
+          "01 \u2022 Original three rings \u2014 preserved"
+        ],
+        "hidden_render": false,
+        "hidden_viewport": false,
+        "dimensions": [
+          19.75533676147461,
+          10.99533462524414,
+          22.13266944885254
+        ],
+        "min": [
+          -9.863543510437012,
+          -5.516668796539307,
+          -12.450571060180664
+        ],
+        "max": [
+          9.891793251037598,
+          5.478665828704834,
+          9.682098388671875
+        ],
+        "vertices": 11481,
+        "faces": 22966
+      },
+      {
+        "name": "Shoulder bridge -1",
+        "collections": [
+          "03 \u2022 Editable construction \u2014 hidden"
+        ],
+        "hidden_render": false,
+        "hidden_viewport": false,
+        "dimensions": [
+          2.2151575088500977,
+          1.383685052394867,
+          1.9111099243164062
+        ],
+        "min": [
+          -6.774776458740234,
+          -0.89997398853302,
+          18.237703323364258
+        ],
+        "max": [
+          -4.559618949890137,
+          0.4837110638618469,
+          20.148813247680664
+        ],
+        "vertices": 640,
+        "faces": 622
+      },
+      {
+        "name": "Shoulder bridge 1",
+        "collections": [
+          "03 \u2022 Editable construction \u2014 hidden"
+        ],
+        "hidden_render": false,
+        "hidden_viewport": false,
+        "dimensions": [
+          2.215148448944092,
+          1.3836845755577087,
+          1.9111213684082031
+        ],
+        "min": [
+          4.559618949890137,
+          -0.4837105870246887,
+          18.23769187927246
+        ],
+        "max": [
+          6.7747673988342285,
+          0.89997398853302,
+          20.148813247680664
+        ],
+        "vertices": 640,
+        "faces": 622
+      },
+      {
+        "name": "Shoulder diamond 1",
+        "collections": [
+          "02 \u2022 Confluence \u2014 combined design"
+        ],
+        "hidden_render": false,
+        "hidden_viewport": false,
+        "dimensions": [
+          0.6000001430511475,
+          0.5999999940395355,
+          0.32399940490722656
+        ],
+        "min": [
+          2.851543664932251,
+          -0.33383598923683167,
+          19.79623031616211
+        ],
+        "max": [
+          3.4515438079833984,
+          0.26616400480270386,
+          20.120229721069336
+        ],
+        "vertices": 65,
+        "faces": 65
+      },
+      {
+        "name": "Shoulder diamond 10",
+        "collections": [
+          "02 \u2022 Confluence \u2014 combined design"
+        ],
+        "hidden_render": false,
+        "hidden_viewport": false,
+        "dimensions": [
+          0.5999999046325684,
+          0.5999999940395355,
+          0.32399940490722656
+        ],
+        "min": [
+          5.630926132202148,
+          0.34892740845680237,
+          18.349523544311523
+        ],
+        "max": [
+          6.230926036834717,
+          0.9489274024963379,
+          18.67352294921875
+        ],
+        "vertices": 65,
+        "faces": 65
+      },
+      {
+        "name": "Shoulder diamond 2",
+        "collections": [
+          "02 \u2022 Confluence \u2014 combined design"
+        ],
+        "hidden_render": false,
+        "hidden_viewport": false,
+        "dimensions": [
+          0.5999999046325684,
+          0.5999999642372131,
+          0.32399940490722656
+        ],
+        "min": [
+          2.8606741428375244,
+          0.5062429308891296,
+          19.793323516845703
+        ],
+        "max": [
+          3.4606740474700928,
+          1.1062428951263428,
+          20.11732292175293
+        ],
+        "vertices": 65,
+        "faces": 65
+      },
+      {
+        "name": "Shoulder diamond 3",
+        "collections": [
+          "02 \u2022 Confluence \u2014 combined design"
+        ],
+        "hidden_render": false,
+        "hidden_viewport": false,
+        "dimensions": [
+          0.6000003814697266,
+          0.6000000238418579,
+          0.32399940490722656
+        ],
+        "min": [
+          4.3753180503845215,
+          0.03165501356124878,
+          19.13591194152832
+        ],
+        "max": [
+          4.975318431854248,
+          0.6316550374031067,
+          19.459911346435547
+        ],
+        "vertices": 65,
+        "faces": 65
+      },
+      {
+        "name": "Shoulder diamond 4",
+        "collections": [
+          "02 \u2022 Confluence \u2014 combined design"
+        ],
+        "hidden_render": false,
+        "hidden_viewport": false,
+        "dimensions": [
+          0.5999999046325684,
+          0.5999999940395355,
+          0.32399940490722656
+        ],
+        "min": [
+          4.97196626663208,
+          0.28148403763771057,
+          18.75873565673828
+        ],
+        "max": [
+          5.571966171264648,
+          0.8814840316772461,
+          19.082735061645508
+        ],
+        "vertices": 65,
+        "faces": 65
+      },
+      {
+        "name": "Shoulder diamond 5",
+        "collections": [
+          "02 \u2022 Confluence \u2014 combined design"
+        ],
+        "hidden_render": false,
+        "hidden_viewport": false,
+        "dimensions": [
+          0.5999999046325684,
+          0.5999999940395355,
+          0.32399940490722656
+        ],
+        "min": [
+          -6.230926036834717,
+          -0.9489274024963379,
+          18.349523544311523
+        ],
+        "max": [
+          -5.630926132202148,
+          -0.34892740845680237,
+          18.67352294921875
+        ],
+        "vertices": 65,
+        "faces": 65
+      },
+      {
+        "name": "Shoulder diamond 6",
+        "collections": [
+          "02 \u2022 Confluence \u2014 combined design"
+        ],
+        "hidden_render": false,
+        "hidden_viewport": false,
+        "dimensions": [
+          0.5999999046325684,
+          0.5999999940395355,
+          0.32399940490722656
+        ],
+        "min": [
+          -5.571966171264648,
+          -0.8814840316772461,
+          18.75873565673828
+        ],
+        "max": [
+          -4.97196626663208,
+          -0.28148403763771057,
+          19.082735061645508
+        ],
+        "vertices": 65,
+        "faces": 65
+      },
+      {
+        "name": "Shoulder diamond 7",
+        "collections": [
+          "02 \u2022 Confluence \u2014 combined design"
+        ],
+        "hidden_render": false,
+        "hidden_viewport": false,
+        "dimensions": [
+          0.6000003814697266,
+          0.6000000238418579,
+          0.32399940490722656
+        ],
+        "min": [
+          -4.975318431854248,
+          -0.6316550374031067,
+          19.13591194152832
+        ],
+        "max": [
+          -4.3753180503845215,
+          -0.03165501356124878,
+          19.459911346435547
+        ],
+        "vertices": 65,
+        "faces": 65
+      },
+      {
+        "name": "Shoulder diamond 8",
+        "collections": [
+          "02 \u2022 Confluence \u2014 combined design"
+        ],
+        "hidden_render": false,
+        "hidden_viewport": false,
+        "dimensions": [
+          0.5999999046325684,
+          0.5999999642372131,
+          0.32399940490722656
+        ],
+        "min": [
+          -3.4606740474700928,
+          -1.1062428951263428,
+          19.793323516845703
+        ],
+        "max": [
+          -2.8606741428375244,
+          -0.5062429308891296,
+          20.11732292175293
+        ],
+        "vertices": 65,
+        "faces": 65
+      },
+      {
+        "name": "Shoulder diamond 9",
+        "collections": [
+          "02 \u2022 Confluence \u2014 combined design"
+        ],
+        "hidden_render": false,
+        "hidden_viewport": false,
+        "dimensions": [
+          0.6000001430511475,
+          0.5999999940395355,
+          0.32399940490722656
+        ],
+        "min": [
+          -3.4515438079833984,
+          -0.26616400480270386,
+          19.79623031616211
+        ],
+        "max": [
+          -2.851543664932251,
+          0.33383598923683167,
+          20.120229721069336
+        ],
+        "vertices": 65,
+        "faces": 65
+      },
+      {
+        "name": "Side brilliant -1",
+        "collections": [
+          "02 \u2022 Confluence \u2014 combined design"
+        ],
+        "hidden_render": false,
+        "hidden_viewport": false,
+        "dimensions": [
+          2.43999981880188,
+          2.439999997615814,
+          1.3175983428955078
+        ],
+        "min": [
+          -5.369999885559082,
+          -1.8700000047683716,
+          19.707000732421875
+        ],
+        "max": [
+          -2.930000066757202,
+          0.5699999928474426,
+          21.024599075317383
+        ],
+        "vertices": 65,
+        "faces": 65
+      },
+      {
+        "name": "Side brilliant 1",
+        "collections": [
+          "02 \u2022 Confluence \u2014 combined design"
+        ],
+        "hidden_render": false,
+        "hidden_viewport": false,
+        "dimensions": [
+          2.43999981880188,
+          2.439999997615814,
+          1.3175983428955078
+        ],
+        "min": [
+          2.930000066757202,
+          -0.5699999928474426,
+          19.707000732421875
+        ],
+        "max": [
+          5.369999885559082,
+          1.8700000047683716,
+          21.024599075317383
+        ],
+        "vertices": 65,
+        "faces": 65
+      },
+      {
+        "name": "Side claw",
+        "collections": [
+          "02 \u2022 Confluence \u2014 combined design"
+        ],
+        "hidden_render": false,
+        "hidden_viewport": false,
+        "dimensions": [
+          2.0000005960464478,
+          2.000000238418579,
+          2.0
+        ],
+        "min": [
+          -1.0000004768371582,
+          -1.000000238418579,
+          -1.0
+        ],
+        "max": [
+          1.0000001192092896,
+          1.0,
+          1.0
+        ],
+        "vertices": 222,
+        "faces": 240
+      },
+      {
+        "name": "Side claw.001",
+        "collections": [
+          "02 \u2022 Confluence \u2014 combined design"
+        ],
+        "hidden_render": false,
+        "hidden_viewport": false,
+        "dimensions": [
+          2.0000005960464478,
+          2.000000238418579,
+          2.0
+        ],
+        "min": [
+          -1.0000004768371582,
+          -1.000000238418579,
+          -1.0
+        ],
+        "max": [
+          1.0000001192092896,
+          1.0,
+          1.0
+        ],
+        "vertices": 222,
+        "faces": 240
+      },
+      {
+        "name": "Side claw.002",
+        "collections": [
+          "02 \u2022 Confluence \u2014 combined design"
+        ],
+        "hidden_render": false,
+        "hidden_viewport": false,
+        "dimensions": [
+          2.0000005960464478,
+          2.000000238418579,
+          2.0
+        ],
+        "min": [
+          -1.0000004768371582,
+          -1.000000238418579,
+          -1.0
+        ],
+        "max": [
+          1.0000001192092896,
+          1.0,
+          1.0
+        ],
+        "vertices": 222,
+        "faces": 240
+      },
+      {
+        "name": "Side claw.003",
+        "collections": [
+          "02 \u2022 Confluence \u2014 combined design"
+        ],
+        "hidden_render": false,
+        "hidden_viewport": false,
+        "dimensions": [
+          2.0000005960464478,
+          2.000000238418579,
+          2.0
+        ],
+        "min": [
+          -1.0000004768371582,
+          -1.000000238418579,
+          -1.0
+        ],
+        "max": [
+          1.0000001192092896,
+          1.0,
+          1.0
+        ],
+        "vertices": 222,
+        "faces": 240
+      },
+      {
+        "name": "Side claw.004",
+        "collections": [
+          "02 \u2022 Confluence \u2014 combined design"
+        ],
+        "hidden_render": false,
+        "hidden_viewport": false,
+        "dimensions": [
+          2.0000005960464478,
+          2.000000238418579,
+          2.0
+        ],
+        "min": [
+          -1.0000004768371582,
+          -1.000000238418579,
+          -1.0
+        ],
+        "max": [
+          1.0000001192092896,
+          1.0,
+          1.0
+        ],
+        "vertices": 222,
+        "faces": 240
+      },
+      {
+        "name": "Side claw.005",
+        "collections": [
+          "02 \u2022 Confluence \u2014 combined design"
+        ],
+        "hidden_render": false,
+        "hidden_viewport": false,
+        "dimensions": [
+          2.0000005960464478,
+          2.000000238418579,
+          2.0
+        ],
+        "min": [
+          -1.0000004768371582,
+          -1.000000238418579,
+          -1.0
+        ],
+        "max": [
+          1.0000001192092896,
+          1.0,
+          1.0
+        ],
+        "vertices": 222,
+        "faces": 240
+      },
+      {
+        "name": "Side claw.006",
+        "collections": [
+          "02 \u2022 Confluence \u2014 combined design"
+        ],
+        "hidden_render": false,
+        "hidden_viewport": false,
+        "dimensions": [
+          2.0000005960464478,
+          2.000000238418579,
+          2.0
+        ],
+        "min": [
+          -1.0000004768371582,
+          -1.000000238418579,
+          -1.0
+        ],
+        "max": [
+          1.0000001192092896,
+          1.0,
+          1.0
+        ],
+        "vertices": 222,
+        "faces": 240
+      },
+      {
+        "name": "Side claw.007",
+        "collections": [
+          "02 \u2022 Confluence \u2014 combined design"
+        ],
+        "hidden_render": false,
+        "hidden_viewport": false,
+        "dimensions": [
+          2.0000005960464478,
+          2.000000238418579,
+          2.0
+        ],
+        "min": [
+          -1.0000004768371582,
+          -1.000000238418579,
+          -1.0
+        ],
+        "max": [
+          1.0000001192092896,
+          1.0,
+          1.0
+        ],
+        "vertices": 222,
+        "faces": 240
+      },
+      {
+        "name": "Side gallery \u2022 source Render8 -1",
+        "collections": [
+          "02 \u2022 Confluence \u2014 combined design"
+        ],
+        "hidden_render": false,
+        "hidden_viewport": false,
+        "dimensions": [
+          2.648120880126953,
+          2.6476837396621704,
+          1.0299758911132812
+        ],
+        "min": [
+          -5.473417282104492,
+          -1.973755121231079,
+          19.43048858642578
+        ],
+        "max": [
+          -2.825296401977539,
+          0.6739286184310913,
+          20.460464477539062
+        ],
+        "vertices": 16084,
+        "faces": 16094
+      },
+      {
+        "name": "Side gallery \u2022 source Render8 1",
+        "collections": [
+          "02 \u2022 Confluence \u2014 combined design"
+        ],
+        "hidden_render": false,
+        "hidden_viewport": false,
+        "dimensions": [
+          2.647975206375122,
+          2.647909641265869,
+          1.0305938720703125
+        ],
+        "min": [
+          2.8259942531585693,
+          -0.6744725704193115,
+          19.429874420166016
+        ],
+        "max": [
+          5.473969459533691,
+          1.9734370708465576,
+          20.460468292236328
+        ],
+        "vertices": 16090,
+        "faces": 16100
+      },
+      {
+        "name": "Trilogy under-gallery tie -1",
+        "collections": [
+          "03 \u2022 Editable construction \u2014 hidden"
+        ],
+        "hidden_render": false,
+        "hidden_viewport": false,
+        "dimensions": [
+          1.9154696464538574,
+          1.1911762356758118,
+          1.4502544403076172
+        ],
+        "min": [
+          -3.0938405990600586,
+          -0.8542231917381287,
+          19.240259170532227
+        ],
+        "max": [
+          -1.1783709526062012,
+          0.3369530439376831,
+          20.690513610839844
+        ],
+        "vertices": 640,
+        "faces": 622
+      },
+      {
+        "name": "Trilogy under-gallery tie 1",
+        "collections": [
+          "03 \u2022 Editable construction \u2014 hidden"
+        ],
+        "hidden_render": false,
+        "hidden_viewport": false,
+        "dimensions": [
+          1.9154696464538574,
+          1.1911762356758118,
+          1.4502544403076172
+        ],
+        "min": [
+          1.1783709526062012,
+          -0.3369530439376831,
+          19.240259170532227
+        ],
+        "max": [
+          3.0938405990600586,
+          0.8542231917381287,
+          20.690513610839844
+        ],
+        "vertices": 640,
+        "faces": 622
+      }
+    ]
+  },
+  "iced-out-ring": {
+    "source": "C:\\Users\\Master\\Documents\\itura\\PORFOLIO PIECES\\Ring_Iced_Out_03\\Ring_Iced_Out_03.blend",
+    "sha256": "ba7d6e3a47568b2988b20e047871accc9b492e5ee40ec596f6bd43da1af17184",
+    "active_scene": "BEAUTY - diamonds only added",
+    "unit_scale": 0.0010000000474974513,
+    "scenes": [
+      {
+        "name": "BEAUTY - diamonds only added",
+        "visible_meshes": [
+          "Studio backdrop",
+          "Ring beauty - refined prongs",
+          "Diamond_CentreUpper_01",
+          "Diamond_CentreUpper_02",
+          "Diamond_CentreUpper_03",
+          "Diamond_CentreUpper_04",
+          "Diamond_CentreUpper_05",
+          "Diamond_CentreUpper_06",
+          "Diamond_CentreUpper_07",
+          "Diamond_CentreUpper_08",
+          "Diamond_CentreUpper_09",
+          "Diamond_CentreUpper_10",
+          "Diamond_CentreUpper_11",
+          "Diamond_CentreUpper_12",
+          "Diamond_CentreUpper_13",
+          "Diamond_CentreUpper_14",
+          "Diamond_CentreUpper_15",
+          "Diamond_CentreUpper_16",
+          "Diamond_CentreUpper_17",
+          "Diamond_CentreUpper_18",
+          "Diamond_CentreUpper_19",
+          "Diamond_CentreUpper_20",
+          "Diamond_CentreUpper_21",
+          "Diamond_CentreUpper_22",
+          "Diamond_CentreUpper_23",
+          "Diamond_CentreUpper_24",
+          "Diamond_CentreUpper_25",
+          "Diamond_CentreUpper_26",
+          "Diamond_CentreUpper_27",
+          "Diamond_CentreUpper_28",
+          "Diamond_CentreUpper_29",
+          "Diamond_CentreUpper_30",
+          "Diamond_CentreUpper_31",
+          "Diamond_CentreUpper_32",
+          "Diamond_CentreUpper_33",
+          "Diamond_CentreUpper_34",
+          "Diamond_CentreUpper_35",
+          "Diamond_CentreUpper_36",
+          "Diamond_CentreUpper_37",
+          "Diamond_CentreUpper_38",
+          "Diamond_CentreUpper_39",
+          "Diamond_CentreUpper_40",
+          "Diamond_CentreUpper_41",
+          "Diamond_CentreUpper_42",
+          "Diamond_CentreUpper_43",
+          "Diamond_CentreUpper_44",
+          "Diamond_CentreUpper_45",
+          "Diamond_CentreUpper_46",
+          "Diamond_CentreUpper_47",
+          "Diamond_CentreUpper_48",
+          "Diamond_CentreUpper_49",
+          "Diamond_CentreUpper_50",
+          "Diamond_CentreUpper_51",
+          "Diamond_CentreUpper_52",
+          "Diamond_CentreLower_01",
+          "Diamond_CentreLower_02",
+          "Diamond_CentreLower_03",
+          "Diamond_CentreLower_04",
+          "Diamond_CentreLower_05",
+          "Diamond_CentreLower_06",
+          "Diamond_CentreLower_07",
+          "Diamond_CentreLower_08",
+          "Diamond_CentreLower_09",
+          "Diamond_CentreLower_10",
+          "Diamond_CentreLower_11",
+          "Diamond_CentreLower_12",
+          "Diamond_CentreLower_13",
+          "Diamond_CentreLower_14",
+          "Diamond_CentreLower_15",
+          "Diamond_CentreLower_16",
+          "Diamond_CentreLower_17",
+          "Diamond_CentreLower_18",
+          "Diamond_CentreLower_19",
+          "Diamond_CentreLower_20",
+          "Diamond_CentreLower_21",
+          "Diamond_CentreLower_22",
+          "Diamond_CentreLower_23",
+          "Diamond_CentreLower_24",
+          "Diamond_CentreLower_25",
+          "Diamond_CentreLower_26",
+          "Diamond_CentreLower_27",
+          "Diamond_CentreLower_28",
+          "Diamond_CentreLower_29",
+          "Diamond_CentreLower_30",
+          "Diamond_CentreLower_31",
+          "Diamond_CentreLower_32",
+          "Diamond_CentreLower_33",
+          "Diamond_CentreLower_34",
+          "Diamond_CentreLower_35",
+          "Diamond_CentreLower_36",
+          "Diamond_CentreLower_37",
+          "Diamond_CentreLower_38",
+          "Diamond_CentreLower_39",
+          "Diamond_CentreLower_40",
+          "Diamond_CentreLower_41",
+          "Diamond_CentreLower_42",
+          "Diamond_CentreLower_43",
+          "Diamond_CentreLower_44",
+          "Diamond_CentreLower_45",
+          "Diamond_CentreLower_46",
+          "Diamond_CentreLower_47",
+          "Diamond_CentreLower_48",
+          "Diamond_CentreLower_49",
+          "Diamond_CentreLower_50",
+          "Diamond_CentreLower_51",
+          "Diamond_CentreLower_52",
+          "Diamond_Upper_01",
+          "Diamond_Upper_02",
+          "Diamond_Upper_03",
+          "Diamond_Upper_04",
+          "Diamond_Upper_05",
+          "Diamond_Upper_06",
+          "Diamond_Upper_07",
+          "Diamond_Upper_08",
+          "Diamond_Upper_09",
+          "Diamond_Upper_10",
+          "Diamond_Upper_11",
+          "Diamond_Upper_12",
+          "Diamond_Upper_13",
+          "Diamond_Upper_14",
+          "Diamond_Upper_15",
+          "Diamond_Upper_16",
+          "Diamond_Upper_17",
+          "Diamond_Upper_18",
+          "Diamond_Upper_19",
+          "Diamond_Upper_20",
+          "Diamond_Upper_21",
+          "Diamond_Upper_22",
+          "Diamond_Upper_23",
+          "Diamond_Upper_24",
+          "Diamond_Upper_25",
+          "Diamond_Upper_26",
+          "Diamond_Upper_27",
+          "Diamond_Upper_28",
+          "Diamond_Upper_29",
+          "Diamond_Upper_30",
+          "Diamond_Upper_31",
+          "Diamond_Upper_32",
+          "Diamond_Upper_33",
+          "Diamond_Upper_34",
+          "Diamond_Upper_35",
+          "Diamond_Upper_36",
+          "Diamond_Upper_37",
+          "Diamond_Upper_38",
+          "Diamond_Upper_39",
+          "Diamond_Upper_40",
+          "Diamond_Upper_41",
+          "Diamond_Upper_42",
+          "Diamond_Upper_43",
+          "Diamond_Upper_44",
+          "Diamond_Upper_45",
+          "Diamond_Upper_46",
+          "Diamond_Upper_47",
+          "Diamond_Upper_48",
+          "Diamond_Upper_49",
+          "Diamond_Upper_50",
+          "Diamond_Upper_51",
+          "Diamond_Upper_52",
+          "Diamond_Lower_01",
+          "Diamond_Lower_02",
+          "Diamond_Lower_03",
+          "Diamond_Lower_04",
+          "Diamond_Lower_05",
+          "Diamond_Lower_06",
+          "Diamond_Lower_07",
+          "Diamond_Lower_08",
+          "Diamond_Lower_09",
+          "Diamond_Lower_10",
+          "Diamond_Lower_11",
+          "Diamond_Lower_12",
+          "Diamond_Lower_13",
+          "Diamond_Lower_14",
+          "Diamond_Lower_15",
+          "Diamond_Lower_16",
+          "Diamond_Lower_17",
+          "Diamond_Lower_18",
+          "Diamond_Lower_19",
+          "Diamond_Lower_20",
+          "Diamond_Lower_21",
+          "Diamond_Lower_22",
+          "Diamond_Lower_23",
+          "Diamond_Lower_24",
+          "Diamond_Lower_25",
+          "Diamond_Lower_26",
+          "Diamond_Lower_27",
+          "Diamond_Lower_28",
+          "Diamond_Lower_29",
+          "Diamond_Lower_30",
+          "Diamond_Lower_31",
+          "Diamond_Lower_32",
+          "Diamond_Lower_33",
+          "Diamond_Lower_34",
+          "Diamond_Lower_35",
+          "Diamond_Lower_36",
+          "Diamond_Lower_37",
+          "Diamond_Lower_38",
+          "Diamond_Lower_39",
+          "Diamond_Lower_40",
+          "Diamond_Lower_41",
+          "Diamond_Lower_42",
+          "Diamond_Lower_43",
+          "Diamond_Lower_44",
+          "Diamond_Lower_45",
+          "Diamond_Lower_46",
+          "Diamond_Lower_47",
+          "Diamond_Lower_48",
+          "Diamond_Lower_49",
+          "Diamond_Lower_50",
+          "Diamond_Lower_51",
+          "Diamond_Lower_52"
+        ]
+      },
+      {
+        "name": "CAD - supplied base mesh only",
+        "visible_meshes": [
+          "CAD base - exact source mesh"
+        ]
+      },
+      {
+        "name": "Scene",
+        "visible_meshes": [
+          "70"
+        ]
+      }
+    ],
+    "meshes": [
+      {
+        "name": "70",
+        "collections": [
+          "Collection"
+        ],
+        "hidden_render": false,
+        "hidden_viewport": false,
+        "dimensions": [
+          22.01799964904785,
+          4.138000011444092,
+          22.01799964904785
+        ],
+        "min": [
+          -11.00999927520752,
+          -2.0820000171661377,
+          -11.00999927520752
+        ],
+        "max": [
+          11.008000373840332,
+          2.055999994277954,
+          11.008000373840332
+        ],
+        "vertices": 313023,
+        "faces": 427782
+      },
+      {
+        "name": "CAD base - exact source mesh",
+        "collections": [
+          "Unchanged supplied base for CAD"
+        ],
+        "hidden_render": false,
+        "hidden_viewport": false,
+        "dimensions": [
+          22.01799964904785,
+          4.138000011444092,
+          22.01799964904785
+        ],
+        "min": [
+          -11.00999927520752,
+          -2.0820000171661377,
+          -11.00999927520752
+        ],
+        "max": [
+          11.008000373840332,
+          2.055999994277954,
+          11.008000373840332
+        ],
+        "vertices": 313023,
+        "faces": 427782
+      },
+      {
+        "name": "Diamond_CentreLower_01",
+        "collections": [
+          "DIAMONDS - visual references only"
+        ],
+        "hidden_render": false,
+        "hidden_viewport": false,
+        "dimensions": [
+          0.7658710479736328,
+          1.2350897789001465,
+          1.2400000095367432
+        ],
+        "min": [
+          10.210381507873535,
+          0.691709041595459,
+          -1.149999976158142
+        ],
+        "max": [
+          10.976252555847168,
+          1.9267988204956055,
+          0.09000003337860107
+        ],
+        "vertices": 112,
+        "faces": 130
+      },
+      {
+        "name": "Diamond_CentreLower_02",
+        "collections": [
+          "DIAMONDS - visual references only"
+        ],
+        "hidden_render": false,
+        "hidden_viewport": false,
+        "dimensions": [
+          0.7887611389160156,
+          1.212259292602539,
+          1.2400000095367432
+        ],
+        "min": [
+          9.986072540283203,
+          1.9839708805084229,
+          -1.149999976158142
+        ],
+        "max": [
+          10.774833679199219,
+          3.196230173110962,
+          0.09000003337860107
+        ],
+        "vertices": 112,
+        "faces": 130
+      },
+      {
+        "name": "Diamond_CentreLower_03",
+        "collections": [
+          "DIAMONDS - visual references only"
+        ],
+        "hidden_render": false,
+        "hidden_viewport": false,
+        "dimensions": [
+          0.8002262115478516,
+          1.1718688011169434,
+          1.2400000095367432
+        ],
+        "min": [
+          9.61711311340332,
+          3.247494697570801,
+          -1.149999976158142
+        ],
+        "max": [
+          10.417339324951172,
+          4.419363498687744,
+          0.09000003337860107
+        ],
+        "vertices": 112,
+        "faces": 130
+      },
+      {
+        "name": "Diamond_CentreLower_04",
+        "collections": [
+          "DIAMONDS - visual references only"
+        ],
+        "hidden_render": false,
+        "hidden_viewport": false,
+        "dimensions": [
+          0.8046588897705078,
+          1.1140270233154297,
+          1.2400000095367432
+        ],
+        "min": [
+          9.104671478271484,
+          4.4725775718688965,
+          -1.149999976158142
+        ],
+        "max": [
+          9.909330368041992,
+          5.586604595184326,
+          0.09000003337860107
+        ],
+        "vertices": 112,
+        "faces": 130
+      },
+      {
+        "name": "Diamond_CentreLower_05",
+        "collections": [
+          "DIAMONDS - visual references only"
+        ],
+        "hidden_render": false,
+        "hidden_viewport": false,
+        "dimensions": [
+          0.8163537979125977,
+          1.0398149490356445,
+          1.2400000095367432
+        ],
+        "min": [
+          8.458430290222168,
+          5.631931781768799,
+          -1.149999976158142
+        ],
+        "max": [
+          9.274784088134766,
+          6.671746730804443,
+          0.09000003337860107
+        ],
+        "vertices": 112,
+        "faces": 130
+      },
+      {
+        "name": "Diamond_CentreLower_06",
+        "collections": [
+          "DIAMONDS - visual references only"
+        ],
+        "hidden_render": false,
+        "hidden_viewport": false,
+        "dimensions": [
+          0.8534994125366211,
+          0.9510164260864258,
+          1.2400000095367432
+        ],
+        "min": [
+          7.6681623458862305,
+          6.701109886169434,
+          -1.149999976158142
+        ],
+        "max": [
+          8.521661758422852,
+          7.652126312255859,
+          0.09000003337860107
+        ],
+        "vertices": 112,
+        "faces": 130
+      },
+      {
+        "name": "Diamond_CentreLower_07",
+        "collections": [
+          "DIAMONDS - visual references only"
+        ],
+        "hidden_render": false,
+        "hidden_viewport": false,
+        "dimensions": [
+          0.9510164260864258,
+          0.8534994125366211,
+          1.2400000095367432
+        ],
+        "min": [
+          6.701109886169434,
+          7.6681623458862305,
+          -1.149999976158142
+        ],
+        "max": [
+          7.652126312255859,
+          8.521661758422852,
+          0.09000003337860107
+        ],
+        "vertices": 112,
+        "faces": 130
+      },
+      {
+        "name": "Diamond_CentreLower_08",
+        "collections": [
+          "DIAMONDS - visual references only"
+        ],
+        "hidden_render": false,
+        "hidden_viewport": false,
+        "dimensions": [
+          1.0404043197631836,
+          0.8163118362426758,
+          1.2400000095367432
+        ],
+        "min": [
+          5.623867034912109,
+          8.463536262512207,
+          -1.149999976158142
+        ],
+        "max": [
+          6.664271354675293,
+          9.279848098754883,
+          0.09000003337860107
+        ],
+        "vertices": 112,
+        "faces": 130
+      },
+      {
+        "name": "Diamond_CentreLower_09",
+        "collections": [
+          "DIAMONDS - visual references only"
+        ],
+        "hidden_render": false,
+        "hidden_viewport": false,
+        "dimensions": [
+          1.1140270233154297,
+          0.8046588897705078,
+          1.2400000095367432
+        ],
+        "min": [
+          4.4725775718688965,
+          9.104671478271484,
+          -1.149999976158142
+        ],
+        "max": [
+          5.586604595184326,
+          9.909330368041992,
+          0.09000003337860107
+        ],
+        "vertices": 112,
+        "faces": 130
+      },
+      {
+        "name": "Diamond_CentreLower_10",
+        "collections": [
+          "DIAMONDS - visual references only"
+        ],
+        "hidden_render": false,
+        "hidden_viewport": false,
+        "dimensions": [
+          1.1718688011169434,
+          0.8002262115478516,
+          1.2400000095367432
+        ],
+        "min": [
+          3.247494697570801,
+          9.61711311340332,
+          -1.149999976158142
+        ],
+        "max": [
+          4.419363498687744,
+          10.417339324951172,
+          0.09000003337860107
+        ],
+        "vertices": 112,
+        "faces": 130
+      },
+      {
+        "name": "Diamond_CentreLower_11",
+        "collections": [
+          "DIAMONDS - visual references only"
+        ],
+        "hidden_render": false,
+        "hidden_viewport": false,
+        "dimensions": [
+          1.212259292602539,
+          0.7887611389160156,
+          1.2400000095367432
+        ],
+        "min": [
+          1.9839708805084229,
+          9.986072540283203,
+          -1.149999976158142
+        ],
+        "max": [
+          3.196230173110962,
+          10.774833679199219,
+          0.09000003337860107
+        ],
+        "vertices": 112,
+        "faces": 130
+      },
+      {
+        "name": "Diamond_CentreLower_12",
+        "collections": [
+          "DIAMONDS - visual references only"
+        ],
+        "hidden_render": false,
+        "hidden_viewport": false,
+        "dimensions": [
+          1.2351903319358826,
+          0.7656631469726562,
+          1.2400000095367432
+        ],
+        "min": [
+          0.682285487651825,
+          10.211470603942871,
+          -1.149999976158142
+        ],
+        "max": [
+          1.9174758195877075,
+          10.977133750915527,
+          0.09000003337860107
+        ],
+        "vertices": 112,
+        "faces": 130
+      },
+      {
+        "name": "Diamond_CentreLower_13",
+        "collections": [
+          "DIAMONDS - visual references only"
+        ],
+        "hidden_render": false,
+        "hidden_viewport": false,
+        "dimensions": [
+          1.2400000095367432,
+          0.7316007614135742,
+          1.2400000095367432
+        ],
+        "min": [
+          -0.6200000047683716,
+          10.286799430847168,
+          -1.149999976158142
+        ],
+        "max": [
+          0.6200000047683716,
+          11.018400192260742,
+          0.09000003337860107
+        ],
+        "vertices": 112,
+        "faces": 130
+      },
+      {
+        "name": "Diamond_CentreLower_14",
+        "collections": [
+          "DIAMONDS - visual references only"
+        ],
+        "hidden_render": false,
+        "hidden_viewport": false,
+        "dimensions": [
+          1.2350897789001465,
+          0.7658710479736328,
+          1.2400000169873238
+        ],
+        "min": [
+          -1.9267988204956055,
+          10.210381507873535,
+          -1.149999976158142
+        ],
+        "max": [
+          -0.691709041595459,
+          10.976252555847168,
+          0.09000004082918167
+        ],
+        "vertices": 112,
+        "faces": 130
+      },
+      {
+        "name": "Diamond_CentreLower_15",
+        "collections": [
+          "DIAMONDS - visual references only"
+        ],
+        "hidden_render": false,
+        "hidden_viewport": false,
+        "dimensions": [
+          1.212259292602539,
+          0.7887611389160156,
+          1.2400000095367432
+        ],
+        "min": [
+          -3.196230173110962,
+          9.986072540283203,
+          -1.149999976158142
+        ],
+        "max": [
+          -1.9839708805084229,
+          10.774833679199219,
+          0.09000003337860107
+        ],
+        "vertices": 112,
+        "faces": 130
+      },
+      {
+        "name": "Diamond_CentreLower_16",
+        "collections": [
+          "DIAMONDS - visual references only"
+        ],
+        "hidden_render": false,
+        "hidden_viewport": false,
+        "dimensions": [
+          1.1718688011169434,
+          0.8002262115478516,
+          1.2400000095367432
+        ],
+        "min": [
+          -4.419363498687744,
+          9.61711311340332,
+          -1.149999976158142
+        ],
+        "max": [
+          -3.247494697570801,
+          10.417339324951172,
+          0.09000003337860107
+        ],
+        "vertices": 112,
+        "faces": 130
+      },
+      {
+        "name": "Diamond_CentreLower_17",
+        "collections": [
+          "DIAMONDS - visual references only"
+        ],
+        "hidden_render": false,
+        "hidden_viewport": false,
+        "dimensions": [
+          1.1140270233154297,
+          0.8046588897705078,
+          1.2400000095367432
+        ],
+        "min": [
+          -5.586604595184326,
+          9.104671478271484,
+          -1.149999976158142
+        ],
+        "max": [
+          -4.4725775718688965,
+          9.909330368041992,
+          0.09000003337860107
+        ],
+        "vertices": 112,
+        "faces": 130
+      },
+      {
+        "name": "Diamond_CentreLower_18",
+        "collections": [
+          "DIAMONDS - visual references only"
+        ],
+        "hidden_render": false,
+        "hidden_viewport": false,
+        "dimensions": [
+          1.0398149490356445,
+          0.8163537979125977,
+          1.2400000095367432
+        ],
+        "min": [
+          -6.671746730804443,
+          8.458430290222168,
+          -1.149999976158142
+        ],
+        "max": [
+          -5.631931781768799,
+          9.274784088134766,
+          0.09000003337860107
+        ],
+        "vertices": 112,
+        "faces": 130
+      },
+      {
+        "name": "Diamond_CentreLower_19",
+        "collections": [
+          "DIAMONDS - visual references only"
+        ],
+        "hidden_render": false,
+        "hidden_viewport": false,
+        "dimensions": [
+          0.9510164260864258,
+          0.8534994125366211,
+          1.2400000095367432
+        ],
+        "min": [
+          -7.652126312255859,
+          7.6681623458862305,
+          -1.149999976158142
+        ],
+        "max": [
+          -6.701109886169434,
+          8.521661758422852,
+          0.09000003337860107
+        ],
+        "vertices": 112,
+        "faces": 130
+      },
+      {
+        "name": "Diamond_CentreLower_20",
+        "collections": [
+          "DIAMONDS - visual references only"
+        ],
+        "hidden_render": false,
+        "hidden_viewport": false,
+        "dimensions": [
+          0.8534994125366211,
+          0.9510164260864258,
+          1.2400000095367432
+        ],
+        "min": [
+          -8.521661758422852,
+          6.701109886169434,
+          -1.149999976158142
+        ],
+        "max": [
+          -7.6681623458862305,
+          7.652126312255859,
+          0.09000003337860107
+        ],
+        "vertices": 112,
+        "faces": 130
+      },
+      {
+        "name": "Diamond_CentreLower_21",
+        "collections": [
+          "DIAMONDS - visual references only"
+        ],
+        "hidden_render": false,
+        "hidden_viewport": false,
+        "dimensions": [
+          0.8163118362426758,
+          1.0404043197631836,
+          1.2400000095367432
+        ],
+        "min": [
+          -9.279848098754883,
+          5.623867034912109,
+          -1.149999976158142
+        ],
+        "max": [
+          -8.463536262512207,
+          6.664271354675293,
+          0.09000003337860107
+        ],
+        "vertices": 112,
+        "faces": 130
+      },
+      {
+        "name": "Diamond_CentreLower_22",
+        "collections": [
+          "DIAMONDS - visual references only"
+        ],
+        "hidden_render": false,
+        "hidden_viewport": false,
+        "dimensions": [
+          0.8046588897705078,
+          1.1140270233154297,
+          1.2400000095367432
+        ],
+        "min": [
+          -9.909330368041992,
+          4.4725775718688965,
+          -1.149999976158142
+        ],
+        "max": [
+          -9.104671478271484,
+          5.586604595184326,
+          0.09000003337860107
+        ],
+        "vertices": 112,
+        "faces": 130
+      },
+      {
+        "name": "Diamond_CentreLower_23",
+        "collections": [
+          "DIAMONDS - visual references only"
+        ],
+        "hidden_render": false,
+        "hidden_viewport": false,
+        "dimensions": [
+          0.8002262115478516,
+          1.1718688011169434,
+          1.2400000095367432
+        ],
+        "min": [
+          -10.417339324951172,
+          3.247494697570801,
+          -1.149999976158142
+        ],
+        "max": [
+          -9.61711311340332,
+          4.419363498687744,
+          0.09000003337860107
+        ],
+        "vertices": 112,
+        "faces": 130
+      },
+      {
+        "name": "Diamond_CentreLower_24",
+        "collections": [
+          "DIAMONDS - visual references only"
+        ],
+        "hidden_render": false,
+        "hidden_viewport": false,
+        "dimensions": [
+          0.7887611389160156,
+          1.212259292602539,
+          1.2400000095367432
+        ],
+        "min": [
+          -10.774833679199219,
+          1.9839708805084229,
+          -1.149999976158142
+        ],
+        "max": [
+          -9.986072540283203,
+          3.196230173110962,
+          0.09000003337860107
+        ],
+        "vertices": 112,
+        "faces": 130
+      },
+      {
+        "name": "Diamond_CentreLower_25",
+        "collections": [
+          "DIAMONDS - visual references only"
+        ],
+        "hidden_render": false,
+        "hidden_viewport": false,
+        "dimensions": [
+          0.7658710479736328,
+          1.2350897789001465,
+          1.2400000095367432
+        ],
+        "min": [
+          -10.976252555847168,
+          0.691709041595459,
+          -1.149999976158142
+        ],
+        "max": [
+          -10.210381507873535,
+          1.9267988204956055,
+          0.09000003337860107
+        ],
+        "vertices": 112,
+        "faces": 130
+      },
+      {
+        "name": "Diamond_CentreLower_26",
+        "collections": [
+          "DIAMONDS - visual references only"
+        ],
+        "hidden_render": false,
+        "hidden_viewport": false,
+        "dimensions": [
+          0.7316007614135742,
+          1.2400000095367432,
+          1.2400000095367432
+        ],
+        "min": [
+          -11.018400192260742,
+          -0.6200000047683716,
+          -1.149999976158142
+        ],
+        "max": [
+          -10.286799430847168,
+          0.6200000047683716,
+          0.09000003337860107
+        ],
+        "vertices": 112,
+        "faces": 130
+      },
+      {
+        "name": "Diamond_CentreLower_27",
+        "collections": [
+          "DIAMONDS - visual references only"
+        ],
+        "hidden_render": false,
+        "hidden_viewport": false,
+        "dimensions": [
+          0.7658710479736328,
+          1.2350897789001465,
+          1.2400000095367432
+        ],
+        "min": [
+          -10.976252555847168,
+          -1.9267988204956055,
+          -1.149999976158142
+        ],
+        "max": [
+          -10.210381507873535,
+          -0.691709041595459,
+          0.09000003337860107
+        ],
+        "vertices": 112,
+        "faces": 130
+      },
+      {
+        "name": "Diamond_CentreLower_28",
+        "collections": [
+          "DIAMONDS - visual references only"
+        ],
+        "hidden_render": false,
+        "hidden_viewport": false,
+        "dimensions": [
+          0.7887611389160156,
+          1.212259292602539,
+          1.2400000095367432
+        ],
+        "min": [
+          -10.774833679199219,
+          -3.196230173110962,
+          -1.149999976158142
+        ],
+        "max": [
+          -9.986072540283203,
+          -1.9839708805084229,
+          0.09000003337860107
+        ],
+        "vertices": 112,
+        "faces": 130
+      },
+      {
+        "name": "Diamond_CentreLower_29",
+        "collections": [
+          "DIAMONDS - visual references only"
+        ],
+        "hidden_render": false,
+        "hidden_viewport": false,
+        "dimensions": [
+          0.8002262115478516,
+          1.1718688011169434,
+          1.2400000095367432
+        ],
+        "min": [
+          -10.417339324951172,
+          -4.419363498687744,
+          -1.149999976158142
+        ],
+        "max": [
+          -9.61711311340332,
+          -3.247494697570801,
+          0.09000003337860107
+        ],
+        "vertices": 112,
+        "faces": 130
+      },
+      {
+        "name": "Diamond_CentreLower_30",
+        "collections": [
+          "DIAMONDS - visual references only"
+        ],
+        "hidden_render": false,
+        "hidden_viewport": false,
+        "dimensions": [
+          0.8046588897705078,
+          1.1140270233154297,
+          1.2400000095367432
+        ],
+        "min": [
+          -9.909330368041992,
+          -5.586604595184326,
+          -1.149999976158142
+        ],
+        "max": [
+          -9.104671478271484,
+          -4.4725775718688965,
+          0.09000003337860107
+        ],
+        "vertices": 112,
+        "faces": 130
+      },
+      {
+        "name": "Diamond_CentreLower_31",
+        "collections": [
+          "DIAMONDS - visual references only"
+        ],
+        "hidden_render": false,
+        "hidden_viewport": false,
+        "dimensions": [
+          0.8163118362426758,
+          1.0404043197631836,
+          1.2400000095367432
+        ],
+        "min": [
+          -9.279848098754883,
+          -6.664271354675293,
+          -1.149999976158142
+        ],
+        "max": [
+          -8.463536262512207,
+          -5.623867034912109,
+          0.09000003337860107
+        ],
+        "vertices": 112,
+        "faces": 130
+      },
+      {
+        "name": "Diamond_CentreLower_32",
+        "collections": [
+          "DIAMONDS - visual references only"
+        ],
+        "hidden_render": false,
+        "hidden_viewport": false,
+        "dimensions": [
+          0.8534994125366211,
+          0.9510164260864258,
+          1.2400000095367432
+        ],
+        "min": [
+          -8.521661758422852,
+          -7.652126312255859,
+          -1.149999976158142
+        ],
+        "max": [
+          -7.6681623458862305,
+          -6.701109886169434,
+          0.09000003337860107
+        ],
+        "vertices": 112,
+        "faces": 130
+      },
+      {
+        "name": "Diamond_CentreLower_33",
+        "collections": [
+          "DIAMONDS - visual references only"
+        ],
+        "hidden_render": false,
+        "hidden_viewport": false,
+        "dimensions": [
+          0.9510164260864258,
+          0.8534994125366211,
+          1.2400000095367432
+        ],
+        "min": [
+          -7.652126312255859,
+          -8.521661758422852,
+          -1.149999976158142
+        ],
+        "max": [
+          -6.701109886169434,
+          -7.6681623458862305,
+          0.09000003337860107
+        ],
+        "vertices": 112,
+        "faces": 130
+      },
+      {
+        "name": "Diamond_CentreLower_34",
+        "collections": [
+          "DIAMONDS - visual references only"
+        ],
+        "hidden_render": false,
+        "hidden_viewport": false,
+        "dimensions": [
+          1.0398149490356445,
+          0.8163537979125977,
+          1.2400000095367432
+        ],
+        "min": [
+          -6.671746730804443,
+          -9.274784088134766,
+          -1.149999976158142
+        ],
+        "max": [
+          -5.631931781768799,
+          -8.458430290222168,
+          0.09000003337860107
+        ],
+        "vertices": 112,
+        "faces": 130
+      },
+      {
+        "name": "Diamond_CentreLower_35",
+        "collections": [
+          "DIAMONDS - visual references only"
+        ],
+        "hidden_render": false,
+        "hidden_viewport": false,
+        "dimensions": [
+          1.1140270233154297,
+          0.8046588897705078,
+          1.2400000095367432
+        ],
+        "min": [
+          -5.586604595184326,
+          -9.909330368041992,
+          -1.149999976158142
+        ],
+        "max": [
+          -4.4725775718688965,
+          -9.104671478271484,
+          0.09000003337860107
+        ],
+        "vertices": 112,
+        "faces": 130
+      },
+      {
+        "name": "Diamond_CentreLower_36",
+        "collections": [
+          "DIAMONDS - visual references only"
+        ],
+        "hidden_render": false,
+        "hidden_viewport": false,
+        "dimensions": [
+          1.1718688011169434,
+          0.8002262115478516,
+          1.2400000095367432
+        ],
+        "min": [
+          -4.419363498687744,
+          -10.417339324951172,
+          -1.149999976158142
+        ],
+        "max": [
+          -3.247494697570801,
+          -9.61711311340332,
+          0.09000003337860107
+        ],
+        "vertices": 112,
+        "faces": 130
+      },
+      {
+        "name": "Diamond_CentreLower_37",
+        "collections": [
+          "DIAMONDS - visual references only"
+        ],
+        "hidden_render": false,
+        "hidden_viewport": false,
+        "dimensions": [
+          1.212259292602539,
+          0.7887611389160156,
+          1.2400000095367432
+        ],
+        "min": [
+          -3.196230173110962,
+          -10.774833679199219,
+          -1.149999976158142
+        ],
+        "max": [
+          -1.9839708805084229,
+          -9.986072540283203,
+          0.09000003337860107
+        ],
+        "vertices": 112,
+        "faces": 130
+      },
+      {
+        "name": "Diamond_CentreLower_38",
+        "collections": [
+          "DIAMONDS - visual references only"
+        ],
+        "hidden_render": false,
+        "hidden_viewport": false,
+        "dimensions": [
+          1.2350897789001465,
+          0.7658710479736328,
+          1.2400000095367432
+        ],
+        "min": [
+          -1.9267988204956055,
+          -10.976252555847168,
+          -1.149999976158142
+        ],
+        "max": [
+          -0.691709041595459,
+          -10.210381507873535,
+          0.09000003337860107
+        ],
+        "vertices": 112,
+        "faces": 130
+      },
+      {
+        "name": "Diamond_CentreLower_39",
+        "collections": [
+          "DIAMONDS - visual references only"
+        ],
+        "hidden_render": false,
+        "hidden_viewport": false,
+        "dimensions": [
+          1.2400000095367432,
+          0.7316007614135742,
+          1.2400000095367432
+        ],
+        "min": [
+          -0.6200000047683716,
+          -11.018400192260742,
+          -1.149999976158142
+        ],
+        "max": [
+          0.6200000047683716,
+          -10.286799430847168,
+          0.09000003337860107
+        ],
+        "vertices": 112,
+        "faces": 130
+      },
+      {
+        "name": "Diamond_CentreLower_40",
+        "collections": [
+          "DIAMONDS - visual references only"
+        ],
+        "hidden_render": false,
+        "hidden_viewport": false,
+        "dimensions": [
+          1.2350897789001465,
+          0.7658710479736328,
+          1.2400000095367432
+        ],
+        "min": [
+          0.691709041595459,
+          -10.976252555847168,
+          -1.149999976158142
+        ],
+        "max": [
+          1.9267988204956055,
+          -10.210381507873535,
+          0.09000003337860107
+        ],
+        "vertices": 112,
+        "faces": 130
+      },
+      {
+        "name": "Diamond_CentreLower_41",
+        "collections": [
+          "DIAMONDS - visual references only"
+        ],
+        "hidden_render": false,
+        "hidden_viewport": false,
+        "dimensions": [
+          1.212259292602539,
+          0.7887611389160156,
+          1.2400000095367432
+        ],
+        "min": [
+          1.9839708805084229,
+          -10.774833679199219,
+          -1.149999976158142
+        ],
+        "max": [
+          3.196230173110962,
+          -9.986072540283203,
+          0.09000003337860107
+        ],
+        "vertices": 112,
+        "faces": 130
+      },
+      {
+        "name": "Diamond_CentreLower_42",
+        "collections": [
+          "DIAMONDS - visual references only"
+        ],
+        "hidden_render": false,
+        "hidden_viewport": false,
+        "dimensions": [
+          1.1718688011169434,
+          0.8002262115478516,
+          1.2400000095367432
+        ],
+        "min": [
+          3.247494697570801,
+          -10.417339324951172,
+          -1.149999976158142
+        ],
+        "max": [
+          4.419363498687744,
+          -9.61711311340332,
+          0.09000003337860107
+        ],
+        "vertices": 112,
+        "faces": 130
+      },
+      {
+        "name": "Diamond_CentreLower_43",
+        "collections": [
+          "DIAMONDS - visual references only"
+        ],
+        "hidden_render": false,
+        "hidden_viewport": false,
+        "dimensions": [
+          1.1140270233154297,
+          0.8046588897705078,
+          1.2400000095367432
+        ],
+        "min": [
+          4.4725775718688965,
+          -9.909330368041992,
+          -1.149999976158142
+        ],
+        "max": [
+          5.586604595184326,
+          -9.104671478271484,
+          0.09000003337860107
+        ],
+        "vertices": 112,
+        "faces": 130
+      },
+      {
+        "name": "Diamond_CentreLower_44",
+        "collections": [
+          "DIAMONDS - visual references only"
+        ],
+        "hidden_render": false,
+        "hidden_viewport": false,
+        "dimensions": [
+          1.0404043197631836,
+          0.8163118362426758,
+          1.2400000095367432
+        ],
+        "min": [
+          5.623867034912109,
+          -9.279848098754883,
+          -1.149999976158142
+        ],
+        "max": [
+          6.664271354675293,
+          -8.463536262512207,
+          0.09000003337860107
+        ],
+        "vertices": 112,
+        "faces": 130
+      },
+      {
+        "name": "Diamond_CentreLower_45",
+        "collections": [
+          "DIAMONDS - visual references only"
+        ],
+        "hidden_render": false,
+        "hidden_viewport": false,
+        "dimensions": [
+          0.9510164260864258,
+          0.8534994125366211,
+          1.2400000095367432
+        ],
+        "min": [
+          6.701109886169434,
+          -8.521661758422852,
+          -1.149999976158142
+        ],
+        "max": [
+          7.652126312255859,
+          -7.6681623458862305,
+          0.09000003337860107
+        ],
+        "vertices": 112,
+        "faces": 130
+      },
+      {
+        "name": "Diamond_CentreLower_46",
+        "collections": [
+          "DIAMONDS - visual references only"
+        ],
+        "hidden_render": false,
+        "hidden_viewport": false,
+        "dimensions": [
+          0.8534994125366211,
+          0.9510164260864258,
+          1.2400000095367432
+        ],
+        "min": [
+          7.6681623458862305,
+          -7.652126312255859,
+          -1.149999976158142
+        ],
+        "max": [
+          8.521661758422852,
+          -6.701109886169434,
+          0.09000003337860107
+        ],
+        "vertices": 112,
+        "faces": 130
+      },
+      {
+        "name": "Diamond_CentreLower_47",
+        "collections": [
+          "DIAMONDS - visual references only"
+        ],
+        "hidden_render": false,
+        "hidden_viewport": false,
+        "dimensions": [
+          0.8163118362426758,
+          1.0404043197631836,
+          1.2400000095367432
+        ],
+        "min": [
+          8.463536262512207,
+          -6.664271354675293,
+          -1.149999976158142
+        ],
+        "max": [
+          9.279848098754883,
+          -5.623867034912109,
+          0.09000003337860107
+        ],
+        "vertices": 112,
+        "faces": 130
+      },
+      {
+        "name": "Diamond_CentreLower_48",
+        "collections": [
+          "DIAMONDS - visual references only"
+        ],
+        "hidden_render": false,
+        "hidden_viewport": false,
+        "dimensions": [
+          0.8046588897705078,
+          1.1140270233154297,
+          1.2400000095367432
+        ],
+        "min": [
+          9.104671478271484,
+          -5.586604595184326,
+          -1.149999976158142
+        ],
+        "max": [
+          9.909330368041992,
+          -4.4725775718688965,
+          0.09000003337860107
+        ],
+        "vertices": 112,
+        "faces": 130
+      },
+      {
+        "name": "Diamond_CentreLower_49",
+        "collections": [
+          "DIAMONDS - visual references only"
+        ],
+        "hidden_render": false,
+        "hidden_viewport": false,
+        "dimensions": [
+          0.8002262115478516,
+          1.1718688011169434,
+          1.2400000095367432
+        ],
+        "min": [
+          9.61711311340332,
+          -4.419363498687744,
+          -1.149999976158142
+        ],
+        "max": [
+          10.417339324951172,
+          -3.247494697570801,
+          0.09000003337860107
+        ],
+        "vertices": 112,
+        "faces": 130
+      },
+      {
+        "name": "Diamond_CentreLower_50",
+        "collections": [
+          "DIAMONDS - visual references only"
+        ],
+        "hidden_render": false,
+        "hidden_viewport": false,
+        "dimensions": [
+          0.7887611389160156,
+          1.212259292602539,
+          1.2400000095367432
+        ],
+        "min": [
+          9.986072540283203,
+          -3.196230173110962,
+          -1.149999976158142
+        ],
+        "max": [
+          10.774833679199219,
+          -1.9839708805084229,
+          0.09000003337860107
+        ],
+        "vertices": 112,
+        "faces": 130
+      },
+      {
+        "name": "Diamond_CentreLower_51",
+        "collections": [
+          "DIAMONDS - visual references only"
+        ],
+        "hidden_render": false,
+        "hidden_viewport": false,
+        "dimensions": [
+          0.7656631469726562,
+          1.2351903319358826,
+          1.2400000095367432
+        ],
+        "min": [
+          10.211470603942871,
+          -1.9174758195877075,
+          -1.149999976158142
+        ],
+        "max": [
+          10.977133750915527,
+          -0.682285487651825,
+          0.09000003337860107
+        ],
+        "vertices": 112,
+        "faces": 130
+      },
+      {
+        "name": "Diamond_CentreLower_52",
+        "collections": [
+          "DIAMONDS - visual references only"
+        ],
+        "hidden_render": false,
+        "hidden_viewport": false,
+        "dimensions": [
+          0.7316007614135742,
+          1.2400000095367432,
+          1.2400000095367432
+        ],
+        "min": [
+          10.286799430847168,
+          -0.6200000047683716,
+          -1.149999976158142
+        ],
+        "max": [
+          11.018400192260742,
+          0.6200000047683716,
+          0.09000003337860107
+        ],
+        "vertices": 112,
+        "faces": 130
+      },
+      {
+        "name": "Diamond_CentreUpper_01",
+        "collections": [
+          "DIAMONDS - visual references only"
+        ],
+        "hidden_render": false,
+        "hidden_viewport": false,
+        "dimensions": [
+          0.7502374649047852,
+          1.2398067489266396,
+          1.2400000095367432
+        ],
+        "min": [
+          10.267192840576172,
+          0.04064180701971054,
+          -0.09000003337860107
+        ],
+        "max": [
+          11.017430305480957,
+          1.28044855594635,
+          1.149999976158142
+        ],
+        "vertices": 112,
+        "faces": 130
+      },
+      {
+        "name": "Diamond_CentreUpper_02",
+        "collections": [
+          "DIAMONDS - visual references only"
+        ],
+        "hidden_render": false,
+        "hidden_viewport": false,
+        "dimensions": [
+          0.7787275314331055,
+          1.2258961200714111,
+          1.2400000095367432
+        ],
+        "min": [
+          10.116561889648438,
+          1.3402690887451172,
+          -0.09000003337860107
+        ],
+        "max": [
+          10.895289421081543,
+          2.5661652088165283,
+          1.149999976158142
+        ],
+        "vertices": 112,
+        "faces": 130
+      },
+      {
+        "name": "Diamond_CentreUpper_03",
+        "collections": [
+          "DIAMONDS - visual references only"
+        ],
+        "hidden_render": false,
+        "hidden_viewport": false,
+        "dimensions": [
+          0.7959365844726562,
+          1.194228172302246,
+          1.2400000095367432
+        ],
+        "min": [
+          9.819388389587402,
+          2.6204819679260254,
+          -0.09000003337860107
+        ],
+        "max": [
+          10.615324974060059,
+          3.8147101402282715,
+          1.149999976158142
+        ],
+        "vertices": 112,
+        "faces": 130
+      },
+      {
+        "name": "Diamond_CentreUpper_04",
+        "collections": [
+          "DIAMONDS - visual references only"
+        ],
+        "hidden_render": false,
+        "hidden_viewport": false,
+        "dimensions": [
+          0.8016166687011719,
+          1.145261526107788,
+          1.2400000095367432
+        ],
+        "min": [
+          9.379979133605957,
+          3.862736463546753,
+          -0.09000003337860107
+        ],
+        "max": [
+          10.181595802307129,
+          5.007997989654541,
+          1.149999976158142
+        ],
+        "vertices": 112,
+        "faces": 130
+      },
+      {
+        "name": "Diamond_CentreUpper_05",
+        "collections": [
+          "DIAMONDS - visual references only"
+        ],
+        "hidden_render": false,
+        "hidden_viewport": false,
+        "dimensions": [
+          0.8120412826538086,
+          1.0786371231079102,
+          1.2400000095367432
+        ],
+        "min": [
+          8.79539966583252,
+          5.065733432769775,
+          -0.09000003337860107
+        ],
+        "max": [
+          9.607440948486328,
+          6.1443705558776855,
+          1.149999976158142
+        ],
+        "vertices": 112,
+        "faces": 130
+      },
+      {
+        "name": "Diamond_CentreUpper_06",
+        "collections": [
+          "DIAMONDS - visual references only"
+        ],
+        "hidden_render": false,
+        "hidden_viewport": false,
+        "dimensions": [
+          0.8200578689575195,
+          0.997222900390625,
+          1.2400000095367432
+        ],
+        "min": [
+          8.090802192687988,
+          6.177716255187988,
+          -0.09000003337860107
+        ],
+        "max": [
+          8.910860061645508,
+          7.174939155578613,
+          1.149999976158142
+        ],
+        "vertices": 112,
+        "faces": 130
+      },
+      {
+        "name": "Diamond_CentreUpper_07",
+        "collections": [
+          "DIAMONDS - visual references only"
+        ],
+        "hidden_render": false,
+        "hidden_viewport": false,
+        "dimensions": [
+          0.9013633728027344,
+          0.9013633728027344,
+          1.2400000095367432
+        ],
+        "min": [
+          7.200213432312012,
+          7.200213432312012,
+          -0.09000003337860107
+        ],
+        "max": [
+          8.101576805114746,
+          8.101576805114746,
+          1.149999976158142
+        ],
+        "vertices": 112,
+        "faces": 130
+      },
+      {
+        "name": "Diamond_CentreUpper_08",
+        "collections": [
+          "DIAMONDS - visual references only"
+        ],
+        "hidden_render": false,
+        "hidden_viewport": false,
+        "dimensions": [
+          0.997222900390625,
+          0.8200578689575195,
+          1.2400000095367432
+        ],
+        "min": [
+          6.177716255187988,
+          8.090802192687988,
+          -0.09000003337860107
+        ],
+        "max": [
+          7.174939155578613,
+          8.910860061645508,
+          1.149999976158142
+        ],
+        "vertices": 112,
+        "faces": 130
+      },
+      {
+        "name": "Diamond_CentreUpper_09",
+        "collections": [
+          "DIAMONDS - visual references only"
+        ],
+        "hidden_render": false,
+        "hidden_viewport": false,
+        "dimensions": [
+          1.0797052383422852,
+          0.8118715286254883,
+          1.2400000095367432
+        ],
+        "min": [
+          5.049037456512451,
+          8.80469799041748,
+          -0.09000003337860107
+        ],
+        "max": [
+          6.128742694854736,
+          9.616569519042969,
+          1.149999976158142
+        ],
+        "vertices": 112,
+        "faces": 130
+      },
+      {
+        "name": "Diamond_CentreUpper_10",
+        "collections": [
+          "DIAMONDS - visual references only"
+        ],
+        "hidden_render": false,
+        "hidden_viewport": false,
+        "dimensions": [
+          1.1452617645263672,
+          0.8016166687011719,
+          1.2400000095367432
+        ],
+        "min": [
+          3.862736225128174,
+          9.379979133605957,
+          -0.09000003337860107
+        ],
+        "max": [
+          5.007997989654541,
+          10.181595802307129,
+          1.149999976158142
+        ],
+        "vertices": 112,
+        "faces": 130
+      },
+      {
+        "name": "Diamond_CentreUpper_11",
+        "collections": [
+          "DIAMONDS - visual references only"
+        ],
+        "hidden_render": false,
+        "hidden_viewport": false,
+        "dimensions": [
+          1.194228172302246,
+          0.7959365844726562,
+          1.2400000095367432
+        ],
+        "min": [
+          2.6204819679260254,
+          9.819388389587402,
+          -0.09000003337860107
+        ],
+        "max": [
+          3.8147101402282715,
+          10.615324974060059,
+          1.149999976158142
+        ],
+        "vertices": 112,
+        "faces": 130
+      },
+      {
+        "name": "Diamond_CentreUpper_12",
+        "collections": [
+          "DIAMONDS - visual references only"
+        ],
+        "hidden_render": false,
+        "hidden_viewport": false,
+        "dimensions": [
+          1.2258961200714111,
+          0.7787275314331055,
+          1.2400000095367432
+        ],
+        "min": [
+          1.3402690887451172,
+          10.116561889648438,
+          -0.09000003337860107
+        ],
+        "max": [
+          2.5661652088165283,
+          10.895289421081543,
+          1.149999976158142
+        ],
+        "vertices": 112,
+        "faces": 130
+      },
+      {
+        "name": "Diamond_CentreUpper_13",
+        "collections": [
+          "DIAMONDS - visual references only"
+        ],
+        "hidden_render": false,
+        "hidden_viewport": false,
+        "dimensions": [
+          1.2398067452013493,
+          0.7502374649047852,
+          1.2400000095367432
+        ],
+        "min": [
+          0.04064181074500084,
+          10.267192840576172,
+          -0.09000003337860107
+        ],
+        "max": [
+          1.28044855594635,
+          11.017430305480957,
+          1.149999976158142
+        ],
+        "vertices": 112,
+        "faces": 130
+      },
+      {
+        "name": "Diamond_CentreUpper_14",
+        "collections": [
+          "DIAMONDS - visual references only"
+        ],
+        "hidden_render": false,
+        "hidden_viewport": false,
+        "dimensions": [
+          1.2398067452013493,
+          0.7502374649047852,
+          1.2400000095367432
+        ],
+        "min": [
+          -1.28044855594635,
+          10.267192840576172,
+          -0.09000003337860107
+        ],
+        "max": [
+          -0.04064181074500084,
+          11.017430305480957,
+          1.149999976158142
+        ],
+        "vertices": 112,
+        "faces": 130
+      },
+      {
+        "name": "Diamond_CentreUpper_15",
+        "collections": [
+          "DIAMONDS - visual references only"
+        ],
+        "hidden_render": false,
+        "hidden_viewport": false,
+        "dimensions": [
+          1.2258961200714111,
+          0.7787275314331055,
+          1.2400000095367432
+        ],
+        "min": [
+          -2.5661652088165283,
+          10.116561889648438,
+          -0.09000003337860107
+        ],
+        "max": [
+          -1.3402690887451172,
+          10.895289421081543,
+          1.149999976158142
+        ],
+        "vertices": 112,
+        "faces": 130
+      },
+      {
+        "name": "Diamond_CentreUpper_16",
+        "collections": [
+          "DIAMONDS - visual references only"
+        ],
+        "hidden_render": false,
+        "hidden_viewport": false,
+        "dimensions": [
+          1.194228172302246,
+          0.7959365844726562,
+          1.2400000095367432
+        ],
+        "min": [
+          -3.8147101402282715,
+          9.819388389587402,
+          -0.09000003337860107
+        ],
+        "max": [
+          -2.6204819679260254,
+          10.615324974060059,
+          1.149999976158142
+        ],
+        "vertices": 112,
+        "faces": 130
+      },
+      {
+        "name": "Diamond_CentreUpper_17",
+        "collections": [
+          "DIAMONDS - visual references only"
+        ],
+        "hidden_render": false,
+        "hidden_viewport": false,
+        "dimensions": [
+          1.1452617645263672,
+          0.8016166687011719,
+          1.2400000095367432
+        ],
+        "min": [
+          -5.007997989654541,
+          9.379979133605957,
+          -0.09000003337860107
+        ],
+        "max": [
+          -3.862736225128174,
+          10.181595802307129,
+          1.149999976158142
+        ],
+        "vertices": 112,
+        "faces": 130
+      },
+      {
+        "name": "Diamond_CentreUpper_18",
+        "collections": [
+          "DIAMONDS - visual references only"
+        ],
+        "hidden_render": false,
+        "hidden_viewport": false,
+        "dimensions": [
+          1.0786371231079102,
+          0.8120412826538086,
+          1.2400000095367432
+        ],
+        "min": [
+          -6.1443705558776855,
+          8.79539966583252,
+          -0.09000003337860107
+        ],
+        "max": [
+          -5.065733432769775,
+          9.607440948486328,
+          1.149999976158142
+        ],
+        "vertices": 112,
+        "faces": 130
+      },
+      {
+        "name": "Diamond_CentreUpper_19",
+        "collections": [
+          "DIAMONDS - visual references only"
+        ],
+        "hidden_render": false,
+        "hidden_viewport": false,
+        "dimensions": [
+          0.997222900390625,
+          0.8200578689575195,
+          1.2400000095367432
+        ],
+        "min": [
+          -7.174939155578613,
+          8.090802192687988,
+          -0.09000003337860107
+        ],
+        "max": [
+          -6.177716255187988,
+          8.910860061645508,
+          1.149999976158142
+        ],
+        "vertices": 112,
+        "faces": 130
+      },
+      {
+        "name": "Diamond_CentreUpper_20",
+        "collections": [
+          "DIAMONDS - visual references only"
+        ],
+        "hidden_render": false,
+        "hidden_viewport": false,
+        "dimensions": [
+          0.9013633728027344,
+          0.9013633728027344,
+          1.2400000095367432
+        ],
+        "min": [
+          -8.101576805114746,
+          7.200213432312012,
+          -0.09000003337860107
+        ],
+        "max": [
+          -7.200213432312012,
+          8.101576805114746,
+          1.149999976158142
+        ],
+        "vertices": 112,
+        "faces": 130
+      },
+      {
+        "name": "Diamond_CentreUpper_21",
+        "collections": [
+          "DIAMONDS - visual references only"
+        ],
+        "hidden_render": false,
+        "hidden_viewport": false,
+        "dimensions": [
+          0.8200578689575195,
+          0.997222900390625,
+          1.2400000095367432
+        ],
+        "min": [
+          -8.910860061645508,
+          6.177716255187988,
+          -0.09000003337860107
+        ],
+        "max": [
+          -8.090802192687988,
+          7.174939155578613,
+          1.149999976158142
+        ],
+        "vertices": 112,
+        "faces": 130
+      },
+      {
+        "name": "Diamond_CentreUpper_22",
+        "collections": [
+          "DIAMONDS - visual references only"
+        ],
+        "hidden_render": false,
+        "hidden_viewport": false,
+        "dimensions": [
+          0.8120412826538086,
+          1.0786371231079102,
+          1.2400000095367432
+        ],
+        "min": [
+          -9.607440948486328,
+          5.065733432769775,
+          -0.09000003337860107
+        ],
+        "max": [
+          -8.79539966583252,
+          6.1443705558776855,
+          1.149999976158142
+        ],
+        "vertices": 112,
+        "faces": 130
+      },
+      {
+        "name": "Diamond_CentreUpper_23",
+        "collections": [
+          "DIAMONDS - visual references only"
+        ],
+        "hidden_render": false,
+        "hidden_viewport": false,
+        "dimensions": [
+          0.8016166687011719,
+          1.145261526107788,
+          1.2400000095367432
+        ],
+        "min": [
+          -10.181595802307129,
+          3.862736463546753,
+          -0.09000003337860107
+        ],
+        "max": [
+          -9.379979133605957,
+          5.007997989654541,
+          1.149999976158142
+        ],
+        "vertices": 112,
+        "faces": 130
+      },
+      {
+        "name": "Diamond_CentreUpper_24",
+        "collections": [
+          "DIAMONDS - visual references only"
+        ],
+        "hidden_render": false,
+        "hidden_viewport": false,
+        "dimensions": [
+          0.7959365844726562,
+          1.194228172302246,
+          1.2400000095367432
+        ],
+        "min": [
+          -10.615324974060059,
+          2.6204819679260254,
+          -0.09000003337860107
+        ],
+        "max": [
+          -9.819388389587402,
+          3.8147101402282715,
+          1.149999976158142
+        ],
+        "vertices": 112,
+        "faces": 130
+      },
+      {
+        "name": "Diamond_CentreUpper_25",
+        "collections": [
+          "DIAMONDS - visual references only"
+        ],
+        "hidden_render": false,
+        "hidden_viewport": false,
+        "dimensions": [
+          0.7787275314331055,
+          1.2258961200714111,
+          1.2400000095367432
+        ],
+        "min": [
+          -10.895289421081543,
+          1.3402690887451172,
+          -0.09000003337860107
+        ],
+        "max": [
+          -10.116561889648438,
+          2.5661652088165283,
+          1.149999976158142
+        ],
+        "vertices": 112,
+        "faces": 130
+      },
+      {
+        "name": "Diamond_CentreUpper_26",
+        "collections": [
+          "DIAMONDS - visual references only"
+        ],
+        "hidden_render": false,
+        "hidden_viewport": false,
+        "dimensions": [
+          0.7502374649047852,
+          1.2398067489266396,
+          1.2400000095367432
+        ],
+        "min": [
+          -11.017430305480957,
+          0.04064180701971054,
+          -0.09000003337860107
+        ],
+        "max": [
+          -10.267192840576172,
+          1.28044855594635,
+          1.149999976158142
+        ],
+        "vertices": 112,
+        "faces": 130
+      },
+      {
+        "name": "Diamond_CentreUpper_27",
+        "collections": [
+          "DIAMONDS - visual references only"
+        ],
+        "hidden_render": false,
+        "hidden_viewport": false,
+        "dimensions": [
+          0.7499904632568359,
+          1.2398421633988619,
+          1.2400000095367432
+        ],
+        "min": [
+          -11.01773452758789,
+          -1.2710413932800293,
+          -0.09000003337860107
+        ],
+        "max": [
+          -10.267744064331055,
+          -0.031199229881167412,
+          1.149999976158142
+        ],
+        "vertices": 112,
+        "faces": 130
+      },
+      {
+        "name": "Diamond_CentreUpper_28",
+        "collections": [
+          "DIAMONDS - visual references only"
+        ],
+        "hidden_render": false,
+        "hidden_viewport": false,
+        "dimensions": [
+          0.7787275314331055,
+          1.2258961200714111,
+          1.2400000095367432
+        ],
+        "min": [
+          -10.895289421081543,
+          -2.5661652088165283,
+          -0.09000003337860107
+        ],
+        "max": [
+          -10.116561889648438,
+          -1.3402690887451172,
+          1.149999976158142
+        ],
+        "vertices": 112,
+        "faces": 130
+      },
+      {
+        "name": "Diamond_CentreUpper_29",
+        "collections": [
+          "DIAMONDS - visual references only"
+        ],
+        "hidden_render": false,
+        "hidden_viewport": false,
+        "dimensions": [
+          0.7959365844726562,
+          1.194228172302246,
+          1.2400000095367432
+        ],
+        "min": [
+          -10.615324974060059,
+          -3.8147101402282715,
+          -0.09000003337860107
+        ],
+        "max": [
+          -9.819388389587402,
+          -2.6204819679260254,
+          1.149999976158142
+        ],
+        "vertices": 112,
+        "faces": 130
+      },
+      {
+        "name": "Diamond_CentreUpper_30",
+        "collections": [
+          "DIAMONDS - visual references only"
+        ],
+        "hidden_render": false,
+        "hidden_viewport": false,
+        "dimensions": [
+          0.8016166687011719,
+          1.145261526107788,
+          1.2400000095367432
+        ],
+        "min": [
+          -10.181595802307129,
+          -5.007997989654541,
+          -0.09000003337860107
+        ],
+        "max": [
+          -9.379979133605957,
+          -3.862736463546753,
+          1.149999976158142
+        ],
+        "vertices": 112,
+        "faces": 130
+      },
+      {
+        "name": "Diamond_CentreUpper_31",
+        "collections": [
+          "DIAMONDS - visual references only"
+        ],
+        "hidden_render": false,
+        "hidden_viewport": false,
+        "dimensions": [
+          0.8118724822998047,
+          1.0797052383422852,
+          1.2400000095367432
+        ],
+        "min": [
+          -9.616569519042969,
+          -6.128742694854736,
+          -0.09000003337860107
+        ],
+        "max": [
+          -8.804697036743164,
+          -5.049037456512451,
+          1.149999976158142
+        ],
+        "vertices": 112,
+        "faces": 130
+      },
+      {
+        "name": "Diamond_CentreUpper_32",
+        "collections": [
+          "DIAMONDS - visual references only"
+        ],
+        "hidden_render": false,
+        "hidden_viewport": false,
+        "dimensions": [
+          0.8200578689575195,
+          0.997222900390625,
+          1.2400000095367432
+        ],
+        "min": [
+          -8.910860061645508,
+          -7.174939155578613,
+          -0.09000003337860107
+        ],
+        "max": [
+          -8.090802192687988,
+          -6.177716255187988,
+          1.149999976158142
+        ],
+        "vertices": 112,
+        "faces": 130
+      },
+      {
+        "name": "Diamond_CentreUpper_33",
+        "collections": [
+          "DIAMONDS - visual references only"
+        ],
+        "hidden_render": false,
+        "hidden_viewport": false,
+        "dimensions": [
+          0.9013633728027344,
+          0.9013633728027344,
+          1.2400000095367432
+        ],
+        "min": [
+          -8.101576805114746,
+          -8.101576805114746,
+          -0.09000003337860107
+        ],
+        "max": [
+          -7.200213432312012,
+          -7.200213432312012,
+          1.149999976158142
+        ],
+        "vertices": 112,
+        "faces": 130
+      },
+      {
+        "name": "Diamond_CentreUpper_34",
+        "collections": [
+          "DIAMONDS - visual references only"
+        ],
+        "hidden_render": false,
+        "hidden_viewport": false,
+        "dimensions": [
+          0.997222900390625,
+          0.8200578689575195,
+          1.2400000095367432
+        ],
+        "min": [
+          -7.174939155578613,
+          -8.910860061645508,
+          -0.09000003337860107
+        ],
+        "max": [
+          -6.177716255187988,
+          -8.090802192687988,
+          1.149999976158142
+        ],
+        "vertices": 112,
+        "faces": 130
+      },
+      {
+        "name": "Diamond_CentreUpper_35",
+        "collections": [
+          "DIAMONDS - visual references only"
+        ],
+        "hidden_render": false,
+        "hidden_viewport": false,
+        "dimensions": [
+          1.0786371231079102,
+          0.8120403289794922,
+          1.2400000095367432
+        ],
+        "min": [
+          -6.1443705558776855,
+          -9.607440948486328,
+          -0.09000003337860107
+        ],
+        "max": [
+          -5.065733432769775,
+          -8.795400619506836,
+          1.149999976158142
+        ],
+        "vertices": 112,
+        "faces": 130
+      },
+      {
+        "name": "Diamond_CentreUpper_36",
+        "collections": [
+          "DIAMONDS - visual references only"
+        ],
+        "hidden_render": false,
+        "hidden_viewport": false,
+        "dimensions": [
+          1.145261526107788,
+          0.8016166687011719,
+          1.2400000095367432
+        ],
+        "min": [
+          -5.007997989654541,
+          -10.181595802307129,
+          -0.09000003337860107
+        ],
+        "max": [
+          -3.862736463546753,
+          -9.379979133605957,
+          1.149999976158142
+        ],
+        "vertices": 112,
+        "faces": 130
+      },
+      {
+        "name": "Diamond_CentreUpper_37",
+        "collections": [
+          "DIAMONDS - visual references only"
+        ],
+        "hidden_render": false,
+        "hidden_viewport": false,
+        "dimensions": [
+          1.194228172302246,
+          0.7959365844726562,
+          1.2400000095367432
+        ],
+        "min": [
+          -3.8147101402282715,
+          -10.615324974060059,
+          -0.09000003337860107
+        ],
+        "max": [
+          -2.6204819679260254,
+          -9.819388389587402,
+          1.149999976158142
+        ],
+        "vertices": 112,
+        "faces": 130
+      },
+      {
+        "name": "Diamond_CentreUpper_38",
+        "collections": [
+          "DIAMONDS - visual references only"
+        ],
+        "hidden_render": false,
+        "hidden_viewport": false,
+        "dimensions": [
+          1.2258961200714111,
+          0.7787275314331055,
+          1.2400000095367432
+        ],
+        "min": [
+          -2.5661652088165283,
+          -10.895289421081543,
+          -0.09000003337860107
+        ],
+        "max": [
+          -1.3402690887451172,
+          -10.116561889648438,
+          1.149999976158142
+        ],
+        "vertices": 112,
+        "faces": 130
+      },
+      {
+        "name": "Diamond_CentreUpper_39",
+        "collections": [
+          "DIAMONDS - visual references only"
+        ],
+        "hidden_render": false,
+        "hidden_viewport": false,
+        "dimensions": [
+          1.2398067452013493,
+          0.7502374649047852,
+          1.2400000095367432
+        ],
+        "min": [
+          -1.28044855594635,
+          -11.017430305480957,
+          -0.09000003337860107
+        ],
+        "max": [
+          -0.04064181074500084,
+          -10.267192840576172,
+          1.149999976158142
+        ],
+        "vertices": 112,
+        "faces": 130
+      },
+      {
+        "name": "Diamond_CentreUpper_40",
+        "collections": [
+          "DIAMONDS - visual references only"
+        ],
+        "hidden_render": false,
+        "hidden_viewport": false,
+        "dimensions": [
+          1.2398421671241522,
+          0.7499904632568359,
+          1.2400000095367432
+        ],
+        "min": [
+          0.031199226155877113,
+          -11.01773452758789,
+          -0.09000003337860107
+        ],
+        "max": [
+          1.2710413932800293,
+          -10.267744064331055,
+          1.149999976158142
+        ],
+        "vertices": 112,
+        "faces": 130
+      },
+      {
+        "name": "Diamond_CentreUpper_41",
+        "collections": [
+          "DIAMONDS - visual references only"
+        ],
+        "hidden_render": false,
+        "hidden_viewport": false,
+        "dimensions": [
+          1.2258961200714111,
+          0.7787275314331055,
+          1.2400000095367432
+        ],
+        "min": [
+          1.3402690887451172,
+          -10.895289421081543,
+          -0.09000003337860107
+        ],
+        "max": [
+          2.5661652088165283,
+          -10.116561889648438,
+          1.149999976158142
+        ],
+        "vertices": 112,
+        "faces": 130
+      },
+      {
+        "name": "Diamond_CentreUpper_42",
+        "collections": [
+          "DIAMONDS - visual references only"
+        ],
+        "hidden_render": false,
+        "hidden_viewport": false,
+        "dimensions": [
+          1.194228172302246,
+          0.7959365844726562,
+          1.2400000095367432
+        ],
+        "min": [
+          2.6204819679260254,
+          -10.615324974060059,
+          -0.09000003337860107
+        ],
+        "max": [
+          3.8147101402282715,
+          -9.819388389587402,
+          1.149999976158142
+        ],
+        "vertices": 112,
+        "faces": 130
+      },
+      {
+        "name": "Diamond_CentreUpper_43",
+        "collections": [
+          "DIAMONDS - visual references only"
+        ],
+        "hidden_render": false,
+        "hidden_viewport": false,
+        "dimensions": [
+          1.145261526107788,
+          0.8016166687011719,
+          1.2400000095367432
+        ],
+        "min": [
+          3.862736463546753,
+          -10.181595802307129,
+          -0.09000003337860107
+        ],
+        "max": [
+          5.007997989654541,
+          -9.379979133605957,
+          1.149999976158142
+        ],
+        "vertices": 112,
+        "faces": 130
+      },
+      {
+        "name": "Diamond_CentreUpper_44",
+        "collections": [
+          "DIAMONDS - visual references only"
+        ],
+        "hidden_render": false,
+        "hidden_viewport": false,
+        "dimensions": [
+          1.079172134399414,
+          0.8119573593139648,
+          1.2400000095367432
+        ],
+        "min": [
+          5.057386875152588,
+          -9.612009048461914,
+          -0.09000003337860107
+        ],
+        "max": [
+          6.136559009552002,
+          -8.80005168914795,
+          1.149999976158142
+        ],
+        "vertices": 112,
+        "faces": 130
+      },
+      {
+        "name": "Diamond_CentreUpper_45",
+        "collections": [
+          "DIAMONDS - visual references only"
+        ],
+        "hidden_render": false,
+        "hidden_viewport": false,
+        "dimensions": [
+          0.997222900390625,
+          0.8200578689575195,
+          1.2400000095367432
+        ],
+        "min": [
+          6.177716255187988,
+          -8.910860061645508,
+          -0.09000003337860107
+        ],
+        "max": [
+          7.174939155578613,
+          -8.090802192687988,
+          1.149999976158142
+        ],
+        "vertices": 112,
+        "faces": 130
+      },
+      {
+        "name": "Diamond_CentreUpper_46",
+        "collections": [
+          "DIAMONDS - visual references only"
+        ],
+        "hidden_render": false,
+        "hidden_viewport": false,
+        "dimensions": [
+          0.9013633728027344,
+          0.9013633728027344,
+          1.2400000095367432
+        ],
+        "min": [
+          7.200213432312012,
+          -8.101576805114746,
+          -0.09000003337860107
+        ],
+        "max": [
+          8.101576805114746,
+          -7.200213432312012,
+          1.149999976158142
+        ],
+        "vertices": 112,
+        "faces": 130
+      },
+      {
+        "name": "Diamond_CentreUpper_47",
+        "collections": [
+          "DIAMONDS - visual references only"
+        ],
+        "hidden_render": false,
+        "hidden_viewport": false,
+        "dimensions": [
+          0.8200578689575195,
+          0.997222900390625,
+          1.2400000095367432
+        ],
+        "min": [
+          8.090802192687988,
+          -7.174939155578613,
+          -0.09000003337860107
+        ],
+        "max": [
+          8.910860061645508,
+          -6.177716255187988,
+          1.149999976158142
+        ],
+        "vertices": 112,
+        "faces": 130
+      },
+      {
+        "name": "Diamond_CentreUpper_48",
+        "collections": [
+          "DIAMONDS - visual references only"
+        ],
+        "hidden_render": false,
+        "hidden_viewport": false,
+        "dimensions": [
+          0.8119573593139648,
+          1.079172134399414,
+          1.2400000095367432
+        ],
+        "min": [
+          8.80005168914795,
+          -6.136559009552002,
+          -0.09000003337860107
+        ],
+        "max": [
+          9.612009048461914,
+          -5.057386875152588,
+          1.149999976158142
+        ],
+        "vertices": 112,
+        "faces": 130
+      },
+      {
+        "name": "Diamond_CentreUpper_49",
+        "collections": [
+          "DIAMONDS - visual references only"
+        ],
+        "hidden_render": false,
+        "hidden_viewport": false,
+        "dimensions": [
+          0.8016166687011719,
+          1.145261526107788,
+          1.2400000095367432
+        ],
+        "min": [
+          9.379979133605957,
+          -5.007997989654541,
+          -0.09000003337860107
+        ],
+        "max": [
+          10.181595802307129,
+          -3.862736463546753,
+          1.149999976158142
+        ],
+        "vertices": 112,
+        "faces": 130
+      },
+      {
+        "name": "Diamond_CentreUpper_50",
+        "collections": [
+          "DIAMONDS - visual references only"
+        ],
+        "hidden_render": false,
+        "hidden_viewport": false,
+        "dimensions": [
+          0.7959365844726562,
+          1.194228172302246,
+          1.2400000095367432
+        ],
+        "min": [
+          9.819388389587402,
+          -3.8147101402282715,
+          -0.09000003337860107
+        ],
+        "max": [
+          10.615324974060059,
+          -2.6204819679260254,
+          1.149999976158142
+        ],
+        "vertices": 112,
+        "faces": 130
+      },
+      {
+        "name": "Diamond_CentreUpper_51",
+        "collections": [
+          "DIAMONDS - visual references only"
+        ],
+        "hidden_render": false,
+        "hidden_viewport": false,
+        "dimensions": [
+          0.7787275314331055,
+          1.2258961200714111,
+          1.2400000095367432
+        ],
+        "min": [
+          10.116561889648438,
+          -2.5661652088165283,
+          -0.09000003337860107
+        ],
+        "max": [
+          10.895289421081543,
+          -1.3402690887451172,
+          1.149999976158142
+        ],
+        "vertices": 112,
+        "faces": 130
+      },
+      {
+        "name": "Diamond_CentreUpper_52",
+        "collections": [
+          "DIAMONDS - visual references only"
+        ],
+        "hidden_render": false,
+        "hidden_viewport": false,
+        "dimensions": [
+          0.7502374649047852,
+          1.239806741476059,
+          1.2400000095367432
+        ],
+        "min": [
+          10.267192840576172,
+          -1.28044855594635,
+          -0.09000003337860107
+        ],
+        "max": [
+          11.017430305480957,
+          -0.04064181447029114,
+          1.149999976158142
+        ],
+        "vertices": 112,
+        "faces": 130
+      },
+      {
+        "name": "Diamond_Lower_01",
+        "collections": [
+          "DIAMONDS - visual references only"
+        ],
+        "hidden_render": false,
+        "hidden_viewport": false,
+        "dimensions": [
+          0.9142417907714844,
+          1.2592178136110306,
+          0.9159011840820312
+        ],
+        "min": [
+          10.203524589538574,
+          0.013086602091789246,
+          -2.0079505443573
+        ],
+        "max": [
+          11.117766380310059,
+          1.2723044157028198,
+          -1.0920493602752686
+        ],
+        "vertices": 112,
+        "faces": 130
+      },
+      {
+        "name": "Diamond_Lower_02",
+        "collections": [
+          "DIAMONDS - visual references only"
+        ],
+        "hidden_render": false,
+        "hidden_viewport": false,
+        "dimensions": [
+          0.9283199310302734,
+          1.2513912916183472,
+          0.9159011840820312
+        ],
+        "min": [
+          10.042062759399414,
+          1.2930811643600464,
+          -2.0079505443573
+        ],
+        "max": [
+          10.970382690429688,
+          2.5444724559783936,
+          -1.0920493602752686
+        ],
+        "vertices": 112,
+        "faces": 130
+      },
+      {
+        "name": "Diamond_Lower_03",
+        "collections": [
+          "DIAMONDS - visual references only"
+        ],
+        "hidden_render": false,
+        "hidden_viewport": false,
+        "dimensions": [
+          0.9529209136962891,
+          1.239145278930664,
+          0.9159010648727417
+        ],
+        "min": [
+          9.723153114318848,
+          2.5474915504455566,
+          -2.0079505443573
+        ],
+        "max": [
+          10.676074028015137,
+          3.7866368293762207,
+          -1.092049479484558
+        ],
+        "vertices": 112,
+        "faces": 130
+      },
+      {
+        "name": "Diamond_Lower_04",
+        "collections": [
+          "DIAMONDS - visual references only"
+        ],
+        "hidden_render": false,
+        "hidden_viewport": false,
+        "dimensions": [
+          0.9856910705566406,
+          1.211653709411621,
+          0.9159010648727417
+        ],
+        "min": [
+          9.244773864746094,
+          3.7806506156921387,
+          -2.0079505443573
+        ],
+        "max": [
+          10.230464935302734,
+          4.99230432510376,
+          -1.092049479484558
+        ],
+        "vertices": 112,
+        "faces": 130
+      },
+      {
+        "name": "Diamond_Lower_05",
+        "collections": [
+          "DIAMONDS - visual references only"
+        ],
+        "hidden_render": false,
+        "hidden_viewport": false,
+        "dimensions": [
+          1.0213871002197266,
+          1.1855182647705078,
+          0.9159010648727417
+        ],
+        "min": [
+          8.62942123413086,
+          4.931795120239258,
+          -2.0079505443573
+        ],
+        "max": [
+          9.650808334350586,
+          6.117313385009766,
+          -1.092049479484558
+        ],
+        "vertices": 112,
+        "faces": 130
+      },
+      {
+        "name": "Diamond_Lower_06",
+        "collections": [
+          "DIAMONDS - visual references only"
+        ],
+        "hidden_render": false,
+        "hidden_viewport": false,
+        "dimensions": [
+          1.0648918151855469,
+          1.1454591751098633,
+          0.9159010648727417
+        ],
+        "min": [
+          7.877768516540527,
+          6.0098772048950195,
+          -2.0079505443573
+        ],
+        "max": [
+          8.942660331726074,
+          7.155336380004883,
+          -1.092049479484558
+        ],
+        "vertices": 112,
+        "faces": 130
+      },
+      {
+        "name": "Diamond_Lower_07",
+        "collections": [
+          "DIAMONDS - visual references only"
+        ],
+        "hidden_render": false,
+        "hidden_viewport": false,
+        "dimensions": [
+          1.1081252098083496,
+          1.108776569366455,
+          0.9159011840820312
+        ],
+        "min": [
+          7.004425525665283,
+          6.990919589996338,
+          -2.0079505443573
+        ],
+        "max": [
+          8.112550735473633,
+          8.099696159362793,
+          -1.0920493602752686
+        ],
+        "vertices": 112,
+        "faces": 130
+      },
+      {
+        "name": "Diamond_Lower_08",
+        "collections": [
+          "DIAMONDS - visual references only"
+        ],
+        "hidden_render": false,
+        "hidden_viewport": false,
+        "dimensions": [
+          1.1452522277832031,
+          1.0651512145996094,
+          0.9159011840820312
+        ],
+        "min": [
+          6.017317295074463,
+          7.871891021728516,
+          -2.0079505443573
+        ],
+        "max": [
+          7.162569522857666,
+          8.937042236328125,
+          -1.0920493602752686
+        ],
+        "vertices": 112,
+        "faces": 130
+      },
+      {
+        "name": "Diamond_Lower_09",
+        "collections": [
+          "DIAMONDS - visual references only"
+        ],
+        "hidden_render": false,
+        "hidden_viewport": false,
+        "dimensions": [
+          1.1855182647705078,
+          1.0213871002197266,
+          0.9159011840820312
+        ],
+        "min": [
+          4.931795120239258,
+          8.62942123413086,
+          -2.0079505443573
+        ],
+        "max": [
+          6.117313385009766,
+          9.650808334350586,
+          -1.0920493602752686
+        ],
+        "vertices": 112,
+        "faces": 130
+      },
+      {
+        "name": "Diamond_Lower_10",
+        "collections": [
+          "DIAMONDS - visual references only"
+        ],
+        "hidden_render": false,
+        "hidden_viewport": false,
+        "dimensions": [
+          1.211653709411621,
+          0.9856910705566406,
+          0.9159013032913208
+        ],
+        "min": [
+          3.7806506156921387,
+          9.244773864746094,
+          -2.0079505443573
+        ],
+        "max": [
+          4.99230432510376,
+          10.230464935302734,
+          -1.092049241065979
+        ],
+        "vertices": 112,
+        "faces": 130
+      },
+      {
+        "name": "Diamond_Lower_11",
+        "collections": [
+          "DIAMONDS - visual references only"
+        ],
+        "hidden_render": false,
+        "hidden_viewport": false,
+        "dimensions": [
+          1.2388348579406738,
+          0.9532852172851562,
+          0.9159011840820312
+        ],
+        "min": [
+          2.565443515777588,
+          9.717427253723145,
+          -2.0079505443573
+        ],
+        "max": [
+          3.8042783737182617,
+          10.6707124710083,
+          -1.0920493602752686
+        ],
+        "vertices": 112,
+        "faces": 130
+      },
+      {
+        "name": "Diamond_Lower_12",
+        "collections": [
+          "DIAMONDS - visual references only"
+        ],
+        "hidden_render": false,
+        "hidden_viewport": false,
+        "dimensions": [
+          1.2513912916183472,
+          0.9283199310302734,
+          0.9159011840820312
+        ],
+        "min": [
+          1.2930811643600464,
+          10.042062759399414,
+          -2.0079505443573
+        ],
+        "max": [
+          2.5444724559783936,
+          10.970382690429688,
+          -1.0920493602752686
+        ],
+        "vertices": 112,
+        "faces": 130
+      },
+      {
+        "name": "Diamond_Lower_13",
+        "collections": [
+          "DIAMONDS - visual references only"
+        ],
+        "hidden_render": false,
+        "hidden_viewport": false,
+        "dimensions": [
+          1.2592178136110306,
+          0.9142417907714844,
+          0.9159011840820312
+        ],
+        "min": [
+          0.013086602091789246,
+          10.203524589538574,
+          -2.0079505443573
+        ],
+        "max": [
+          1.2723044157028198,
+          11.117766380310059,
+          -1.0920493602752686
+        ],
+        "vertices": 112,
+        "faces": 130
+      },
+      {
+        "name": "Diamond_Lower_14",
+        "collections": [
+          "DIAMONDS - visual references only"
+        ],
+        "hidden_render": false,
+        "hidden_viewport": false,
+        "dimensions": [
+          1.2592178136110306,
+          0.9142417907714844,
+          0.9159011840820312
+        ],
+        "min": [
+          -1.2723044157028198,
+          10.203524589538574,
+          -2.0079505443573
+        ],
+        "max": [
+          -0.013086602091789246,
+          11.117766380310059,
+          -1.0920493602752686
+        ],
+        "vertices": 112,
+        "faces": 130
+      },
+      {
+        "name": "Diamond_Lower_15",
+        "collections": [
+          "DIAMONDS - visual references only"
+        ],
+        "hidden_render": false,
+        "hidden_viewport": false,
+        "dimensions": [
+          1.2513912916183472,
+          0.9283199310302734,
+          0.9159011840820312
+        ],
+        "min": [
+          -2.5444724559783936,
+          10.042062759399414,
+          -2.0079505443573
+        ],
+        "max": [
+          -1.2930811643600464,
+          10.970382690429688,
+          -1.0920493602752686
+        ],
+        "vertices": 112,
+        "faces": 130
+      },
+      {
+        "name": "Diamond_Lower_16",
+        "collections": [
+          "DIAMONDS - visual references only"
+        ],
+        "hidden_render": false,
+        "hidden_viewport": false,
+        "dimensions": [
+          1.239145278930664,
+          0.9529209136962891,
+          0.9159013032913208
+        ],
+        "min": [
+          -3.7866368293762207,
+          9.723153114318848,
+          -2.0079505443573
+        ],
+        "max": [
+          -2.5474915504455566,
+          10.676074028015137,
+          -1.092049241065979
+        ],
+        "vertices": 112,
+        "faces": 130
+      },
+      {
+        "name": "Diamond_Lower_17",
+        "collections": [
+          "DIAMONDS - visual references only"
+        ],
+        "hidden_render": false,
+        "hidden_viewport": false,
+        "dimensions": [
+          1.2117793560028076,
+          0.9854087829589844,
+          0.9159011840820312
+        ],
+        "min": [
+          -4.98386812210083,
+          9.248738288879395,
+          -2.0079505443573
+        ],
+        "max": [
+          -3.7720887660980225,
+          10.234147071838379,
+          -1.0920493602752686
+        ],
+        "vertices": 112,
+        "faces": 130
+      },
+      {
+        "name": "Diamond_Lower_18",
+        "collections": [
+          "DIAMONDS - visual references only"
+        ],
+        "hidden_render": false,
+        "hidden_viewport": false,
+        "dimensions": [
+          1.1855182647705078,
+          1.0213871002197266,
+          0.9159011840820312
+        ],
+        "min": [
+          -6.117313385009766,
+          8.62942123413086,
+          -2.0079505443573
+        ],
+        "max": [
+          -4.931795120239258,
+          9.650808334350586,
+          -1.0920493602752686
+        ],
+        "vertices": 112,
+        "faces": 130
+      },
+      {
+        "name": "Diamond_Lower_19",
+        "collections": [
+          "DIAMONDS - visual references only"
+        ],
+        "hidden_render": false,
+        "hidden_viewport": false,
+        "dimensions": [
+          1.1454591751098633,
+          1.0648918151855469,
+          0.9159011840820312
+        ],
+        "min": [
+          -7.155336380004883,
+          7.877768516540527,
+          -2.0079505443573
+        ],
+        "max": [
+          -6.0098772048950195,
+          8.942660331726074,
+          -1.0920493602752686
+        ],
+        "vertices": 112,
+        "faces": 130
+      },
+      {
+        "name": "Diamond_Lower_20",
+        "collections": [
+          "DIAMONDS - visual references only"
+        ],
+        "hidden_render": false,
+        "hidden_viewport": false,
+        "dimensions": [
+          1.108776569366455,
+          1.1081252098083496,
+          0.9159011840820312
+        ],
+        "min": [
+          -8.099696159362793,
+          7.004425525665283,
+          -2.0079505443573
+        ],
+        "max": [
+          -6.990919589996338,
+          8.112550735473633,
+          -1.0920493602752686
+        ],
+        "vertices": 112,
+        "faces": 130
+      },
+      {
+        "name": "Diamond_Lower_21",
+        "collections": [
+          "DIAMONDS - visual references only"
+        ],
+        "hidden_render": false,
+        "hidden_viewport": false,
+        "dimensions": [
+          1.0651512145996094,
+          1.1452522277832031,
+          0.9159010648727417
+        ],
+        "min": [
+          -8.937042236328125,
+          6.017317295074463,
+          -2.0079505443573
+        ],
+        "max": [
+          -7.871891021728516,
+          7.162569522857666,
+          -1.092049479484558
+        ],
+        "vertices": 112,
+        "faces": 130
+      },
+      {
+        "name": "Diamond_Lower_22",
+        "collections": [
+          "DIAMONDS - visual references only"
+        ],
+        "hidden_render": false,
+        "hidden_viewport": false,
+        "dimensions": [
+          1.0213871002197266,
+          1.1855182647705078,
+          0.9159010648727417
+        ],
+        "min": [
+          -9.650808334350586,
+          4.931795120239258,
+          -2.0079505443573
+        ],
+        "max": [
+          -8.62942123413086,
+          6.117313385009766,
+          -1.092049479484558
+        ],
+        "vertices": 112,
+        "faces": 130
+      },
+      {
+        "name": "Diamond_Lower_23",
+        "collections": [
+          "DIAMONDS - visual references only"
+        ],
+        "hidden_render": false,
+        "hidden_viewport": false,
+        "dimensions": [
+          0.9856910705566406,
+          1.211653709411621,
+          0.9159010648727417
+        ],
+        "min": [
+          -10.230464935302734,
+          3.7806506156921387,
+          -2.0079505443573
+        ],
+        "max": [
+          -9.244773864746094,
+          4.99230432510376,
+          -1.092049479484558
+        ],
+        "vertices": 112,
+        "faces": 130
+      },
+      {
+        "name": "Diamond_Lower_24",
+        "collections": [
+          "DIAMONDS - visual references only"
+        ],
+        "hidden_render": false,
+        "hidden_viewport": false,
+        "dimensions": [
+          0.9532852172851562,
+          1.2388348579406738,
+          0.9159011840820312
+        ],
+        "min": [
+          -10.6707124710083,
+          2.565443515777588,
+          -2.0079505443573
+        ],
+        "max": [
+          -9.717427253723145,
+          3.8042783737182617,
+          -1.0920493602752686
+        ],
+        "vertices": 112,
+        "faces": 130
+      },
+      {
+        "name": "Diamond_Lower_25",
+        "collections": [
+          "DIAMONDS - visual references only"
+        ],
+        "hidden_render": false,
+        "hidden_viewport": false,
+        "dimensions": [
+          0.9284591674804688,
+          1.2513431310653687,
+          0.9159011840820312
+        ],
+        "min": [
+          -10.967086791992188,
+          1.3114391565322876,
+          -2.0079505443573
+        ],
+        "max": [
+          -10.038627624511719,
+          2.5627822875976562,
+          -1.0920493602752686
+        ],
+        "vertices": 112,
+        "faces": 130
+      },
+      {
+        "name": "Diamond_Lower_26",
+        "collections": [
+          "DIAMONDS - visual references only"
+        ],
+        "hidden_render": false,
+        "hidden_viewport": false,
+        "dimensions": [
+          0.9141921997070312,
+          1.2591727692633867,
+          0.9159011840820312
+        ],
+        "min": [
+          -11.117176055908203,
+          0.022412089630961418,
+          -2.0079505443573
+        ],
+        "max": [
+          -10.202983856201172,
+          1.2815848588943481,
+          -1.0920493602752686
+        ],
+        "vertices": 112,
+        "faces": 130
+      },
+      {
+        "name": "Diamond_Lower_27",
+        "collections": [
+          "DIAMONDS - visual references only"
+        ],
+        "hidden_render": false,
+        "hidden_viewport": false,
+        "dimensions": [
+          0.9142417907714844,
+          1.259217812679708,
+          0.9159011840820312
+        ],
+        "min": [
+          -11.117766380310059,
+          -1.2723044157028198,
+          -2.0079505443573
+        ],
+        "max": [
+          -10.203524589538574,
+          -0.01308660302311182,
+          -1.0920493602752686
+        ],
+        "vertices": 112,
+        "faces": 130
+      },
+      {
+        "name": "Diamond_Lower_28",
+        "collections": [
+          "DIAMONDS - visual references only"
+        ],
+        "hidden_render": false,
+        "hidden_viewport": false,
+        "dimensions": [
+          0.9283199310302734,
+          1.2513915300369263,
+          0.9159011840820312
+        ],
+        "min": [
+          -10.970382690429688,
+          -2.5444726943969727,
+          -2.0079505443573
+        ],
+        "max": [
+          -10.042062759399414,
+          -1.2930811643600464,
+          -1.0920493602752686
+        ],
+        "vertices": 112,
+        "faces": 130
+      },
+      {
+        "name": "Diamond_Lower_29",
+        "collections": [
+          "DIAMONDS - visual references only"
+        ],
+        "hidden_render": false,
+        "hidden_viewport": false,
+        "dimensions": [
+          0.9529209136962891,
+          1.239145278930664,
+          0.9159011840820312
+        ],
+        "min": [
+          -10.676074028015137,
+          -3.7866368293762207,
+          -2.0079505443573
+        ],
+        "max": [
+          -9.723153114318848,
+          -2.5474915504455566,
+          -1.0920493602752686
+        ],
+        "vertices": 112,
+        "faces": 130
+      },
+      {
+        "name": "Diamond_Lower_30",
+        "collections": [
+          "DIAMONDS - visual references only"
+        ],
+        "hidden_render": false,
+        "hidden_viewport": false,
+        "dimensions": [
+          0.9854087829589844,
+          1.2117793560028076,
+          0.9159011840820312
+        ],
+        "min": [
+          -10.234147071838379,
+          -4.98386812210083,
+          -2.0079505443573
+        ],
+        "max": [
+          -9.248738288879395,
+          -3.7720887660980225,
+          -1.0920493602752686
+        ],
+        "vertices": 112,
+        "faces": 130
+      },
+      {
+        "name": "Diamond_Lower_31",
+        "collections": [
+          "DIAMONDS - visual references only"
+        ],
+        "hidden_render": false,
+        "hidden_viewport": false,
+        "dimensions": [
+          1.0213871002197266,
+          1.1855182647705078,
+          0.9159010648727417
+        ],
+        "min": [
+          -9.650808334350586,
+          -6.117313385009766,
+          -2.0079505443573
+        ],
+        "max": [
+          -8.62942123413086,
+          -4.931795120239258,
+          -1.092049479484558
+        ],
+        "vertices": 112,
+        "faces": 130
+      },
+      {
+        "name": "Diamond_Lower_32",
+        "collections": [
+          "DIAMONDS - visual references only"
+        ],
+        "hidden_render": false,
+        "hidden_viewport": false,
+        "dimensions": [
+          1.0648918151855469,
+          1.1454591751098633,
+          0.9159011840820312
+        ],
+        "min": [
+          -8.942660331726074,
+          -7.155336380004883,
+          -2.0079505443573
+        ],
+        "max": [
+          -7.877768516540527,
+          -6.0098772048950195,
+          -1.0920493602752686
+        ],
+        "vertices": 112,
+        "faces": 130
+      },
+      {
+        "name": "Diamond_Lower_33",
+        "collections": [
+          "DIAMONDS - visual references only"
+        ],
+        "hidden_render": false,
+        "hidden_viewport": false,
+        "dimensions": [
+          1.1081252098083496,
+          1.108776569366455,
+          0.9159010648727417
+        ],
+        "min": [
+          -8.112550735473633,
+          -8.099696159362793,
+          -2.0079505443573
+        ],
+        "max": [
+          -7.004425525665283,
+          -6.990919589996338,
+          -1.092049479484558
+        ],
+        "vertices": 112,
+        "faces": 130
+      },
+      {
+        "name": "Diamond_Lower_34",
+        "collections": [
+          "DIAMONDS - visual references only"
+        ],
+        "hidden_render": false,
+        "hidden_viewport": false,
+        "dimensions": [
+          1.1452522277832031,
+          1.0651512145996094,
+          0.9159010648727417
+        ],
+        "min": [
+          -7.162569522857666,
+          -8.937042236328125,
+          -2.0079505443573
+        ],
+        "max": [
+          -6.017317295074463,
+          -7.871891021728516,
+          -1.092049479484558
+        ],
+        "vertices": 112,
+        "faces": 130
+      },
+      {
+        "name": "Diamond_Lower_35",
+        "collections": [
+          "DIAMONDS - visual references only"
+        ],
+        "hidden_render": false,
+        "hidden_viewport": false,
+        "dimensions": [
+          1.1855182647705078,
+          1.0213871002197266,
+          0.9159011840820312
+        ],
+        "min": [
+          -6.117313385009766,
+          -9.650808334350586,
+          -2.0079505443573
+        ],
+        "max": [
+          -4.931795120239258,
+          -8.62942123413086,
+          -1.0920493602752686
+        ],
+        "vertices": 112,
+        "faces": 130
+      },
+      {
+        "name": "Diamond_Lower_36",
+        "collections": [
+          "DIAMONDS - visual references only"
+        ],
+        "hidden_render": false,
+        "hidden_viewport": false,
+        "dimensions": [
+          1.211653709411621,
+          0.9856910705566406,
+          0.9159011840820312
+        ],
+        "min": [
+          -4.99230432510376,
+          -10.230464935302734,
+          -2.0079505443573
+        ],
+        "max": [
+          -3.7806506156921387,
+          -9.244773864746094,
+          -1.0920493602752686
+        ],
+        "vertices": 112,
+        "faces": 130
+      },
+      {
+        "name": "Diamond_Lower_37",
+        "collections": [
+          "DIAMONDS - visual references only"
+        ],
+        "hidden_render": false,
+        "hidden_viewport": false,
+        "dimensions": [
+          1.2388348579406738,
+          0.9532852172851562,
+          0.9159011840820312
+        ],
+        "min": [
+          -3.8042783737182617,
+          -10.6707124710083,
+          -2.0079505443573
+        ],
+        "max": [
+          -2.565443515777588,
+          -9.717427253723145,
+          -1.0920493602752686
+        ],
+        "vertices": 112,
+        "faces": 130
+      },
+      {
+        "name": "Diamond_Lower_38",
+        "collections": [
+          "DIAMONDS - visual references only"
+        ],
+        "hidden_render": false,
+        "hidden_viewport": false,
+        "dimensions": [
+          1.2513433694839478,
+          0.9284591674804688,
+          0.9159011840820312
+        ],
+        "min": [
+          -2.5627825260162354,
+          -10.967086791992188,
+          -2.0079505443573
+        ],
+        "max": [
+          -1.3114391565322876,
+          -10.038627624511719,
+          -1.0920493602752686
+        ],
+        "vertices": 112,
+        "faces": 130
+      },
+      {
+        "name": "Diamond_Lower_39",
+        "collections": [
+          "DIAMONDS - visual references only"
+        ],
+        "hidden_render": false,
+        "hidden_viewport": false,
+        "dimensions": [
+          1.2591727692633867,
+          0.9141921997070312,
+          0.9159010648727417
+        ],
+        "min": [
+          -1.2815848588943481,
+          -11.117176055908203,
+          -2.0079505443573
+        ],
+        "max": [
+          -0.022412089630961418,
+          -10.202983856201172,
+          -1.092049479484558
+        ],
+        "vertices": 112,
+        "faces": 130
+      },
+      {
+        "name": "Diamond_Lower_40",
+        "collections": [
+          "DIAMONDS - visual references only"
+        ],
+        "hidden_render": false,
+        "hidden_viewport": false,
+        "dimensions": [
+          1.259217812679708,
+          0.9142417907714844,
+          0.9159011840820312
+        ],
+        "min": [
+          0.01308660302311182,
+          -11.117766380310059,
+          -2.0079505443573
+        ],
+        "max": [
+          1.2723044157028198,
+          -10.203524589538574,
+          -1.0920493602752686
+        ],
+        "vertices": 112,
+        "faces": 130
+      },
+      {
+        "name": "Diamond_Lower_41",
+        "collections": [
+          "DIAMONDS - visual references only"
+        ],
+        "hidden_render": false,
+        "hidden_viewport": false,
+        "dimensions": [
+          1.2513912916183472,
+          0.9283199310302734,
+          0.9159011840820312
+        ],
+        "min": [
+          1.2930811643600464,
+          -10.970382690429688,
+          -2.0079505443573
+        ],
+        "max": [
+          2.5444724559783936,
+          -10.042062759399414,
+          -1.0920493602752686
+        ],
+        "vertices": 112,
+        "faces": 130
+      },
+      {
+        "name": "Diamond_Lower_42",
+        "collections": [
+          "DIAMONDS - visual references only"
+        ],
+        "hidden_render": false,
+        "hidden_viewport": false,
+        "dimensions": [
+          1.239145278930664,
+          0.9529209136962891,
+          0.9159010648727417
+        ],
+        "min": [
+          2.5474915504455566,
+          -10.676074028015137,
+          -2.0079505443573
+        ],
+        "max": [
+          3.7866368293762207,
+          -9.723153114318848,
+          -1.092049479484558
+        ],
+        "vertices": 112,
+        "faces": 130
+      },
+      {
+        "name": "Diamond_Lower_43",
+        "collections": [
+          "DIAMONDS - visual references only"
+        ],
+        "hidden_render": false,
+        "hidden_viewport": false,
+        "dimensions": [
+          1.2117793560028076,
+          0.9854087829589844,
+          0.9159011840820312
+        ],
+        "min": [
+          3.7720887660980225,
+          -10.234147071838379,
+          -2.0079505443573
+        ],
+        "max": [
+          4.98386812210083,
+          -9.248738288879395,
+          -1.0920493602752686
+        ],
+        "vertices": 112,
+        "faces": 130
+      },
+      {
+        "name": "Diamond_Lower_44",
+        "collections": [
+          "DIAMONDS - visual references only"
+        ],
+        "hidden_render": false,
+        "hidden_viewport": false,
+        "dimensions": [
+          1.1855182647705078,
+          1.0213871002197266,
+          0.9159011840820312
+        ],
+        "min": [
+          4.931795120239258,
+          -9.650808334350586,
+          -2.0079505443573
+        ],
+        "max": [
+          6.117313385009766,
+          -8.62942123413086,
+          -1.0920493602752686
+        ],
+        "vertices": 112,
+        "faces": 130
+      },
+      {
+        "name": "Diamond_Lower_45",
+        "collections": [
+          "DIAMONDS - visual references only"
+        ],
+        "hidden_render": false,
+        "hidden_viewport": false,
+        "dimensions": [
+          1.1454591751098633,
+          1.0648918151855469,
+          0.9159011840820312
+        ],
+        "min": [
+          6.0098772048950195,
+          -8.942660331726074,
+          -2.0079505443573
+        ],
+        "max": [
+          7.155336380004883,
+          -7.877768516540527,
+          -1.0920493602752686
+        ],
+        "vertices": 112,
+        "faces": 130
+      },
+      {
+        "name": "Diamond_Lower_46",
+        "collections": [
+          "DIAMONDS - visual references only"
+        ],
+        "hidden_render": false,
+        "hidden_viewport": false,
+        "dimensions": [
+          1.108776569366455,
+          1.1081252098083496,
+          0.9159011840820312
+        ],
+        "min": [
+          6.990919589996338,
+          -8.112550735473633,
+          -2.0079505443573
+        ],
+        "max": [
+          8.099696159362793,
+          -7.004425525665283,
+          -1.0920493602752686
+        ],
+        "vertices": 112,
+        "faces": 130
+      },
+      {
+        "name": "Diamond_Lower_47",
+        "collections": [
+          "DIAMONDS - visual references only"
+        ],
+        "hidden_render": false,
+        "hidden_viewport": false,
+        "dimensions": [
+          1.0651512145996094,
+          1.1452522277832031,
+          0.9159011840820312
+        ],
+        "min": [
+          7.871891021728516,
+          -7.162569522857666,
+          -2.0079505443573
+        ],
+        "max": [
+          8.937042236328125,
+          -6.017317295074463,
+          -1.0920493602752686
+        ],
+        "vertices": 112,
+        "faces": 130
+      },
+      {
+        "name": "Diamond_Lower_48",
+        "collections": [
+          "DIAMONDS - visual references only"
+        ],
+        "hidden_render": false,
+        "hidden_viewport": false,
+        "dimensions": [
+          1.0213871002197266,
+          1.1855182647705078,
+          0.9159010648727417
+        ],
+        "min": [
+          8.62942123413086,
+          -6.117313385009766,
+          -2.0079505443573
+        ],
+        "max": [
+          9.650808334350586,
+          -4.931795120239258,
+          -1.092049479484558
+        ],
+        "vertices": 112,
+        "faces": 130
+      },
+      {
+        "name": "Diamond_Lower_49",
+        "collections": [
+          "DIAMONDS - visual references only"
+        ],
+        "hidden_render": false,
+        "hidden_viewport": false,
+        "dimensions": [
+          0.9856910705566406,
+          1.211653709411621,
+          0.9159011840820312
+        ],
+        "min": [
+          9.244773864746094,
+          -4.99230432510376,
+          -2.0079505443573
+        ],
+        "max": [
+          10.230464935302734,
+          -3.7806506156921387,
+          -1.0920493602752686
+        ],
+        "vertices": 112,
+        "faces": 130
+      },
+      {
+        "name": "Diamond_Lower_50",
+        "collections": [
+          "DIAMONDS - visual references only"
+        ],
+        "hidden_render": false,
+        "hidden_viewport": false,
+        "dimensions": [
+          0.9532852172851562,
+          1.2388348579406738,
+          0.9159011840820312
+        ],
+        "min": [
+          9.717427253723145,
+          -3.8042783737182617,
+          -2.0079505443573
+        ],
+        "max": [
+          10.6707124710083,
+          -2.565443515777588,
+          -1.0920493602752686
+        ],
+        "vertices": 112,
+        "faces": 130
+      },
+      {
+        "name": "Diamond_Lower_51",
+        "collections": [
+          "DIAMONDS - visual references only"
+        ],
+        "hidden_render": false,
+        "hidden_viewport": false,
+        "dimensions": [
+          0.9283199310302734,
+          1.2513915300369263,
+          0.9159011840820312
+        ],
+        "min": [
+          10.042062759399414,
+          -2.5444726943969727,
+          -2.0079505443573
+        ],
+        "max": [
+          10.970382690429688,
+          -1.2930811643600464,
+          -1.0920493602752686
+        ],
+        "vertices": 112,
+        "faces": 130
+      },
+      {
+        "name": "Diamond_Lower_52",
+        "collections": [
+          "DIAMONDS - visual references only"
+        ],
+        "hidden_render": false,
+        "hidden_viewport": false,
+        "dimensions": [
+          0.9142417907714844,
+          1.259217812679708,
+          0.9159011840820312
+        ],
+        "min": [
+          10.203524589538574,
+          -1.2723044157028198,
+          -2.0079505443573
+        ],
+        "max": [
+          11.117766380310059,
+          -0.01308660302311182,
+          -1.0920493602752686
+        ],
+        "vertices": 112,
+        "faces": 130
+      },
+      {
+        "name": "Diamond_Upper_01",
+        "collections": [
+          "DIAMONDS - visual references only"
+        ],
+        "hidden_render": false,
+        "hidden_viewport": false,
+        "dimensions": [
+          0.9216842651367188,
+          1.253981351852417,
+          0.9159013032913208
+        ],
+        "min": [
+          10.142922401428223,
+          0.6468178033828735,
+          1.092049241065979
+        ],
+        "max": [
+          11.064606666564941,
+          1.9007991552352905,
+          2.0079505443573
+        ],
+        "vertices": 112,
+        "faces": 130
+      },
+      {
+        "name": "Diamond_Upper_02",
+        "collections": [
+          "DIAMONDS - visual references only"
+        ],
+        "hidden_render": false,
+        "hidden_viewport": false,
+        "dimensions": [
+          0.9386177062988281,
+          1.247529149055481,
+          0.9159011840820312
+        ],
+        "min": [
+          9.902405738830566,
+          1.9237726926803589,
+          1.0920493602752686
+        ],
+        "max": [
+          10.841023445129395,
+          3.17130184173584,
+          2.0079505443573
+        ],
+        "vertices": 112,
+        "faces": 130
+      },
+      {
+        "name": "Diamond_Upper_03",
+        "collections": [
+          "DIAMONDS - visual references only"
+        ],
+        "hidden_render": false,
+        "hidden_viewport": false,
+        "dimensions": [
+          0.9637718200683594,
+          1.2262697219848633,
+          0.9159011840820312
+        ],
+        "min": [
+          9.50865650177002,
+          3.1619768142700195,
+          1.0920493602752686
+        ],
+        "max": [
+          10.472428321838379,
+          4.388246536254883,
+          2.0079505443573
+        ],
+        "vertices": 112,
+        "faces": 130
+      },
+      {
+        "name": "Diamond_Upper_04",
+        "collections": [
+          "DIAMONDS - visual references only"
+        ],
+        "hidden_render": false,
+        "hidden_viewport": false,
+        "dimensions": [
+          1.0029239654541016,
+          1.2011394500732422,
+          0.9159011840820312
+        ],
+        "min": [
+          8.9631929397583,
+          4.3474321365356445,
+          1.0920493602752686
+        ],
+        "max": [
+          9.966116905212402,
+          5.548571586608887,
+          2.0079505443573
+        ],
+        "vertices": 112,
+        "faces": 130
+      },
+      {
+        "name": "Diamond_Upper_05",
+        "collections": [
+          "DIAMONDS - visual references only"
+        ],
+        "hidden_render": false,
+        "hidden_viewport": false,
+        "dimensions": [
+          1.044717788696289,
+          1.1662912368774414,
+          0.9159011840820312
+        ],
+        "min": [
+          8.274026870727539,
+          5.473751544952393,
+          1.0920493602752686
+        ],
+        "max": [
+          9.318744659423828,
+          6.640042781829834,
+          2.0079505443573
+        ],
+        "vertices": 112,
+        "faces": 130
+      },
+      {
+        "name": "Diamond_Upper_06",
+        "collections": [
+          "DIAMONDS - visual references only"
+        ],
+        "hidden_render": false,
+        "hidden_viewport": false,
+        "dimensions": [
+          1.0836033821105957,
+          1.1291637420654297,
+          0.9159013032913208
+        ],
+        "min": [
+          7.457046031951904,
+          6.512200832366943,
+          1.092049241065979
+        ],
+        "max": [
+          8.5406494140625,
+          7.641364574432373,
+          2.0079505443573
+        ],
+        "vertices": 112,
+        "faces": 130
+      },
+      {
+        "name": "Diamond_Upper_07",
+        "collections": [
+          "DIAMONDS - visual references only"
+        ],
+        "hidden_render": false,
+        "hidden_viewport": false,
+        "dimensions": [
+          1.1286296844482422,
+          1.0843696594238281,
+          0.9159013032913208
+        ],
+        "min": [
+          6.526416778564453,
+          7.44429874420166,
+          1.092049241065979
+        ],
+        "max": [
+          7.655046463012695,
+          8.528668403625488,
+          2.0079505443573
+        ],
+        "vertices": 112,
+        "faces": 130
+      },
+      {
+        "name": "Diamond_Upper_08",
+        "collections": [
+          "DIAMONDS - visual references only"
+        ],
+        "hidden_render": false,
+        "hidden_viewport": false,
+        "dimensions": [
+          1.1653480529785156,
+          1.0456619262695312,
+          0.9159011840820312
+        ],
+        "min": [
+          5.497231960296631,
+          8.257667541503906,
+          1.0920493602752686
+        ],
+        "max": [
+          6.6625800132751465,
+          9.303329467773438,
+          2.0079505443573
+        ],
+        "vertices": 112,
+        "faces": 130
+      },
+      {
+        "name": "Diamond_Upper_09",
+        "collections": [
+          "DIAMONDS - visual references only"
+        ],
+        "hidden_render": false,
+        "hidden_viewport": false,
+        "dimensions": [
+          1.2005720138549805,
+          1.0036163330078125,
+          0.9159011840820312
+        ],
+        "min": [
+          4.372477054595947,
+          8.949860572814941,
+          1.0920493602752686
+        ],
+        "max": [
+          5.573049068450928,
+          9.953476905822754,
+          2.0079505443573
+        ],
+        "vertices": 112,
+        "faces": 130
+      },
+      {
+        "name": "Diamond_Upper_10",
+        "collections": [
+          "DIAMONDS - visual references only"
+        ],
+        "hidden_render": false,
+        "hidden_viewport": false,
+        "dimensions": [
+          1.225829839706421,
+          0.9644222259521484,
+          0.9159013032913208
+        ],
+        "min": [
+          3.1796271800994873,
+          9.501727104187012,
+          1.092049241065979
+        ],
+        "max": [
+          4.405457019805908,
+          10.46614933013916,
+          2.0079505443573
+        ],
+        "vertices": 112,
+        "faces": 130
+      },
+      {
+        "name": "Diamond_Upper_11",
+        "collections": [
+          "DIAMONDS - visual references only"
+        ],
+        "hidden_render": false,
+        "hidden_viewport": false,
+        "dimensions": [
+          1.247349739074707,
+          0.9390792846679688,
+          0.9159011840820312
+        ],
+        "min": [
+          1.9419605731964111,
+          9.897712707519531,
+          1.0920493602752686
+        ],
+        "max": [
+          3.189310312271118,
+          10.8367919921875,
+          2.0079505443573
+        ],
+        "vertices": 112,
+        "faces": 130
+      },
+      {
+        "name": "Diamond_Upper_12",
+        "collections": [
+          "DIAMONDS - visual references only"
+        ],
+        "hidden_render": false,
+        "hidden_viewport": false,
+        "dimensions": [
+          1.253648281097412,
+          0.9220390319824219,
+          0.9159011840820312
+        ],
+        "min": [
+          0.6747404336929321,
+          10.139373779296875,
+          1.0920493602752686
+        ],
+        "max": [
+          1.9283887147903442,
+          11.061412811279297,
+          2.0079505443573
+        ],
+        "vertices": 112,
+        "faces": 130
+      },
+      {
+        "name": "Diamond_Upper_13",
+        "collections": [
+          "DIAMONDS - visual references only"
+        ],
+        "hidden_render": false,
+        "hidden_viewport": false,
+        "dimensions": [
+          1.26004159450531,
+          0.9158992767333984,
+          0.9159011840820312
+        ],
+        "min": [
+          -0.6113806962966919,
+          10.222034454345703,
+          1.0920493602752686
+        ],
+        "max": [
+          0.6486608982086182,
+          11.137933731079102,
+          2.0079505443573
+        ],
+        "vertices": 112,
+        "faces": 130
+      },
+      {
+        "name": "Diamond_Upper_14",
+        "collections": [
+          "DIAMONDS - visual references only"
+        ],
+        "hidden_render": false,
+        "hidden_viewport": false,
+        "dimensions": [
+          1.253981351852417,
+          0.9216842651367188,
+          0.9159013032913208
+        ],
+        "min": [
+          -1.9007991552352905,
+          10.142922401428223,
+          1.092049241065979
+        ],
+        "max": [
+          -0.6468178033828735,
+          11.064606666564941,
+          2.0079505443573
+        ],
+        "vertices": 112,
+        "faces": 130
+      },
+      {
+        "name": "Diamond_Upper_15",
+        "collections": [
+          "DIAMONDS - visual references only"
+        ],
+        "hidden_render": false,
+        "hidden_viewport": false,
+        "dimensions": [
+          1.2475290298461914,
+          0.9386177062988281,
+          0.9159013032913208
+        ],
+        "min": [
+          -3.17130184173584,
+          9.902405738830566,
+          1.092049241065979
+        ],
+        "max": [
+          -1.9237728118896484,
+          10.841023445129395,
+          2.0079505443573
+        ],
+        "vertices": 112,
+        "faces": 130
+      },
+      {
+        "name": "Diamond_Upper_16",
+        "collections": [
+          "DIAMONDS - visual references only"
+        ],
+        "hidden_render": false,
+        "hidden_viewport": false,
+        "dimensions": [
+          1.2262697219848633,
+          0.9637718200683594,
+          0.9159015417098999
+        ],
+        "min": [
+          -4.388246536254883,
+          9.50865650177002,
+          1.092049241065979
+        ],
+        "max": [
+          -3.1619768142700195,
+          10.472428321838379,
+          2.007950782775879
+        ],
+        "vertices": 112,
+        "faces": 130
+      },
+      {
+        "name": "Diamond_Upper_17",
+        "collections": [
+          "DIAMONDS - visual references only"
+        ],
+        "hidden_render": false,
+        "hidden_viewport": false,
+        "dimensions": [
+          1.2009515762329102,
+          1.0031566619873047,
+          0.9159011840820312
+        ],
+        "min": [
+          -5.556735038757324,
+          8.958754539489746,
+          1.0920493602752686
+        ],
+        "max": [
+          -4.355783462524414,
+          9.96191120147705,
+          2.0079505443573
+        ],
+        "vertices": 112,
+        "faces": 130
+      },
+      {
+        "name": "Diamond_Upper_18",
+        "collections": [
+          "DIAMONDS - visual references only"
+        ],
+        "hidden_render": false,
+        "hidden_viewport": false,
+        "dimensions": [
+          1.1662912368774414,
+          1.044717788696289,
+          0.9159013032913208
+        ],
+        "min": [
+          -6.640042781829834,
+          8.274026870727539,
+          1.092049241065979
+        ],
+        "max": [
+          -5.473751544952393,
+          9.318744659423828,
+          2.0079505443573
+        ],
+        "vertices": 112,
+        "faces": 130
+      },
+      {
+        "name": "Diamond_Upper_19",
+        "collections": [
+          "DIAMONDS - visual references only"
+        ],
+        "hidden_render": false,
+        "hidden_viewport": false,
+        "dimensions": [
+          1.1291637420654297,
+          1.0836033821105957,
+          0.9159013032913208
+        ],
+        "min": [
+          -7.641364574432373,
+          7.457046031951904,
+          1.092049241065979
+        ],
+        "max": [
+          -6.512200832366943,
+          8.5406494140625,
+          2.0079505443573
+        ],
+        "vertices": 112,
+        "faces": 130
+      },
+      {
+        "name": "Diamond_Upper_20",
+        "collections": [
+          "DIAMONDS - visual references only"
+        ],
+        "hidden_render": false,
+        "hidden_viewport": false,
+        "dimensions": [
+          1.0843696594238281,
+          1.1286306381225586,
+          0.9159011840820312
+        ],
+        "min": [
+          -8.528668403625488,
+          6.526416301727295,
+          1.0920493602752686
+        ],
+        "max": [
+          -7.44429874420166,
+          7.6550469398498535,
+          2.0079505443573
+        ],
+        "vertices": 112,
+        "faces": 130
+      },
+      {
+        "name": "Diamond_Upper_21",
+        "collections": [
+          "DIAMONDS - visual references only"
+        ],
+        "hidden_render": false,
+        "hidden_viewport": false,
+        "dimensions": [
+          1.0456619262695312,
+          1.1653480529785156,
+          0.9159013032913208
+        ],
+        "min": [
+          -9.303329467773438,
+          5.497231960296631,
+          1.092049241065979
+        ],
+        "max": [
+          -8.257667541503906,
+          6.6625800132751465,
+          2.0079505443573
+        ],
+        "vertices": 112,
+        "faces": 130
+      },
+      {
+        "name": "Diamond_Upper_22",
+        "collections": [
+          "DIAMONDS - visual references only"
+        ],
+        "hidden_render": false,
+        "hidden_viewport": false,
+        "dimensions": [
+          1.0036163330078125,
+          1.2005720138549805,
+          0.9159011840820312
+        ],
+        "min": [
+          -9.953476905822754,
+          4.372477054595947,
+          1.0920493602752686
+        ],
+        "max": [
+          -8.949860572814941,
+          5.573049068450928,
+          2.0079505443573
+        ],
+        "vertices": 112,
+        "faces": 130
+      },
+      {
+        "name": "Diamond_Upper_23",
+        "collections": [
+          "DIAMONDS - visual references only"
+        ],
+        "hidden_render": false,
+        "hidden_viewport": false,
+        "dimensions": [
+          0.9647560119628906,
+          1.2256085872650146,
+          0.9159013032913208
+        ],
+        "min": [
+          -10.463003158569336,
+          3.1884491443634033,
+          1.092049241065979
+        ],
+        "max": [
+          -9.498247146606445,
+          4.414057731628418,
+          2.0079505443573
+        ],
+        "vertices": 112,
+        "faces": 130
+      },
+      {
+        "name": "Diamond_Upper_24",
+        "collections": [
+          "DIAMONDS - visual references only"
+        ],
+        "hidden_render": false,
+        "hidden_viewport": false,
+        "dimensions": [
+          0.9390792846679688,
+          1.247349739074707,
+          0.9159011840820312
+        ],
+        "min": [
+          -10.8367919921875,
+          1.9419605731964111,
+          1.0920493602752686
+        ],
+        "max": [
+          -9.897712707519531,
+          3.189310312271118,
+          2.0079505443573
+        ],
+        "vertices": 112,
+        "faces": 130
+      },
+      {
+        "name": "Diamond_Upper_25",
+        "collections": [
+          "DIAMONDS - visual references only"
+        ],
+        "hidden_render": false,
+        "hidden_viewport": false,
+        "dimensions": [
+          0.9220390319824219,
+          1.253648281097412,
+          0.9159011840820312
+        ],
+        "min": [
+          -11.061412811279297,
+          0.6747404336929321,
+          1.0920493602752686
+        ],
+        "max": [
+          -10.139373779296875,
+          1.9283887147903442,
+          2.0079505443573
+        ],
+        "vertices": 112,
+        "faces": 130
+      },
+      {
+        "name": "Diamond_Upper_26",
+        "collections": [
+          "DIAMONDS - visual references only"
+        ],
+        "hidden_render": false,
+        "hidden_viewport": false,
+        "dimensions": [
+          0.9158992767333984,
+          1.26004159450531,
+          0.9159011840820312
+        ],
+        "min": [
+          -11.137933731079102,
+          -0.6113806962966919,
+          1.0920493602752686
+        ],
+        "max": [
+          -10.222034454345703,
+          0.6486608982086182,
+          2.0079505443573
+        ],
+        "vertices": 112,
+        "faces": 130
+      },
+      {
+        "name": "Diamond_Upper_27",
+        "collections": [
+          "DIAMONDS - visual references only"
+        ],
+        "hidden_render": false,
+        "hidden_viewport": false,
+        "dimensions": [
+          0.9215641021728516,
+          1.2540903091430664,
+          0.9159011840820312
+        ],
+        "min": [
+          -11.065653800964355,
+          -1.8915996551513672,
+          1.0920493602752686
+        ],
+        "max": [
+          -10.144089698791504,
+          -0.6375093460083008,
+          2.0079505443573
+        ],
+        "vertices": 112,
+        "faces": 130
+      },
+      {
+        "name": "Diamond_Upper_28",
+        "collections": [
+          "DIAMONDS - visual references only"
+        ],
+        "hidden_render": false,
+        "hidden_viewport": false,
+        "dimensions": [
+          0.9386177062988281,
+          1.2475290298461914,
+          0.9159013032913208
+        ],
+        "min": [
+          -10.841023445129395,
+          -3.17130184173584,
+          1.092049241065979
+        ],
+        "max": [
+          -9.902405738830566,
+          -1.9237728118896484,
+          2.0079505443573
+        ],
+        "vertices": 112,
+        "faces": 130
+      },
+      {
+        "name": "Diamond_Upper_29",
+        "collections": [
+          "DIAMONDS - visual references only"
+        ],
+        "hidden_render": false,
+        "hidden_viewport": false,
+        "dimensions": [
+          0.9637718200683594,
+          1.2262697219848633,
+          0.9159013032913208
+        ],
+        "min": [
+          -10.472428321838379,
+          -4.388246536254883,
+          1.092049241065979
+        ],
+        "max": [
+          -9.50865650177002,
+          -3.1619768142700195,
+          2.0079505443573
+        ],
+        "vertices": 112,
+        "faces": 130
+      },
+      {
+        "name": "Diamond_Upper_30",
+        "collections": [
+          "DIAMONDS - visual references only"
+        ],
+        "hidden_render": false,
+        "hidden_viewport": false,
+        "dimensions": [
+          1.0029239654541016,
+          1.2011394500732422,
+          0.9159013032913208
+        ],
+        "min": [
+          -9.966116905212402,
+          -5.548571586608887,
+          1.092049241065979
+        ],
+        "max": [
+          -8.9631929397583,
+          -4.3474321365356445,
+          2.0079505443573
+        ],
+        "vertices": 112,
+        "faces": 130
+      },
+      {
+        "name": "Diamond_Upper_31",
+        "collections": [
+          "DIAMONDS - visual references only"
+        ],
+        "hidden_render": false,
+        "hidden_viewport": false,
+        "dimensions": [
+          1.0444011688232422,
+          1.1666040420532227,
+          0.9159013032913208
+        ],
+        "min": [
+          -9.323868751525879,
+          -6.632521152496338,
+          1.092049241065979
+        ],
+        "max": [
+          -8.279467582702637,
+          -5.465917110443115,
+          2.0079505443573
+        ],
+        "vertices": 112,
+        "faces": 130
+      },
+      {
+        "name": "Diamond_Upper_32",
+        "collections": [
+          "DIAMONDS - visual references only"
+        ],
+        "hidden_render": false,
+        "hidden_viewport": false,
+        "dimensions": [
+          1.0832180976867676,
+          1.129429817199707,
+          0.9159011840820312
+        ],
+        "min": [
+          -8.54662799835205,
+          -7.634514331817627,
+          1.0920493602752686
+        ],
+        "max": [
+          -7.463409900665283,
+          -6.50508451461792,
+          2.0079505443573
+        ],
+        "vertices": 112,
+        "faces": 130
+      },
+      {
+        "name": "Diamond_Upper_33",
+        "collections": [
+          "DIAMONDS - visual references only"
+        ],
+        "hidden_render": false,
+        "hidden_viewport": false,
+        "dimensions": [
+          1.1286296844482422,
+          1.0843696594238281,
+          0.9159011840820312
+        ],
+        "min": [
+          -7.655046463012695,
+          -8.528668403625488,
+          1.0920493602752686
+        ],
+        "max": [
+          -6.526416778564453,
+          -7.44429874420166,
+          2.0079505443573
+        ],
+        "vertices": 112,
+        "faces": 130
+      },
+      {
+        "name": "Diamond_Upper_34",
+        "collections": [
+          "DIAMONDS - visual references only"
+        ],
+        "hidden_render": false,
+        "hidden_viewport": false,
+        "dimensions": [
+          1.1653480529785156,
+          1.0456619262695312,
+          0.9159011840820312
+        ],
+        "min": [
+          -6.6625800132751465,
+          -9.303329467773438,
+          1.0920493602752686
+        ],
+        "max": [
+          -5.497231960296631,
+          -8.257667541503906,
+          2.0079505443573
+        ],
+        "vertices": 112,
+        "faces": 130
+      },
+      {
+        "name": "Diamond_Upper_35",
+        "collections": [
+          "DIAMONDS - visual references only"
+        ],
+        "hidden_render": false,
+        "hidden_viewport": false,
+        "dimensions": [
+          1.2005720138549805,
+          1.0036163330078125,
+          0.9159013032913208
+        ],
+        "min": [
+          -5.573049068450928,
+          -9.953476905822754,
+          1.092049241065979
+        ],
+        "max": [
+          -4.372477054595947,
+          -8.949860572814941,
+          2.0079505443573
+        ],
+        "vertices": 112,
+        "faces": 130
+      },
+      {
+        "name": "Diamond_Upper_36",
+        "collections": [
+          "DIAMONDS - visual references only"
+        ],
+        "hidden_render": false,
+        "hidden_viewport": false,
+        "dimensions": [
+          1.2256085872650146,
+          0.9647560119628906,
+          0.9159011840820312
+        ],
+        "min": [
+          -4.414057731628418,
+          -10.463003158569336,
+          1.0920493602752686
+        ],
+        "max": [
+          -3.1884491443634033,
+          -9.498247146606445,
+          2.0079505443573
+        ],
+        "vertices": 112,
+        "faces": 130
+      },
+      {
+        "name": "Diamond_Upper_37",
+        "collections": [
+          "DIAMONDS - visual references only"
+        ],
+        "hidden_render": false,
+        "hidden_viewport": false,
+        "dimensions": [
+          1.247349739074707,
+          0.9390792846679688,
+          0.9159011840820312
+        ],
+        "min": [
+          -3.189310312271118,
+          -10.8367919921875,
+          1.0920493602752686
+        ],
+        "max": [
+          -1.9419605731964111,
+          -9.897712707519531,
+          2.0079505443573
+        ],
+        "vertices": 112,
+        "faces": 130
+      },
+      {
+        "name": "Diamond_Upper_38",
+        "collections": [
+          "DIAMONDS - visual references only"
+        ],
+        "hidden_render": false,
+        "hidden_viewport": false,
+        "dimensions": [
+          1.253648281097412,
+          0.9220390319824219,
+          0.9159015417098999
+        ],
+        "min": [
+          -1.9283887147903442,
+          -11.061412811279297,
+          1.092049241065979
+        ],
+        "max": [
+          -0.6747404336929321,
+          -10.139373779296875,
+          2.007950782775879
+        ],
+        "vertices": 112,
+        "faces": 130
+      },
+      {
+        "name": "Diamond_Upper_39",
+        "collections": [
+          "DIAMONDS - visual references only"
+        ],
+        "hidden_render": false,
+        "hidden_viewport": false,
+        "dimensions": [
+          1.26004159450531,
+          0.9158992767333984,
+          0.9159013032913208
+        ],
+        "min": [
+          -0.6486608982086182,
+          -11.137933731079102,
+          1.092049241065979
+        ],
+        "max": [
+          0.6113806962966919,
+          -10.222034454345703,
+          2.0079505443573
+        ],
+        "vertices": 112,
+        "faces": 130
+      },
+      {
+        "name": "Diamond_Upper_40",
+        "collections": [
+          "DIAMONDS - visual references only"
+        ],
+        "hidden_render": false,
+        "hidden_viewport": false,
+        "dimensions": [
+          1.2540903091430664,
+          0.9215641021728516,
+          0.9159011840820312
+        ],
+        "min": [
+          0.6375093460083008,
+          -11.065653800964355,
+          1.0920493602752686
+        ],
+        "max": [
+          1.8915996551513672,
+          -10.144089698791504,
+          2.0079505443573
+        ],
+        "vertices": 112,
+        "faces": 130
+      },
+      {
+        "name": "Diamond_Upper_41",
+        "collections": [
+          "DIAMONDS - visual references only"
+        ],
+        "hidden_render": false,
+        "hidden_viewport": false,
+        "dimensions": [
+          1.247529149055481,
+          0.9386177062988281,
+          0.9159011840820312
+        ],
+        "min": [
+          1.9237726926803589,
+          -10.841023445129395,
+          1.0920493602752686
+        ],
+        "max": [
+          3.17130184173584,
+          -9.902405738830566,
+          2.0079505443573
+        ],
+        "vertices": 112,
+        "faces": 130
+      },
+      {
+        "name": "Diamond_Upper_42",
+        "collections": [
+          "DIAMONDS - visual references only"
+        ],
+        "hidden_render": false,
+        "hidden_viewport": false,
+        "dimensions": [
+          1.2262697219848633,
+          0.9637718200683594,
+          0.9159013032913208
+        ],
+        "min": [
+          3.1619768142700195,
+          -10.472428321838379,
+          1.092049241065979
+        ],
+        "max": [
+          4.388246536254883,
+          -9.50865650177002,
+          2.0079505443573
+        ],
+        "vertices": 112,
+        "faces": 130
+      },
+      {
+        "name": "Diamond_Upper_43",
+        "collections": [
+          "DIAMONDS - visual references only"
+        ],
+        "hidden_render": false,
+        "hidden_viewport": false,
+        "dimensions": [
+          1.2011394500732422,
+          1.0029239654541016,
+          0.9159013032913208
+        ],
+        "min": [
+          4.3474321365356445,
+          -9.966116905212402,
+          1.092049241065979
+        ],
+        "max": [
+          5.548571586608887,
+          -8.9631929397583,
+          2.0079505443573
+        ],
+        "vertices": 112,
+        "faces": 130
+      },
+      {
+        "name": "Diamond_Upper_44",
+        "collections": [
+          "DIAMONDS - visual references only"
+        ],
+        "hidden_render": false,
+        "hidden_viewport": false,
+        "dimensions": [
+          1.1666040420532227,
+          1.0444011688232422,
+          0.9159011840820312
+        ],
+        "min": [
+          5.465917110443115,
+          -9.323868751525879,
+          1.0920493602752686
+        ],
+        "max": [
+          6.632521152496338,
+          -8.279467582702637,
+          2.0079505443573
+        ],
+        "vertices": 112,
+        "faces": 130
+      },
+      {
+        "name": "Diamond_Upper_45",
+        "collections": [
+          "DIAMONDS - visual references only"
+        ],
+        "hidden_render": false,
+        "hidden_viewport": false,
+        "dimensions": [
+          1.1291637420654297,
+          1.0836033821105957,
+          0.9159013032913208
+        ],
+        "min": [
+          6.512200832366943,
+          -8.5406494140625,
+          1.092049241065979
+        ],
+        "max": [
+          7.641364574432373,
+          -7.457046031951904,
+          2.0079505443573
+        ],
+        "vertices": 112,
+        "faces": 130
+      },
+      {
+        "name": "Diamond_Upper_46",
+        "collections": [
+          "DIAMONDS - visual references only"
+        ],
+        "hidden_render": false,
+        "hidden_viewport": false,
+        "dimensions": [
+          1.0843696594238281,
+          1.1286306381225586,
+          0.9159011840820312
+        ],
+        "min": [
+          7.44429874420166,
+          -7.6550469398498535,
+          1.0920493602752686
+        ],
+        "max": [
+          8.528668403625488,
+          -6.526416301727295,
+          2.0079505443573
+        ],
+        "vertices": 112,
+        "faces": 130
+      },
+      {
+        "name": "Diamond_Upper_47",
+        "collections": [
+          "DIAMONDS - visual references only"
+        ],
+        "hidden_render": false,
+        "hidden_viewport": false,
+        "dimensions": [
+          1.0456619262695312,
+          1.1653480529785156,
+          0.9159011840820312
+        ],
+        "min": [
+          8.257667541503906,
+          -6.6625800132751465,
+          1.0920493602752686
+        ],
+        "max": [
+          9.303329467773438,
+          -5.497231960296631,
+          2.0079505443573
+        ],
+        "vertices": 112,
+        "faces": 130
+      },
+      {
+        "name": "Diamond_Upper_48",
+        "collections": [
+          "DIAMONDS - visual references only"
+        ],
+        "hidden_render": false,
+        "hidden_viewport": false,
+        "dimensions": [
+          1.0036163330078125,
+          1.2005720138549805,
+          0.9159011840820312
+        ],
+        "min": [
+          8.949860572814941,
+          -5.573049068450928,
+          1.0920493602752686
+        ],
+        "max": [
+          9.953476905822754,
+          -4.372477054595947,
+          2.0079505443573
+        ],
+        "vertices": 112,
+        "faces": 130
+      },
+      {
+        "name": "Diamond_Upper_49",
+        "collections": [
+          "DIAMONDS - visual references only"
+        ],
+        "hidden_render": false,
+        "hidden_viewport": false,
+        "dimensions": [
+          0.9644222259521484,
+          1.225829839706421,
+          0.9159011840820312
+        ],
+        "min": [
+          9.501727104187012,
+          -4.405457019805908,
+          1.0920493602752686
+        ],
+        "max": [
+          10.46614933013916,
+          -3.1796271800994873,
+          2.0079505443573
+        ],
+        "vertices": 112,
+        "faces": 130
+      },
+      {
+        "name": "Diamond_Upper_50",
+        "collections": [
+          "DIAMONDS - visual references only"
+        ],
+        "hidden_render": false,
+        "hidden_viewport": false,
+        "dimensions": [
+          0.9390792846679688,
+          1.247349739074707,
+          0.9159011840820312
+        ],
+        "min": [
+          9.897712707519531,
+          -3.189310312271118,
+          1.0920493602752686
+        ],
+        "max": [
+          10.8367919921875,
+          -1.9419605731964111,
+          2.0079505443573
+        ],
+        "vertices": 112,
+        "faces": 130
+      },
+      {
+        "name": "Diamond_Upper_51",
+        "collections": [
+          "DIAMONDS - visual references only"
+        ],
+        "hidden_render": false,
+        "hidden_viewport": false,
+        "dimensions": [
+          0.9220390319824219,
+          1.253648281097412,
+          0.9159011840820312
+        ],
+        "min": [
+          10.139373779296875,
+          -1.9283887147903442,
+          1.0920493602752686
+        ],
+        "max": [
+          11.061412811279297,
+          -0.6747404336929321,
+          2.0079505443573
+        ],
+        "vertices": 112,
+        "faces": 130
+      },
+      {
+        "name": "Diamond_Upper_52",
+        "collections": [
+          "DIAMONDS - visual references only"
+        ],
+        "hidden_render": false,
+        "hidden_viewport": false,
+        "dimensions": [
+          0.9158992767333984,
+          1.26004159450531,
+          0.9159011840820312
+        ],
+        "min": [
+          10.222034454345703,
+          -0.6486608982086182,
+          1.0920493602752686
+        ],
+        "max": [
+          11.137933731079102,
+          0.6113806962966919,
+          2.0079505443573
+        ],
+        "vertices": 112,
+        "faces": 130
+      },
+      {
+        "name": "Ring beauty - refined prongs",
+        "collections": [
+          "BASE MESH - geometry unchanged"
+        ],
+        "hidden_render": false,
+        "hidden_viewport": false,
+        "dimensions": [
+          22.17799949645996,
+          22.17799949645996,
+          4.138001441955566
+        ],
+        "min": [
+          -11.089999198913574,
+          -11.088000297546387,
+          -2.082000732421875
+        ],
+        "max": [
+          11.088000297546387,
+          11.089999198913574,
+          2.0560007095336914
+        ],
+        "vertices": 313023,
+        "faces": 427782
+      },
+      {
+        "name": "Studio backdrop",
+        "collections": [
+          "Scene Collection"
+        ],
+        "hidden_render": false,
+        "hidden_viewport": false,
+        "dimensions": [
+          200.0,
+          200.0,
+          0.0
+        ],
+        "min": [
+          -100.0,
+          -100.0,
+          -2.1500000953674316
+        ],
+        "max": [
+          100.0,
+          100.0,
+          -2.1500000953674316
+        ],
+        "vertices": 4,
+        "faces": 1
+      }
+    ]
+  }
+}

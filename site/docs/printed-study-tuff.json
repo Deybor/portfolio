@@ -1,0 +1,51 @@
+{
+  "slug": "tuff",
+  "sourceFile": "C:\\Users\\Master\\Documents\\blender\\blender filesss\\troo\\new\\cad-3d print\\tuff.blend",
+  "sha256": "5f51a6ca7af0f23b3cfeea1e49f3cfdc674a3fe07b1473835eaca28ed9ceddf4",
+  "parts": [
+    "Cylinder.002",
+    "Cube.002",
+    "Cube.003",
+    "Cylinder",
+    "Cylinder.005",
+    "Cube.017",
+    "Cylinder.004",
+    "Cylinder.007",
+    "Cube.004",
+    "Cube.005",
+    "Cube.006",
+    "Cube.007",
+    "Cube.008",
+    "Cube.009",
+    "Cube.010",
+    "Cube.012",
+    "Cube.013",
+    "Cube.014",
+    "Cube.015",
+    "Cube.016",
+    "Cube.018",
+    "Plane",
+    "Plane.001"
+  ],
+  "dimension": {
+    "width": 9220.9,
+    "depth": 12568.8,
+    "height": 20223.1,
+    "bounds": [
+      [
+        -5.099869728088379,
+        -6.258111476898193,
+        -0.41953039169311523
+      ],
+      [
+        4.121074199676514,
+        6.310726642608643,
+        19.803571701049805
+      ]
+    ],
+    "widthAxis": 0,
+    "depthAxis": 1,
+    "orthoScale": 25.278878211975098
+  },
+  "sourceUnchanged": true
+}

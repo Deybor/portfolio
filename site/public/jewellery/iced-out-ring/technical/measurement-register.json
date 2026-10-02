@@ -1,0 +1,1041 @@
+{
+  "source": "C:\\Users\\Master\\Documents\\itura\\PORFOLIO PIECES\\Ring_Iced_Out_03\\Ring_Iced_Out_03.blend",
+  "source_object": "CAD base - exact source mesh",
+  "source_sha256": "ba7d6e3a47568b2988b20e047871accc9b492e5ee40ec596f6bd43da1af17184",
+  "units": "source numerical units interpreted as mm; author confirmation pending",
+  "metal": {
+    "boundary_edges": 174800,
+    "nonmanifold_edges": 174800,
+    "signed_volume_mm3": 156.91487965003662,
+    "bounds": {
+      "min": [
+        -11.00999927520752,
+        -2.0820000171661377,
+        -11.00999927520752
+      ],
+      "max": [
+        11.008000373840332,
+        2.055999994277954,
+        11.008000373840332
+      ],
+      "size": [
+        22.01799964904785,
+        4.138000011444092,
+        22.01799964904785
+      ]
+    },
+    "stored_vertices": 313023,
+    "coincident_vertex_weld_check": {
+      "analysis_only": true,
+      "distance_mm": 1e-05,
+      "vertices": 213475,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "signed_volume_mm3": 156.91487965003662
+    }
+  },
+  "assembly": {
+    "min": [
+      -11.00999927520752,
+      -2.0820000171661377,
+      -11.00999927520752
+    ],
+    "max": [
+      11.008000373840332,
+      2.055999994277954,
+      11.008000373840332
+    ],
+    "size": [
+      22.01799964904785,
+      4.138000011444092,
+      22.01799964904785
+    ]
+  },
+  "stone_count": 0,
+  "stone_bounds": [],
+  "section_plane": {
+    "axis": 1,
+    "value": 0
+  },
+  "views": {
+    "front": {
+      "file": "front.png",
+      "ortho_scale": 29.22889453411102,
+      "centre": [
+        -0.00099945068359375,
+        -0.013000011444091797,
+        -0.00099945068359375
+      ],
+      "rotation_inverse": [
+        [
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          -1.6292068494294654e-07,
+          1.0
+        ],
+        [
+          0.0,
+          -1.0,
+          -1.6292068494294654e-07
+        ]
+      ],
+      "pixel_size": [
+        1800,
+        1600
+      ],
+      "display_only_exploded": false
+    },
+    "side": {
+      "file": "side.png",
+      "ortho_scale": 29.22889453411102,
+      "centre": [
+        -0.00099945068359375,
+        -0.013000011444091797,
+        -0.00099945068359375
+      ],
+      "rotation_inverse": [
+        [
+          -4.371138828673793e-08,
+          1.0,
+          0.0
+        ],
+        [
+          4.371138828673793e-08,
+          1.910685676922942e-15,
+          1.0
+        ],
+        [
+          1.0,
+          4.371138828673793e-08,
+          -4.371138828673793e-08
+        ]
+      ],
+      "pixel_size": [
+        1800,
+        1600
+      ],
+      "display_only_exploded": false
+    },
+    "top": {
+      "file": "top.png",
+      "ortho_scale": 25.981239585876462,
+      "centre": [
+        -0.00099945068359375,
+        -0.013000011444091797,
+        -0.00099945068359375
+      ],
+      "rotation_inverse": [
+        [
+          -1.0,
+          -1.5099580252808664e-07,
+          0.0
+        ],
+        [
+          1.5099580252808664e-07,
+          -1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "pixel_size": [
+        1800,
+        1600
+      ],
+      "display_only_exploded": false
+    },
+    "isometric": {
+      "file": "isometric.png",
+      "ortho_scale": 27.236220281124112,
+      "centre": [
+        -0.0017215467523783445,
+        -0.01061092410236597,
+        0.002111732726916671
+      ],
+      "rotation_inverse": [
+        [
+          0.7071067690849304,
+          0.7071067690849304,
+          1.1763476237547366e-07
+        ],
+        [
+          -0.4082484245300293,
+          0.40824824571609497,
+          0.8164965510368347
+        ],
+        [
+          0.5773501992225647,
+          -0.5773502588272095,
+          0.5773503184318542
+        ]
+      ],
+      "pixel_size": [
+        1800,
+        1600
+      ],
+      "display_only_exploded": false
+    },
+    "metal-only": {
+      "file": "metal-only.png",
+      "ortho_scale": 27.236220281124112,
+      "centre": [
+        -0.0017215467523783445,
+        -0.01061092410236597,
+        0.002111732726916671
+      ],
+      "rotation_inverse": [
+        [
+          0.7071067690849304,
+          0.7071067690849304,
+          1.1763476237547366e-07
+        ],
+        [
+          -0.4082484245300293,
+          0.40824824571609497,
+          0.8164965510368347
+        ],
+        [
+          0.5773501992225647,
+          -0.5773502588272095,
+          0.5773503184318542
+        ]
+      ],
+      "pixel_size": [
+        1800,
+        1600
+      ],
+      "display_only_exploded": false
+    },
+    "exploded": {
+      "file": "exploded.png",
+      "ortho_scale": 27.236220281124112,
+      "centre": [
+        -0.0017215467523783445,
+        -0.01061092410236597,
+        0.002111732726916671
+      ],
+      "rotation_inverse": [
+        [
+          0.7071067690849304,
+          0.7071067690849304,
+          1.1763476237547366e-07
+        ],
+        [
+          -0.4082484245300293,
+          0.40824824571609497,
+          0.8164965510368347
+        ],
+        [
+          0.5773501992225647,
+          -0.5773502588272095,
+          0.5773503184318542
+        ]
+      ],
+      "pixel_size": [
+        1800,
+        1600
+      ],
+      "display_only_exploded": true
+    },
+    "setting-detail": {
+      "file": "setting-detail.png",
+      "ortho_scale": 12,
+      "centre": [
+        0.0,
+        0.0,
+        10.800000190734863
+      ],
+      "rotation_inverse": [
+        [
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          -0.0,
+          0.44721364974975586,
+          0.8944271802902222
+        ],
+        [
+          0.0,
+          -0.8944271802902222,
+          0.44721364974975586
+        ]
+      ],
+      "pixel_size": [
+        1800,
+        1600
+      ],
+      "display_only_exploded": false
+    }
+  },
+  "bore_samples": {
+    "method": "First radial hits in X-Z at 151 axial Y sections within +/-1.50 of bbox centre; 180 rays per section; original object only",
+    "minimum_sampled_clear_bore": 17.22854232788086,
+    "sections": [
+      {
+        "axial_y_offset": -1.5,
+        "minimum_sampled_diameter": 17.234195709228516,
+        "rays": 180
+      },
+      {
+        "axial_y_offset": -1.48,
+        "minimum_sampled_diameter": 17.23361587524414,
+        "rays": 180
+      },
+      {
+        "axial_y_offset": -1.46,
+        "minimum_sampled_diameter": 17.233034133911133,
+        "rays": 180
+      },
+      {
+        "axial_y_offset": -1.44,
+        "minimum_sampled_diameter": 17.232454299926758,
+        "rays": 180
+      },
+      {
+        "axial_y_offset": -1.42,
+        "minimum_sampled_diameter": 17.23187255859375,
+        "rays": 180
+      },
+      {
+        "axial_y_offset": -1.4,
+        "minimum_sampled_diameter": 17.2319278717041,
+        "rays": 180
+      },
+      {
+        "axial_y_offset": -1.38,
+        "minimum_sampled_diameter": 17.23238182067871,
+        "rays": 180
+      },
+      {
+        "axial_y_offset": -1.3599999999999999,
+        "minimum_sampled_diameter": 17.23283576965332,
+        "rays": 180
+      },
+      {
+        "axial_y_offset": -1.34,
+        "minimum_sampled_diameter": 17.233287811279297,
+        "rays": 180
+      },
+      {
+        "axial_y_offset": -1.32,
+        "minimum_sampled_diameter": 17.233741760253906,
+        "rays": 180
+      },
+      {
+        "axial_y_offset": -1.3,
+        "minimum_sampled_diameter": 17.234195709228516,
+        "rays": 180
+      },
+      {
+        "axial_y_offset": -1.28,
+        "minimum_sampled_diameter": 17.234649658203125,
+        "rays": 180
+      },
+      {
+        "axial_y_offset": -1.26,
+        "minimum_sampled_diameter": 17.234956741333008,
+        "rays": 180
+      },
+      {
+        "axial_y_offset": -1.24,
+        "minimum_sampled_diameter": 17.234966278076172,
+        "rays": 180
+      },
+      {
+        "axial_y_offset": -1.22,
+        "minimum_sampled_diameter": 17.234882354736328,
+        "rays": 180
+      },
+      {
+        "axial_y_offset": -1.2,
+        "minimum_sampled_diameter": 17.23479652404785,
+        "rays": 180
+      },
+      {
+        "axial_y_offset": -1.18,
+        "minimum_sampled_diameter": 17.234712600708008,
+        "rays": 180
+      },
+      {
+        "axial_y_offset": -1.16,
+        "minimum_sampled_diameter": 17.234628677368164,
+        "rays": 180
+      },
+      {
+        "axial_y_offset": -1.1400000000000001,
+        "minimum_sampled_diameter": 18.374977111816406,
+        "rays": 180
+      },
+      {
+        "axial_y_offset": -1.12,
+        "minimum_sampled_diameter": 18.50141716003418,
+        "rays": 180
+      },
+      {
+        "axial_y_offset": -1.1,
+        "minimum_sampled_diameter": 18.608448028564453,
+        "rays": 180
+      },
+      {
+        "axial_y_offset": -1.08,
+        "minimum_sampled_diameter": 18.701480865478516,
+        "rays": 180
+      },
+      {
+        "axial_y_offset": -1.06,
+        "minimum_sampled_diameter": 18.783700942993164,
+        "rays": 180
+      },
+      {
+        "axial_y_offset": -1.04,
+        "minimum_sampled_diameter": 18.860126495361328,
+        "rays": 176
+      },
+      {
+        "axial_y_offset": -1.02,
+        "minimum_sampled_diameter": 18.918895721435547,
+        "rays": 180
+      },
+      {
+        "axial_y_offset": -1.0,
+        "minimum_sampled_diameter": 18.976186752319336,
+        "rays": 180
+      },
+      {
+        "axial_y_offset": -0.98,
+        "minimum_sampled_diameter": 19.033479690551758,
+        "rays": 180
+      },
+      {
+        "axial_y_offset": -0.96,
+        "minimum_sampled_diameter": 19.090770721435547,
+        "rays": 180
+      },
+      {
+        "axial_y_offset": -0.94,
+        "minimum_sampled_diameter": 19.14012336730957,
+        "rays": 180
+      },
+      {
+        "axial_y_offset": -0.92,
+        "minimum_sampled_diameter": 19.186124801635742,
+        "rays": 180
+      },
+      {
+        "axial_y_offset": -0.9,
+        "minimum_sampled_diameter": 19.232128143310547,
+        "rays": 180
+      },
+      {
+        "axial_y_offset": -0.88,
+        "minimum_sampled_diameter": 19.27812957763672,
+        "rays": 180
+      },
+      {
+        "axial_y_offset": -0.86,
+        "minimum_sampled_diameter": 19.322425842285156,
+        "rays": 180
+      },
+      {
+        "axial_y_offset": -0.84,
+        "minimum_sampled_diameter": 19.359859466552734,
+        "rays": 180
+      },
+      {
+        "axial_y_offset": -0.82,
+        "minimum_sampled_diameter": 19.39729118347168,
+        "rays": 180
+      },
+      {
+        "axial_y_offset": -0.7999999999999999,
+        "minimum_sampled_diameter": 19.434724807739258,
+        "rays": 180
+      },
+      {
+        "axial_y_offset": -0.78,
+        "minimum_sampled_diameter": 19.47216033935547,
+        "rays": 180
+      },
+      {
+        "axial_y_offset": -0.76,
+        "minimum_sampled_diameter": 19.509592056274414,
+        "rays": 180
+      },
+      {
+        "axial_y_offset": -0.74,
+        "minimum_sampled_diameter": 19.53864860534668,
+        "rays": 180
+      },
+      {
+        "axial_y_offset": -0.72,
+        "minimum_sampled_diameter": 19.567604064941406,
+        "rays": 180
+      },
+      {
+        "axial_y_offset": -0.7,
+        "minimum_sampled_diameter": 19.596559524536133,
+        "rays": 180
+      },
+      {
+        "axial_y_offset": -0.6799999999999999,
+        "minimum_sampled_diameter": 19.623205184936523,
+        "rays": 180
+      },
+      {
+        "axial_y_offset": -0.66,
+        "minimum_sampled_diameter": 19.64899444580078,
+        "rays": 180
+      },
+      {
+        "axial_y_offset": -0.64,
+        "minimum_sampled_diameter": 19.675174713134766,
+        "rays": 180
+      },
+      {
+        "axial_y_offset": -0.62,
+        "minimum_sampled_diameter": 19.7019100189209,
+        "rays": 176
+      },
+      {
+        "axial_y_offset": -0.6,
+        "minimum_sampled_diameter": 19.723777770996094,
+        "rays": 144
+      },
+      {
+        "axial_y_offset": -0.58,
+        "minimum_sampled_diameter": 19.745548248291016,
+        "rays": 136
+      },
+      {
+        "axial_y_offset": -0.5599999999999999,
+        "minimum_sampled_diameter": 19.76731300354004,
+        "rays": 128
+      },
+      {
+        "axial_y_offset": -0.54,
+        "minimum_sampled_diameter": 19.789081573486328,
+        "rays": 120
+      },
+      {
+        "axial_y_offset": -0.52,
+        "minimum_sampled_diameter": 19.806835174560547,
+        "rays": 112
+      },
+      {
+        "axial_y_offset": -0.5,
+        "minimum_sampled_diameter": 19.823820114135742,
+        "rays": 112
+      },
+      {
+        "axial_y_offset": -0.48,
+        "minimum_sampled_diameter": 19.840805053710938,
+        "rays": 104
+      },
+      {
+        "axial_y_offset": -0.45999999999999996,
+        "minimum_sampled_diameter": 19.857826232910156,
+        "rays": 104
+      },
+      {
+        "axial_y_offset": -0.43999999999999995,
+        "minimum_sampled_diameter": 19.87489128112793,
+        "rays": 104
+      },
+      {
+        "axial_y_offset": -0.41999999999999993,
+        "minimum_sampled_diameter": 19.89011573791504,
+        "rays": 96
+      },
+      {
+        "axial_y_offset": -0.3999999999999999,
+        "minimum_sampled_diameter": 19.903093338012695,
+        "rays": 96
+      },
+      {
+        "axial_y_offset": -0.3799999999999999,
+        "minimum_sampled_diameter": 19.91504669189453,
+        "rays": 102
+      },
+      {
+        "axial_y_offset": -0.3599999999999999,
+        "minimum_sampled_diameter": 19.925811767578125,
+        "rays": 104
+      },
+      {
+        "axial_y_offset": -0.3400000000000001,
+        "minimum_sampled_diameter": 19.936546325683594,
+        "rays": 104
+      },
+      {
+        "axial_y_offset": -0.32000000000000006,
+        "minimum_sampled_diameter": 19.947263717651367,
+        "rays": 104
+      },
+      {
+        "axial_y_offset": -0.30000000000000004,
+        "minimum_sampled_diameter": 19.957983016967773,
+        "rays": 104
+      },
+      {
+        "axial_y_offset": -0.28,
+        "minimum_sampled_diameter": 19.968700408935547,
+        "rays": 112
+      },
+      {
+        "axial_y_offset": -0.26,
+        "minimum_sampled_diameter": 19.97782325744629,
+        "rays": 112
+      },
+      {
+        "axial_y_offset": -0.24,
+        "minimum_sampled_diameter": 19.98478889465332,
+        "rays": 120
+      },
+      {
+        "axial_y_offset": -0.21999999999999997,
+        "minimum_sampled_diameter": 19.99175262451172,
+        "rays": 128
+      },
+      {
+        "axial_y_offset": -0.19999999999999996,
+        "minimum_sampled_diameter": 19.998714447021484,
+        "rays": 136
+      },
+      {
+        "axial_y_offset": -0.17999999999999994,
+        "minimum_sampled_diameter": 20.005678176879883,
+        "rays": 144
+      },
+      {
+        "axial_y_offset": -0.15999999999999992,
+        "minimum_sampled_diameter": 20.01264190673828,
+        "rays": 160
+      },
+      {
+        "axial_y_offset": -0.1399999999999999,
+        "minimum_sampled_diameter": 20.01960563659668,
+        "rays": 180
+      },
+      {
+        "axial_y_offset": -0.11999999999999988,
+        "minimum_sampled_diameter": 20.026119232177734,
+        "rays": 180
+      },
+      {
+        "axial_y_offset": -0.09999999999999987,
+        "minimum_sampled_diameter": 20.030582427978516,
+        "rays": 180
+      },
+      {
+        "axial_y_offset": -0.08000000000000007,
+        "minimum_sampled_diameter": 20.03246307373047,
+        "rays": 180
+      },
+      {
+        "axial_y_offset": -0.06000000000000005,
+        "minimum_sampled_diameter": 20.034347534179688,
+        "rays": 180
+      },
+      {
+        "axial_y_offset": -0.040000000000000036,
+        "minimum_sampled_diameter": 20.03623390197754,
+        "rays": 180
+      },
+      {
+        "axial_y_offset": -0.020000000000000018,
+        "minimum_sampled_diameter": 20.037994384765625,
+        "rays": 180
+      },
+      {
+        "axial_y_offset": 0.0,
+        "minimum_sampled_diameter": 20.039371490478516,
+        "rays": 180
+      },
+      {
+        "axial_y_offset": 0.020000000000000018,
+        "minimum_sampled_diameter": 20.039052963256836,
+        "rays": 180
+      },
+      {
+        "axial_y_offset": 0.040000000000000036,
+        "minimum_sampled_diameter": 20.037553787231445,
+        "rays": 180
+      },
+      {
+        "axial_y_offset": 0.06000000000000005,
+        "minimum_sampled_diameter": 20.035903930664062,
+        "rays": 180
+      },
+      {
+        "axial_y_offset": 0.08000000000000007,
+        "minimum_sampled_diameter": 20.034090042114258,
+        "rays": 180
+      },
+      {
+        "axial_y_offset": 0.10000000000000009,
+        "minimum_sampled_diameter": 20.032276153564453,
+        "rays": 180
+      },
+      {
+        "axial_y_offset": 0.1200000000000001,
+        "minimum_sampled_diameter": 20.029924392700195,
+        "rays": 180
+      },
+      {
+        "axial_y_offset": 0.14000000000000012,
+        "minimum_sampled_diameter": 20.02484703063965,
+        "rays": 180
+      },
+      {
+        "axial_y_offset": 0.16000000000000014,
+        "minimum_sampled_diameter": 20.01953125,
+        "rays": 180
+      },
+      {
+        "axial_y_offset": 0.17999999999999994,
+        "minimum_sampled_diameter": 20.01439666748047,
+        "rays": 180
+      },
+      {
+        "axial_y_offset": 0.19999999999999996,
+        "minimum_sampled_diameter": 20.008983612060547,
+        "rays": 180
+      },
+      {
+        "axial_y_offset": 0.21999999999999997,
+        "minimum_sampled_diameter": 20.00372886657715,
+        "rays": 156
+      },
+      {
+        "axial_y_offset": 0.24,
+        "minimum_sampled_diameter": 19.995641708374023,
+        "rays": 140
+      },
+      {
+        "axial_y_offset": 0.26,
+        "minimum_sampled_diameter": 19.9867000579834,
+        "rays": 132
+      },
+      {
+        "axial_y_offset": 0.28,
+        "minimum_sampled_diameter": 19.977802276611328,
+        "rays": 124
+      },
+      {
+        "axial_y_offset": 0.30000000000000004,
+        "minimum_sampled_diameter": 19.968957901000977,
+        "rays": 116
+      },
+      {
+        "axial_y_offset": 0.32000000000000006,
+        "minimum_sampled_diameter": 19.960113525390625,
+        "rays": 116
+      },
+      {
+        "axial_y_offset": 0.3400000000000001,
+        "minimum_sampled_diameter": 19.950088500976562,
+        "rays": 108
+      },
+      {
+        "axial_y_offset": 0.3600000000000001,
+        "minimum_sampled_diameter": 19.937509536743164,
+        "rays": 108
+      },
+      {
+        "axial_y_offset": 0.3800000000000001,
+        "minimum_sampled_diameter": 19.923057556152344,
+        "rays": 108
+      },
+      {
+        "axial_y_offset": 0.40000000000000013,
+        "minimum_sampled_diameter": 19.908227920532227,
+        "rays": 100
+      },
+      {
+        "axial_y_offset": 0.41999999999999993,
+        "minimum_sampled_diameter": 19.893394470214844,
+        "rays": 100
+      },
+      {
+        "axial_y_offset": 0.43999999999999995,
+        "minimum_sampled_diameter": 19.8785400390625,
+        "rays": 100
+      },
+      {
+        "axial_y_offset": 0.45999999999999996,
+        "minimum_sampled_diameter": 19.863595962524414,
+        "rays": 100
+      },
+      {
+        "axial_y_offset": 0.48,
+        "minimum_sampled_diameter": 19.848651885986328,
+        "rays": 100
+      },
+      {
+        "axial_y_offset": 0.5,
+        "minimum_sampled_diameter": 19.832693099975586,
+        "rays": 100
+      },
+      {
+        "axial_y_offset": 0.52,
+        "minimum_sampled_diameter": 19.813289642333984,
+        "rays": 108
+      },
+      {
+        "axial_y_offset": 0.54,
+        "minimum_sampled_diameter": 19.793888092041016,
+        "rays": 108
+      },
+      {
+        "axial_y_offset": 0.56,
+        "minimum_sampled_diameter": 19.77448272705078,
+        "rays": 108
+      },
+      {
+        "axial_y_offset": 0.5800000000000001,
+        "minimum_sampled_diameter": 19.755081176757812,
+        "rays": 116
+      },
+      {
+        "axial_y_offset": 0.6000000000000001,
+        "minimum_sampled_diameter": 19.735675811767578,
+        "rays": 124
+      },
+      {
+        "axial_y_offset": 0.6200000000000001,
+        "minimum_sampled_diameter": 19.71627426147461,
+        "rays": 132
+      },
+      {
+        "axial_y_offset": 0.6400000000000001,
+        "minimum_sampled_diameter": 19.696584701538086,
+        "rays": 140
+      },
+      {
+        "axial_y_offset": 0.6600000000000001,
+        "minimum_sampled_diameter": 19.67322540283203,
+        "rays": 156
+      },
+      {
+        "axial_y_offset": 0.6800000000000002,
+        "minimum_sampled_diameter": 19.646041870117188,
+        "rays": 180
+      },
+      {
+        "axial_y_offset": 0.7000000000000002,
+        "minimum_sampled_diameter": 19.618703842163086,
+        "rays": 180
+      },
+      {
+        "axial_y_offset": 0.7200000000000002,
+        "minimum_sampled_diameter": 19.591398239135742,
+        "rays": 180
+      },
+      {
+        "axial_y_offset": 0.7400000000000002,
+        "minimum_sampled_diameter": 19.564176559448242,
+        "rays": 180
+      },
+      {
+        "axial_y_offset": 0.7600000000000002,
+        "minimum_sampled_diameter": 19.53504753112793,
+        "rays": 180
+      },
+      {
+        "axial_y_offset": 0.7800000000000002,
+        "minimum_sampled_diameter": 19.501192092895508,
+        "rays": 180
+      },
+      {
+        "axial_y_offset": 0.8000000000000003,
+        "minimum_sampled_diameter": 19.467334747314453,
+        "rays": 180
+      },
+      {
+        "axial_y_offset": 0.8199999999999998,
+        "minimum_sampled_diameter": 19.433509826660156,
+        "rays": 180
+      },
+      {
+        "axial_y_offset": 0.8399999999999999,
+        "minimum_sampled_diameter": 19.399673461914062,
+        "rays": 180
+      },
+      {
+        "axial_y_offset": 0.8599999999999999,
+        "minimum_sampled_diameter": 19.360515594482422,
+        "rays": 180
+      },
+      {
+        "axial_y_offset": 0.8799999999999999,
+        "minimum_sampled_diameter": 19.319175720214844,
+        "rays": 180
+      },
+      {
+        "axial_y_offset": 0.8999999999999999,
+        "minimum_sampled_diameter": 19.277746200561523,
+        "rays": 180
+      },
+      {
+        "axial_y_offset": 0.9199999999999999,
+        "minimum_sampled_diameter": 19.236299514770508,
+        "rays": 180
+      },
+      {
+        "axial_y_offset": 0.94,
+        "minimum_sampled_diameter": 19.185632705688477,
+        "rays": 180
+      },
+      {
+        "axial_y_offset": 0.96,
+        "minimum_sampled_diameter": 19.12837791442871,
+        "rays": 180
+      },
+      {
+        "axial_y_offset": 0.98,
+        "minimum_sampled_diameter": 19.071203231811523,
+        "rays": 180
+      },
+      {
+        "axial_y_offset": 1.0,
+        "minimum_sampled_diameter": 19.01413917541504,
+        "rays": 180
+      },
+      {
+        "axial_y_offset": 1.02,
+        "minimum_sampled_diameter": 18.957075119018555,
+        "rays": 180
+      },
+      {
+        "axial_y_offset": 1.04,
+        "minimum_sampled_diameter": 18.89517593383789,
+        "rays": 180
+      },
+      {
+        "axial_y_offset": 1.06,
+        "minimum_sampled_diameter": 18.82231330871582,
+        "rays": 180
+      },
+      {
+        "axial_y_offset": 1.08,
+        "minimum_sampled_diameter": 18.749441146850586,
+        "rays": 180
+      },
+      {
+        "axial_y_offset": 1.1,
+        "minimum_sampled_diameter": 18.676578521728516,
+        "rays": 180
+      },
+      {
+        "axial_y_offset": 1.12,
+        "minimum_sampled_diameter": 18.58000373840332,
+        "rays": 180
+      },
+      {
+        "axial_y_offset": 1.1400000000000001,
+        "minimum_sampled_diameter": 18.4724063873291,
+        "rays": 180
+      },
+      {
+        "axial_y_offset": 1.1600000000000001,
+        "minimum_sampled_diameter": 17.229503631591797,
+        "rays": 180
+      },
+      {
+        "axial_y_offset": 1.1800000000000002,
+        "minimum_sampled_diameter": 17.22951889038086,
+        "rays": 180
+      },
+      {
+        "axial_y_offset": 1.2000000000000002,
+        "minimum_sampled_diameter": 17.229515075683594,
+        "rays": 180
+      },
+      {
+        "axial_y_offset": 1.2200000000000002,
+        "minimum_sampled_diameter": 17.229446411132812,
+        "rays": 180
+      },
+      {
+        "axial_y_offset": 1.2400000000000002,
+        "minimum_sampled_diameter": 17.22937774658203,
+        "rays": 180
+      },
+      {
+        "axial_y_offset": 1.2600000000000002,
+        "minimum_sampled_diameter": 17.229310989379883,
+        "rays": 180
+      },
+      {
+        "axial_y_offset": 1.2800000000000002,
+        "minimum_sampled_diameter": 17.2292423248291,
+        "rays": 180
+      },
+      {
+        "axial_y_offset": 1.3000000000000003,
+        "minimum_sampled_diameter": 17.229175567626953,
+        "rays": 180
+      },
+      {
+        "axial_y_offset": 1.3199999999999998,
+        "minimum_sampled_diameter": 17.229106903076172,
+        "rays": 180
+      },
+      {
+        "axial_y_offset": 1.3399999999999999,
+        "minimum_sampled_diameter": 17.229040145874023,
+        "rays": 180
+      },
+      {
+        "axial_y_offset": 1.3599999999999999,
+        "minimum_sampled_diameter": 17.228973388671875,
+        "rays": 180
+      },
+      {
+        "axial_y_offset": 1.38,
+        "minimum_sampled_diameter": 17.228904724121094,
+        "rays": 180
+      },
+      {
+        "axial_y_offset": 1.4,
+        "minimum_sampled_diameter": 17.228837966918945,
+        "rays": 180
+      },
+      {
+        "axial_y_offset": 1.42,
+        "minimum_sampled_diameter": 17.22876739501953,
+        "rays": 180
+      },
+      {
+        "axial_y_offset": 1.44,
+        "minimum_sampled_diameter": 17.228700637817383,
+        "rays": 180
+      },
+      {
+        "axial_y_offset": 1.46,
+        "minimum_sampled_diameter": 17.228666305541992,
+        "rays": 180
+      },
+      {
+        "axial_y_offset": 1.48,
+        "minimum_sampled_diameter": 17.228595733642578,
+        "rays": 180
+      },
+      {
+        "axial_y_offset": 1.5,
+        "minimum_sampled_diameter": 17.22854232788086,
+        "rays": 180
+      }
+    ]
+  },
+  "source_preserved": true
+}

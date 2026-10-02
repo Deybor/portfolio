@@ -1,0 +1,95 @@
+{
+  "source": "C:\\Users\\Master\\Documents\\itura\\PORFOLIO PIECES\\Heartline_Pendant_01.blend",
+  "source_object": "SOURCE_UNCHANGED_Pendant",
+  "sha256": "6d45feb44fdc2e1c7b2d45ebd8484c64589f62b7931f7916aad75ca2761cac04",
+  "units": "mm",
+  "unit_basis": "Saved METRIC scene, scale_length 0.001; 1 Blender unit = 1 mm",
+  "scene_unit_scale": 0.0010000000474974513,
+  "body": {
+    "min": [
+      -7.865600109100342,
+      -10.547100067138672,
+      -1.2999999523162842
+    ],
+    "max": [
+      7.865200042724609,
+      5.972300052642822,
+      0.325300008058548
+    ],
+    "size": [
+      15.730800151824951,
+      16.519400119781494,
+      1.6252999603748322
+    ]
+  },
+  "assembly": {
+    "min": [
+      -7.865600109100342,
+      -10.547100067138672,
+      -1.2999999523162842
+    ],
+    "max": [
+      7.865200042724609,
+      5.972300052642822,
+      0.325300008058548
+    ],
+    "size": [
+      15.730800151824951,
+      16.519400119781494,
+      1.6252999603748322
+    ]
+  },
+  "excluded": "Finished Heartline variant, stock variant, added melee stones, connecting ring, reference chain, clasp and floor",
+  "basis": "Retained unchanged original mesh only; no added geometry",
+  "views": {
+    "front": {
+      "image": "front.png",
+      "ortho_scale": 21.92950365900993,
+      "projected_min": [
+        -7.865400075912476,
+        -8.259700059890747
+      ],
+      "projected_max": [
+        7.865400075912476,
+        8.259700059890747
+      ]
+    },
+    "side": {
+      "image": "side.png",
+      "ortho_scale": 19.49289214134216,
+      "projected_min": [
+        -8.259700059890747,
+        -0.8126499801874161
+      ],
+      "projected_max": [
+        8.259700059890747,
+        0.8126499801874161
+      ]
+    },
+    "back": {
+      "image": "back.png",
+      "ortho_scale": 21.92950365900993,
+      "projected_min": [
+        -7.865400075912476,
+        -8.259700059890747
+      ],
+      "projected_max": [
+        7.865400075912476,
+        8.259700059890747
+      ]
+    },
+    "isometric": {
+      "image": "isometric.png",
+      "ortho_scale": 21.448257032006907,
+      "projected_min": [
+        -6.076662965540734,
+        -8.078439560077932
+      ],
+      "projected_max": [
+        6.076662965540734,
+        8.078439560077932
+      ]
+    }
+  },
+  "source_preserved": true
+}

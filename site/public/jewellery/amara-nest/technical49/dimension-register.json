@@ -1,0 +1,56 @@
+{
+  "source": "C:\\Users\\Master\\Documents\\itura\\model\\engineering48\\Amara49_LowerProng_Refined_ViewFix.blend",
+  "source_sha256": "85314fd610597397320d2a560516f9e4b33e97584a9d016e72afa2dffaedf055",
+  "register": [
+    [
+      "Post shaft diameter",
+      "0.80 mm"
+    ],
+    [
+      "Post base collar diameter",
+      "0.92 mm"
+    ],
+    [
+      "Clear post from boss rear face A",
+      "10.50 mm"
+    ],
+    [
+      "Post centre from front-view left shell edge B",
+      "4.38 mm"
+    ],
+    [
+      "Post centre above lowest shell point C",
+      "6.00 mm"
+    ],
+    [
+      "Shell alone: depth",
+      "5.41 mm"
+    ],
+    [
+      "Seat: W \u00d7 H \u00d7 D",
+      "6.51 \u00d7 6.70 \u00d7 2.35 mm"
+    ],
+    [
+      "Local back wall at S\u2013S, 4.24 mm above C",
+      "0.81 mm"
+    ],
+    [
+      "Seat opening at T\u2013T, measured at mid-depth",
+      "3.75 mm"
+    ]
+  ],
+  "shaft_diameter": 0.8000000417232513,
+  "clear_post_length": 10.499999761581421,
+  "shell_only_depth": 5.410335898399353,
+  "seat_dimensions_whd": [
+    6.505879878997803,
+    6.7019718289375305,
+    2.3537444695830345
+  ],
+  "local_shell_wall": 0.8051490000000001,
+  "seat_section_opening": 3.74534,
+  "seat_section_spans": [
+    1.004839,
+    1.0202309999999999
+  ]
+}

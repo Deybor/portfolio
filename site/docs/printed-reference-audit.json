@@ -1,0 +1,76 @@
+{
+  "sourceSha256": "107fbbebec5eb6eedaf004580f1a4e8d3eb3ac887d645a6590dfa5ee12b00622",
+  "sourceUnchanged": true,
+  "matches": [
+    {
+      "slug": "top-zone-trophy",
+      "page": 3,
+      "bounds1100x617": [
+        8,
+        170,
+        345,
+        530
+      ]
+    },
+    {
+      "slug": "top-campus-ministry",
+      "page": 3,
+      "bounds1100x617": [
+        680,
+        190,
+        865,
+        420
+      ]
+    },
+    {
+      "slug": "bible-projects-for-programs",
+      "page": 4,
+      "bounds1100x617": [
+        12,
+        138,
+        346,
+        531
+      ]
+    },
+    {
+      "slug": "projects-and-programs",
+      "page": 8,
+      "bounds1100x617": [
+        16,
+        155,
+        350,
+        530
+      ]
+    },
+    {
+      "slug": "individual-category",
+      "page": 8,
+      "bounds1100x617": [
+        360,
+        180,
+        740,
+        530
+      ]
+    },
+    {
+      "slug": "vit",
+      "page": 8,
+      "bounds1100x617": [
+        910,
+        205,
+        1060,
+        475
+      ]
+    },
+    {
+      "slug": "tuff",
+      "page": 7,
+      "bounds1100x617": [
+        350,
+        175,
+        760,
+        530
+      ]
+    }
+  ]
+}

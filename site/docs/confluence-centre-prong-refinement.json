@@ -1,0 +1,80 @@
+{
+  "source": "C:\\Users\\Master\\Documents\\portfolio\\porfolio update\\public\\jewellery\\confluence\\technical\\Confluence-Casting-Stock-CAD.blend",
+  "source_sha256": "1a05e0387d4b7d3e04a0444c181230a4785ea661a344281af767d66b586227a7",
+  "original_source": "C:\\Users\\Master\\Documents\\itura\\PORFOLIO PIECES\\Confluence_First_Ring\\Approved_Model\\Confluence_Refined_Print.blend",
+  "original_source_sha256": "bf4e8b8d67d89c38eea1e2d73390b76193431c92d2e1644901c1c6a3a6fef94e",
+  "sources_preserved": true,
+  "derived_model": "C:\\Users\\Master\\Documents\\portfolio\\porfolio update\\public\\jewellery\\confluence\\technical\\Confluence-Refined-Centre-Prongs-CAD.blend",
+  "changed_vertices": 10202,
+  "unchanged_vertices": 221721,
+  "maximum_tip_translation_mm": 0.3647054218049779,
+  "transition_start_z_mm": 21.75,
+  "transition_end_z_mm": 22.15,
+  "straight_tip_length_mm": 0.6182704925537109,
+  "original_stem_axes": [
+    {
+      "quadrant": [
+        1,
+        1
+      ],
+      "slope_xy": [
+        0.31632426381111145,
+        0.31399038434028625
+      ],
+      "centre_at_21_8": [
+        1.648860216140747,
+        1.6504237651824951
+      ]
+    },
+    {
+      "quadrant": [
+        -1,
+        1
+      ],
+      "slope_xy": [
+        -0.31632426381111145,
+        0.31399038434028625
+      ],
+      "centre_at_21_8": [
+        -1.648860216140747,
+        1.6504237651824951
+      ]
+    },
+    {
+      "quadrant": [
+        -1,
+        -1
+      ],
+      "slope_xy": [
+        -0.31632426381111145,
+        -0.31399038434028625
+      ],
+      "centre_at_21_8": [
+        -1.648860216140747,
+        -1.6504237651824951
+      ]
+    },
+    {
+      "quadrant": [
+        1,
+        -1
+      ],
+      "slope_xy": [
+        0.31632426381111145,
+        -0.31399038434028625
+      ],
+      "centre_at_21_8": [
+        1.648860216140747,
+        -1.6504237651824951
+      ]
+    }
+  ],
+  "audit": {
+    "boundary_edges": 0,
+    "nonmanifold_edges": 0,
+    "volume_mm3": 265.99254291644684,
+    "zero_area_faces": 0
+  },
+  "scope": "Free centre-prong ends only; roots, galleries, side prongs and band unchanged",
+  "manufacturing_release": false
+}

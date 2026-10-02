@@ -1,0 +1,20 @@
+{
+  "date": "2026-10-02",
+  "pdf_pages_per_ring": 8,
+  "source_models_preserved": true,
+  "method": "Saved mesh orthographic views and real triangle/plane sections; measurements retained with provenance; proposed supplier targets explicitly labelled",
+  "outputs": [
+    "confluence/technical-specification.pdf",
+    "iced-out-ring/technical-specification.pdf"
+  ],
+  "models": {
+    "confluence": {
+      "source": "C:\\Users\\Master\\Documents\\portfolio\\porfolio update\\public\\jewellery\\confluence\\technical\\Confluence-Refined-Centre-Prongs-CAD.blend",
+      "sha256": "e53e30c18b5efca3f4165d868b4d2afd045e4d75fa17013333251ead4a189fb5"
+    },
+    "iced-out-ring": {
+      "source": "C:\\Users\\Master\\Documents\\itura\\PORFOLIO PIECES\\Ring_Iced_Out_03\\Ring_Iced_Out_03.blend",
+      "sha256": "ba7d6e3a47568b2988b20e047871accc9b492e5ee40ec596f6bd43da1af17184"
+    }
+  }
+}

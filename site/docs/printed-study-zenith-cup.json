@@ -1,0 +1,30 @@
+{
+  "slug": "zenith-cup",
+  "sourceFile": "C:\\Users\\Master\\Documents\\blender\\blender filesss\\troo\\new\\cad-3d print\\The Zenith Cup.blend",
+  "sha256": "d90e98dd496032c24b3b414a23c1d762fa27b28c9b074fb1282b0d5002b8b250",
+  "parts": [
+    "cup",
+    "base",
+    "Decorative ball 1",
+    "Decorative ball 2"
+  ],
+  "dimension": {
+    "width": 214.6,
+    "depth": 224.2,
+    "height": 576.1,
+    "bounds": [
+      [
+        -0.10731592774391174,
+        -0.11223243176937103,
+        -0.05646591633558273
+      ],
+      [
+        0.10731592774391174,
+        0.11193860322237015,
+        0.5195958018302917
+      ]
+    ],
+    "orthoScale": 0.7200771570205688
+  },
+  "sourceUnchanged": true
+}

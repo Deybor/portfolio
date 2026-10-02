@@ -1,0 +1,420 @@
+:root {
+  color-scheme: light;
+  --ink: #25231f;
+  --paper: #f5f1ea;
+  --line: #d8d0c4;
+  --accent: #977044;
+}
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  background: var(--paper);
+  color: var(--ink);
+  font:
+    15px/1.6 Arial,
+    sans-serif;
+}
+a {
+  color: inherit;
+}
+button {
+  font: inherit;
+  color: inherit;
+  background: transparent;
+  border: 1px solid var(--line);
+  padding: 8px 16px;
+  cursor: pointer;
+}
+.top {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: auto;
+  padding: 24px 32px;
+}
+.top a {
+  text-decoration: none;
+}
+.top a:hover {
+  text-decoration: underline;
+}
+.top .spec-download {
+  border: 1px solid var(--line);
+  padding: 8px 16px;
+  min-height: 44px;
+  display: inline-flex;
+  align-items: center;
+  text-align: center;
+}
+.drawing-heading a {
+  display: inline-flex;
+  min-height: 44px;
+  align-items: center;
+}
+main {
+  max-width: 1200px;
+  margin: auto;
+  padding: 0 32px 36px;
+}
+.heading {
+  border-top: 2px solid var(--ink);
+  border-bottom: 1px solid var(--line);
+  padding: 28px 0;
+}
+.heading > p:first-child {
+  font-size: 11px;
+  letter-spacing: 0.12em;
+  color: var(--accent);
+}
+h1 {
+  font:
+    64px/1.05 Georgia,
+    serif;
+  margin: 10px 0;
+}
+.subtitle {
+  margin: 12px 0 0;
+}
+h2 {
+  font:
+    34px/1.2 Georgia,
+    serif;
+  margin: 0 0 12px;
+}
+.overview {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 32px;
+  margin: 32px 0 16px;
+}
+.model {
+  margin: 0;
+  align-self: start;
+}
+.model img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+.model figcaption {
+  text-align: center;
+  color: #72695e;
+  font-size: 12px;
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+  line-height: 1.45;
+  font-size: 13px;
+}
+caption {
+  text-align: left;
+  font-size: 15px;
+  font-weight: bold;
+  margin-bottom: 14px;
+}
+th,
+td {
+  border: 1px solid var(--line);
+  padding: 10px 14px;
+  text-align: left;
+  vertical-align: top;
+}
+th[scope="row"] {
+  width: 43%;
+  font-weight: normal;
+}
+tr.group th {
+  background: #e7dfd2;
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  padding: 10px 14px;
+}
+.note {
+  font-size: 13px;
+  color: #72695e;
+  max-width: 760px;
+  margin: 20px 0 36px;
+}
+.sketches {
+  border-top: 1px solid var(--line);
+  padding: 28px 0;
+}
+.sketches p,
+.seat p {
+  color: #72695e;
+  margin: 0 0 20px;
+}
+.sketches img {
+  width: 100%;
+  display: block;
+}
+.seat {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
+  border-top: 1px solid var(--line);
+  padding: 28px 0;
+  align-items: center;
+}
+.seat img {
+  max-height: 380px;
+  width: 100%;
+  object-fit: contain;
+}
+footer {
+  border-top: 1px solid var(--line);
+  padding-top: 18px;
+  font-size: 11px;
+  color: #72695e;
+}
+.technical-drawings {
+  border-top: 1px solid var(--line);
+  padding-top: 28px;
+}
+.drawing-intro {
+  color: #72695e;
+  max-width: 760px;
+}
+.drawing-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px 24px;
+  margin: 20px 0 28px;
+  font-size: 13px;
+}
+.drawing-sheet {
+  margin-bottom: 32px;
+  scroll-margin-top: 20px;
+}
+.drawing-heading {
+  display: flex;
+  justify-content: space-between;
+  gap: 16px;
+  align-items: baseline;
+  margin-bottom: 12px;
+}
+.drawing-heading h3 {
+  font-size: 15px;
+  margin: 0;
+}
+.drawing-heading div {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  font-size: 12px;
+}
+.drawing-window {
+  overflow: auto;
+  border: 1px solid var(--line);
+  background: white;
+}
+.drawing-window img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+.drawing-phone-hint {
+  display: none;
+}
+.dimension-register {
+  margin: 20px 0 24px;
+  border-top: 1px solid var(--line);
+  border-bottom: 1px solid var(--line);
+  padding: 14px 0;
+}
+.dimension-register summary {
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: bold;
+}
+.dimension-register table {
+  margin-top: 20px;
+}
+.model-parts {
+  border-top: 1px solid var(--line);
+  padding: 28px 0;
+}
+.model-parts > p {
+  color: #72695e;
+  margin: 0 0 24px;
+}
+.labelled-model {
+  margin: 28px 0;
+}
+.labelled-window {
+  overflow: auto;
+  border: 1px solid var(--line);
+}
+.labelled-window img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+@media (max-width: 650px) {
+  main {
+    padding: 0 20px 24px;
+  }
+  .top {
+    padding: 20px;
+    gap: 14px;
+    font-size: 12px;
+  }
+  button {
+    padding: 8px 10px;
+  }
+  h1 {
+    font-size: 48px;
+  }
+  .overview {
+    grid-template-columns: 1fr;
+    gap: 24px;
+    margin-top: 24px;
+  }
+  .model img {
+    max-height: none;
+    object-fit: contain;
+  }
+  .labelled-window img {
+    min-width: 850px;
+  }
+  .seat {
+    grid-template-columns: 1fr;
+    gap: 12px;
+  }
+  .seat img {
+    max-height: 300px;
+  }
+  th,
+  td {
+    padding: 9px 11px;
+  }
+  .sketches img {
+    min-height: 170px;
+    object-fit: contain;
+  }
+  .drawing-heading {
+    display: block;
+  }
+  .drawing-heading div {
+    margin-top: 10px;
+  }
+  .drawing-window img {
+    min-width: 1000px;
+  }
+  .drawing-phone-hint {
+    display: block;
+    font-size: 12px;
+    color: #72695e;
+    margin-bottom: 20px;
+  }
+}
+@media print {
+  @page {
+    size: A4;
+    margin: 12mm;
+  }
+  body {
+    background: white;
+    font-size: 10pt;
+  }
+  .top {
+    display: none;
+  }
+  main {
+    padding: 0;
+    max-width: none;
+  }
+  .heading {
+    padding: 12px 0;
+  }
+  h1 {
+    font-size: 38pt;
+  }
+  .heading > p:first-child {
+    font-size: 8pt;
+  }
+  .overview {
+    gap: 18px;
+    margin: 18px 0 8px;
+  }
+  table {
+    font-size: 8pt;
+  }
+  th,
+  td {
+    padding: 5px 8px;
+  }
+  .note {
+    font-size: 8pt;
+    margin: 12px 0 22px;
+  }
+  .sketches {
+    break-before: page;
+    padding-top: 16px;
+  }
+  .seat {
+    gap: 18px;
+    padding: 16px 0;
+  }
+  .seat img {
+    max-height: 250px;
+  }
+  h2 {
+    font-size: 22pt;
+  }
+  .sketches p,
+  .seat p {
+    font-size: 9pt;
+  }
+  footer {
+    font-size: 8pt;
+  }
+  a {
+    text-decoration: none;
+  }
+  .technical-drawings {
+    border: 0;
+    padding: 0;
+  }
+  .drawing-links,
+  .drawing-phone-hint,
+  .drawing-heading div {
+    display: none;
+  }
+  .drawing-sheet {
+    break-before: page;
+    break-inside: avoid;
+    margin: 0;
+  }
+  .drawing-window {
+    overflow: visible;
+    border: 0;
+  }
+  .drawing-window img {
+    min-width: 0;
+    width: 100%;
+  }
+  .dimension-register {
+    display: none;
+  }
+  .model-parts {
+    break-before: page;
+  }
+  .labelled-model {
+    break-inside: avoid;
+  }
+  .labelled-window {
+    overflow: visible;
+    border: 0;
+  }
+  .labelled-window img {
+    min-width: 0;
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "slug": "top-campus-ministry",
+  "sourceFile": "C:\\Users\\Master\\Documents\\blender\\blender filesss\\troo\\white back\\throuphy upload\\6.blend",
+  "sha256": "bd1af0b031d75df5c1afce7303e936cdaf8bcefed31f28f05ad7b9b6edabf68d",
+  "parts": [
+    "Cube.001"
+  ],
+  "dimension": {
+    "width": 189.8,
+    "depth": 189.1,
+    "height": 406.9,
+    "bounds": [
+      [
+        -0.0941312313079834,
+        -0.04277966544032097,
+        -0.04799482971429825
+      ],
+      [
+        0.09564818441867828,
+        0.14631225168704987,
+        0.35891133546829224
+      ]
+    ],
+    "widthAxis": 0,
+    "depthAxis": 1,
+    "orthoScale": 0.5086326971650124
+  },
+  "sourceUnchanged": true
+}

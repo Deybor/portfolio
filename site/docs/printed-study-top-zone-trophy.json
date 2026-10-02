@@ -1,0 +1,35 @@
+{
+  "slug": "top-zone-trophy",
+  "sourceFile": "C:\\Users\\Master\\Documents\\blender\\blender filesss\\troo\\white back\\untitled2.blend",
+  "sha256": "4beea25e1b2fbaedbb89f42d14983b94849ac7f2c61748ca90df56b5ee1cd35e",
+  "parts": [
+    "Sphere",
+    "Plane.002",
+    "Cylinder.003",
+    "Cylinder.002",
+    "Cylinder.001",
+    "Cube.001",
+    "Circle"
+  ],
+  "dimension": {
+    "width": 935.0,
+    "depth": 802.7,
+    "height": 2038.2,
+    "bounds": [
+      [
+        -2.74755859375,
+        -0.38632649183273315,
+        0.014894026331603527
+      ],
+      [
+        -1.8125635385513306,
+        0.416381299495697,
+        2.0530481338500977
+      ]
+    ],
+    "widthAxis": 0,
+    "depthAxis": 1,
+    "orthoScale": 2.547692656517029
+  },
+  "sourceUnchanged": true
+}

@@ -1,0 +1,16 @@
+{
+  "slug": "candidate-troo-t2",
+  "parts": [
+    "Cube",
+    "Cylinder",
+    "Sphere",
+    "Circle",
+    "Plane",
+    "Sphere.001",
+    "Sphere.002",
+    "Sphere.003",
+    "Sphere.004"
+  ],
+  "dimension": null,
+  "sourceUnchanged": true
+}

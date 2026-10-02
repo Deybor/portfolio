@@ -1,0 +1,34 @@
+{
+  "slug": "vit",
+  "sourceFile": "C:\\Users\\Master\\Documents\\blender\\blender filesss\\troo\\new\\cad-3d print\\vit.blend",
+  "sha256": "178c39fa737b98a45a7e4b0eb2ed2d8f9cb9575cfc0dcabb74b3d274e9b1555b",
+  "parts": [
+    "Cylinder.002",
+    "Cylinder.001",
+    "Cylinder",
+    "Circle.002",
+    "Circle.001",
+    "Circle"
+  ],
+  "dimension": {
+    "width": 657.1,
+    "depth": 449.1,
+    "height": 1601.4,
+    "bounds": [
+      [
+        -2.7669899463653564,
+        -0.26395276188850403,
+        -0.00037010759115219116
+      ],
+      [
+        -2.1098580360412598,
+        0.18512526154518127,
+        1.6009820699691772
+      ]
+    ],
+    "widthAxis": 0,
+    "depthAxis": 1,
+    "orthoScale": 2.0016902685165405
+  },
+  "sourceUnchanged": true
+}

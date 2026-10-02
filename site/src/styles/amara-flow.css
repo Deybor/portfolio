@@ -1,0 +1,379 @@
+/* A quick overview, followed by an uninterrupted visual story. */
+.amara-case {
+  --amara-flow-space: 48px;
+  --amara-flow-ease: cubic-bezier(0.22, 1, 0.36, 1);
+}
+.amara-local-nav {
+  position: sticky;
+}
+.amara-reading-progress {
+  position: absolute;
+  inset: auto 0 -1px;
+  height: 2px;
+  pointer-events: none;
+}
+.amara-reading-progress span {
+  display: block;
+  height: 100%;
+  background: var(--color-collection-accent);
+  transform: scaleX(var(--reading-progress, 0));
+  transform-origin: left;
+}
+.amara-question {
+  grid-template-columns: minmax(0, 0.92fr) minmax(0, 1.08fr);
+  gap: 24px var(--amara-flow-space);
+  padding-block: 32px 0;
+}
+.amara-question h1 {
+  font-size: clamp(52px, 5.5vw, 80px);
+  line-height: 1;
+}
+.amara-question .amara-hero-lede {
+  margin-top: 24px;
+  font-size: clamp(18px, 1.6vw, 21px);
+  max-width: 38ch;
+}
+.amara-hero-reason {
+  margin: 16px 0 0;
+  max-width: 46ch;
+  color: var(--color-collection-muted);
+  font-size: 14px;
+  line-height: 1.6;
+}
+.amara-hero-facts {
+  display: grid;
+  grid-template-columns: 1.15fr 1fr;
+  gap: 16px;
+  margin: 24px 0 0;
+  padding-top: 16px;
+  border-top: 1px solid var(--color-collection-line);
+}
+.amara-hero-facts dt {
+  margin-bottom: 6px;
+  color: var(--color-collection-muted);
+  font-size: 10px;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+}
+.amara-hero-facts dd {
+  margin: 0;
+  font-size: 12px;
+  line-height: 1.5;
+}
+.amara-opening-research {
+  margin-top: 8px;
+  max-width: 46ch;
+  line-height: 1.6;
+}
+.amara-opening-research .amara-market-sources {
+  gap: 0 16px;
+  margin-block: 8px;
+}
+.amara-opening-visual {
+  position: relative;
+  min-width: 0;
+}
+.amara-question .amara-result-visual img {
+  aspect-ratio: 1.12;
+  max-height: 500px;
+  object-position: center 66%;
+}
+.amara-result-visual figcaption {
+  display: flex;
+  justify-content: flex-end;
+  color: var(--color-collection-muted);
+  font-size: 9px;
+}
+.amara-reference-inset {
+  position: absolute;
+  top: 16px;
+  left: 16px;
+  width: clamp(100px, 10vw, 144px);
+  margin: 0;
+  border: 4px solid var(--color-ivory);
+  background: var(--color-ivory);
+  color: var(--color-ivory-ink);
+}
+.amara-reference-inset img {
+  display: block;
+  width: 100%;
+  aspect-ratio: 0.9;
+  object-fit: cover;
+  object-position: center 55%;
+}
+.amara-reference-inset figcaption {
+  padding: 8px 2px 4px;
+  font-size: 8px;
+  text-align: center;
+  line-height: 1.4;
+}
+.amara-opening-path {
+  grid-column: 1 / -1;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 24px;
+  padding-block: 20px 24px;
+  border-bottom: 1px solid var(--color-collection-line);
+}
+
+.amara-opening-path .amara-text-link {
+  margin: 0;
+  font-size: 12px;
+}
+@media (min-width: 901px) and (max-height: 800px) {
+  .amara-question {
+    padding-top: 24px;
+    row-gap: 16px;
+  }
+  .amara-question h1 {
+    font-size: clamp(48px, 5vw, 64px);
+  }
+  .amara-question .amara-hero-lede {
+    margin-top: 20px;
+    font-size: 18px;
+  }
+  .amara-question .amara-result-visual img {
+    max-height: calc(100svh - 300px);
+  }
+  .amara-reference-inset {
+    width: 100px;
+  }
+  .amara-hero-facts {
+    margin-top: 16px;
+    padding-top: 12px;
+  }
+  .amara-opening-path {
+    padding-block: 12px 16px;
+  }
+}
+.amara-options-refined {
+  padding-block: var(--amara-flow-space) 0;
+}
+.amara-options-refined .amara-section-heading {
+  display: grid;
+  grid-template-columns: minmax(0, 1.2fr) minmax(0, 0.8fr);
+  align-items: end;
+  gap: 0 40px;
+  max-width: none;
+  margin-bottom: 32px;
+}
+.amara-options-refined .amara-section-heading .amara-kicker {
+  grid-column: 1 / -1;
+}
+.amara-options-refined .amara-section-heading h2 {
+  font-size: clamp(40px, 4.5vw, 64px);
+  margin-bottom: 0;
+}
+.amara-options-refined .amara-section-heading > p:last-child {
+  max-width: 30ch;
+  padding-bottom: 4px;
+  font-size: 15px;
+}
+.amara-direction-copy {
+  padding-block: 20px;
+}
+.amara-direction-copy h3 {
+  font-size: 32px;
+}
+.amara-direction-copy > p:last-child {
+  font-size: 13px;
+}
+
+.amara-inspect {
+  position: relative;
+  z-index: 2;
+  border-top: 0;
+  padding-top: var(--amara-flow-space);
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .amara-case .reveal.motion-ready .amara-section-heading > * {
+    transition:
+      opacity 650ms ease-out,
+      transform 900ms var(--amara-flow-ease);
+  }
+  .amara-case .reveal.motion-ready .amara-section-heading h2 {
+    transition-delay: 60ms;
+  }
+  .amara-case .reveal.motion-ready .amara-section-heading > p:last-child {
+    transition-delay: 140ms;
+  }
+  .amara-case .reveal.motion-ready:not(.is-in) .amara-section-heading > * {
+    opacity: 0;
+    transform: translateY(36px);
+  }
+  .amara-case .amara-motion-item {
+    transition:
+      opacity 700ms ease-out,
+      transform 1000ms var(--amara-flow-ease);
+  }
+  .amara-case .amara-motion-item:nth-child(2) {
+    transition-delay: 100ms;
+  }
+  .amara-case .amara-motion-item:nth-child(3) {
+    transition-delay: 200ms;
+  }
+  .amara-case .amara-motion-item.motion-ready:not(.is-in) {
+    opacity: 0;
+    transform: translateY(64px) scale(0.96);
+  }
+  .amara-case .amara-motion-item .amara-direction-image img {
+    transition: transform 1000ms var(--amara-flow-ease);
+  }
+  .amara-case .amara-motion-item.motion-ready:not(.is-in) .amara-direction-image img {
+    transform: scale(1.1);
+  }
+  .amara-inspect.motion-ready .amara-model-comparison {
+    transition:
+      opacity 800ms ease-out,
+      transform 1100ms var(--amara-flow-ease);
+    transition-delay: 160ms;
+  }
+  .amara-inspect.motion-ready:not(.is-in) .amara-model-comparison {
+    opacity: 0;
+    transform: translateY(64px) scale(0.97);
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  .amara-case .reveal .amara-section-heading > *,
+  .amara-case .amara-motion-item,
+  .amara-case .amara-motion-item .amara-direction-image img,
+  .amara-case .amara-model-comparison {
+    opacity: 1;
+    transform: none;
+    transition: none;
+  }
+}
+@media (max-width: 900px) {
+  .amara-question {
+    grid-template-columns: 1fr 1fr;
+    gap: 24px;
+  }
+  .amara-question h1 {
+    font-size: clamp(44px, 6.2vw, 64px);
+  }
+  .amara-hero-facts {
+    grid-template-columns: 1fr;
+    gap: 10px;
+  }
+  .amara-question .amara-hero-lede {
+    font-size: 17px;
+  }
+  .amara-reference-inset {
+    width: 100px;
+  }
+}
+@media (max-width: 700px) {
+  .amara-local-nav {
+    top: 124px;
+  }
+}
+@media (max-width: 600px) {
+  .amara-case {
+    --amara-flow-space: 32px;
+  }
+  .amara-local-nav {
+    top: 124px;
+    padding-block: 0;
+    min-height: 48px;
+  }
+  .amara-case section[id] {
+    scroll-margin-top: 190px;
+  }
+  .amara-question {
+    grid-template-columns: 1fr;
+    gap: 16px;
+    padding-top: 24px;
+  }
+  .amara-hero-copy {
+    display: contents;
+  }
+  .amara-hero-copy > .amara-kicker {
+    order: 0;
+  }
+  .amara-question h1 {
+    order: 1;
+    margin: 0;
+  }
+  .amara-question .amara-hero-lede {
+    order: 2;
+    margin: 0;
+  }
+  .amara-opening-visual {
+    order: 3;
+  }
+  .amara-opening-path {
+    order: 4;
+  }
+  .amara-hero-reason {
+    order: 5;
+  }
+  .amara-hero-facts {
+    order: 6;
+  }
+  .amara-opening-research {
+    order: 7;
+  }
+  .amara-question h1 {
+    font-size: clamp(48px, 13vw, 68px);
+  }
+  .amara-question .amara-hero-lede {
+    font-size: 17px;
+  }
+  .amara-hero-reason {
+    font-size: 13px;
+    margin-top: 0;
+  }
+  .amara-hero-facts {
+    grid-template-columns: 1.1fr 1fr;
+    margin: 0;
+    padding-top: 12px;
+  }
+  .amara-hero-facts dd {
+    font-size: 11px;
+  }
+  .amara-opening-research {
+    font-size: 11px;
+    margin-top: 4px;
+  }
+  .amara-question .amara-result-visual img {
+    aspect-ratio: 1.28;
+    max-height: 340px;
+  }
+  .amara-reference-inset {
+    top: 12px;
+    left: 12px;
+    width: 80px;
+    border-width: 3px;
+  }
+  .amara-reference-inset figcaption {
+    padding: 5px 0 2px;
+    font-size: 7px;
+  }
+  .amara-opening-path {
+    gap: 12px;
+    padding-block: 12px 16px;
+  }
+
+  .amara-opening-path .amara-text-link {
+    font-size: 10px;
+    gap: 8px;
+  }
+  .amara-options-refined .amara-section-heading {
+    grid-template-columns: 1fr;
+    gap: 12px;
+    margin-bottom: 24px;
+  }
+  .amara-options-refined .amara-section-heading h2 {
+    font-size: 44px;
+    margin-top: 0;
+  }
+  .amara-options-refined .amara-section-heading > p:last-child {
+    max-width: 32ch;
+    font-size: 14px;
+  }
+  .amara-direction-gallery {
+    gap: 28px;
+  }
+}

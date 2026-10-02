@@ -1,0 +1,1969 @@
+[
+  {
+    "file": "Bilble Projects for Programs.blend",
+    "units": "METRIC",
+    "lengthUnit": "CENTIMETERS",
+    "unitScale": 1.0,
+    "sceneProperties": {
+      "uuid": "ebdfa5a3-9c6c-47ab-8292-610af1427986",
+      "assets reported": "<bpy id prop: owner=\"SCIkea Product Visualization Shot\", name=\"assets reported\", address=0x00000172EBAF4BA0>",
+      "cycles": "<bpy id prop: owner=\"SCIkea Product Visualization Shot\", name=\"cycles\", address=0x00000172EBAF4960>",
+      "assets used": "<bpy id prop: owner=\"SCIkea Product Visualization Shot\", name=\"assets used\", address=0x00000172F17037E0>",
+      "sna_animation_menu": "<bpy id prop: owner=\"SCIkea Product Visualization Shot\", name=\"sna_animation_menu\", address=0x00000172F161E460>",
+      "blenderkit": "<bpy id prop: owner=\"SCIkea Product Visualization Shot\", name=\"blenderkit\", address=0x00000172F161E3A0>",
+      "asset_data": "<bpy id prop: owner=\"SCIkea Product Visualization Shot\", name=\"asset_data\", address=0x00000172F161D3E0>",
+      "photographer": "<bpy id prop: owner=\"SCIkea Product Visualization Shot\", name=\"photographer\", address=0x00000172F1616D60>",
+      "kitops": "<bpy id prop: owner=\"SCIkea Product Visualization Shot\", name=\"kitops\", address=0x00000172F1616BE0>",
+      "renderqueue": "<bpy id prop: owner=\"SCIkea Product Visualization Shot\", name=\"renderqueue\", address=0x00000172F1616B20>"
+    },
+    "meshObjects": [
+      {
+        "name": "Plane.002",
+        "dimensionsInSceneUnits": [
+          0.597823977470398,
+          0.4071182608604431,
+          0.5280250310897827
+        ],
+        "properties": {
+          "kitops": "<bpy id prop: owner=\"OBPlane.002\", name=\"kitops\", address=0x00000172F21D7960>",
+          "cycles": "<bpy id prop: owner=\"OBPlane.002\", name=\"cycles\", address=0x00000172F21D78A0>"
+        }
+      },
+      {
+        "name": "Circle.001",
+        "dimensionsInSceneUnits": [
+          0.12255873531103134,
+          0.11656416952610016,
+          0.008082586340606213
+        ],
+        "properties": {
+          "kitops": "<bpy id prop: owner=\"OBCircle.001\", name=\"kitops\", address=0x00000172F16148A0>"
+        }
+      },
+      {
+        "name": "Circle.002",
+        "dimensionsInSceneUnits": [
+          0.3051958680152893,
+          0.3051958680152893,
+          0.15721136331558228
+        ],
+        "properties": {
+          "kitops": "<bpy id prop: owner=\"OBCircle.002\", name=\"kitops\", address=0x00000172F1614720>",
+          "cycles": "<bpy id prop: owner=\"OBCircle.002\", name=\"cycles\", address=0x00000172F1614660>"
+        }
+      },
+      {
+        "name": "Plane",
+        "dimensionsInSceneUnits": [
+          5.0,
+          5.0,
+          2.5999999046325684
+        ],
+        "properties": {
+          "cycles": "<bpy id prop: owner=\"OBPlane\", name=\"cycles\", address=0x00000172F21D7D20>",
+          "blenderkit": "<bpy id prop: owner=\"OBPlane\", name=\"blenderkit\", address=0x00000172F21D7C60>",
+          "kitops": "<bpy id prop: owner=\"OBPlane\", name=\"kitops\", address=0x00000172F21D7AE0>"
+        }
+      },
+      {
+        "name": "Circle",
+        "dimensionsInSceneUnits": [
+          1.5,
+          1.5,
+          0.19999998807907104
+        ],
+        "properties": {
+          "cycles": "<bpy id prop: owner=\"OBCircle\", name=\"cycles\", address=0x00000172F1614AE0>",
+          "kitops": "<bpy id prop: owner=\"OBCircle\", name=\"kitops\", address=0x00000172F1614A20>"
+        }
+      },
+      {
+        "name": "jacaranda_tree_trunk",
+        "dimensionsInSceneUnits": [
+          1.7138081789016724,
+          1.2559261322021484,
+          2.00270676612854
+        ],
+        "properties": {
+          "cycles": "<bpy id prop: owner=\"OBjacaranda_tree_trunk\", name=\"cycles\", address=0x00000172F21E8120>",
+          "kitops": "<bpy id prop: owner=\"OBjacaranda_tree_trunk\", name=\"kitops\", address=0x00000172F21D7F60>"
+        }
+      },
+      {
+        "name": "jacaranda_tree_branches",
+        "dimensionsInSceneUnits": [
+          4.678154945373535,
+          3.489527702331543,
+          3.23880934715271
+        ],
+        "properties": {
+          "kitops": "<bpy id prop: owner=\"OBjacaranda_tree_branches\", name=\"kitops\", address=0x00000172F21EAB20>"
+        }
+      },
+      {
+        "name": "jacaranda_tree_leaves_e",
+        "dimensionsInSceneUnits": [
+          0.07372061163187027,
+          0.15519890189170837,
+          0.06505454331636429
+        ],
+        "properties": {
+          "kitops": "<bpy id prop: owner=\"OBjacaranda_tree_leaves_e\", name=\"kitops\", address=0x00000172F21E85A0>"
+        }
+      },
+      {
+        "name": "jacaranda_tree_leaves_c",
+        "dimensionsInSceneUnits": [
+          0.07399491965770721,
+          0.09441064298152924,
+          0.04058362543582916
+        ],
+        "properties": {
+          "kitops": "<bpy id prop: owner=\"OBjacaranda_tree_leaves_c\", name=\"kitops\", address=0x00000172F21E8EA0>"
+        }
+      },
+      {
+        "name": "jacaranda_tree_leaves_d",
+        "dimensionsInSceneUnits": [
+          0.08360014110803604,
+          0.16828936338424683,
+          0.032613903284072876
+        ],
+        "properties": {
+          "kitops": "<bpy id prop: owner=\"OBjacaranda_tree_leaves_d\", name=\"kitops\", address=0x00000172F21E8A20>"
+        }
+      },
+      {
+        "name": "jacaranda_tree_leaves_a",
+        "dimensionsInSceneUnits": [
+          0.32212427258491516,
+          0.3110082447528839,
+          0.130837544798851
+        ],
+        "properties": {
+          "kitops": "<bpy id prop: owner=\"OBjacaranda_tree_leaves_a\", name=\"kitops\", address=0x00000172F21E91A0>"
+        }
+      },
+      {
+        "name": "jacaranda_tree_leaves_b",
+        "dimensionsInSceneUnits": [
+          0.2407338172197342,
+          0.27551889419555664,
+          0.11409173905849457
+        ],
+        "properties": {
+          "kitops": "<bpy id prop: owner=\"OBjacaranda_tree_leaves_b\", name=\"kitops\", address=0x00000172F21E9020>"
+        }
+      }
+    ]
+  },
+  {
+    "file": "Individual Category.blend",
+    "units": "IMPERIAL",
+    "lengthUnit": "INCHES",
+    "unitScale": 1.0,
+    "sceneProperties": {
+      "cycles": "<bpy id prop: owner=\"SCPedestal\", name=\"cycles\", address=0x00000172F5A3AE20>",
+      "blenderkitUI": "<bpy id prop: owner=\"SCPedestal\", name=\"blenderkitUI\", address=0x00000172F5A3A8E0>",
+      "blenderkit_mat": "<bpy id prop: owner=\"SCPedestal\", name=\"blenderkit_mat\", address=0x00000172F5A391A0>",
+      "search results": "[<bpy id prop: owner=\"SCPedestal\", name=\"\", address=0x00000172F5A37120>, <bpy id prop: owner=\"SCPedestal\", name=\"\", address=0x00000172F5A371B0>, <bpy id prop: owner=\"SCPedestal\", name=\"\", address=0x00000172F5A37240>, <bpy id prop: owner=\"SCPedestal\", name=\"\", address=0x00000172F5A372D0>, <bpy id prop: owner=\"SCPedestal\", name=\"\", address=0x00000172F5A37360>]",
+      "search results orig": "<bpy id prop: owner=\"SCPedestal\", name=\"search results orig\", address=0x00000172F59BCDE0>",
+      "blenderkit_models": "<bpy id prop: owner=\"SCPedestal\", name=\"blenderkit_models\", address=0x00000172F599DE60>",
+      "cycles_curves": "<bpy id prop: owner=\"SCPedestal\", name=\"cycles_curves\", address=0x00000172F599D6E0>",
+      "uuid": "60369136-1b32-4c91-b2c0-ddb025d8e616",
+      "assets reported": "<bpy id prop: owner=\"SCPedestal\", name=\"assets reported\", address=0x00000172F599D560>",
+      "blenderkit": "<bpy id prop: owner=\"SCPedestal\", name=\"blenderkit\", address=0x00000172F599D4A0>",
+      "bkit model search": "[<bpy id prop: owner=\"SCPedestal\", name=\"\", address=0x00000172F59A2B20>, <bpy id prop: owner=\"SCPedestal\", name=\"\", address=0x00000172F59A2BB0>, <bpy id prop: owner=\"SCPedestal\", name=\"\", address=0x00000172F59A2C40>, <bpy id prop: owner=\"SCPedestal\", name=\"\", address=0x00000172F59A2CD0>, <bpy id prop: owner=\"SCPedestal\", name=\"\", address=0x00000172F59A2D60>, <bpy id prop: owner=\"SCPedestal\", name=\"\", address=0x00000172F59A2DF0>, <bpy id prop: owner=\"SCPedestal\", name=\"\", address=0x00000172F59A2E80>, <bpy id prop: owner=\"SCPedestal\", name=\"\", address=0x00000172F59A2F10>, <bpy id prop: owner=\"SCPedestal\", name=\"\", address=0x00000172F59A2FA0>, <bpy id prop: owner=\"SCPedestal\", name=\"\", address=0x00000172F59A3030>, <bpy id prop: owner=\"SCPedestal\", name=\"\", address=0x00000172F59A30C0>, <bpy id prop: owner=\"SCPedestal\", name=\"\", address=0x00000172F59A3150>, <bpy id prop: owner=\"SCPedestal\", name=\"\", address=0x00000172F59A31E0>, <bpy id prop: owner=\"SCPedestal\", name=\"\", address=0x00000172F59A3270>, <bpy id prop: owner=\"SCPedestal\", name=\"\", address=0x00000172F59A3300>, <bpy id prop: owner=\"SCPedestal\", name=\"\", address=0x00000172F59A3390>, <bpy id prop: owner=\"SCPedestal\", name=\"\", address=0x00000172F59A3420>, <bpy id prop: owner=\"SCPedestal\", name=\"\", address=0x00000172F59A34B0>, <bpy id prop: owner=\"SCPedestal\", name=\"\", address=0x00000172F59A3540>, <bpy id prop: owner=\"SCPedestal\", name=\"\", address=0x00000172F59A35D0>, <bpy id prop: owner=\"SCPedestal\", name=\"\", address=0x00000172F59A3660>, <bpy id prop: owner=\"SCPedestal\", name=\"\", address=0x00000172F59A36F0>, <bpy id prop: owner=\"SCPedestal\", name=\"\", address=0x00000172F59A3780>, <bpy id prop: owner=\"SCPedestal\", name=\"\", address=0x00000172F59A3810>, <bpy id prop: owner=\"SCPedestal\", name=\"\", address=0x00000172F59A38A0>, <bpy id prop: owner=\"SCPedestal\", name=\"\", address=0x00000172F59A3930>, <bpy id prop: owner=\"SCPedestal\", name=\"\", address=0x00000172F59A39C0>, <bpy id prop: owner=\"SCPedestal\", name=\"\", address=0x00000172F59A3A50>, <bpy id prop: owner=\"SCPedestal\", name=\"\", address=0x00000172F59A3AE0>, <bpy id prop: owner=\"SCPedestal\", name=\"\", address=0x00000172F59A3B70>]",
+      "bkit model search orig": "<bpy id prop: owner=\"SCPedestal\", name=\"bkit model search orig\", address=0x00000172F585F420>",
+      "flip_fluid_material_library": "<bpy id prop: owner=\"SCPedestal\", name=\"flip_fluid_material_library\", address=0x00000172F5737C60>",
+      "flip_fluid": "<bpy id prop: owner=\"SCPedestal\", name=\"flip_fluid\", address=0x00000172F5737AE0>",
+      "MeasureItArchProps": "<bpy id prop: owner=\"SCPedestal\", name=\"MeasureItArchProps\", address=0x00000172F5737A20>",
+      "Create_Type": "0",
+      "ats_settings": "<bpy id prop: owner=\"SCPedestal\", name=\"ats_settings\", address=0x00000172F57378A0>",
+      "assets used": "<bpy id prop: owner=\"SCPedestal\", name=\"assets used\", address=0x00000172F5736FA0>",
+      "bkit material search": "[<bpy id prop: owner=\"SCPedestal\", name=\"\", address=0x00000172F58320A0>, <bpy id prop: owner=\"SCPedestal\", name=\"\", address=0x00000172F5832130>, <bpy id prop: owner=\"SCPedestal\", name=\"\", address=0x00000172F58321C0>, <bpy id prop: owner=\"SCPedestal\", name=\"\", address=0x00000172F5832250>, <bpy id prop: owner=\"SCPedestal\", name=\"\", address=0x00000172F58322E0>, <bpy id prop: owner=\"SCPedestal\", name=\"\", address=0x00000172F5832370>, <bpy id prop: owner=\"SCPedestal\", name=\"\", address=0x00000172F5832400>, <bpy id prop: owner=\"SCPedestal\", name=\"\", address=0x00000172F5832490>, <bpy id prop: owner=\"SCPedestal\", name=\"\", address=0x00000172F5832520>, <bpy id prop: owner=\"SCPedestal\", name=\"\", address=0x00000172F58325B0>, <bpy id prop: owner=\"SCPedestal\", name=\"\", address=0x00000172F5832640>, <bpy id prop: owner=\"SCPedestal\", name=\"\", address=0x00000172F58326D0>, <bpy id prop: owner=\"SCPedestal\", name=\"\", address=0x00000172F5832760>, <bpy id prop: owner=\"SCPedestal\", name=\"\", address=0x00000172F58327F0>, <bpy id prop: owner=\"SCPedestal\", name=\"\", address=0x00000172F5832880>]",
+      "bkit material search orig": "<bpy id prop: owner=\"SCPedestal\", name=\"bkit material search orig\", address=0x00000172F56CCC60>",
+      "blenderkit_HDR": "<bpy id prop: owner=\"SCPedestal\", name=\"blenderkit_HDR\", address=0x00000172811D1AA0>",
+      "blenderkit_scene": "<bpy id prop: owner=\"SCPedestal\", name=\"blenderkit_scene\", address=0x00000172811D19E0>",
+      "bkit scene search": "[<bpy id prop: owner=\"SCPedestal\", name=\"\", address=0x00000172F5701020>, <bpy id prop: owner=\"SCPedestal\", name=\"\", address=0x00000172F57010B0>, <bpy id prop: owner=\"SCPedestal\", name=\"\", address=0x00000172F5701140>, <bpy id prop: owner=\"SCPedestal\", name=\"\", address=0x00000172F57011D0>, <bpy id prop: owner=\"SCPedestal\", name=\"\", address=0x00000172F5701260>]",
+      "bkit scene search orig": "<bpy id prop: owner=\"SCPedestal\", name=\"bkit scene search orig\", address=0x00000172811B96E0>",
+      "collection_manager": "<bpy id prop: owner=\"SCPedestal\", name=\"collection_manager\", address=0x000001728119A760>",
+      "photographer": "<bpy id prop: owner=\"SCPedestal\", name=\"photographer\", address=0x000001728119A160>",
+      "asset_data": "<bpy id prop: owner=\"SCPedestal\", name=\"asset_data\", address=0x0000017281199FE0>",
+      "kitops": "<bpy id prop: owner=\"SCPedestal\", name=\"kitops\", address=0x000001728118B960>",
+      "lightmixer": "<bpy id prop: owner=\"SCPedestal\", name=\"lightmixer\", address=0x000001728118B8A0>",
+      "renderqueue": "<bpy id prop: owner=\"SCPedestal\", name=\"renderqueue\", address=0x000001728118B7E0>"
+    },
+    "meshObjects": [
+      {
+        "name": "Retopo_Sphere",
+        "dimensionsInSceneUnits": [
+          0.14646096527576447,
+          0.16065001487731934,
+          0.38189688324928284
+        ],
+        "properties": {
+          "kitops": "<bpy id prop: owner=\"OBRetopo_Sphere\", name=\"kitops\", address=0x0000017281036A60>",
+          "cycles": "<bpy id prop: owner=\"OBRetopo_Sphere\", name=\"cycles\", address=0x00000172810369A0>"
+        }
+      }
+    ]
+  },
+  {
+    "file": "medal.blend",
+    "units": "METRIC",
+    "lengthUnit": "METERS",
+    "unitScale": 1.0,
+    "sceneProperties": {
+      "cycles": "<bpy id prop: owner=\"SCWhite Light Studio\", name=\"cycles\", address=0x00000172F1E354A0>",
+      "TileSizePrevRenderer": "CYCLES",
+      "TileSizePrevDevice": "GPU",
+      "TileSizePrevChoice": "256",
+      "TileSizeFirstRun": "0",
+      "TileSizePrevRes": "960x540",
+      "TileSizePrevActualTileSize": "240x270",
+      "cycles_curves": "<bpy id prop: owner=\"SCWhite Light Studio\", name=\"cycles_curves\", address=0x00000172F1DA71E0>",
+      "TileSizeEnable": "1",
+      "blenderkit": "<bpy id prop: owner=\"SCWhite Light Studio\", name=\"blenderkit\", address=0x00000172F1DA7060>",
+      "assets used": "<bpy id prop: owner=\"SCWhite Light Studio\", name=\"assets used\", address=0x00000172F1DA63A0>",
+      "uuid": "2af917b6-2e6d-4eb3-acbf-71c130c499f9",
+      "assets reported": "<bpy id prop: owner=\"SCWhite Light Studio\", name=\"assets reported\", address=0x00000172F1D90F60>",
+      "asset_data": "<bpy id prop: owner=\"SCWhite Light Studio\", name=\"asset_data\", address=0x00000172F1D90DE0>",
+      "kitops": "<bpy id prop: owner=\"SCWhite Light Studio\", name=\"kitops\", address=0x00000172F1D8A820>"
+    },
+    "meshObjects": [
+      {
+        "name": "Cylinder",
+        "dimensionsInSceneUnits": [
+          1.2364230155944824,
+          1.2626404762268066,
+          0.05501502379775047
+        ],
+        "properties": {
+          "kitops": "<bpy id prop: owner=\"OBCylinder\", name=\"kitops\", address=0x00000172F1D89020>",
+          "cycles": "<bpy id prop: owner=\"OBCylinder\", name=\"cycles\", address=0x00000172F1D88F60>"
+        }
+      },
+      {
+        "name": "Cylinder.001",
+        "dimensionsInSceneUnits": [
+          1.186976432800293,
+          1.0364891290664673,
+          0.142164945602417
+        ],
+        "properties": {
+          "kitops": "<bpy id prop: owner=\"OBCylinder.001\", name=\"kitops\", address=0x00000172F1D88DE0>",
+          "cycles": "<bpy id prop: owner=\"OBCylinder.001\", name=\"cycles\", address=0x00000172F1D88D20>"
+        }
+      },
+      {
+        "name": "Cylinder.002",
+        "dimensionsInSceneUnits": [
+          1.9871189594268799,
+          1.9871189594268799,
+          0.1201934665441513
+        ],
+        "properties": {
+          "kitops": "<bpy id prop: owner=\"OBCylinder.002\", name=\"kitops\", address=0x00000172F1D884E0>",
+          "cycles": "<bpy id prop: owner=\"OBCylinder.002\", name=\"cycles\", address=0x00000172F1D88420>"
+        }
+      },
+      {
+        "name": "Circle.001",
+        "dimensionsInSceneUnits": [
+          0.06309202313423157,
+          0.3868817389011383,
+          0.15257667005062103
+        ],
+        "properties": {
+          "kitops": "<bpy id prop: owner=\"OBCircle.001\", name=\"kitops\", address=0x00000172F1D894A0>",
+          "cycles": "<bpy id prop: owner=\"OBCircle.001\", name=\"cycles\", address=0x00000172F1D893E0>"
+        }
+      },
+      {
+        "name": "Reflection Light",
+        "dimensionsInSceneUnits": [
+          5.0,
+          7.5,
+          0.0
+        ],
+        "properties": {
+          "cycles_visibility": "<bpy id prop: owner=\"OBReflection Light\", name=\"cycles_visibility\", address=0x00000172F20332A0>",
+          "poliigon_props": "<bpy id prop: owner=\"OBReflection Light\", name=\"poliigon_props\", address=0x00000172F20331E0>",
+          "kitops": "<bpy id prop: owner=\"OBReflection Light\", name=\"kitops\", address=0x00000172F2033120>"
+        }
+      },
+      {
+        "name": "Top_Softbox",
+        "dimensionsInSceneUnits": [
+          7.5,
+          4.0,
+          10.0
+        ],
+        "properties": {
+          "cycles_visibility": "<bpy id prop: owner=\"OBTop_Softbox\", name=\"cycles_visibility\", address=0x00000172F2032FA0>",
+          "poliigon_props": "<bpy id prop: owner=\"OBTop_Softbox\", name=\"poliigon_props\", address=0x00000172F2032EE0>",
+          "kitops": "<bpy id prop: owner=\"OBTop_Softbox\", name=\"kitops\", address=0x00000172F2032E20>"
+        }
+      },
+      {
+        "name": "Top_Softbox_Light",
+        "dimensionsInSceneUnits": [
+          7.5,
+          10.0,
+          0.0
+        ],
+        "properties": {
+          "cycles_visibility": "<bpy id prop: owner=\"OBTop_Softbox_Light\", name=\"cycles_visibility\", address=0x00000172F2032CA0>",
+          "poliigon_props": "<bpy id prop: owner=\"OBTop_Softbox_Light\", name=\"poliigon_props\", address=0x00000172F2032BE0>",
+          "kitops": "<bpy id prop: owner=\"OBTop_Softbox_Light\", name=\"kitops\", address=0x00000172F2032B20>"
+        }
+      },
+      {
+        "name": "R_Softbox",
+        "dimensionsInSceneUnits": [
+          7.5,
+          4.0,
+          7.5
+        ],
+        "properties": {
+          "cycles_visibility": "<bpy id prop: owner=\"OBR_Softbox\", name=\"cycles_visibility\", address=0x00000172F20338A0>",
+          "poliigon_props": "<bpy id prop: owner=\"OBR_Softbox\", name=\"poliigon_props\", address=0x00000172F20337E0>",
+          "kitops": "<bpy id prop: owner=\"OBR_Softbox\", name=\"kitops\", address=0x00000172F2033720>"
+        }
+      },
+      {
+        "name": "R_Softbox_Light",
+        "dimensionsInSceneUnits": [
+          7.5,
+          7.5,
+          0.0
+        ],
+        "properties": {
+          "cycles_visibility": "<bpy id prop: owner=\"OBR_Softbox_Light\", name=\"cycles_visibility\", address=0x00000172F20335A0>",
+          "poliigon_props": "<bpy id prop: owner=\"OBR_Softbox_Light\", name=\"poliigon_props\", address=0x00000172F20334E0>",
+          "kitops": "<bpy id prop: owner=\"OBR_Softbox_Light\", name=\"kitops\", address=0x00000172F2033420>"
+        }
+      },
+      {
+        "name": "L_Softbox",
+        "dimensionsInSceneUnits": [
+          7.5,
+          4.0,
+          7.5
+        ],
+        "properties": {
+          "cycles_visibility": "<bpy id prop: owner=\"OBL_Softbox\", name=\"cycles_visibility\", address=0x00000172F1D88120>",
+          "poliigon_props": "<bpy id prop: owner=\"OBL_Softbox\", name=\"poliigon_props\", address=0x00000172F2033F60>",
+          "kitops": "<bpy id prop: owner=\"OBL_Softbox\", name=\"kitops\", address=0x00000172F2033EA0>"
+        }
+      },
+      {
+        "name": "L_Softbox_Light",
+        "dimensionsInSceneUnits": [
+          7.5,
+          7.5,
+          0.0
+        ],
+        "properties": {
+          "cycles_visibility": "<bpy id prop: owner=\"OBL_Softbox_Light\", name=\"cycles_visibility\", address=0x00000172F2033D20>",
+          "poliigon_props": "<bpy id prop: owner=\"OBL_Softbox_Light\", name=\"poliigon_props\", address=0x00000172F2033C60>",
+          "kitops": "<bpy id prop: owner=\"OBL_Softbox_Light\", name=\"kitops\", address=0x00000172F2033BA0>"
+        }
+      },
+      {
+        "name": "Backdrop",
+        "dimensionsInSceneUnits": [
+          14.229327201843262,
+          16.216304779052734,
+          9.917244911193848
+        ],
+        "properties": {
+          "cycles_visibility": "<bpy id prop: owner=\"OBBackdrop\", name=\"cycles_visibility\", address=0x00000172F1D89DA0>",
+          "poliigon_props": "<bpy id prop: owner=\"OBBackdrop\", name=\"poliigon_props\", address=0x00000172F1D89CE0>",
+          "blenderkit": "<bpy id prop: owner=\"OBBackdrop\", name=\"blenderkit\", address=0x00000172F1D89C20>",
+          "kitops": "<bpy id prop: owner=\"OBBackdrop\", name=\"kitops\", address=0x00000172F1D89AA0>",
+          "cycles": "<bpy id prop: owner=\"OBBackdrop\", name=\"cycles\", address=0x00000172F1D899E0>"
+        }
+      }
+    ]
+  },
+  {
+    "file": "Project & Programs.blend",
+    "units": "METRIC",
+    "lengthUnit": "METERS",
+    "unitScale": 1.0,
+    "sceneProperties": {
+      "cycles": "<bpy id prop: owner=\"SCWhite Light Studio\", name=\"cycles\", address=0x0000017281D4F7E0>",
+      "TileSizePrevRenderer": "CYCLES",
+      "TileSizePrevDevice": "GPU",
+      "TileSizePrevChoice": "256",
+      "TileSizeFirstRun": "0",
+      "TileSizePrevRes": "960x540",
+      "TileSizePrevActualTileSize": "240x270",
+      "cycles_curves": "<bpy id prop: owner=\"SCWhite Light Studio\", name=\"cycles_curves\", address=0x0000017281D4D620>",
+      "TileSizeEnable": "1",
+      "blenderkit": "<bpy id prop: owner=\"SCWhite Light Studio\", name=\"blenderkit\", address=0x0000017281D4D4A0>",
+      "assets used": "<bpy id prop: owner=\"SCWhite Light Studio\", name=\"assets used\", address=0x0000017281D4C7E0>",
+      "uuid": "2af917b6-2e6d-4eb3-acbf-71c130c499f9",
+      "assets reported": "<bpy id prop: owner=\"SCWhite Light Studio\", name=\"assets reported\", address=0x0000017280EEF2A0>",
+      "asset_data": "<bpy id prop: owner=\"SCWhite Light Studio\", name=\"asset_data\", address=0x0000017280EEF120>",
+      "kitops": "<bpy id prop: owner=\"SCWhite Light Studio\", name=\"kitops\", address=0x0000017280EF0C60>"
+    },
+    "meshObjects": [
+      {
+        "name": "trumpet",
+        "dimensionsInSceneUnits": [
+          0.32860293984413147,
+          0.32860296964645386,
+          0.5175968408584595
+        ],
+        "properties": {
+          "hops": "<bpy id prop: owner=\"OBtrumpet\", name=\"hops\", address=0x00000172EBA207E0>",
+          "als": "<bpy id prop: owner=\"OBtrumpet\", name=\"als\", address=0x00000172EBA20720>",
+          "kitops": "<bpy id prop: owner=\"OBtrumpet\", name=\"kitops\", address=0x00000172EBA20660>",
+          "cycles": "<bpy id prop: owner=\"OBtrumpet\", name=\"cycles\", address=0x00000172EBA205A0>"
+        }
+      },
+      {
+        "name": "trumoet dude",
+        "dimensionsInSceneUnits": [
+          0.3119313716888428,
+          0.5656050443649292,
+          1.3588054180145264
+        ],
+        "properties": {
+          "hops": "<bpy id prop: owner=\"OBtrumoet dude\", name=\"hops\", address=0x00000172EBA20BA0>",
+          "als": "<bpy id prop: owner=\"OBtrumoet dude\", name=\"als\", address=0x00000172EBA20AE0>",
+          "csdfData": "<bpy id prop: owner=\"OBtrumoet dude\", name=\"csdfData\", address=0x00000172EBA20A20>",
+          "kitops": "<bpy id prop: owner=\"OBtrumoet dude\", name=\"kitops\", address=0x00000172EBA20960>"
+        }
+      },
+      {
+        "name": "stand",
+        "dimensionsInSceneUnits": [
+          0.5952152609825134,
+          0.5936420559883118,
+          0.3496192991733551
+        ],
+        "properties": {
+          "hops": "<bpy id prop: owner=\"OBstand\", name=\"hops\", address=0x00000172EBA214A0>",
+          "als": "<bpy id prop: owner=\"OBstand\", name=\"als\", address=0x00000172EBA213E0>",
+          "kitops": "<bpy id prop: owner=\"OBstand\", name=\"kitops\", address=0x00000172EBA21320>"
+        }
+      },
+      {
+        "name": "Sphere.005",
+        "dimensionsInSceneUnits": [
+          0.16064593195915222,
+          0.20233114063739777,
+          0.1917256861925125
+        ],
+        "properties": {
+          "hops": "<bpy id prop: owner=\"OBSphere.005\", name=\"hops\", address=0x00000172EBA21860>",
+          "als": "<bpy id prop: owner=\"OBSphere.005\", name=\"als\", address=0x00000172EBA217A0>",
+          "kitops": "<bpy id prop: owner=\"OBSphere.005\", name=\"kitops\", address=0x00000172EBA216E0>"
+        }
+      },
+      {
+        "name": "Sphere",
+        "dimensionsInSceneUnits": [
+          0.16064593195915222,
+          0.20233114063739777,
+          0.1917257010936737
+        ],
+        "properties": {
+          "hops": "<bpy id prop: owner=\"OBSphere\", name=\"hops\", address=0x00000172EBA21C20>",
+          "als": "<bpy id prop: owner=\"OBSphere\", name=\"als\", address=0x00000172EBA21B60>",
+          "kitops": "<bpy id prop: owner=\"OBSphere\", name=\"kitops\", address=0x00000172EBA21AA0>"
+        }
+      },
+      {
+        "name": "Circle.002",
+        "dimensionsInSceneUnits": [
+          0.6161291003227234,
+          0.8843665719032288,
+          1.0750045776367188
+        ],
+        "properties": {
+          "hops": "<bpy id prop: owner=\"OBCircle.002\", name=\"hops\", address=0x00000172EBA232A0>",
+          "als": "<bpy id prop: owner=\"OBCircle.002\", name=\"als\", address=0x00000172EBA231E0>",
+          "kitops": "<bpy id prop: owner=\"OBCircle.002\", name=\"kitops\", address=0x00000172EBA23120>"
+        }
+      },
+      {
+        "name": "Circle",
+        "dimensionsInSceneUnits": [
+          0.6796697378158569,
+          0.6467527151107788,
+          0.15884874761104584
+        ],
+        "properties": {
+          "kitops": "<bpy id prop: owner=\"OBCircle\", name=\"kitops\", address=0x00000172EBA234E0>",
+          "cycles": "<bpy id prop: owner=\"OBCircle\", name=\"cycles\", address=0x00000172EBA23420>"
+        }
+      },
+      {
+        "name": "book",
+        "dimensionsInSceneUnits": [
+          0.22741691768169403,
+          0.38681259751319885,
+          0.07046125829219818
+        ],
+        "properties": {
+          "hops": "<bpy id prop: owner=\"OBbook\", name=\"hops\", address=0x00000172EBA23BA0>",
+          "als": "<bpy id prop: owner=\"OBbook\", name=\"als\", address=0x00000172EBA23AE0>",
+          "kitops": "<bpy id prop: owner=\"OBbook\", name=\"kitops\", address=0x00000172EBA23A20>"
+        }
+      },
+      {
+        "name": "Reflection Light",
+        "dimensionsInSceneUnits": [
+          5.0,
+          7.5,
+          0.0
+        ],
+        "properties": {
+          "cycles_visibility": "<bpy id prop: owner=\"OBReflection Light\", name=\"cycles_visibility\", address=0x00000172EBA21F20>",
+          "poliigon_props": "<bpy id prop: owner=\"OBReflection Light\", name=\"poliigon_props\", address=0x00000172EBA21E60>",
+          "kitops": "<bpy id prop: owner=\"OBReflection Light\", name=\"kitops\", address=0x00000172EBA21DA0>"
+        }
+      },
+      {
+        "name": "Top_Softbox",
+        "dimensionsInSceneUnits": [
+          7.5,
+          4.0,
+          10.0
+        ],
+        "properties": {
+          "cycles_visibility": "<bpy id prop: owner=\"OBTop_Softbox\", name=\"cycles_visibility\", address=0x00000172EBA211A0>",
+          "poliigon_props": "<bpy id prop: owner=\"OBTop_Softbox\", name=\"poliigon_props\", address=0x00000172EBA210E0>",
+          "kitops": "<bpy id prop: owner=\"OBTop_Softbox\", name=\"kitops\", address=0x00000172EBA21020>"
+        }
+      },
+      {
+        "name": "Top_Softbox_Light",
+        "dimensionsInSceneUnits": [
+          7.5,
+          10.0,
+          0.0
+        ],
+        "properties": {
+          "cycles_visibility": "<bpy id prop: owner=\"OBTop_Softbox_Light\", name=\"cycles_visibility\", address=0x00000172EBA20EA0>",
+          "poliigon_props": "<bpy id prop: owner=\"OBTop_Softbox_Light\", name=\"poliigon_props\", address=0x00000172EBA20DE0>",
+          "kitops": "<bpy id prop: owner=\"OBTop_Softbox_Light\", name=\"kitops\", address=0x00000172EBA20D20>"
+        }
+      },
+      {
+        "name": "R_Softbox",
+        "dimensionsInSceneUnits": [
+          7.5,
+          4.0,
+          7.5
+        ],
+        "properties": {
+          "cycles_visibility": "<bpy id prop: owner=\"OBR_Softbox\", name=\"cycles_visibility\", address=0x00000172EBA22520>",
+          "poliigon_props": "<bpy id prop: owner=\"OBR_Softbox\", name=\"poliigon_props\", address=0x00000172EBA22460>",
+          "kitops": "<bpy id prop: owner=\"OBR_Softbox\", name=\"kitops\", address=0x00000172EBA223A0>"
+        }
+      },
+      {
+        "name": "R_Softbox_Light",
+        "dimensionsInSceneUnits": [
+          7.5,
+          7.5,
+          0.0
+        ],
+        "properties": {
+          "cycles_visibility": "<bpy id prop: owner=\"OBR_Softbox_Light\", name=\"cycles_visibility\", address=0x00000172EBA22220>",
+          "poliigon_props": "<bpy id prop: owner=\"OBR_Softbox_Light\", name=\"poliigon_props\", address=0x00000172EBA22160>",
+          "kitops": "<bpy id prop: owner=\"OBR_Softbox_Light\", name=\"kitops\", address=0x00000172EBA220A0>"
+        }
+      },
+      {
+        "name": "L_Softbox",
+        "dimensionsInSceneUnits": [
+          7.5,
+          4.0,
+          7.5
+        ],
+        "properties": {
+          "cycles_visibility": "<bpy id prop: owner=\"OBL_Softbox\", name=\"cycles_visibility\", address=0x00000172EBA22CA0>",
+          "poliigon_props": "<bpy id prop: owner=\"OBL_Softbox\", name=\"poliigon_props\", address=0x00000172EBA22BE0>",
+          "kitops": "<bpy id prop: owner=\"OBL_Softbox\", name=\"kitops\", address=0x00000172EBA22B20>"
+        }
+      },
+      {
+        "name": "L_Softbox_Light",
+        "dimensionsInSceneUnits": [
+          7.5,
+          7.5,
+          0.0
+        ],
+        "properties": {
+          "cycles_visibility": "<bpy id prop: owner=\"OBL_Softbox_Light\", name=\"cycles_visibility\", address=0x00000172EBA229A0>",
+          "poliigon_props": "<bpy id prop: owner=\"OBL_Softbox_Light\", name=\"poliigon_props\", address=0x00000172EBA228E0>",
+          "kitops": "<bpy id prop: owner=\"OBL_Softbox_Light\", name=\"kitops\", address=0x00000172EBA22820>"
+        }
+      },
+      {
+        "name": "Backdrop",
+        "dimensionsInSceneUnits": [
+          14.229327201843262,
+          16.216304779052734,
+          9.917244911193848
+        ],
+        "properties": {
+          "cycles_visibility": "<bpy id prop: owner=\"OBBackdrop\", name=\"cycles_visibility\", address=0x0000017280EF01E0>",
+          "poliigon_props": "<bpy id prop: owner=\"OBBackdrop\", name=\"poliigon_props\", address=0x0000017280EF0120>",
+          "blenderkit": "<bpy id prop: owner=\"OBBackdrop\", name=\"blenderkit\", address=0x00000172EBA23F60>",
+          "kitops": "<bpy id prop: owner=\"OBBackdrop\", name=\"kitops\", address=0x00000172EBA23DE0>",
+          "cycles": "<bpy id prop: owner=\"OBBackdrop\", name=\"cycles\", address=0x00000172EBA23D20>"
+        }
+      }
+    ]
+  },
+  {
+    "file": "The Zenith Cup.blend",
+    "units": "METRIC",
+    "lengthUnit": "METERS",
+    "unitScale": 1.0,
+    "sceneProperties": {
+      "photographer": "<bpy id prop: owner=\"SCScene\", name=\"photographer\", address=0x00000172F19C3660>",
+      "kitops": "<bpy id prop: owner=\"SCScene\", name=\"kitops\", address=0x00000172F19C34E0>",
+      "assets used": "<bpy id prop: owner=\"SCScene\", name=\"assets used\", address=0x00000172F19C3420>",
+      "uuid": "3a4f7fde-3d3f-4ece-90f9-322be370b737",
+      "cycles": "<bpy id prop: owner=\"SCScene\", name=\"cycles\", address=0x00000172F1FF4C60>",
+      "assets reported": "<bpy id prop: owner=\"SCScene\", name=\"assets reported\", address=0x00000172F1FF4AE0>",
+      "lightmixer": "<bpy id prop: owner=\"SCScene\", name=\"lightmixer\", address=0x00000172F1FF4A20>",
+      "renderqueue": "<bpy id prop: owner=\"SCScene\", name=\"renderqueue\", address=0x00000172F1FF4960>"
+    },
+    "meshObjects": [
+      {
+        "name": "cup",
+        "dimensionsInSceneUnits": [
+          0.20221981406211853,
+          0.20221982896327972,
+          0.4621393084526062
+        ],
+        "properties": {
+          "kitops": "<bpy id prop: owner=\"OBcup\", name=\"kitops\", address=0x00000172F1FF3AE0>",
+          "cycles": "<bpy id prop: owner=\"OBcup\", name=\"cycles\", address=0x00000172F1FF3A20>"
+        }
+      },
+      {
+        "name": "base",
+        "dimensionsInSceneUnits": [
+          0.2146318554878235,
+          0.2146318256855011,
+          0.11293171346187592
+        ],
+        "properties": {
+          "kitops": "<bpy id prop: owner=\"OBbase\", name=\"kitops\", address=0x00000172F1FF3D20>",
+          "cycles": "<bpy id prop: owner=\"OBbase\", name=\"cycles\", address=0x00000172F1FF3C60>"
+        }
+      },
+      {
+        "name": "Decorative ball 1",
+        "dimensionsInSceneUnits": [
+          0.05350658670067787,
+          0.0535137765109539,
+          0.05394809693098068
+        ],
+        "properties": {
+          "kitops": "<bpy id prop: owner=\"OBDecorative ball 1\", name=\"kitops\", address=0x00000172F1FF38A0>",
+          "cycles": "<bpy id prop: owner=\"OBDecorative ball 1\", name=\"cycles\", address=0x00000172F1FF37E0>"
+        }
+      },
+      {
+        "name": "Decorative ball 2",
+        "dimensionsInSceneUnits": [
+          0.05350658670067787,
+          0.0535137765109539,
+          0.05394809693098068
+        ],
+        "properties": {
+          "kitops": "<bpy id prop: owner=\"OBDecorative ball 2\", name=\"kitops\", address=0x00000172F1FF3660>",
+          "cycles": "<bpy id prop: owner=\"OBDecorative ball 2\", name=\"cycles\", address=0x00000172F1FF35A0>"
+        }
+      }
+    ]
+  },
+  {
+    "file": "Top Campus Ministry.blend",
+    "units": "METRIC",
+    "lengthUnit": "METERS",
+    "unitScale": 1.0,
+    "sceneProperties": {
+      "cycles": "<bpy id prop: owner=\"SCWhite Light Studio\", name=\"cycles\", address=0x00000172EBB2B1E0>",
+      "TileSizePrevRenderer": "CYCLES",
+      "TileSizePrevDevice": "GPU",
+      "TileSizePrevChoice": "256",
+      "TileSizeFirstRun": "0",
+      "TileSizePrevRes": "960x540",
+      "TileSizePrevActualTileSize": "240x270",
+      "cycles_curves": "<bpy id prop: owner=\"SCWhite Light Studio\", name=\"cycles_curves\", address=0x00000172EBB29020>",
+      "TileSizeEnable": "1",
+      "blenderkit": "<bpy id prop: owner=\"SCWhite Light Studio\", name=\"blenderkit\", address=0x00000172EBB28EA0>",
+      "assets used": "<bpy id prop: owner=\"SCWhite Light Studio\", name=\"assets used\", address=0x00000172EBB281E0>",
+      "uuid": "2af917b6-2e6d-4eb3-acbf-71c130c499f9",
+      "assets reported": "<bpy id prop: owner=\"SCWhite Light Studio\", name=\"assets reported\", address=0x00000172EBB36CA0>",
+      "asset_data": "<bpy id prop: owner=\"SCWhite Light Studio\", name=\"asset_data\", address=0x00000172EBB36B20>",
+      "kitops": "<bpy id prop: owner=\"SCWhite Light Studio\", name=\"kitops\", address=0x00000172F605C660>"
+    },
+    "meshObjects": [
+      {
+        "name": "Plane.011",
+        "dimensionsInSceneUnits": [
+          0.6355890035629272,
+          0.8751081228256226,
+          1.5233380794525146
+        ],
+        "properties": {
+          "hops": "<bpy id prop: owner=\"OBPlane.011\", name=\"hops\", address=0x0000017280ECC4E0>",
+          "kitops": "<bpy id prop: owner=\"OBPlane.011\", name=\"kitops\", address=0x0000017280ECC420>",
+          "cycles": "<bpy id prop: owner=\"OBPlane.011\", name=\"cycles\", address=0x0000017280ECC360>"
+        }
+      },
+      {
+        "name": "Plane.009",
+        "dimensionsInSceneUnits": [
+          0.3023681938648224,
+          0.4063294231891632,
+          1.5283337831497192
+        ],
+        "properties": {
+          "hops": "<bpy id prop: owner=\"OBPlane.009\", name=\"hops\", address=0x0000017280ECC8A0>",
+          "kitops": "<bpy id prop: owner=\"OBPlane.009\", name=\"kitops\", address=0x0000017280ECC7E0>",
+          "cycles": "<bpy id prop: owner=\"OBPlane.009\", name=\"cycles\", address=0x0000017280ECC720>"
+        }
+      },
+      {
+        "name": "Plane.008",
+        "dimensionsInSceneUnits": [
+          0.19123543798923492,
+          0.36623668670654297,
+          0.053966719657182693
+        ],
+        "properties": {
+          "kitops": "<bpy id prop: owner=\"OBPlane.008\", name=\"kitops\", address=0x0000017280ECCBA0>",
+          "cycles": "<bpy id prop: owner=\"OBPlane.008\", name=\"cycles\", address=0x0000017280ECCAE0>"
+        }
+      },
+      {
+        "name": "Plane.007",
+        "dimensionsInSceneUnits": [
+          0.19123545289039612,
+          0.3662366569042206,
+          0.053966719657182693
+        ],
+        "properties": {
+          "kitops": "<bpy id prop: owner=\"OBPlane.007\", name=\"kitops\", address=0x0000017280ECCEA0>",
+          "cycles": "<bpy id prop: owner=\"OBPlane.007\", name=\"cycles\", address=0x0000017280ECCDE0>"
+        }
+      },
+      {
+        "name": "Plane.002",
+        "dimensionsInSceneUnits": [
+          0.3679746389389038,
+          0.38830772042274475,
+          1.4940377473831177
+        ],
+        "properties": {
+          "hops": "<bpy id prop: owner=\"OBPlane.002\", name=\"hops\", address=0x0000017280ECD260>",
+          "kitops": "<bpy id prop: owner=\"OBPlane.002\", name=\"kitops\", address=0x0000017280ECD1A0>",
+          "cycles": "<bpy id prop: owner=\"OBPlane.002\", name=\"cycles\", address=0x0000017280ECD0E0>"
+        }
+      },
+      {
+        "name": "Female__0.003",
+        "dimensionsInSceneUnits": [
+          0.09978548437356949,
+          0.12998761236667633,
+          0.14819148182868958
+        ],
+        "properties": {
+          "kitops": "<bpy id prop: owner=\"OBFemale__0.003\", name=\"kitops\", address=0x0000017280ECDC20>"
+        }
+      },
+      {
+        "name": "Female__0.002",
+        "dimensionsInSceneUnits": [
+          0.114594466984272,
+          0.14927883446216583,
+          0.17018425464630127
+        ],
+        "properties": {
+          "kitops": "<bpy id prop: owner=\"OBFemale__0.002\", name=\"kitops\", address=0x0000017280ECDF20>",
+          "cycles": "<bpy id prop: owner=\"OBFemale__0.002\", name=\"cycles\", address=0x0000017280ECDE60>"
+        }
+      },
+      {
+        "name": "Female__0.001",
+        "dimensionsInSceneUnits": [
+          0.0997854471206665,
+          0.12998759746551514,
+          0.14819148182868958
+        ],
+        "properties": {
+          "kitops": "<bpy id prop: owner=\"OBFemale__0.001\", name=\"kitops\", address=0x0000017280ECE160>"
+        }
+      },
+      {
+        "name": "Cylinder_Globe_0.001",
+        "dimensionsInSceneUnits": [
+          0.64213627576828,
+          0.6420801281929016,
+          0.6437534689903259
+        ],
+        "properties": {
+          "kitops": "<bpy id prop: owner=\"OBCylinder_Globe_0.001\", name=\"kitops\", address=0x0000017280ECE5E0>"
+        }
+      },
+      {
+        "name": "Cube.001",
+        "dimensionsInSceneUnits": [
+          0.314003050327301,
+          0.08667321503162384,
+          0.157068133354187
+        ],
+        "properties": {
+          "kitops": "<bpy id prop: owner=\"OBCube.001\", name=\"kitops\", address=0x0000017280ECE8E0>",
+          "cycles": "<bpy id prop: owner=\"OBCube.001\", name=\"cycles\", address=0x0000017280ECE820>"
+        }
+      },
+      {
+        "name": "Circle.001",
+        "dimensionsInSceneUnits": [
+          0.4325229525566101,
+          0.4325229525566101,
+          0.10359645634889603
+        ],
+        "properties": {
+          "kitops": "<bpy id prop: owner=\"OBCircle.001\", name=\"kitops\", address=0x0000017280ECED60>",
+          "cycles": "<bpy id prop: owner=\"OBCircle.001\", name=\"cycles\", address=0x0000017280ECECA0>"
+        }
+      },
+      {
+        "name": "Circle",
+        "dimensionsInSceneUnits": [
+          0.9839602112770081,
+          0.984001874923706,
+          0.1930832862854004
+        ],
+        "properties": {
+          "kitops": "<bpy id prop: owner=\"OBCircle\", name=\"kitops\", address=0x0000017280ECF060>",
+          "cycles": "<bpy id prop: owner=\"OBCircle\", name=\"cycles\", address=0x0000017280ECEFA0>"
+        }
+      },
+      {
+        "name": "Reflection Light",
+        "dimensionsInSceneUnits": [
+          5.0,
+          7.5,
+          0.0
+        ],
+        "properties": {
+          "cycles_visibility": "<bpy id prop: owner=\"OBReflection Light\", name=\"cycles_visibility\", address=0x00000172F1A8BA20>",
+          "poliigon_props": "<bpy id prop: owner=\"OBReflection Light\", name=\"poliigon_props\", address=0x00000172F1A8B960>",
+          "kitops": "<bpy id prop: owner=\"OBReflection Light\", name=\"kitops\", address=0x00000172F1A8B8A0>"
+        }
+      },
+      {
+        "name": "Top_Softbox",
+        "dimensionsInSceneUnits": [
+          7.5,
+          4.0,
+          10.0
+        ],
+        "properties": {
+          "cycles_visibility": "<bpy id prop: owner=\"OBTop_Softbox\", name=\"cycles_visibility\", address=0x00000172F1A8B420>",
+          "poliigon_props": "<bpy id prop: owner=\"OBTop_Softbox\", name=\"poliigon_props\", address=0x00000172F1A8B360>",
+          "kitops": "<bpy id prop: owner=\"OBTop_Softbox\", name=\"kitops\", address=0x00000172F1A8B2A0>"
+        }
+      },
+      {
+        "name": "Top_Softbox_Light",
+        "dimensionsInSceneUnits": [
+          7.5,
+          10.0,
+          0.0
+        ],
+        "properties": {
+          "cycles_visibility": "<bpy id prop: owner=\"OBTop_Softbox_Light\", name=\"cycles_visibility\", address=0x00000172F1A8B120>",
+          "poliigon_props": "<bpy id prop: owner=\"OBTop_Softbox_Light\", name=\"poliigon_props\", address=0x00000172F1A8B060>",
+          "kitops": "<bpy id prop: owner=\"OBTop_Softbox_Light\", name=\"kitops\", address=0x00000172F1A8AFA0>"
+        }
+      },
+      {
+        "name": "R_Softbox",
+        "dimensionsInSceneUnits": [
+          7.5,
+          4.0,
+          7.5
+        ],
+        "properties": {
+          "cycles_visibility": "<bpy id prop: owner=\"OBR_Softbox\", name=\"cycles_visibility\", address=0x0000017280ECC120>",
+          "poliigon_props": "<bpy id prop: owner=\"OBR_Softbox\", name=\"poliigon_props\", address=0x00000172F1A8BF60>",
+          "kitops": "<bpy id prop: owner=\"OBR_Softbox\", name=\"kitops\", address=0x00000172F1A8BEA0>"
+        }
+      },
+      {
+        "name": "R_Softbox_Light",
+        "dimensionsInSceneUnits": [
+          7.5,
+          7.5,
+          0.0
+        ],
+        "properties": {
+          "cycles_visibility": "<bpy id prop: owner=\"OBR_Softbox_Light\", name=\"cycles_visibility\", address=0x00000172F1A8BD20>",
+          "poliigon_props": "<bpy id prop: owner=\"OBR_Softbox_Light\", name=\"poliigon_props\", address=0x00000172F1A8BC60>",
+          "kitops": "<bpy id prop: owner=\"OBR_Softbox_Light\", name=\"kitops\", address=0x00000172F1A8BBA0>"
+        }
+      },
+      {
+        "name": "L_Softbox",
+        "dimensionsInSceneUnits": [
+          7.5,
+          4.0,
+          7.5
+        ],
+        "properties": {
+          "cycles_visibility": "<bpy id prop: owner=\"OBL_Softbox\", name=\"cycles_visibility\", address=0x0000017280ECD9E0>",
+          "poliigon_props": "<bpy id prop: owner=\"OBL_Softbox\", name=\"poliigon_props\", address=0x0000017280ECD920>",
+          "kitops": "<bpy id prop: owner=\"OBL_Softbox\", name=\"kitops\", address=0x0000017280ECD860>"
+        }
+      },
+      {
+        "name": "L_Softbox_Light",
+        "dimensionsInSceneUnits": [
+          7.5,
+          7.5,
+          0.0
+        ],
+        "properties": {
+          "cycles_visibility": "<bpy id prop: owner=\"OBL_Softbox_Light\", name=\"cycles_visibility\", address=0x0000017280ECD6E0>",
+          "poliigon_props": "<bpy id prop: owner=\"OBL_Softbox_Light\", name=\"poliigon_props\", address=0x0000017280ECD620>",
+          "kitops": "<bpy id prop: owner=\"OBL_Softbox_Light\", name=\"kitops\", address=0x0000017280ECD560>"
+        }
+      },
+      {
+        "name": "Backdrop",
+        "dimensionsInSceneUnits": [
+          14.229327201843262,
+          16.216304779052734,
+          9.917244911193848
+        ],
+        "properties": {
+          "cycles_visibility": "<bpy id prop: owner=\"OBBackdrop\", name=\"cycles_visibility\", address=0x0000017280ECFAE0>",
+          "poliigon_props": "<bpy id prop: owner=\"OBBackdrop\", name=\"poliigon_props\", address=0x0000017280ECFA20>",
+          "blenderkit": "<bpy id prop: owner=\"OBBackdrop\", name=\"blenderkit\", address=0x0000017280ECF960>",
+          "kitops": "<bpy id prop: owner=\"OBBackdrop\", name=\"kitops\", address=0x0000017280ECF7E0>",
+          "cycles": "<bpy id prop: owner=\"OBBackdrop\", name=\"cycles\", address=0x0000017280ECF720>"
+        }
+      }
+    ]
+  },
+  {
+    "file": "Top Zone Trouphy.blend",
+    "units": "METRIC",
+    "lengthUnit": "METERS",
+    "unitScale": 1.0,
+    "sceneProperties": {
+      "cycles": "<bpy id prop: owner=\"SCPedestal\", name=\"cycles\", address=0x0000017281DCFEA0>",
+      "blenderkitUI": "<bpy id prop: owner=\"SCPedestal\", name=\"blenderkitUI\", address=0x0000017281DCF960>",
+      "blenderkit_mat": "<bpy id prop: owner=\"SCPedestal\", name=\"blenderkit_mat\", address=0x0000017281DCE220>",
+      "search results": "[<bpy id prop: owner=\"SCPedestal\", name=\"\", address=0x0000017281D91620>, <bpy id prop: owner=\"SCPedestal\", name=\"\", address=0x0000017281D916B0>, <bpy id prop: owner=\"SCPedestal\", name=\"\", address=0x0000017281D91740>, <bpy id prop: owner=\"SCPedestal\", name=\"\", address=0x0000017281D917D0>, <bpy id prop: owner=\"SCPedestal\", name=\"\", address=0x0000017281D91860>]",
+      "search results orig": "<bpy id prop: owner=\"SCPedestal\", name=\"search results orig\", address=0x00000172F2011E60>",
+      "blenderkit_models": "<bpy id prop: owner=\"SCPedestal\", name=\"blenderkit_models\", address=0x00000172F1FF2EE0>",
+      "cycles_curves": "<bpy id prop: owner=\"SCPedestal\", name=\"cycles_curves\", address=0x00000172F1FF2760>",
+      "uuid": "60369136-1b32-4c91-b2c0-ddb025d8e616",
+      "assets reported": "<bpy id prop: owner=\"SCPedestal\", name=\"assets reported\", address=0x00000172F1FF25E0>",
+      "blenderkit": "<bpy id prop: owner=\"SCPedestal\", name=\"blenderkit\", address=0x00000172F1FF2520>",
+      "bkit model search": "[<bpy id prop: owner=\"SCPedestal\", name=\"\", address=0x00000172F1908120>, <bpy id prop: owner=\"SCPedestal\", name=\"\", address=0x00000172F19081B0>, <bpy id prop: owner=\"SCPedestal\", name=\"\", address=0x00000172F1908240>, <bpy id prop: owner=\"SCPedestal\", name=\"\", address=0x00000172F19082D0>, <bpy id prop: owner=\"SCPedestal\", name=\"\", address=0x00000172F1908360>, <bpy id prop: owner=\"SCPedestal\", name=\"\", address=0x00000172F19083F0>, <bpy id prop: owner=\"SCPedestal\", name=\"\", address=0x00000172F1908480>, <bpy id prop: owner=\"SCPedestal\", name=\"\", address=0x00000172F1908510>, <bpy id prop: owner=\"SCPedestal\", name=\"\", address=0x00000172F19085A0>, <bpy id prop: owner=\"SCPedestal\", name=\"\", address=0x00000172F1908630>, <bpy id prop: owner=\"SCPedestal\", name=\"\", address=0x00000172F19086C0>, <bpy id prop: owner=\"SCPedestal\", name=\"\", address=0x00000172F1908750>, <bpy id prop: owner=\"SCPedestal\", name=\"\", address=0x00000172F19087E0>, <bpy id prop: owner=\"SCPedestal\", name=\"\", address=0x00000172F1908870>, <bpy id prop: owner=\"SCPedestal\", name=\"\", address=0x00000172F1908900>, <bpy id prop: owner=\"SCPedestal\", name=\"\", address=0x00000172F1908990>, <bpy id prop: owner=\"SCPedestal\", name=\"\", address=0x00000172F1908A20>, <bpy id prop: owner=\"SCPedestal\", name=\"\", address=0x00000172F1908AB0>, <bpy id prop: owner=\"SCPedestal\", name=\"\", address=0x00000172F1908B40>, <bpy id prop: owner=\"SCPedestal\", name=\"\", address=0x00000172F1908BD0>, <bpy id prop: owner=\"SCPedestal\", name=\"\", address=0x00000172F1908C60>, <bpy id prop: owner=\"SCPedestal\", name=\"\", address=0x00000172F1908CF0>, <bpy id prop: owner=\"SCPedestal\", name=\"\", address=0x00000172F1908D80>, <bpy id prop: owner=\"SCPedestal\", name=\"\", address=0x00000172F1908E10>, <bpy id prop: owner=\"SCPedestal\", name=\"\", address=0x00000172F1908EA0>, <bpy id prop: owner=\"SCPedestal\", name=\"\", address=0x00000172F1908F30>, <bpy id prop: owner=\"SCPedestal\", name=\"\", address=0x00000172F1908FC0>, <bpy id prop: owner=\"SCPedestal\", name=\"\", address=0x00000172F1909050>, <bpy id prop: owner=\"SCPedestal\", name=\"\", address=0x00000172F19090E0>, <bpy id prop: owner=\"SCPedestal\", name=\"\", address=0x00000172F1909170>]",
+      "bkit model search orig": "<bpy id prop: owner=\"SCPedestal\", name=\"bkit model search orig\", address=0x00000172F14E05A0>",
+      "flip_fluid_material_library": "<bpy id prop: owner=\"SCPedestal\", name=\"flip_fluid_material_library\", address=0x00000172EBAA0DE0>",
+      "flip_fluid": "<bpy id prop: owner=\"SCPedestal\", name=\"flip_fluid\", address=0x00000172EBAA0C60>",
+      "MeasureItArchProps": "<bpy id prop: owner=\"SCPedestal\", name=\"MeasureItArchProps\", address=0x00000172EBAA0BA0>",
+      "Create_Type": "0",
+      "ats_settings": "<bpy id prop: owner=\"SCPedestal\", name=\"ats_settings\", address=0x00000172EBAA0A20>",
+      "assets used": "<bpy id prop: owner=\"SCPedestal\", name=\"assets used\", address=0x00000172EBAA0120>",
+      "bkit material search": "[<bpy id prop: owner=\"SCPedestal\", name=\"\", address=0x0000017280FCE0A0>, <bpy id prop: owner=\"SCPedestal\", name=\"\", address=0x0000017280FCE130>, <bpy id prop: owner=\"SCPedestal\", name=\"\", address=0x0000017280FCE1C0>, <bpy id prop: owner=\"SCPedestal\", name=\"\", address=0x0000017280FCE250>, <bpy id prop: owner=\"SCPedestal\", name=\"\", address=0x0000017280FCE2E0>, <bpy id prop: owner=\"SCPedestal\", name=\"\", address=0x0000017280FCE370>, <bpy id prop: owner=\"SCPedestal\", name=\"\", address=0x0000017280FCE400>, <bpy id prop: owner=\"SCPedestal\", name=\"\", address=0x0000017280FCE490>, <bpy id prop: owner=\"SCPedestal\", name=\"\", address=0x0000017280FCE520>, <bpy id prop: owner=\"SCPedestal\", name=\"\", address=0x0000017280FCE5B0>, <bpy id prop: owner=\"SCPedestal\", name=\"\", address=0x0000017280FCE640>, <bpy id prop: owner=\"SCPedestal\", name=\"\", address=0x0000017280FCE6D0>, <bpy id prop: owner=\"SCPedestal\", name=\"\", address=0x0000017280FCE760>, <bpy id prop: owner=\"SCPedestal\", name=\"\", address=0x0000017280FCE7F0>, <bpy id prop: owner=\"SCPedestal\", name=\"\", address=0x0000017280FCE880>]",
+      "bkit material search orig": "<bpy id prop: owner=\"SCPedestal\", name=\"bkit material search orig\", address=0x00000172F2129CE0>",
+      "blenderkit_HDR": "<bpy id prop: owner=\"SCPedestal\", name=\"blenderkit_HDR\", address=0x00000172F20CAB20>",
+      "blenderkit_scene": "<bpy id prop: owner=\"SCPedestal\", name=\"blenderkit_scene\", address=0x00000172F20CAA60>",
+      "bkit scene search": "[<bpy id prop: owner=\"SCPedestal\", name=\"\", address=0x00000172F2112220>, <bpy id prop: owner=\"SCPedestal\", name=\"\", address=0x00000172F21122B0>, <bpy id prop: owner=\"SCPedestal\", name=\"\", address=0x00000172F2112340>, <bpy id prop: owner=\"SCPedestal\", name=\"\", address=0x00000172F21123D0>, <bpy id prop: owner=\"SCPedestal\", name=\"\", address=0x00000172F2112460>]",
+      "bkit scene search orig": "<bpy id prop: owner=\"SCPedestal\", name=\"bkit scene search orig\", address=0x00000172F1D32760>",
+      "collection_manager": "<bpy id prop: owner=\"SCPedestal\", name=\"collection_manager\", address=0x00000172F1D1F7E0>",
+      "photographer": "<bpy id prop: owner=\"SCPedestal\", name=\"photographer\", address=0x00000172F1D1F1E0>",
+      "asset_data": "<bpy id prop: owner=\"SCPedestal\", name=\"asset_data\", address=0x00000172F1D1F060>",
+      "kitops": "<bpy id prop: owner=\"SCPedestal\", name=\"kitops\", address=0x00000172F1D10AE0>",
+      "lightmixer": "<bpy id prop: owner=\"SCPedestal\", name=\"lightmixer\", address=0x00000172F1D10A20>",
+      "renderqueue": "<bpy id prop: owner=\"SCPedestal\", name=\"renderqueue\", address=0x00000172F1D10960>"
+    },
+    "meshObjects": [
+      {
+        "name": "Cylinder",
+        "dimensionsInSceneUnits": [
+          0.39743804931640625,
+          0.39743804931640625,
+          0.3720700442790985
+        ],
+        "properties": {
+          "cycles": "<bpy id prop: owner=\"OBCylinder\", name=\"cycles\", address=0x00000172F1A1B2A0>",
+          "blenderkit": "<bpy id prop: owner=\"OBCylinder\", name=\"blenderkit\", address=0x00000172F1A1B1E0>",
+          "kitops": "<bpy id prop: owner=\"OBCylinder\", name=\"kitops\", address=0x00000172F1A1AFA0>"
+        }
+      },
+      {
+        "name": "Plane",
+        "dimensionsInSceneUnits": [
+          0.5846350193023682,
+          1.2780649662017822,
+          0.19830715656280518
+        ],
+        "properties": {
+          "cycles": "<bpy id prop: owner=\"OBPlane\", name=\"cycles\", address=0x00000172F1A1A220>",
+          "kitops": "<bpy id prop: owner=\"OBPlane\", name=\"kitops\", address=0x00000172F1A1A160>"
+        }
+      },
+      {
+        "name": "Plane.001",
+        "dimensionsInSceneUnits": [
+          0.6636477112770081,
+          1.2758618593215942,
+          0.16203604638576508
+        ],
+        "properties": {
+          "cycles": "<bpy id prop: owner=\"OBPlane.001\", name=\"cycles\", address=0x00000172F1A19FE0>",
+          "kitops": "<bpy id prop: owner=\"OBPlane.001\", name=\"kitops\", address=0x00000172F1A19F20>"
+        }
+      },
+      {
+        "name": "Plane.003",
+        "dimensionsInSceneUnits": [
+          0.6636475920677185,
+          1.2758618593215942,
+          0.1620360016822815
+        ],
+        "properties": {
+          "cycles": "<bpy id prop: owner=\"OBPlane.003\", name=\"cycles\", address=0x00000172F1A19B60>",
+          "kitops": "<bpy id prop: owner=\"OBPlane.003\", name=\"kitops\", address=0x00000172F1A19AA0>"
+        }
+      },
+      {
+        "name": "Plane.004",
+        "dimensionsInSceneUnits": [
+          0.28051021695137024,
+          0.28051021695137024,
+          0.0
+        ],
+        "properties": {
+          "kitops": "<bpy id prop: owner=\"OBPlane.004\", name=\"kitops\", address=0x00000172F1A19920>"
+        }
+      },
+      {
+        "name": "Plane.005",
+        "dimensionsInSceneUnits": [
+          0.12795992195606232,
+          0.35213032364845276,
+          0.0
+        ],
+        "properties": {
+          "blenderkit": "<bpy id prop: owner=\"OBPlane.005\", name=\"blenderkit\", address=0x00000172F1A197A0>",
+          "kitops": "<bpy id prop: owner=\"OBPlane.005\", name=\"kitops\", address=0x00000172F1A19560>"
+        }
+      },
+      {
+        "name": "Plane.006",
+        "dimensionsInSceneUnits": [
+          0.46306025981903076,
+          0.46825799345970154,
+          0.2715374529361725
+        ],
+        "properties": {
+          "cycles": "<bpy id prop: owner=\"OBPlane.006\", name=\"cycles\", address=0x00000172F1A193E0>",
+          "blenderkit": "<bpy id prop: owner=\"OBPlane.006\", name=\"blenderkit\", address=0x00000172F1A19320>",
+          "kitops": "<bpy id prop: owner=\"OBPlane.006\", name=\"kitops\", address=0x00000172F1A190E0>"
+        }
+      },
+      {
+        "name": "Sphere",
+        "dimensionsInSceneUnits": [
+          0.06296173483133316,
+          0.06296174973249435,
+          0.06296177208423615
+        ],
+        "properties": {
+          "kitops": "<bpy id prop: owner=\"OBSphere\", name=\"kitops\", address=0x00000172F1A18EA0>"
+        }
+      },
+      {
+        "name": "Plane.002",
+        "dimensionsInSceneUnits": [
+          0.11177758127450943,
+          0.07488604635000229,
+          0.004264675080776215
+        ],
+        "properties": {
+          "kitops": "<bpy id prop: owner=\"OBPlane.002\", name=\"kitops\", address=0x00000172F1A19DA0>",
+          "cycles": "<bpy id prop: owner=\"OBPlane.002\", name=\"cycles\", address=0x00000172F1A19CE0>"
+        }
+      },
+      {
+        "name": "Cylinder.001",
+        "dimensionsInSceneUnits": [
+          0.09603281319141388,
+          0.16110843420028687,
+          0.16490527987480164
+        ],
+        "properties": {
+          "kitops": "<bpy id prop: owner=\"OBCylinder.001\", name=\"kitops\", address=0x00000172F1A1AD60>"
+        }
+      },
+      {
+        "name": "Cube",
+        "dimensionsInSceneUnits": [
+          0.048766691237688065,
+          0.14305326342582703,
+          0.153433695435524
+        ],
+        "properties": {
+          "kitops": "<bpy id prop: owner=\"OBCube\", name=\"kitops\", address=0x00000172F1A1B4E0>"
+        }
+      },
+      {
+        "name": "Circle",
+        "dimensionsInSceneUnits": [
+          0.13873115181922913,
+          0.13873115181922913,
+          0.16563476622104645
+        ],
+        "properties": {
+          "kitops": "<bpy id prop: owner=\"OBCircle\", name=\"kitops\", address=0x00000172F1A1B7E0>",
+          "cycles": "<bpy id prop: owner=\"OBCircle\", name=\"cycles\", address=0x00000172F1A1B720>"
+        }
+      },
+      {
+        "name": "Cylinder.002",
+        "dimensionsInSceneUnits": [
+          0.04752809926867485,
+          0.04752809926867485,
+          0.10634427517652512
+        ],
+        "properties": {
+          "kitops": "<bpy id prop: owner=\"OBCylinder.002\", name=\"kitops\", address=0x00000172F1A1AB20>",
+          "cycles": "<bpy id prop: owner=\"OBCylinder.002\", name=\"cycles\", address=0x00000172F1A1AA60>"
+        }
+      },
+      {
+        "name": "Cylinder.003",
+        "dimensionsInSceneUnits": [
+          0.04752809926867485,
+          0.04752809926867485,
+          0.10634427517652512
+        ],
+        "properties": {
+          "kitops": "<bpy id prop: owner=\"OBCylinder.003\", name=\"kitops\", address=0x00000172F1A1A820>",
+          "cycles": "<bpy id prop: owner=\"OBCylinder.003\", name=\"cycles\", address=0x00000172F1A1A760>"
+        }
+      },
+      {
+        "name": "Sphere.004",
+        "dimensionsInSceneUnits": [
+          1.9999988079071045,
+          1.9999992847442627,
+          1.3537541627883911
+        ],
+        "properties": {
+          "kitops": "<bpy id prop: owner=\"OBSphere.004\", name=\"kitops\", address=0x00000172F1A18360>",
+          "cycles": "<bpy id prop: owner=\"OBSphere.004\", name=\"cycles\", address=0x00000172F1A182A0>"
+        }
+      },
+      {
+        "name": "Sphere.003",
+        "dimensionsInSceneUnits": [
+          1.9999988079071045,
+          1.9999992847442627,
+          1.3537541627883911
+        ],
+        "properties": {
+          "kitops": "<bpy id prop: owner=\"OBSphere.003\", name=\"kitops\", address=0x00000172F1A18660>",
+          "cycles": "<bpy id prop: owner=\"OBSphere.003\", name=\"cycles\", address=0x00000172F1A185A0>"
+        }
+      },
+      {
+        "name": "Sphere.002",
+        "dimensionsInSceneUnits": [
+          1.9999988079071045,
+          1.9999992847442627,
+          1.3537541627883911
+        ],
+        "properties": {
+          "kitops": "<bpy id prop: owner=\"OBSphere.002\", name=\"kitops\", address=0x00000172F1A18960>",
+          "cycles": "<bpy id prop: owner=\"OBSphere.002\", name=\"cycles\", address=0x00000172F1A188A0>"
+        }
+      },
+      {
+        "name": "Sphere.001",
+        "dimensionsInSceneUnits": [
+          1.9999988079071045,
+          1.9999992847442627,
+          1.3537541627883911
+        ],
+        "properties": {
+          "kitops": "<bpy id prop: owner=\"OBSphere.001\", name=\"kitops\", address=0x00000172F1A18C60>",
+          "cycles": "<bpy id prop: owner=\"OBSphere.001\", name=\"cycles\", address=0x00000172F1A18BA0>"
+        }
+      }
+    ]
+  },
+  {
+    "file": "tuff.blend",
+    "units": "METRIC",
+    "lengthUnit": "METERS",
+    "unitScale": 1.0,
+    "sceneProperties": {
+      "kitops": "<bpy id prop: owner=\"SCScene\", name=\"kitops\", address=0x00000172819F2520>",
+      "carver_target": "<bpy id prop: owner=\"SCScene\", name=\"carver_target\", address=0x00000172819F2460>",
+      "uuid": "eb8aa5b6-f47f-4f0b-9b2b-6fa6aa1d1ef9",
+      "assets reported": "<bpy id prop: owner=\"SCScene\", name=\"assets reported\", address=0x00000172819F22E0>"
+    },
+    "meshObjects": [
+      {
+        "name": "Cylinder.002",
+        "dimensionsInSceneUnits": [
+          12.568838119506836,
+          8.054584503173828,
+          14.820978164672852
+        ],
+        "properties": {
+          "kitops": "<bpy id prop: owner=\"OBCylinder.002\", name=\"kitops\", address=0x0000017281876EE0>"
+        }
+      },
+      {
+        "name": "Cube.002",
+        "dimensionsInSceneUnits": [
+          8.385347366333008,
+          8.369597434997559,
+          8.32823657989502
+        ],
+        "properties": {
+          "kitops": "<bpy id prop: owner=\"OBCube.002\", name=\"kitops\", address=0x00000172819F17A0>",
+          "cycles": "<bpy id prop: owner=\"OBCube.002\", name=\"cycles\", address=0x00000172819F16E0>"
+        }
+      },
+      {
+        "name": "Cube.003",
+        "dimensionsInSceneUnits": [
+          2.8082797527313232,
+          2.8030049800872803,
+          2.7891530990600586
+        ],
+        "properties": {
+          "kitops": "<bpy id prop: owner=\"OBCube.003\", name=\"kitops\", address=0x00000172819F1560>",
+          "cycles": "<bpy id prop: owner=\"OBCube.003\", name=\"cycles\", address=0x00000172819F14A0>"
+        }
+      },
+      {
+        "name": "Cylinder",
+        "dimensionsInSceneUnits": [
+          1.786391258239746,
+          1.786391258239746,
+          1.6249724626541138
+        ],
+        "properties": {
+          "kitops": "<bpy id prop: owner=\"OBCylinder\", name=\"kitops\", address=0x00000172818772A0>"
+        }
+      },
+      {
+        "name": "Cylinder.005",
+        "dimensionsInSceneUnits": [
+          3.6733179092407227,
+          3.2156035900115967,
+          0.547623872756958
+        ],
+        "properties": {
+          "kitops": "<bpy id prop: owner=\"OBCylinder.005\", name=\"kitops\", address=0x00000172818768E0>"
+        }
+      },
+      {
+        "name": "Cube.017",
+        "dimensionsInSceneUnits": [
+          2.8082797527313232,
+          2.8030049800872803,
+          2.7891530990600586
+        ],
+        "properties": {
+          "kitops": "<bpy id prop: owner=\"OBCube.017\", name=\"kitops\", address=0x0000017281877720>",
+          "cycles": "<bpy id prop: owner=\"OBCube.017\", name=\"cycles\", address=0x0000017281877660>"
+        }
+      },
+      {
+        "name": "Cylinder.004",
+        "dimensionsInSceneUnits": [
+          1.786391258239746,
+          1.786391258239746,
+          1.6249724626541138
+        ],
+        "properties": {
+          "kitops": "<bpy id prop: owner=\"OBCylinder.004\", name=\"kitops\", address=0x0000017281876B20>"
+        }
+      },
+      {
+        "name": "Cylinder.007",
+        "dimensionsInSceneUnits": [
+          6.587428092956543,
+          4.821682929992676,
+          0.49169135093688965
+        ],
+        "properties": {
+          "kitops": "<bpy id prop: owner=\"OBCylinder.007\", name=\"kitops\", address=0x0000017281876460>"
+        }
+      },
+      {
+        "name": "Cube.004",
+        "dimensionsInSceneUnits": [
+          0.8244628310203552,
+          0.8229142427444458,
+          0.8188475370407104
+        ],
+        "properties": {
+          "kitops": "<bpy id prop: owner=\"OBCube.004\", name=\"kitops\", address=0x00000172819F1320>",
+          "cycles": "<bpy id prop: owner=\"OBCube.004\", name=\"cycles\", address=0x00000172819F1260>"
+        }
+      },
+      {
+        "name": "Cube.005",
+        "dimensionsInSceneUnits": [
+          0.8244628310203552,
+          0.8229142427444458,
+          0.8188475370407104
+        ],
+        "properties": {
+          "kitops": "<bpy id prop: owner=\"OBCube.005\", name=\"kitops\", address=0x00000172819F10E0>",
+          "cycles": "<bpy id prop: owner=\"OBCube.005\", name=\"cycles\", address=0x00000172819F1020>"
+        }
+      },
+      {
+        "name": "Cube.006",
+        "dimensionsInSceneUnits": [
+          0.8244628310203552,
+          0.8229142427444458,
+          0.8188475370407104
+        ],
+        "properties": {
+          "kitops": "<bpy id prop: owner=\"OBCube.006\", name=\"kitops\", address=0x00000172819F0EA0>",
+          "cycles": "<bpy id prop: owner=\"OBCube.006\", name=\"cycles\", address=0x00000172819F0DE0>"
+        }
+      },
+      {
+        "name": "Cube.007",
+        "dimensionsInSceneUnits": [
+          0.8244628310203552,
+          0.8229142427444458,
+          0.8188475370407104
+        ],
+        "properties": {
+          "kitops": "<bpy id prop: owner=\"OBCube.007\", name=\"kitops\", address=0x00000172819F0C60>",
+          "cycles": "<bpy id prop: owner=\"OBCube.007\", name=\"cycles\", address=0x00000172819F0BA0>"
+        }
+      },
+      {
+        "name": "Cube.008",
+        "dimensionsInSceneUnits": [
+          0.8244628310203552,
+          0.8229142427444458,
+          0.8188475370407104
+        ],
+        "properties": {
+          "kitops": "<bpy id prop: owner=\"OBCube.008\", name=\"kitops\", address=0x00000172819F0A20>",
+          "cycles": "<bpy id prop: owner=\"OBCube.008\", name=\"cycles\", address=0x00000172819F0960>"
+        }
+      },
+      {
+        "name": "Cube.009",
+        "dimensionsInSceneUnits": [
+          0.8244628310203552,
+          0.8229142427444458,
+          0.8188475370407104
+        ],
+        "properties": {
+          "kitops": "<bpy id prop: owner=\"OBCube.009\", name=\"kitops\", address=0x00000172819F07E0>",
+          "cycles": "<bpy id prop: owner=\"OBCube.009\", name=\"cycles\", address=0x00000172819F0720>"
+        }
+      },
+      {
+        "name": "Cube.010",
+        "dimensionsInSceneUnits": [
+          0.8244628310203552,
+          0.8229142427444458,
+          0.8188475370407104
+        ],
+        "properties": {
+          "kitops": "<bpy id prop: owner=\"OBCube.010\", name=\"kitops\", address=0x00000172819F05A0>",
+          "cycles": "<bpy id prop: owner=\"OBCube.010\", name=\"cycles\", address=0x00000172819F04E0>"
+        }
+      },
+      {
+        "name": "Cube.012",
+        "dimensionsInSceneUnits": [
+          0.8244628310203552,
+          0.8229142427444458,
+          0.8188475370407104
+        ],
+        "properties": {
+          "kitops": "<bpy id prop: owner=\"OBCube.012\", name=\"kitops\", address=0x00000172819F0360>",
+          "cycles": "<bpy id prop: owner=\"OBCube.012\", name=\"cycles\", address=0x00000172819F02A0>"
+        }
+      },
+      {
+        "name": "Cube.013",
+        "dimensionsInSceneUnits": [
+          0.8244628310203552,
+          0.8229142427444458,
+          0.8188475370407104
+        ],
+        "properties": {
+          "kitops": "<bpy id prop: owner=\"OBCube.013\", name=\"kitops\", address=0x00000172819F0120>",
+          "cycles": "<bpy id prop: owner=\"OBCube.013\", name=\"cycles\", address=0x0000017281877F60>"
+        }
+      },
+      {
+        "name": "Cube.014",
+        "dimensionsInSceneUnits": [
+          0.8244628310203552,
+          0.8229142427444458,
+          0.8188475370407104
+        ],
+        "properties": {
+          "kitops": "<bpy id prop: owner=\"OBCube.014\", name=\"kitops\", address=0x0000017281877DE0>",
+          "cycles": "<bpy id prop: owner=\"OBCube.014\", name=\"cycles\", address=0x0000017281877D20>"
+        }
+      },
+      {
+        "name": "Cube.015",
+        "dimensionsInSceneUnits": [
+          0.8244628310203552,
+          0.8229142427444458,
+          0.8188475370407104
+        ],
+        "properties": {
+          "kitops": "<bpy id prop: owner=\"OBCube.015\", name=\"kitops\", address=0x0000017281877BA0>",
+          "cycles": "<bpy id prop: owner=\"OBCube.015\", name=\"cycles\", address=0x0000017281877AE0>"
+        }
+      },
+      {
+        "name": "Cube.016",
+        "dimensionsInSceneUnits": [
+          0.8244628310203552,
+          0.8229142427444458,
+          0.8188475370407104
+        ],
+        "properties": {
+          "kitops": "<bpy id prop: owner=\"OBCube.016\", name=\"kitops\", address=0x0000017281877960>",
+          "cycles": "<bpy id prop: owner=\"OBCube.016\", name=\"cycles\", address=0x00000172818778A0>"
+        }
+      },
+      {
+        "name": "Cube.018",
+        "dimensionsInSceneUnits": [
+          0.8244628310203552,
+          0.8229142427444458,
+          0.8188475370407104
+        ],
+        "properties": {
+          "kitops": "<bpy id prop: owner=\"OBCube.018\", name=\"kitops\", address=0x00000172818774E0>",
+          "cycles": "<bpy id prop: owner=\"OBCube.018\", name=\"cycles\", address=0x0000017281877420>"
+        }
+      },
+      {
+        "name": "Plane",
+        "dimensionsInSceneUnits": [
+          0.7540816068649292,
+          4.892179012298584,
+          4.601339817047119
+        ],
+        "properties": {
+          "kitops": "<bpy id prop: owner=\"OBPlane\", name=\"kitops\", address=0x0000017281875F20>"
+        }
+      },
+      {
+        "name": "Plane.001",
+        "dimensionsInSceneUnits": [
+          0.7540816068649292,
+          4.892179012298584,
+          4.601339817047119
+        ],
+        "properties": {
+          "kitops": "<bpy id prop: owner=\"OBPlane.001\", name=\"kitops\", address=0x0000017281875CE0>"
+        }
+      },
+      {
+        "name": "Cylinder.001",
+        "dimensionsInSceneUnits": [
+          9.252431869506836,
+          8.195213317871094,
+          14.70036506652832
+        ],
+        "properties": {
+          "kitops": "<bpy id prop: owner=\"OBCylinder.001\", name=\"kitops\", address=0x0000017281877060>"
+        }
+      },
+      {
+        "name": "Cylinder.003",
+        "dimensionsInSceneUnits": [
+          12.580171585083008,
+          8.063517570495605,
+          14.872177124023438
+        ],
+        "properties": {
+          "kitops": "<bpy id prop: owner=\"OBCylinder.003\", name=\"kitops\", address=0x0000017281876D60>"
+        }
+      },
+      {
+        "name": "Cylinder.006",
+        "dimensionsInSceneUnits": [
+          9.260774612426758,
+          8.460138320922852,
+          14.801557540893555
+        ],
+        "properties": {
+          "kitops": "<bpy id prop: owner=\"OBCylinder.006\", name=\"kitops\", address=0x00000172818766A0>"
+        }
+      }
+    ]
+  },
+  {
+    "file": "vit.blend",
+    "units": "METRIC",
+    "lengthUnit": "METERS",
+    "unitScale": 1.0,
+    "sceneProperties": {
+      "cycles": "<bpy id prop: owner=\"SCWhite Light Studio\", name=\"cycles\", address=0x00000172EBB581E0>",
+      "TileSizePrevRenderer": "CYCLES",
+      "TileSizePrevDevice": "GPU",
+      "TileSizePrevChoice": "256",
+      "TileSizeFirstRun": "0",
+      "TileSizePrevRes": "960x540",
+      "TileSizePrevActualTileSize": "240x270",
+      "cycles_curves": "<bpy id prop: owner=\"SCWhite Light Studio\", name=\"cycles_curves\", address=0x00000172819F3EA0>",
+      "TileSizeEnable": "1",
+      "blenderkit": "<bpy id prop: owner=\"SCWhite Light Studio\", name=\"blenderkit\", address=0x00000172819F2CA0>",
+      "assets used": "<bpy id prop: owner=\"SCWhite Light Studio\", name=\"assets used\", address=0x00000172819CB360>",
+      "uuid": "2af917b6-2e6d-4eb3-acbf-71c130c499f9",
+      "assets reported": "<bpy id prop: owner=\"SCWhite Light Studio\", name=\"assets reported\", address=0x00000172F16C9F20>",
+      "asset_data": "<bpy id prop: owner=\"SCWhite Light Studio\", name=\"asset_data\", address=0x00000172F16C9DA0>",
+      "kitops": "<bpy id prop: owner=\"SCWhite Light Studio\", name=\"kitops\", address=0x00000172F16C37E0>"
+    },
+    "meshObjects": [
+      {
+        "name": "Cylinder.002",
+        "dimensionsInSceneUnits": [
+          0.08255932480096817,
+          0.08255933225154877,
+          0.08255930989980698
+        ],
+        "properties": {
+          "kitops": "<bpy id prop: owner=\"OBCylinder.002\", name=\"kitops\", address=0x00000172F16C1320>",
+          "cycles": "<bpy id prop: owner=\"OBCylinder.002\", name=\"cycles\", address=0x00000172F16C1260>"
+        }
+      },
+      {
+        "name": "Cylinder.001",
+        "dimensionsInSceneUnits": [
+          0.08255932480096817,
+          0.08255932480096817,
+          0.08255930244922638
+        ],
+        "properties": {
+          "kitops": "<bpy id prop: owner=\"OBCylinder.001\", name=\"kitops\", address=0x00000172F16C1620>",
+          "cycles": "<bpy id prop: owner=\"OBCylinder.001\", name=\"cycles\", address=0x00000172F16C1560>"
+        }
+      },
+      {
+        "name": "Cylinder",
+        "dimensionsInSceneUnits": [
+          0.4052867293357849,
+          0.4064636528491974,
+          0.3597860038280487
+        ],
+        "properties": {
+          "kitops": "<bpy id prop: owner=\"OBCylinder\", name=\"kitops\", address=0x00000172F16C1920>",
+          "cycles": "<bpy id prop: owner=\"OBCylinder\", name=\"cycles\", address=0x00000172F16C1860>"
+        }
+      },
+      {
+        "name": "Circle.002",
+        "dimensionsInSceneUnits": [
+          0.45201027393341064,
+          0.45201027393341064,
+          0.03248140588402748
+        ],
+        "properties": {
+          "kitops": "<bpy id prop: owner=\"OBCircle.002\", name=\"kitops\", address=0x00000172F16C1DA0>",
+          "cycles": "<bpy id prop: owner=\"OBCircle.002\", name=\"cycles\", address=0x00000172F16C1CE0>"
+        }
+      },
+      {
+        "name": "Circle.001",
+        "dimensionsInSceneUnits": [
+          0.20586705207824707,
+          0.4051559865474701,
+          1.3655627965927124
+        ],
+        "properties": {
+          "kitops": "<bpy id prop: owner=\"OBCircle.001\", name=\"kitops\", address=0x00000172F16C20A0>",
+          "cycles": "<bpy id prop: owner=\"OBCircle.001\", name=\"cycles\", address=0x00000172F16C1FE0>"
+        }
+      },
+      {
+        "name": "Circle",
+        "dimensionsInSceneUnits": [
+          0.333016574382782,
+          0.6597599387168884,
+          1.1806919574737549
+        ],
+        "properties": {
+          "kitops": "<bpy id prop: owner=\"OBCircle\", name=\"kitops\", address=0x00000172F16C23A0>",
+          "cycles": "<bpy id prop: owner=\"OBCircle\", name=\"cycles\", address=0x00000172F16C22E0>"
+        }
+      },
+      {
+        "name": "Reflection Light",
+        "dimensionsInSceneUnits": [
+          5.0,
+          7.5,
+          0.0
+        ],
+        "properties": {
+          "cycles_visibility": "<bpy id prop: owner=\"OBReflection Light\", name=\"cycles_visibility\", address=0x00000172F16C0120>",
+          "poliigon_props": "<bpy id prop: owner=\"OBReflection Light\", name=\"poliigon_props\", address=0x00000172F5CA7F60>",
+          "kitops": "<bpy id prop: owner=\"OBReflection Light\", name=\"kitops\", address=0x00000172F5CA7EA0>"
+        }
+      },
+      {
+        "name": "Top_Softbox",
+        "dimensionsInSceneUnits": [
+          7.5,
+          4.0,
+          10.0
+        ],
+        "properties": {
+          "cycles_visibility": "<bpy id prop: owner=\"OBTop_Softbox\", name=\"cycles_visibility\", address=0x00000172F5CA7D20>",
+          "poliigon_props": "<bpy id prop: owner=\"OBTop_Softbox\", name=\"poliigon_props\", address=0x00000172F5CA7C60>",
+          "kitops": "<bpy id prop: owner=\"OBTop_Softbox\", name=\"kitops\", address=0x00000172F5CA7BA0>"
+        }
+      },
+      {
+        "name": "Top_Softbox_Light",
+        "dimensionsInSceneUnits": [
+          7.5,
+          10.0,
+          0.0
+        ],
+        "properties": {
+          "cycles_visibility": "<bpy id prop: owner=\"OBTop_Softbox_Light\", name=\"cycles_visibility\", address=0x00000172F5CA7A20>",
+          "poliigon_props": "<bpy id prop: owner=\"OBTop_Softbox_Light\", name=\"poliigon_props\", address=0x00000172F5CA7960>",
+          "kitops": "<bpy id prop: owner=\"OBTop_Softbox_Light\", name=\"kitops\", address=0x00000172F5CA78A0>"
+        }
+      },
+      {
+        "name": "R_Softbox",
+        "dimensionsInSceneUnits": [
+          7.5,
+          4.0,
+          7.5
+        ],
+        "properties": {
+          "cycles_visibility": "<bpy id prop: owner=\"OBR_Softbox\", name=\"cycles_visibility\", address=0x00000172F16C0720>",
+          "poliigon_props": "<bpy id prop: owner=\"OBR_Softbox\", name=\"poliigon_props\", address=0x00000172F16C0660>",
+          "kitops": "<bpy id prop: owner=\"OBR_Softbox\", name=\"kitops\", address=0x00000172F16C05A0>"
+        }
+      },
+      {
+        "name": "R_Softbox_Light",
+        "dimensionsInSceneUnits": [
+          7.5,
+          7.5,
+          0.0
+        ],
+        "properties": {
+          "cycles_visibility": "<bpy id prop: owner=\"OBR_Softbox_Light\", name=\"cycles_visibility\", address=0x00000172F16C0420>",
+          "poliigon_props": "<bpy id prop: owner=\"OBR_Softbox_Light\", name=\"poliigon_props\", address=0x00000172F16C0360>",
+          "kitops": "<bpy id prop: owner=\"OBR_Softbox_Light\", name=\"kitops\", address=0x00000172F16C02A0>"
+        }
+      },
+      {
+        "name": "L_Softbox",
+        "dimensionsInSceneUnits": [
+          7.5,
+          4.0,
+          7.5
+        ],
+        "properties": {
+          "cycles_visibility": "<bpy id prop: owner=\"OBL_Softbox\", name=\"cycles_visibility\", address=0x00000172F16C0EA0>",
+          "poliigon_props": "<bpy id prop: owner=\"OBL_Softbox\", name=\"poliigon_props\", address=0x00000172F16C0DE0>",
+          "kitops": "<bpy id prop: owner=\"OBL_Softbox\", name=\"kitops\", address=0x00000172F16C0D20>"
+        }
+      },
+      {
+        "name": "L_Softbox_Light",
+        "dimensionsInSceneUnits": [
+          7.5,
+          7.5,
+          0.0
+        ],
+        "properties": {
+          "cycles_visibility": "<bpy id prop: owner=\"OBL_Softbox_Light\", name=\"cycles_visibility\", address=0x00000172F16C0BA0>",
+          "poliigon_props": "<bpy id prop: owner=\"OBL_Softbox_Light\", name=\"poliigon_props\", address=0x00000172F16C0AE0>",
+          "kitops": "<bpy id prop: owner=\"OBL_Softbox_Light\", name=\"kitops\", address=0x00000172F16C0A20>"
+        }
+      },
+      {
+        "name": "Backdrop",
+        "dimensionsInSceneUnits": [
+          14.229327201843262,
+          16.216304779052734,
+          9.917244911193848
+        ],
+        "properties": {
+          "cycles_visibility": "<bpy id prop: owner=\"OBBackdrop\", name=\"cycles_visibility\", address=0x00000172F16C2D60>",
+          "poliigon_props": "<bpy id prop: owner=\"OBBackdrop\", name=\"poliigon_props\", address=0x00000172F16C2CA0>",
+          "blenderkit": "<bpy id prop: owner=\"OBBackdrop\", name=\"blenderkit\", address=0x00000172F16C2BE0>",
+          "kitops": "<bpy id prop: owner=\"OBBackdrop\", name=\"kitops\", address=0x00000172F16C2A60>",
+          "cycles": "<bpy id prop: owner=\"OBBackdrop\", name=\"cycles\", address=0x00000172F16C29A0>"
+        }
+      }
+    ]
+  },
+  {
+    "file": "World.blend",
+    "units": "METRIC",
+    "lengthUnit": "METERS",
+    "unitScale": 1.0,
+    "sceneProperties": {
+      "cycles": "<bpy id prop: owner=\"SCWhite Light Studio\", name=\"cycles\", address=0x00000172F2444360>",
+      "TileSizePrevRenderer": "CYCLES",
+      "TileSizePrevDevice": "GPU",
+      "TileSizePrevChoice": "256",
+      "TileSizeFirstRun": "0",
+      "TileSizePrevRes": "960x540",
+      "TileSizePrevActualTileSize": "240x270",
+      "cycles_curves": "<bpy id prop: owner=\"SCWhite Light Studio\", name=\"cycles_curves\", address=0x000001728189E0A0>",
+      "TileSizeEnable": "1",
+      "blenderkit": "<bpy id prop: owner=\"SCWhite Light Studio\", name=\"blenderkit\", address=0x000001728189DF20>",
+      "assets used": "<bpy id prop: owner=\"SCWhite Light Studio\", name=\"assets used\", address=0x000001728189D260>",
+      "uuid": "2af917b6-2e6d-4eb3-acbf-71c130c499f9",
+      "assets reported": "<bpy id prop: owner=\"SCWhite Light Studio\", name=\"assets reported\", address=0x00000172F1E37D20>",
+      "asset_data": "<bpy id prop: owner=\"SCWhite Light Studio\", name=\"asset_data\", address=0x00000172F1E37BA0>",
+      "kitops": "<bpy id prop: owner=\"SCWhite Light Studio\", name=\"kitops\", address=0x0000017281CED6E0>",
+      "carver_target": "<bpy id prop: owner=\"SCWhite Light Studio\", name=\"carver_target\", address=0x0000017281CED620>"
+    },
+    "meshObjects": [
+      {
+        "name": "Sphere",
+        "dimensionsInSceneUnits": [
+          0.9980619549751282,
+          0.9980620741844177,
+          0.326602041721344
+        ],
+        "properties": {
+          "kitops": "<bpy id prop: owner=\"OBSphere\", name=\"kitops\", address=0x0000017281A0D9E0>",
+          "cycles": "<bpy id prop: owner=\"OBSphere\", name=\"cycles\", address=0x0000017281A0D920>"
+        }
+      },
+      {
+        "name": "Cube.002",
+        "dimensionsInSceneUnits": [
+          1.3325862884521484,
+          1.3300833702087402,
+          1.3235102891921997
+        ],
+        "properties": {
+          "kitops": "<bpy id prop: owner=\"OBCube.002\", name=\"kitops\", address=0x0000017281A0F360>",
+          "cycles": "<bpy id prop: owner=\"OBCube.002\", name=\"cycles\", address=0x0000017281A0F2A0>"
+        }
+      },
+      {
+        "name": "Cube.003",
+        "dimensionsInSceneUnits": [
+          1.0815073251724243,
+          1.9346544742584229,
+          0.424043208360672
+        ],
+        "properties": {
+          "kitops": "<bpy id prop: owner=\"OBCube.003\", name=\"kitops\", address=0x0000017281A0F120>",
+          "cycles": "<bpy id prop: owner=\"OBCube.003\", name=\"cycles\", address=0x0000017281A0F060>"
+        }
+      },
+      {
+        "name": "Circle.001",
+        "dimensionsInSceneUnits": [
+          1.6952314376831055,
+          1.72874116897583,
+          0.09162343293428421
+        ],
+        "properties": {
+          "kitops": "<bpy id prop: owner=\"OBCircle.001\", name=\"kitops\", address=0x0000017281A0FDE0>",
+          "cycles": "<bpy id prop: owner=\"OBCircle.001\", name=\"cycles\", address=0x0000017281A0FD20>"
+        }
+      },
+      {
+        "name": "Circle",
+        "dimensionsInSceneUnits": [
+          1.9487437009811401,
+          1.9487437009811401,
+          0.10496974736452103
+        ],
+        "properties": {
+          "kitops": "<bpy id prop: owner=\"OBCircle\", name=\"kitops\", address=0x0000017281CEC1E0>",
+          "cycles": "<bpy id prop: owner=\"OBCircle\", name=\"cycles\", address=0x0000017281CEC120>"
+        }
+      },
+      {
+        "name": "Plane",
+        "dimensionsInSceneUnits": [
+          0.2865808308124542,
+          0.6060445308685303,
+          0.07320746034383774
+        ],
+        "properties": {
+          "kitops": "<bpy id prop: owner=\"OBPlane\", name=\"kitops\", address=0x0000017281A0E5E0>",
+          "cycles": "<bpy id prop: owner=\"OBPlane\", name=\"cycles\", address=0x0000017281A0E520>"
+        }
+      },
+      {
+        "name": "Circle.002",
+        "dimensionsInSceneUnits": [
+          2.5729100704193115,
+          1.1704471111297607,
+          0.20328491926193237
+        ],
+        "properties": {
+          "kitops": "<bpy id prop: owner=\"OBCircle.002\", name=\"kitops\", address=0x0000017281A0FAE0>",
+          "cycles": "<bpy id prop: owner=\"OBCircle.002\", name=\"cycles\", address=0x0000017281A0FA20>"
+        }
+      },
+      {
+        "name": "Circle.003",
+        "dimensionsInSceneUnits": [
+          2.3723464012145996,
+          0.8650136590003967,
+          0.28219911456108093
+        ],
+        "properties": {
+          "kitops": "<bpy id prop: owner=\"OBCircle.003\", name=\"kitops\", address=0x0000017281A0F7E0>",
+          "cycles": "<bpy id prop: owner=\"OBCircle.003\", name=\"cycles\", address=0x0000017281A0F720>"
+        }
+      },
+      {
+        "name": "Reflection Light",
+        "dimensionsInSceneUnits": [
+          5.0,
+          7.5,
+          0.0
+        ],
+        "properties": {
+          "cycles_visibility": "<bpy id prop: owner=\"OBReflection Light\", name=\"cycles_visibility\", address=0x0000017281A0DCE0>",
+          "poliigon_props": "<bpy id prop: owner=\"OBReflection Light\", name=\"poliigon_props\", address=0x0000017281A0DC20>",
+          "kitops": "<bpy id prop: owner=\"OBReflection Light\", name=\"kitops\", address=0x0000017281A0DB60>"
+        }
+      },
+      {
+        "name": "Top_Softbox",
+        "dimensionsInSceneUnits": [
+          7.5,
+          4.0,
+          10.0
+        ],
+        "properties": {
+          "cycles_visibility": "<bpy id prop: owner=\"OBTop_Softbox\", name=\"cycles_visibility\", address=0x0000017281A0D6E0>",
+          "poliigon_props": "<bpy id prop: owner=\"OBTop_Softbox\", name=\"poliigon_props\", address=0x0000017281A0D620>",
+          "kitops": "<bpy id prop: owner=\"OBTop_Softbox\", name=\"kitops\", address=0x0000017281A0D560>"
+        }
+      },
+      {
+        "name": "Top_Softbox_Light",
+        "dimensionsInSceneUnits": [
+          7.5,
+          10.0,
+          0.0
+        ],
+        "properties": {
+          "cycles_visibility": "<bpy id prop: owner=\"OBTop_Softbox_Light\", name=\"cycles_visibility\", address=0x0000017281A0D3E0>",
+          "poliigon_props": "<bpy id prop: owner=\"OBTop_Softbox_Light\", name=\"poliigon_props\", address=0x0000017281A0D320>",
+          "kitops": "<bpy id prop: owner=\"OBTop_Softbox_Light\", name=\"kitops\", address=0x0000017281A0D260>"
+        }
+      },
+      {
+        "name": "R_Softbox",
+        "dimensionsInSceneUnits": [
+          7.5,
+          4.0,
+          7.5
+        ],
+        "properties": {
+          "cycles_visibility": "<bpy id prop: owner=\"OBR_Softbox\", name=\"cycles_visibility\", address=0x0000017281A0E2E0>",
+          "poliigon_props": "<bpy id prop: owner=\"OBR_Softbox\", name=\"poliigon_props\", address=0x0000017281A0E220>",
+          "kitops": "<bpy id prop: owner=\"OBR_Softbox\", name=\"kitops\", address=0x0000017281A0E160>"
+        }
+      },
+      {
+        "name": "R_Softbox_Light",
+        "dimensionsInSceneUnits": [
+          7.5,
+          7.5,
+          0.0
+        ],
+        "properties": {
+          "cycles_visibility": "<bpy id prop: owner=\"OBR_Softbox_Light\", name=\"cycles_visibility\", address=0x0000017281A0DFE0>",
+          "poliigon_props": "<bpy id prop: owner=\"OBR_Softbox_Light\", name=\"poliigon_props\", address=0x0000017281A0DF20>",
+          "kitops": "<bpy id prop: owner=\"OBR_Softbox_Light\", name=\"kitops\", address=0x0000017281A0DE60>"
+        }
+      },
+      {
+        "name": "L_Softbox",
+        "dimensionsInSceneUnits": [
+          7.5,
+          4.0,
+          7.5
+        ],
+        "properties": {
+          "cycles_visibility": "<bpy id prop: owner=\"OBL_Softbox\", name=\"cycles_visibility\", address=0x0000017281A0ED60>",
+          "poliigon_props": "<bpy id prop: owner=\"OBL_Softbox\", name=\"poliigon_props\", address=0x0000017281A0ECA0>",
+          "kitops": "<bpy id prop: owner=\"OBL_Softbox\", name=\"kitops\", address=0x0000017281A0EBE0>"
+        }
+      },
+      {
+        "name": "L_Softbox_Light",
+        "dimensionsInSceneUnits": [
+          7.5,
+          7.5,
+          0.0
+        ],
+        "properties": {
+          "cycles_visibility": "<bpy id prop: owner=\"OBL_Softbox_Light\", name=\"cycles_visibility\", address=0x0000017281A0EA60>",
+          "poliigon_props": "<bpy id prop: owner=\"OBL_Softbox_Light\", name=\"poliigon_props\", address=0x0000017281A0E9A0>",
+          "kitops": "<bpy id prop: owner=\"OBL_Softbox_Light\", name=\"kitops\", address=0x0000017281A0E8E0>"
+        }
+      },
+      {
+        "name": "Backdrop",
+        "dimensionsInSceneUnits": [
+          14.229327201843262,
+          16.216304779052734,
+          9.917244911193848
+        ],
+        "properties": {
+          "cycles_visibility": "<bpy id prop: owner=\"OBBackdrop\", name=\"cycles_visibility\", address=0x0000017281CECBA0>",
+          "poliigon_props": "<bpy id prop: owner=\"OBBackdrop\", name=\"poliigon_props\", address=0x0000017281CECAE0>",
+          "blenderkit": "<bpy id prop: owner=\"OBBackdrop\", name=\"blenderkit\", address=0x0000017281CECA20>",
+          "kitops": "<bpy id prop: owner=\"OBBackdrop\", name=\"kitops\", address=0x0000017281CEC8A0>",
+          "cycles": "<bpy id prop: owner=\"OBBackdrop\", name=\"cycles\", address=0x0000017281CEC7E0>"
+        }
+      }
+    ]
+  }
+]

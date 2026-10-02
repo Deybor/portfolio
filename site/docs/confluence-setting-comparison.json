@@ -1,0 +1,30 @@
+{
+  "views": [
+    {
+      "view": "finished",
+      "source": "C:\\Users\\Master\\Documents\\itura\\PORFOLIO PIECES\\Confluence_First_Ring\\Approved_Model\\Confluence_Refined_Print.blend",
+      "object": "Confluence finished metal \u2014 single solid",
+      "vertices": 221941,
+      "camera": "Front X-Z; fixed centre Z11.2; same 27 mm ortho scale; stones hidden"
+    },
+    {
+      "view": "approved-stock",
+      "source": "C:\\Users\\Master\\Documents\\itura\\PORFOLIO PIECES\\Confluence_First_Ring\\Approved_Model\\Confluence_Refined_Print.blend",
+      "object": "Confluence casting pattern \u2014 uncut prong stock",
+      "vertices": 231923,
+      "camera": "Front X-Z; fixed centre Z11.2; same 27 mm ortho scale; stones hidden"
+    },
+    {
+      "view": "current-cad",
+      "source": "C:\\Users\\Master\\Documents\\portfolio\\porfolio update\\public\\jewellery\\confluence\\technical\\Confluence-Straight-Prong-CAD.blend",
+      "object": "Confluence - straight-prong CAD body",
+      "vertices": 207122,
+      "camera": "Front X-Z; fixed centre Z11.2; same 27 mm ortho scale; stones hidden"
+    }
+  ],
+  "sources_preserved": true,
+  "source_hashes": {
+    "C:\\Users\\Master\\Documents\\itura\\PORFOLIO PIECES\\Confluence_First_Ring\\Approved_Model\\Confluence_Refined_Print.blend": "bf4e8b8d67d89c38eea1e2d73390b76193431c92d2e1644901c1c6a3a6fef94e",
+    "C:\\Users\\Master\\Documents\\portfolio\\porfolio update\\public\\jewellery\\confluence\\technical\\Confluence-Straight-Prong-CAD.blend": "d81ae6f66faf8019e499e4a9feb751686654472539d5b09ef98e8ef87bf412a5"
+  }
+}

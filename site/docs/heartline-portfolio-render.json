@@ -1,0 +1,15 @@
+{
+  "source": "C:\\Users\\Master\\Documents\\itura\\PORFOLIO PIECES\\Heartline_Pendant_01.blend",
+  "scene": "Heartline - pendant with reference chain",
+  "camera": "Heartline - pendant with reference chain Camera",
+  "source_sha256_before": "6d45feb44fdc2e1c7b2d45ebd8484c64589f62b7931f7916aad75ca2761cac04",
+  "source_sha256_after": "6d45feb44fdc2e1c7b2d45ebd8484c64589f62b7931f7916aad75ca2761cac04",
+  "source_preserved": true,
+  "geometry_changed": false,
+  "method": "Existing saved camera, lighting and materials; Cycles 96 samples; no blend saved",
+  "output": "C:\\Users\\Master\\Documents\\portfolio\\porfolio update\\public\\jewellery\\heartline-pendant\\render-01.png",
+  "resolution": [
+    1700,
+    1900
+  ]
+}

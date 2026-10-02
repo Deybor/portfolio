@@ -1,0 +1,10 @@
+{
+  "slug": "candidate-troo-t3",
+  "parts": [
+    "Circle",
+    "Cylinder",
+    "Plane"
+  ],
+  "dimension": null,
+  "sourceUnchanged": true
+}

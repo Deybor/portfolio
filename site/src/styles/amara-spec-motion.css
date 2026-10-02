@@ -1,0 +1,57 @@
+.amara-spec-motion {
+  --spec-entry-travel: 88px;
+  --spec-entry-ease: cubic-bezier(0.16, 1, 0.3, 1);
+  min-width: 0;
+  overflow: hidden;
+  overflow: clip;
+}
+
+.amara-spec-table-frame {
+  opacity: 1;
+  transform: translateX(0);
+}
+
+.amara-spec-value {
+  display: inline-block;
+  max-width: 100%;
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.amara-spec-motion.is-motion-ready .amara-spec-table-frame {
+  transition:
+    transform 1000ms var(--spec-entry-ease),
+    opacity 700ms ease-out;
+}
+
+.amara-spec-motion.is-motion-ready:not(.has-entered) .amara-spec-table-frame {
+  opacity: 0;
+  transform: translateX(var(--spec-entry-travel));
+}
+
+.amara-spec-motion.is-motion-ready .amara-spec-value {
+  transition:
+    transform 650ms var(--spec-entry-ease),
+    opacity 500ms ease-out;
+  transition-delay: var(--spec-value-delay, 0ms);
+}
+
+.amara-spec-motion.is-motion-ready .amara-spec-data-row:not(.is-value-visible) .amara-spec-value {
+  opacity: 0;
+  transform: translateY(16px);
+}
+
+@media (max-width: 700px) {
+  .amara-spec-motion {
+    --spec-entry-travel: 36px;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .amara-spec-motion.is-motion-ready .amara-spec-table-frame,
+  .amara-spec-motion.is-motion-ready .amara-spec-data-row .amara-spec-value {
+    opacity: 1;
+    transform: none;
+    transition: none;
+  }
+}

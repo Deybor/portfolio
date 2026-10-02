@@ -1,0 +1,12 @@
+{
+  "slug": "medal",
+  "sourceFile": "C:\\Users\\Master\\Documents\\blender\\blender filesss\\troo\\new\\cad-3d print\\medal.blend",
+  "sha256": "1419ab4585ad592603d7a484a7c9fc27a22bf4a63cd92c39dad2b49e24a28d86",
+  "parts": [
+    "Cylinder.001",
+    "Cylinder.002",
+    "Circle.001"
+  ],
+  "dimension": null,
+  "sourceUnchanged": true
+}

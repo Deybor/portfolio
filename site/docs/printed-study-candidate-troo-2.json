@@ -1,0 +1,17 @@
+{
+  "slug": "candidate-troo-2",
+  "parts": [
+    "Cube.002",
+    "Cube.004",
+    "Cube.005",
+    "Cube",
+    "Cube.001",
+    "Cube.003",
+    "Plane.022",
+    "Sphere.001",
+    "Cube.006",
+    "Plane.001"
+  ],
+  "dimension": null,
+  "sourceUnchanged": true
+}
