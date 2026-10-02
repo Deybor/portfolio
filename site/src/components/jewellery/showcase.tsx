@@ -78,7 +78,7 @@ export function JewelleryShowcase() {
     if (!playing) return;
     const timer = window.setTimeout(
       () => setSlide((current) => (current + 1) % slides.length),
-      4000,
+      3500,
     );
     return () => window.clearTimeout(timer);
   }, [playing, slide]);
@@ -94,7 +94,9 @@ export function JewelleryShowcase() {
       className="jewellery-showcase"
       aria-label="Jewellery showcase"
       aria-roledescription="carousel"
-      onMouseEnter={() => setHovered(true)}
+      onMouseEnter={() => {
+        if (window.matchMedia("(hover: hover) and (pointer: fine)").matches) setHovered(true);
+      }}
       onMouseLeave={() => setHovered(false)}
       onFocusCapture={(event) => {
         if (!(event.target as HTMLElement).closest("[data-playback]")) setPaused(true);
@@ -155,7 +157,7 @@ export function JewelleryShowcase() {
         )}
       </div>
       <div className="showcase-caption">
-        <div aria-live={paused ? "polite" : "off"} aria-atomic="true">
+        <div key={slides[slide].image} className="showcase-copy" aria-live={paused ? "polite" : "off"} aria-atomic="true">
           <p className="collection-kicker">{slides[slide].kind}</p>
           <h2>{slides[slide].title}</h2>
         </div>

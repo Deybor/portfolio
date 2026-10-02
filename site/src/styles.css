@@ -13,6 +13,9 @@
   --font-sans: "Manrope", "Helvetica Neue", Arial, sans-serif;
   --font-serif: "Cormorant Garamond", Georgia, serif;
   --jewel-image-enter-duration: 240ms;
+  --showcase-fade-duration: 650ms;
+  --showcase-settle-duration: 1100ms;
+  --showcase-ease: cubic-bezier(0.22, 1, 0.36, 1);
   --jewel-image-enter-distance: 8px;
   --color-collection-bg: #141210;
   --color-collection-fg: #f3eadf;

@@ -28,7 +28,7 @@ The user requested removing the Jewellery Design and Printed Objects promotional
 ## Approved presentation and interactions
 
 - Preserve the charcoal, warm cream, serif design system, existing home page, jewellery study pages and printed-object collection.
-- Jewellery showcase order: Amara studs first, followed by Confluence, Iced-out ring, Heartline and Ribbon Leaf. Autoplay is 4 seconds. Retain arrows, pause and other working interactions.
+- Jewellery showcase order: Amara studs first, followed by Confluence, Iced-out ring, Heartline and Ribbon Leaf. Autoplay is 3.5 seconds, with a 650 ms crossfade, subtle 1.018-to-1 image settling and a gentle caption entrance. Reduced-motion mode remains static with no autoplay. Retain arrows, pause and other working interactions.
 - The main jewellery pieces appear before the separate Amara companion study entry. The Amara study entry retains its compact approved presentation: “Amara's companion,” “A companion for an existing necklace,” and “Open study.”
 - Portfolio piece covers have a fixed diagonal split between the beauty image and a black wireframe on warm ivory. It is not an interactive slider. This is a cover treatment; do not impose it on the large render displays or inside-piece galleries. Preserve its existing angle and styling.
 - Large Confluence, Iced-out and Heartline renders use a blurred image fill around the contained image. The Amara heart studs do not need that blurred background.

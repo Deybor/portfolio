@@ -17,12 +17,13 @@
   opacity: 0;
   visibility: hidden;
   transition:
-    opacity 240ms ease,
-    visibility 240ms;
+    opacity var(--showcase-fade-duration) var(--showcase-ease),
+    visibility 0s linear var(--showcase-fade-duration);
 }
 .showcase-slide.is-active {
   opacity: 1;
   visibility: visible;
+  transition-delay: 0s;
 }
 .showcase-backdrop {
   position: absolute;
@@ -53,6 +54,22 @@
   height: 100%;
   display: block;
   object-fit: contain;
+}
+@media (prefers-reduced-motion: no-preference) {
+  .showcase-image {
+    transform: scale(1.018);
+    transition: transform var(--showcase-settle-duration) var(--showcase-ease);
+  }
+  .showcase-slide.is-active .showcase-image {
+    transform: scale(1);
+  }
+  .showcase-copy {
+    animation: showcase-copy-enter var(--showcase-fade-duration) var(--showcase-ease) both;
+  }
+}
+@keyframes showcase-copy-enter {
+  from { opacity: 0; transform: translateY(6px); }
+  to { opacity: 1; transform: translateY(0); }
 }
 .showcase-slide:not(.showcase-slide-with-backdrop) .showcase-image {
   object-fit: cover;
