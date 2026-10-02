@@ -142,7 +142,7 @@ export function JewelleryPiecePage({ piece }: { piece: JewelleryPiece }) {
                 <div className="jewellery-piece-downloads">
                   {piece.specification && (
                     <a className="collection-link" href={piece.specification}>
-                      View full specification <span aria-hidden="true">↗</span>
+                      View full specification <span aria-hidden="true">↗︎</span>
                     </a>
                   )}
                   {piece.downloads.map((item) => (
@@ -172,7 +172,7 @@ export function JewelleryPiecePage({ piece }: { piece: JewelleryPiece }) {
             ← Back to jewellery
           </Link>
           <Link className="collection-link" to="/jewellery/amara">
-            Explore Amara’s companion ↗
+            Explore Amara’s companion ↗︎
           </Link>
         </div>
       </div>

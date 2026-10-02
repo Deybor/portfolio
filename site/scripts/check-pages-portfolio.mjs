@@ -32,6 +32,24 @@ try {
     for (let i = 0; i < await tabs.count(); i++) { await tabs.nth(i).click(); await collect(); }
     pages.push({ route, title: await page.title(), textLength: text.length });
   }
+  // Direct HTML loads can mask a client-side public-path error. Exercise the
+  // actual home -> Jewellery -> Amara flow before checking nested model assets.
+  await page.goto(base, { waitUntil: "domcontentloaded" });
+  await page.getByRole("link", { name: "Jewellery", exact: true }).click();
+  await page.getByRole("link", { name: "Open study", exact: true }).click();
+  await page.locator(".amara-model-comparison").scrollIntoViewIfNeeded();
+  const comparison = page.locator(".amara-model-split img");
+  for (let i = 0; i < await comparison.count(); i++) {
+    try {
+      await comparison.nth(i).evaluate(image => new Promise((resolve, reject) => {
+        if (image.complete) return image.naturalWidth ? resolve(true) : reject(Error("Comparison image failed"));
+        const timeout = setTimeout(() => reject(Error("Comparison image timed out")), 15000);
+        image.addEventListener("load", () => { clearTimeout(timeout); resolve(true); }, { once: true });
+        image.addEventListener("error", () => { clearTimeout(timeout); reject(Error("Comparison image failed")); }, { once: true });
+      }));
+    } catch (error) { failures.push(error.message); }
+    assets.add(await comparison.nth(i).evaluate(image => image.src));
+  }
   const urls = [...assets];
   for (const url of urls) if (!new URL(url).pathname.startsWith("/portfolio/")) failures.push(`Link outside portfolio path: ${url}`);
   for (let i = 0; i < urls.length; i += 8) await Promise.all(urls.slice(i, i + 8).map(async url => {

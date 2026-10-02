@@ -1,4 +1,3 @@
-import { Link } from "@tanstack/react-router";
 import { useEffect, useRef, useState } from "react";
 import { filters, projects, type FilterId, type Project } from "@/data/projects";
 
@@ -86,7 +85,7 @@ export function HomePage() {
             and jewellery developed through to a detailed 3D model.
           </p>
           <a className="text-link" href="#work">
-            Explore selected work <span aria-hidden="true">↓</span>
+            Explore product visualization <span aria-hidden="true">↓</span>
           </a>
         </div>
         <span className="intro-number" aria-hidden="true">
@@ -96,7 +95,7 @@ export function HomePage() {
 
       <section
         className="featured-carousel"
-        aria-label="Featured work"
+        aria-label="Featured product visualization"
         aria-roledescription="carousel"
       >
         <div
@@ -151,7 +150,7 @@ export function HomePage() {
                   />
                   <span className="hero-caption">
                     <span>{item.kicker}</span>
-                    <span>View project ↗</span>
+                    <span>View project ↗︎</span>
                   </span>
                 </button>
               </div>
@@ -207,57 +206,9 @@ export function HomePage() {
       <section className="work section" id="work">
         <div className="section-heading">
           <h2>
-            Selected work<span> / {projects.length}</span>
+            Product visualization<span> / {projects.length}</span>
           </h2>
           <p>Still images. Moving ideas.</p>
-        </div>
-
-        <div className="design-collections">
-          <Link className="jewel-entry" to="/jewellery">
-            <div className="jewel-entry-copy">
-              <p className="eyebrow">Jewellery / 3D modelling</p>
-              <h3>Jewellery Design</h3>
-              <p>Form, detail and objects developed from concept to a detailed 3D model.</p>
-              <p className="jewel-entry-meta">Jewellery · 3D modelling · Visualization · Prototyping</p>
-              <span className="text-link">
-                Enter <span aria-hidden="true">↗</span>
-              </span>
-            </div>
-            <img
-              src="/jewellery/amara-nest/02-three-quarter.png"
-              alt="Amara Nest companion stud 3D design"
-              width={1200}
-              height={1500}
-            />
-          </Link>
-
-          <Link className="jewel-entry object-entry" to="/objects">
-            <div className="jewel-entry-copy">
-              <p className="eyebrow">Objects / 3D printing</p>
-              <h3>Printed Objects</h3>
-              <p>Ten trophy and medal designs. Beauty renders, wireframes and original drawings.</p>
-              <p className="jewel-entry-meta">Trophies · Medals · Model views</p>
-              <span className="text-link">
-                Explore the collection <span aria-hidden="true">↗</span>
-              </span>
-            </div>
-            <div className="home-object-images">
-              <img
-                src="/objects/zenith-cup/card.webp"
-                alt="The Zenith Cup beauty render"
-                loading="lazy"
-                width={800}
-                height={800}
-              />
-              <img
-                src="/objects/world/card.webp"
-                alt="World award beauty render"
-                loading="lazy"
-                width={800}
-                height={800}
-              />
-            </div>
-          </Link>
         </div>
 
         <div className="filters" role="group" aria-label="Filter projects">
@@ -301,7 +252,7 @@ export function HomePage() {
                   <span className="category">{project.label}</span>
                 </div>
                 <span className="arrow" aria-hidden="true">
-                  ↗
+                  ↗︎
                 </span>
               </div>
             </button>
@@ -376,7 +327,7 @@ export function HomePage() {
         </h2>
         <div className="contact-bottom">
           <a className="email" href="mailto:deybor4l@gmail.com">
-            deybor4l@gmail.com <span aria-hidden="true">↗</span>
+            deybor4l@gmail.com <span aria-hidden="true">↗︎</span>
           </a>
           <p>
             Lagos, Nigeria
@@ -451,7 +402,7 @@ export function HomePage() {
                 className="text-link"
                 href={`mailto:deybor4l@gmail.com?subject=${encodeURIComponent(`Project enquiry — ${active.title}`)}`}
               >
-                Discuss a similar project ↗
+                Discuss a similar project ↗︎
               </a>
               {next ? (
                 <button className="case-next" type="button" onClick={() => openProject(next.id)}>

@@ -13,7 +13,7 @@ export function SiteHeader() {
         DEYBOR<span>3D</span>
       </Link>
       <nav className="site-nav" aria-label="Main">
-        <a href="/#work">Work</a>
+        <a href="/#work">Product visualization</a>
         <Link to="/jewellery" aria-current={jewel ? "page" : undefined}>
           Jewellery
         </Link>

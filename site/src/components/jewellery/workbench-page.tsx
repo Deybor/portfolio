@@ -87,7 +87,7 @@ export function WorkbenchPage() {
               target="_blank"
               rel="noopener noreferrer"
             >
-              Open the full specification <span aria-hidden="true">↗</span>
+              Open the full specification <span aria-hidden="true">↗︎</span>
             </a>
           </article>
         </div>

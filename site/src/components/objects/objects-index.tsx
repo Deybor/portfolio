@@ -63,7 +63,7 @@ export function ObjectsIndex() {
                     width={800}
                     height={800}
                   />
-                  <span aria-hidden="true">↗</span>
+                  <span aria-hidden="true">↗︎</span>
                 </div>
                 <div className="object-card-copy">
                   <p className="collection-kicker">
@@ -93,7 +93,7 @@ export function ObjectsIndex() {
               target="_blank"
               rel="noopener noreferrer"
             >
-              Open the design book <span aria-hidden="true">↗</span>
+              Open the design book <span aria-hidden="true">↗︎</span>
             </a>
           </div>
           <details className="sketch-disclosure">
@@ -117,7 +117,7 @@ export function ObjectsIndex() {
                     />
                     <figcaption>
                       {sketch.title}
-                      <span>Page {sketch.page} ↗</span>
+                      <span>Page {sketch.page} ↗︎</span>
                     </figcaption>
                   </figure>
                 </a>
@@ -127,10 +127,10 @@ export function ObjectsIndex() {
         </section>
         <div className="collection-end">
           <Link className="collection-link" to="/jewellery">
-            Explore jewellery design <span aria-hidden="true">↗</span>
+            Explore jewellery design <span aria-hidden="true">↗︎</span>
           </Link>
           <a className="collection-link" href="/#work">
-            Back to the main portfolio <span aria-hidden="true">↗</span>
+            Back to the main portfolio <span aria-hidden="true">↗︎</span>
           </a>
         </div>
       </div>

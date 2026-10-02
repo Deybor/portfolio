@@ -21,6 +21,10 @@ Read `docs/GITHUB-PAGES.md` for the deployment build and verification instructio
 
 Read `AGENTS.md` and `AGENTS.project.md` in the website root, then inspect relevant current source files. This handoff records the latest user-approved state; older narrative notes may describe superseded decisions.
 
+## Home page update
+
+The user requested removing the Jewellery Design and Printed Objects promotional cards from the home work section. That section and its navigation/intro link are now named Product visualization. Its 12 existing product/beauty/motion projects and filters are retained. Jewellery and Printed objects still have their own navigation links and dedicated pages. Mobile navigation wraps to fit the longer label. The Amara material/wireframe comparison asset directory is also scoped correctly for GitHub Pages during in-site navigation, including its nested model49 folder. Validate navigation from the home page through Jewellery to Open study, not only direct page loads. UI diagonal and double-headed arrows explicitly use Unicode text presentation (VS15/U+FE0E), preventing iPhone Safari from substituting coloured emoji.
+
 ## Approved presentation and interactions
 
 - Preserve the charcoal, warm cream, serif design system, existing home page, jewellery study pages and printed-object collection.

@@ -32,7 +32,7 @@ export function JewelleryLanding() {
             </h2>
             <p>A companion for an existing necklace.</p>
             <Link className="collection-link" to="/jewellery/amara">
-              Open study <span aria-hidden="true">↗</span>
+              Open study <span aria-hidden="true">↗︎</span>
             </Link>
           </div>
           <Link

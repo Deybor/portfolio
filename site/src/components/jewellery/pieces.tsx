@@ -38,14 +38,14 @@ export function JewelleryPieces() {
                     loading="lazy"
                   />
                 </div>
-                <span aria-hidden="true">↗</span>
+                <span aria-hidden="true">↗︎</span>
               </div>
               <div className="jewellery-piece-copy">
                 <p className="collection-kicker">{piece.category}</p>
                 <h3>{piece.title}</h3>
                 <p>{piece.description}</p>
                 <span className="collection-link">
-                  Explore piece <span aria-hidden="true">↗</span>
+                  Explore piece <span aria-hidden="true">↗︎</span>
                 </span>
               </div>
             </Link>

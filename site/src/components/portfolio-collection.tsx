@@ -21,7 +21,7 @@ export function ObjectsPreview() {
         <h2 id="other-objects-title">Printed objects</h2>
         <p>Trophies, medals and sculptural forms.</p>
         <Link className="collection-link" to="/objects">
-          Browse the {printedObjects.length} objects <span aria-hidden="true">↗</span>
+          Browse the {printedObjects.length} objects <span aria-hidden="true">↗︎</span>
         </Link>
       </div>
       <Link

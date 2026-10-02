@@ -195,7 +195,8 @@
   }
 
   .site-nav {
-    gap: 16px;
+    flex-wrap: wrap;
+    gap: 0 16px;
     font-size: 13px;
     width: 100%;
     justify-content: space-between;

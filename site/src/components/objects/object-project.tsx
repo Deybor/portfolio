@@ -156,13 +156,13 @@ function ObjectStudy({ project }: { project: PrintedObject }) {
               ))}
             </dl>
             {project.dimensions && <>
-              <button className="collection-link object-drawing-link" onClick={() => { selectKind("dimensions"); document.getElementById("dimensions-tab")?.focus(); }}>View dimensioned drawing <span aria-hidden="true">↗</span></button>
+              <button className="collection-link object-drawing-link" onClick={() => { selectKind("dimensions"); document.getElementById("dimensions-tab")?.focus(); }}>View dimensioned drawing <span aria-hidden="true">↗︎</span></button>
               <a className="collection-link" href={`/objects/${project.slug}/dimensions.svg`} download>Download</a>
             </>}
             <div className="object-project-resources">
               <p className="collection-kicker">Explore the collection</p>
               <Link className="collection-link" to="/objects" hash="drawings">
-                Original award design drawings <span aria-hidden="true">↗</span>
+                Original award design drawings <span aria-hidden="true">↗︎</span>
               </Link>
               <a
                 className="collection-link"
@@ -170,7 +170,7 @@ function ObjectStudy({ project }: { project: PrintedObject }) {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                Open the design book <span aria-hidden="true">↗</span>
+                Open the design book <span aria-hidden="true">↗︎</span>
               </a>
             </div>
           </aside>

@@ -79,7 +79,7 @@ export function ModelComparison() {
             }
           }}
         >
-          <b aria-hidden="true">↔</b>
+          <b aria-hidden="true">↔︎</b>
         </div>
       </div>
       <figcaption>

@@ -205,7 +205,7 @@ export const projects: Project[] = [
 ];
 
 export const filters = [
-  { id: "All", label: "All work" },
+  { id: "All", label: "All projects" },
   { id: "Product", label: "Product" },
   { id: "Beauty", label: "Beauty & lifestyle" },
   { id: "Motion", label: "Motion" },

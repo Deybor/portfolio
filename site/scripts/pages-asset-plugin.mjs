@@ -6,7 +6,7 @@ export function pagesAssetPlugin(base) {
     ? `${base.slice(0, -1)}${value}` : value;
   const isAsset = (value) => /^\/(?!\/)/.test(value) &&
     (/\.(?:png|jpe?g|webp|avif|gif|svg|mp4|webm|pdf|html|css|js|ico|webmanifest)(?:[?#]|$)/i.test(value) ||
-      /^\/(?:jewellery|objects|portfolio)\/[^/]+\/$/.test(value));
+      /^\/(?:jewellery|objects|portfolio)\/(?:[^/]+\/)+$/.test(value));
   return {
     name: "portfolio-pages-public-urls",
     enforce: "pre",
