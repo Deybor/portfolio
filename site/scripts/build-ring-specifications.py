@@ -139,8 +139,8 @@ class Pack:
         for y in [y1,y2]:self.line(edge,y,x+6,y,ACCENT)
         self.line(x,y1,x,y2,ACCENT);self.arrow(x,y1,0,1);self.arrow(x,y2,0,-1)
         self.text(x+8,(y1+y2)/2+4,label,11,True,ACCENT)
-    def ortho(self,name,x,y,w,h,dim_labels=None):
-        v=DATA[self.slug]['views'][name];self.image(self.out/'technical'/v['file'],x,y,w,h)
+    def ortho(self,name,x,y,w,h,dim_labels=None,model_view=False):
+        v=DATA[self.slug]['views'][name];self.image(self.out/'technical'/v['file'],x,y,w,h,model_view=model_view)
         if not dim_labels:return
         # Camera orthographic scale is horizontal width for the rendered image.
         scale=w/v['ortho_scale']; centre=v['centre']; rot=v['rotation_inverse']
@@ -160,16 +160,18 @@ class Pack:
             # One visible front projection of the frozen refined mesh. A Y=0
             # cut misses the prong axes and cannot describe their full profile.
             data=DATA[self.slug];view=data['views']['front']
-            points=[point for segment in data['vector_views']['front']['segments'] if segment['silhouette'] for point in segment['points']]
-            lo=[min(point[i] for point in points) for i in range(2)]
-            hi=[max(point[i] for point in points) for i in range(2)]
-            scale=min(w/(hi[0]-lo[0]),h/(hi[1]-lo[1]))
-            xx,yy,dw,dh=self.vector_view('front',x,y,w,h,tight=True,silhouette_only=True,width=1.2)
-            self.svg[-1]=self.svg[-1].replace('<path ','<path id="front-elevation-contour" ',1)
+            path=self.out/'technical'/view['file']
+            source_image=Image.open(path).convert('RGBA')
+            crop=source_image.getchannel('A').point(lambda v:255 if v>10 else 0).getbbox()
+            if crop is None:raise ValueError('Empty frozen front-view render')
+            xx,yy,dw,dh=self.image(path,x,y,w,h,tight=True,model_view=True)
+            # Project dimensions through the original orthographic camera and
+            # alpha crop, not through the incomplete legacy line trace.
+            iw,ih=source_image.size;pixel_scale=iw/view['ortho_scale']
             def project(world):
                 delta=[world[i]-view['centre'][i] for i in range(3)]
                 p=[sum(delta[i]*view['rotation_inverse'][j][i] for i in range(3)) for j in [0,1]]
-                return xx+(p[0]-lo[0])*scale,yy+(hi[1]-p[1])*scale
+                return xx+(iw/2+p[0]*pixel_scale-crop[0])*dw/(crop[2]-crop[0]),yy+(ih/2-p[1]*pixel_scale-crop[1])*dh/(crop[3]-crop[1])
             centre_x,bore_y=project([0,0,10.4])
             self.line(centre_x,yy-10,centre_x,yy+dh+10,MUTED,.6,True)
             left,_=project([-9,0,10.4]);right,_=project([9,0,10.4])
@@ -272,9 +274,9 @@ def build(slug):
 
     p.start('Assembly dimensions','Orthographic dimensions of the pre-setting metal body. All stated dimensions are in millimetres.')
     if con:
-        p.text(73,169,'FRONT / X-Z',11,True);p.ortho('front',55,182,350,311,[f'{w:.2f}',f'{h:.2f}'])
-        p.text(500,169,'SIDE / Y-Z',11,True);p.ortho('side',455,182,240,213,[f'{depth:.2f}',None])
-        p.text(815,169,'TOP / X-Y',11,True);p.ortho('top',785,182,330,293,[f'{w:.2f}',f'{depth:.2f}'])
+        p.text(73,169,'FRONT / X-Z',11,True);p.ortho('front',55,182,350,311,[f'{w:.2f}',f'{h:.2f}'],model_view=True)
+        p.text(500,169,'SIDE / Y-Z',11,True);p.ortho('side',455,182,240,213,[f'{depth:.2f}',None],model_view=True)
+        p.text(815,169,'TOP / X-Y',11,True);p.ortho('top',785,182,330,293,[f'{w:.2f}',f'{depth:.2f}'],model_view=True)
         rows=[['D01','Model body W × H × D',f'{w:.2f} × {h:.2f} × {depth:.2f}','Pre-setting metal body'],['D02','Finished assembly envelope','21.42 × 23.28 × 6.00','Reference dimensions including stones'],['D03','Prong stock / count','Centre Ø0.95 / sides Ø0.80; 12 total','Curved centre stems; ~0.62 mm straight ends'],['D04','Bore / lower shank','18.00 nominal / 2.50 wide / 1.70 radial','Nominal bore; sampled shank dimensions']]
     else:
         p.text(66,169,'FRONT / X-Z',11,True);p.ortho('front',48,180,425,378,['22.02','22.02'])
