@@ -7,17 +7,17 @@ export function ObjectProject({ project }: { project: PrintedObject }) {
 }
 
 const viewLabels: Record<string, string> = {
-  final: "Renders", clay: "Clay", wireframe: "Wireframe", references: "References", dimensions: "Dimensions",
+  final: "Renders", clay: "Clay", wireframe: "Wireframe", references: "References", dimensions: "Dimensions", finish: "Finish",
 };
 const captions: Record<string, string> = {
-  final: "Beauty render", clay: "Clay study", wireframe: "Model wireframe", references: "Original design drawing", dimensions: "Dimensioned model drawing",
+  final: "Beauty render", clay: "Clay study", wireframe: "Model wireframe", references: "Original design drawing", dimensions: "Dimensioned model drawing", finish: "Finished physical object photograph",
 };
 
 function ObjectStudy({ project }: { project: PrintedObject }) {
   const [kind, setKind] = useState("final");
   const [index, setIndex] = useState(0);
   const hasWireframes = project.views.some((view) => view.kind === "wireframe");
-  const kinds = ["final", "clay", "wireframe", "dimensions", "references"].filter((value) => project.views.some((view) => view.kind === value));
+  const kinds = ["final", "clay", "wireframe", "dimensions", "references", "finish"].filter((value) => project.views.some((view) => view.kind === value));
   const views = project.views.filter((view) => view.kind === kind);
   const view = views[index] ?? views[0];
   const previewGallery = JSON.stringify(views.map((item) => ({ href: item.full, title: `${project.title} / ${item.label ?? captions[kind]} / ${item.index}` })));
@@ -60,6 +60,7 @@ function ObjectStudy({ project }: { project: PrintedObject }) {
             3D model · {project.views.filter((item) => item.kind === "final").length} render{" "}
             {project.views.filter((item) => item.kind === "final").length === 1 ? "view" : "views"}
             {project.views.some((item) => item.kind === "clay") ? " · Clay + wireframe studies" : ""}
+            {project.views.some((item) => item.kind === "finish") ? " · Finished object photograph" : ""}
           </p>
         </header>
         <div className="object-project-layout">

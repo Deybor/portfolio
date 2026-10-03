@@ -108,6 +108,16 @@
         "full": "/objects/zenith-cup/workspace-01.png",
         "label": "Blender workspace",
         "generated": true
+      },
+      {
+        "kind": "finish",
+        "index": 1,
+        "source": "tro.jpg",
+        "width": 567,
+        "height": 1008,
+        "image": "/objects/zenith-cup/finish-01.jpg",
+        "full": "/objects/zenith-cup/finish-01.jpg",
+        "label": "Finished physical trophy photograph"
       }
     ],
     "dimensions": {

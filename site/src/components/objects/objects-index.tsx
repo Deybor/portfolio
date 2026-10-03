@@ -27,7 +27,7 @@ export function ObjectsIndex() {
           <p>
             Trophies, medals and sculptural forms I designed and 3D printed.
             <br className="desktop-break" /> Production is ongoing; this gallery shows renders,
-            model views and original drawings.
+            model views and original drawings, plus a finished-object photograph in Zenith Cup’s Finish tab.
           </p>
         </header>
         <CollectionNav active="objects" />
@@ -76,6 +76,7 @@ export function ObjectsIndex() {
                     {object.views.some((view) => view.kind === "wireframe")
                       ? "Renders · Clay · Wireframe"
                       : `${object.views.length} render ${object.views.length === 1 ? "view" : "views"}`}
+                    {object.views.some((view) => view.kind === "finish") ? " · Finish" : ""}
                   </p>
                 </div>
               </Link>
