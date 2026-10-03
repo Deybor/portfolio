@@ -1,4 +1,4 @@
-import { useState, type KeyboardEvent } from "react";
+import { useEffect, useRef, useState, type KeyboardEvent } from "react";
 import { Link } from "@tanstack/react-router";
 import { jewelleryPieces, type JewelleryPiece, type JewelleryView } from "@/lib/jewellery-pieces";
 
@@ -11,13 +11,83 @@ const labels: Record<JewelleryView["kind"], string> = {
 };
 const order = ["renders", "cad", "wireframe", "dimensions", "sketches"] as const;
 
+function DrawingPreview({
+  view,
+  title,
+  gallery,
+}: {
+  view: JewelleryView;
+  title: string;
+  gallery: string;
+}) {
+  const image = useRef<HTMLImageElement>(null);
+  const [source, setSource] = useState(view.image);
+  const [state, setState] = useState<"loading" | "ready" | "error">("loading");
+  const [showLoading, setShowLoading] = useState(false);
+
+  useEffect(() => {
+    // A cached image can finish before React attaches its load handler.
+    if (image.current?.complete && image.current.naturalWidth > 0) setState("ready");
+  }, [source]);
+
+  useEffect(() => {
+    if (state !== "loading") return;
+    // Avoid flashing a status message when the small preview loads immediately.
+    const timer = window.setTimeout(() => setShowLoading(true), 180);
+    return () => window.clearTimeout(timer);
+  }, [state]);
+
+  return (
+    <div
+      className="jewellery-drawing-preview"
+      aria-busy={state === "loading"}
+      style={{ aspectRatio: `${view.width} / ${view.height}` }}
+    >
+      <a
+        href={view.full}
+        data-preview-gallery={gallery}
+        aria-haspopup="dialog"
+        aria-label={`Open ${title} ${view.label} full size`}
+      >
+        <img
+          ref={image}
+          className="jewellery-drawing-view"
+          src={source}
+          alt={`${title} / ${view.label}`}
+          width={view.width}
+          height={view.height}
+          fetchPriority="high"
+          decoding="async"
+          onLoad={() => setState("ready")}
+          onError={() => {
+            if (source !== view.full) setSource(view.full);
+            else setState("error");
+          }}
+        />
+      </a>
+      {showLoading && state === "loading" && (
+        <p className="jewellery-drawing-status" role="status">
+          Loading drawing…
+        </p>
+      )}
+      {state === "error" && (
+        <p className="jewellery-drawing-status" role="status">
+          The preview could not load. <a href={view.full}>Open the original drawing</a>.
+        </p>
+      )}
+    </div>
+  );
+}
+
 export function JewelleryPiecePage({ piece }: { piece: JewelleryPiece }) {
   const [kind, setKind] = useState<JewelleryView["kind"]>("renders");
   const [index, setIndex] = useState(0);
   const kinds = order.filter((value) => piece.views.some((item) => item.kind === value));
   const views = piece.views.filter((item) => item.kind === kind);
   const view = views[index] ?? views[0];
-  const previewGallery = JSON.stringify(views.map((item) => ({ href: item.full, title: `${piece.title} / ${item.label}` })));
+  const previewGallery = JSON.stringify(
+    views.map((item) => ({ href: item.full, title: `${piece.title} / ${item.label}` })),
+  );
   const next = jewelleryPieces[jewelleryPieces.findIndex((item) => item.slug === piece.slug) + 1];
   function select(value: JewelleryView["kind"]) {
     setKind(value);
@@ -89,26 +159,35 @@ export function JewelleryPiecePage({ piece }: { piece: JewelleryPiece }) {
                 </p>
               )}
               <figure className="object-main-view">
-                <a
-                  href={view.full}
-                  data-preview-gallery={previewGallery}
-                  aria-haspopup="dialog"
-                  aria-label={`Open ${piece.title} ${view.label} full size`}
-                >
-                  <img
-                    className={
-                      kind === "dimensions" || kind === "sketches"
-                        ? "jewellery-drawing-view"
-                        : undefined
-                    }
+                {kind === "dimensions" && piece.slug === "confluence" ? (
+                  <DrawingPreview
                     key={view.image}
-                    src={view.image}
-                    alt={`${piece.title} / ${view.label}`}
-                    width={view.width}
-                    height={view.height}
-                    fetchPriority="high"
+                    view={view}
+                    title={piece.title}
+                    gallery={previewGallery}
                   />
-                </a>
+                ) : (
+                  <a
+                    href={view.full}
+                    data-preview-gallery={previewGallery}
+                    aria-haspopup="dialog"
+                    aria-label={`Open ${piece.title} ${view.label} full size`}
+                  >
+                    <img
+                      className={
+                        kind === "dimensions" || kind === "sketches"
+                          ? "jewellery-drawing-view"
+                          : undefined
+                      }
+                      key={view.image}
+                      src={view.image}
+                      alt={`${piece.title} / ${view.label}`}
+                      width={view.width}
+                      height={view.height}
+                      fetchPriority="high"
+                    />
+                  </a>
+                )}
                 <figcaption>
                   <span>
                     {view.label} / {String(index + 1).padStart(2, "0")}
@@ -132,7 +211,14 @@ export function JewelleryPiecePage({ piece }: { piece: JewelleryPiece }) {
                       aria-pressed={index === n}
                       onClick={() => setIndex(n)}
                     >
-                      <img src={item.image} alt="" width={120} height={120} loading="lazy" />
+                      <img
+                        src={item.thumbnail ?? item.image}
+                        alt=""
+                        width={120}
+                        height={120}
+                        loading="lazy"
+                        decoding="async"
+                      />
                       <span>{String(n + 1).padStart(2, "0")}</span>
                     </button>
                   ))}

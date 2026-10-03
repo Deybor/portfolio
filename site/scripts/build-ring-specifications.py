@@ -98,7 +98,7 @@ class Pack:
         self.pdf.drawImage(ImageReader(BytesIO(raw)),xx,H-yy-dh,dw,dh,mask='auto')
         self.svg.append(f'<image x="{xx}" y="{yy}" width="{dw}" height="{dh}" href="data:image/png;base64,{base64.b64encode(raw).decode()}"/>')
         return xx,yy,dw,dh
-    def vector_view(self,name,x,y,w,h,tight=False,color=INK,width=.7,silhouette_only=False):
+    def vector_view(self,name,x,y,w,h,tight=False,color=INK,width=1.2,silhouette_only=False):
         view=DATA[self.slug]['vector_views'][name]
         segments=view['segments'];scale_width=view['ortho_scale']
         lo=[-scale_width/2,-scale_width*view['pixel_size'][1]/view['pixel_size'][0]/2]
@@ -118,7 +118,10 @@ class Pack:
                 a,b=[(xx+(point[0]-lo[0])*scale,yy+(hi[1]-point[1])*scale) for point in segment['points']]
                 pdfpath.moveTo(a[0],H-a[1]);pdfpath.lineTo(b[0],H-b[1])
                 svgpath.append(f'M{a[0]:.3f} {a[1]:.3f}L{b[0]:.3f} {b[1]:.3f}')
-            stroke=width if silhouette else width*.7
+            # Keep true visible contour/crease geometry legible when a full
+            # sheet is fitted to a laptop or phone; previous .7/.49 pt strokes
+            # became subpixel at the normal gallery display scale.
+            stroke=round(width if silhouette else width*.75,3)
             self.pdf.setStrokeColor(color);self.pdf.setLineWidth(stroke);self.pdf.drawPath(pdfpath)
             self.svg.append(f'<path d="{" ".join(svgpath)}" fill="none" stroke="{color}" stroke-width="{stroke}" stroke-linecap="round" stroke-linejoin="round"/>')
         return xx,yy,dw,dh
@@ -161,7 +164,7 @@ class Pack:
             lo=[min(point[i] for point in points) for i in range(2)]
             hi=[max(point[i] for point in points) for i in range(2)]
             scale=min(w/(hi[0]-lo[0]),h/(hi[1]-lo[1]))
-            xx,yy,dw,dh=self.vector_view('front',x,y,w,h,tight=True,silhouette_only=True,width=.75)
+            xx,yy,dw,dh=self.vector_view('front',x,y,w,h,tight=True,silhouette_only=True,width=1.2)
             self.svg[-1]=self.svg[-1].replace('<path ','<path id="front-elevation-contour" ',1)
             def project(world):
                 delta=[world[i]-view['centre'][i] for i in range(3)]
@@ -232,7 +235,13 @@ def create_html(p):
     table=lambda t:'<div class="table-scroll" tabindex="0"><table><thead><tr>'+''.join('<th scope="col">'+escape(x)+'</th>' for x in t['headers'])+'</tr></thead><tbody>'+''.join('<tr>'+''.join(('<th scope="row">' if i==0 else '<td>')+escape(str(v))+('</th>' if i==0 else '</td>') for i,v in enumerate(row))+'</tr>' for row in t['rows'])+'</tbody></table></div>'
     sections=[]
     for i,r in enumerate(p.records):
-        sections.append(f'<section id="sheet-{i+1}"><div class="section-heading"><h2>{i+1:02d} / {escape(r["title"])}</h2><a href="{r["drawing"]}" aria-haspopup="dialog">View sheet ⤢</a></div><p>{escape(r["subtitle"])}</p>'+('<a class="sheet" href="'+r['drawing']+'" aria-haspopup="dialog"><img src="'+r['drawing']+'" alt="'+escape(r['title']+' - dimensioned CAD views and specification')+'" width="1190" height="842" loading="lazy"></a>' if i<3 else '')+''.join(table(t) for t in r['tables'])+''.join('<p class="note">'+escape(n)+'</p>' for n in r['notes'])+'</section>')
+        drawing=r['drawing']
+        # Fast display files are derived from the same SVGs by
+        # build-confluence-previews.mjs. Every original SVG anchor stays
+        # unchanged; a missing preview after regeneration falls back to it.
+        preview='technical/previews/'+Path(drawing).stem+'.webp' if p.slug=='confluence' else drawing
+        fallback=f' onerror="this.onerror=null;this.src=\'{escape(drawing)}\'"' if p.slug=='confluence' else ''
+        sections.append(f'<section id="sheet-{i+1}"><div class="section-heading"><h2>{i+1:02d} / {escape(r["title"])}</h2><a href="{drawing}" aria-haspopup="dialog">View sheet ⤢</a></div><p>{escape(r["subtitle"])}</p>'+('<a class="sheet" href="'+drawing+'" aria-haspopup="dialog"><img src="'+preview+'"'+fallback+' alt="'+escape(r['title']+' - dimensioned 3D model views and specification')+'" width="1190" height="842" loading="lazy"></a>' if i<3 else '')+''.join(table(t) for t in r['tables'])+''.join('<p class="note">'+escape(n)+'</p>' for n in r['notes'])+'</section>')
     doc=f'''<!doctype html><html lang="en"><head><link rel="icon" type="image/svg+xml" href="/favicon.svg"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>{escape(p.title)} - technical specification | Adesina Adebola</title><link rel="stylesheet" href="../ring-specification.css"><link rel="stylesheet" href="/image-viewer.css"><script src="/image-viewer.js" defer></script></head><body><header class="top"><a href="/jewellery/{p.slug}">← Back to {escape(p.title)}</a><a class="download" href="technical-specification.pdf" download>Download PDF ↓</a></header><main><div class="heading"><p>ADESINA ADEBOLA / INDEPENDENT DESIGN STUDY</p><h1>{escape(p.title)}</h1><p>Technical specification / {p.code} / {p.rev} / 02 October 2026</p><p class="status">Supplier review - not released for production</p></div><nav class="contents" aria-label="Specification sections">{''.join(f'<a href="#sheet-{i+1}">{i+1:02d} / {escape(r["title"])}</a>' for i,r in enumerate(p.records))}</nav>{''.join(sections)}<footer>Model dimensions = measurements from the 3D mesh. Proposed = design target. TBC = to be confirmed.</footer></main></body></html>'''
     (p.out/'specification.html').write_text(doc,encoding='utf-8')
 
@@ -242,7 +251,10 @@ def build(slug):
     if con:
         shape=d['assembly']['size'];w,h,depth=shape[0],shape[2],shape[1]
     p.start('Design & specification overview','Design specification and proposed material schedule for first-sample review.')
-    p.image(p.out/'technical/isometric.png',36,166,515,480,tight=True)
+    # The overview needs the shaded frozen body to make the open stock
+    # settings clear. Keep the dimensioned orthographic sheets as vectors.
+    p.image(p.out/'technical/isometric.png',36,166,515,480,tight=True,model_view=con)
+    if con:p.text(36,668,'SOLID MODEL VIEW / PRE-SETTING METAL BODY',11,True)
     p.text(36,683,'PROPOSED MATERIAL ROUTE',11,True,ACCENT)
     p.note(36,697,490,'925 sterling silver, 18K yellow-gold electroplate at a 3.5 µm target, and round brilliant-cut moissanite. Proposed material route; sample approval required.')
     rows=[['Item / type',code+' / '+('bypass three-stone ring' if con else 'four-row full-eternity band'),'Defined'],
@@ -362,8 +374,8 @@ def build(slug):
 selected=sys.argv[1:] or ['confluence','iced-out-ring']
 assert all(slug in DATA for slug in selected)
 for slug in selected:build(slug)
-audit={'date':'2026-10-02','pdf_pages_per_ring':8,'source_models_preserved':True,'method':'Saved mesh orthographic views and real triangle/plane sections; measurements retained with provenance; proposed supplier targets explicitly labelled',
- 'outputs':['confluence/technical-specification.pdf','iced-out-ring/technical-specification.pdf'],
+audit={'date':'2026-10-03','pdf_pages_per_ring':8,'source_models_preserved':True,'method':'Saved mesh orthographic views and real triangle/plane sections; measurements retained with provenance; proposed supplier targets explicitly labelled',
+ 'outputs':[s+'/technical-specification.pdf' for s in selected],
  'models':{s:{'source':d['source'],'sha256':d['source_sha256']} for s,d in DATA.items()}}
 for s,d in DATA.items():assert hashlib.sha256(Path(d['source']).read_bytes()).hexdigest()==d['source_sha256']
 (ROOT/'docs/ring-specification-build.json').write_text(json.dumps(audit,indent=2),encoding='utf-8')

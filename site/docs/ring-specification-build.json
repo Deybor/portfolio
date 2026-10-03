@@ -1,11 +1,10 @@
 {
-  "date": "2026-10-02",
+  "date": "2026-10-03",
   "pdf_pages_per_ring": 8,
   "source_models_preserved": true,
   "method": "Saved mesh orthographic views and real triangle/plane sections; measurements retained with provenance; proposed supplier targets explicitly labelled",
   "outputs": [
-    "confluence/technical-specification.pdf",
-    "iced-out-ring/technical-specification.pdf"
+    "confluence/technical-specification.pdf"
   ],
   "models": {
     "confluence": {

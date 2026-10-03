@@ -2,6 +2,7 @@ export type JewelleryView = {
   kind: "renders" | "cad" | "wireframe" | "dimensions" | "sketches";
   label: string;
   image: string;
+  thumbnail?: string;
   full: string;
   width: number;
   height: number;
@@ -54,7 +55,14 @@ function specificationViews(slug: string): JewelleryView[] {
   return sheets.map(([file, label]) => ({
     kind: "dimensions",
     label,
-    image: `/jewellery/${slug}/technical/${file}`,
+    image:
+      slug === "confluence"
+        ? `/jewellery/${slug}/technical/previews/${file.replace(/\.svg$/, "")}.webp`
+        : `/jewellery/${slug}/technical/${file}`,
+    thumbnail:
+      slug === "confluence"
+        ? `/jewellery/${slug}/technical/previews/${file.replace(/\.svg$/, "")}-thumb.webp`
+        : undefined,
     full: `/jewellery/${slug}/technical/${file}`,
     width: 1190,
     height: 842,
@@ -76,14 +84,7 @@ export const jewelleryPieces: JewelleryPiece[] = [
       view("confluence", "render-01-environment", "renders", "Environment render", 2400, 2400),
       view("confluence", "render-02-studio", "renders", "Studio render", 2400, 2400),
       view("confluence", "render-03", "renders", "Setting detail", 2800, 2800),
-      view(
-        "confluence",
-        "wireframe-01",
-        "wireframe",
-        "Pre-setting model wireframe",
-        1800,
-        1600,
-      ),
+      view("confluence", "wireframe-01", "wireframe", "Pre-setting model wireframe", 1800, 1600),
       view(
         "confluence",
         "wireframe-02",
@@ -108,7 +109,8 @@ export const jewelleryPieces: JewelleryPiece[] = [
     slug: "iced-out-ring",
     title: "Iced-out ring",
     category: "Stone-set band",
-    description: "A bold iced-out gold ring with dense pavé-set stones for a clean, luxurious finish.",
+    description:
+      "A bold iced-out gold ring with dense pavé-set stones for a clean, luxurious finish.",
     story:
       "A stone-set band designed for continuous sparkle, with angled outer rows and open galleries that keep the setting light and refined.",
     note: "Digital design study. Model units interpreted as millimetres; nominal ring size and stone schedule TBC.",
@@ -163,13 +165,21 @@ export const jewelleryPieces: JewelleryPiece[] = [
     title: "Ribbon Leaf",
     category: "Drop earrings",
     description: "A ribbon-shaped leaf, suspended beneath a cluster of stones.",
-    story: "I paired a small stone cluster with an articulated line of settings and an open leaf-shaped drop. A central stone sits inside the ribbon, with smaller stones following one edge.",
+    story:
+      "I paired a small stone cluster with an articulated line of settings and an open leaf-shaped drop. A central stone sits inside the ribbon, with smaller stones following one edge.",
     note: "Digital design study. Dimensions describe the metal assembly; materials and production specifications TBC.",
     card: "/jewellery/ribbon-leaf/render-01-studio.webp",
     cardWireframe: "/jewellery/ribbon-leaf/cover-wireframe.webp",
     views: [
       view("ribbon-leaf", "render-01-studio", "renders", "Studio render", 2500, 3000),
-      { kind: "dimensions", label: "Assembly dimensions / model measurements", image: "/jewellery/ribbon-leaf/dimensions.svg", full: "/jewellery/ribbon-leaf/dimensions.svg", width: 1600, height: 1120 },
+      {
+        kind: "dimensions",
+        label: "Assembly dimensions / model measurements",
+        image: "/jewellery/ribbon-leaf/dimensions.svg",
+        full: "/jewellery/ribbon-leaf/dimensions.svg",
+        width: 1600,
+        height: 1120,
+      },
     ],
     downloads: [{ label: "Dimension drawing", href: "/jewellery/ribbon-leaf/dimensions.svg" }],
   },

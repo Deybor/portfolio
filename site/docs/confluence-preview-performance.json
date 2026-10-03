@@ -1,0 +1,304 @@
+{
+  "generatedAt": "2026-10-03T16:59:33.477Z",
+  "renderer": "Sharp/libvips SVG renderer; directly derived from existing SVG sheets",
+  "rendererVersions": {
+    "aom": "3.14.1",
+    "archive": "3.8.9",
+    "cairo": "1.18.4",
+    "cgif": "0.5.3",
+    "exif": "0.6.26",
+    "expat": "2.8.3",
+    "ffi": "3.8.0",
+    "fontconfig": "2.18.3",
+    "freetype": "2.14.3",
+    "fribidi": "1.0.16",
+    "glib": "2.89.4",
+    "harfbuzz": "14.3.1",
+    "heif": "1.23.2",
+    "highway": "1.4.0",
+    "imagequant": "2.4.1",
+    "lcms": "2.19.1",
+    "mozjpeg": "0826579",
+    "pango": "1.58.2",
+    "pixman": "0.46.4",
+    "png": "1.6.58",
+    "proxy-libintl": "0.5",
+    "rsvg": "2.62.91",
+    "tiff": "4.7.2",
+    "uhdr": "2.0.2",
+    "vips": "8.18.6",
+    "webp": "1.6.0",
+    "xml2": "2.15.3",
+    "zlib-ng": "2.3.3",
+    "sharp": "0.35.4"
+  },
+  "preservation": {
+    "originalsUnchanged": true,
+    "before": [
+      {
+        "path": "public/jewellery/confluence/dimensions.pdf",
+        "bytes": 149598,
+        "sha256": "815813dcf1cf45e1ef617509b0f680656a00fa46b1c1afae82d3b1d04ff511be"
+      },
+      {
+        "path": "public/jewellery/confluence/dimensions.svg",
+        "bytes": 299661,
+        "sha256": "17839cfc90e655e09f484a54f631010f496c24f376a0b9e234e0291e3b01e1b0"
+      },
+      {
+        "path": "public/jewellery/confluence/sketches.svg",
+        "bytes": 58223,
+        "sha256": "50f12f64e7277e18a1ddeba82736555d04c813a6e3fe4ed22a8d004558fa6f33"
+      },
+      {
+        "path": "public/jewellery/confluence/specification.pdf",
+        "bytes": 1807354,
+        "sha256": "d6915a377d2aad429abe61d237ca9f324f7d94a65f0c3af2d0b500472a28fadc"
+      },
+      {
+        "path": "public/jewellery/confluence/technical-specification.pdf",
+        "bytes": 2503636,
+        "sha256": "32b68716c96c88679d68063f2f31a8a625e24ef5977f3815b007a11e6bba80b6"
+      },
+      {
+        "path": "public/jewellery/confluence/technical/01-design-specification-overview.svg",
+        "bytes": 1143093,
+        "sha256": "586e18694a00543a322c3dcaa5adab4d5a03783e45de37d179d9dfe8d45bc9c3"
+      },
+      {
+        "path": "public/jewellery/confluence/technical/02-assembly-dimensions.svg",
+        "bytes": 299661,
+        "sha256": "17839cfc90e655e09f484a54f631010f496c24f376a0b9e234e0291e3b01e1b0"
+      },
+      {
+        "path": "public/jewellery/confluence/technical/03-construction-stone-setting.svg",
+        "bytes": 2624676,
+        "sha256": "e400556b6104992e6476e9209d46dbc68ef760e842d38b822354f3d1bed47379"
+      },
+      {
+        "path": "public/jewellery/confluence/technical/04-materials,-finish-bill-of-materials.svg",
+        "bytes": 7580,
+        "sha256": "73493cabb7ccd0ba522d0c433aaf5f51bd13167ed51114fc7abd1b8114e47769"
+      },
+      {
+        "path": "public/jewellery/confluence/technical/05-manufacturing-route-tolerances.svg",
+        "bytes": 9477,
+        "sha256": "ee855ecaa1225b89ccd377f4b9bc62c01f1f1115ad0f5794367e4c19421e8cc7"
+      },
+      {
+        "path": "public/jewellery/confluence/technical/06-sample-review-quality-control.svg",
+        "bytes": 9827,
+        "sha256": "7713eb2f592b06f019f7d1386231c081e857702b405c9fd40fe8b6785a6f2808"
+      },
+      {
+        "path": "public/jewellery/confluence/technical/07-costing,-moq-supplier-quotation.svg",
+        "bytes": 9181,
+        "sha256": "709396f67b430f18bea70336e27aeb5860eaa0b7ee67b5826d663865ded70094"
+      },
+      {
+        "path": "public/jewellery/confluence/technical/08-release-checklist-source-control.svg",
+        "bytes": 8802,
+        "sha256": "01171aaf9c4a159eef62c90f1f202b0cd1bef99deb86c9957bc7587f36c5d877"
+      }
+    ],
+    "after": [
+      {
+        "path": "public/jewellery/confluence/dimensions.pdf",
+        "bytes": 149598,
+        "sha256": "815813dcf1cf45e1ef617509b0f680656a00fa46b1c1afae82d3b1d04ff511be"
+      },
+      {
+        "path": "public/jewellery/confluence/dimensions.svg",
+        "bytes": 299661,
+        "sha256": "17839cfc90e655e09f484a54f631010f496c24f376a0b9e234e0291e3b01e1b0"
+      },
+      {
+        "path": "public/jewellery/confluence/sketches.svg",
+        "bytes": 58223,
+        "sha256": "50f12f64e7277e18a1ddeba82736555d04c813a6e3fe4ed22a8d004558fa6f33"
+      },
+      {
+        "path": "public/jewellery/confluence/specification.pdf",
+        "bytes": 1807354,
+        "sha256": "d6915a377d2aad429abe61d237ca9f324f7d94a65f0c3af2d0b500472a28fadc"
+      },
+      {
+        "path": "public/jewellery/confluence/technical-specification.pdf",
+        "bytes": 2503636,
+        "sha256": "32b68716c96c88679d68063f2f31a8a625e24ef5977f3815b007a11e6bba80b6"
+      },
+      {
+        "path": "public/jewellery/confluence/technical/01-design-specification-overview.svg",
+        "bytes": 1143093,
+        "sha256": "586e18694a00543a322c3dcaa5adab4d5a03783e45de37d179d9dfe8d45bc9c3"
+      },
+      {
+        "path": "public/jewellery/confluence/technical/02-assembly-dimensions.svg",
+        "bytes": 299661,
+        "sha256": "17839cfc90e655e09f484a54f631010f496c24f376a0b9e234e0291e3b01e1b0"
+      },
+      {
+        "path": "public/jewellery/confluence/technical/03-construction-stone-setting.svg",
+        "bytes": 2624676,
+        "sha256": "e400556b6104992e6476e9209d46dbc68ef760e842d38b822354f3d1bed47379"
+      },
+      {
+        "path": "public/jewellery/confluence/technical/04-materials,-finish-bill-of-materials.svg",
+        "bytes": 7580,
+        "sha256": "73493cabb7ccd0ba522d0c433aaf5f51bd13167ed51114fc7abd1b8114e47769"
+      },
+      {
+        "path": "public/jewellery/confluence/technical/05-manufacturing-route-tolerances.svg",
+        "bytes": 9477,
+        "sha256": "ee855ecaa1225b89ccd377f4b9bc62c01f1f1115ad0f5794367e4c19421e8cc7"
+      },
+      {
+        "path": "public/jewellery/confluence/technical/06-sample-review-quality-control.svg",
+        "bytes": 9827,
+        "sha256": "7713eb2f592b06f019f7d1386231c081e857702b405c9fd40fe8b6785a6f2808"
+      },
+      {
+        "path": "public/jewellery/confluence/technical/07-costing,-moq-supplier-quotation.svg",
+        "bytes": 9181,
+        "sha256": "709396f67b430f18bea70336e27aeb5860eaa0b7ee67b5826d663865ded70094"
+      },
+      {
+        "path": "public/jewellery/confluence/technical/08-release-checklist-source-control.svg",
+        "bytes": 8802,
+        "sha256": "01171aaf9c4a159eef62c90f1f202b0cd1bef99deb86c9957bc7587f36c5d877"
+      }
+    ]
+  },
+  "previewSettings": {
+    "width": 2380,
+    "vectorOnly": "lossless",
+    "embeddedImages": "quality 94 / smartSubsample"
+  },
+  "thumbnailSettings": {
+    "width": 240,
+    "quality": 86,
+    "smartSubsample": true
+  },
+  "totals": {
+    "sourceBytes": 4112297,
+    "previewBytes": 1113850,
+    "thumbnailBytes": 33768,
+    "initialDimensionsGalleryBytes": 205678,
+    "sourceMainAndAllThumbnailsBytes": 4112297
+  },
+  "sheets": [
+    {
+      "source": "public/jewellery/confluence/technical/01-design-specification-overview.svg",
+      "sourceBytes": 1143093,
+      "preview": "public/jewellery/confluence/technical/previews/01-design-specification-overview.webp",
+      "previewBytes": 171910,
+      "previewWidth": 2380,
+      "previewHeight": 1684,
+      "previewEncoding": "quality 94 WebP",
+      "thumbnail": "public/jewellery/confluence/technical/previews/01-design-specification-overview-thumb.webp",
+      "thumbnailBytes": 4542,
+      "thumbnailWidth": 240,
+      "thumbnailHeight": 170,
+      "previewReductionPercent": 85
+    },
+    {
+      "source": "public/jewellery/confluence/technical/02-assembly-dimensions.svg",
+      "sourceBytes": 299661,
+      "preview": "public/jewellery/confluence/technical/previews/02-assembly-dimensions.webp",
+      "previewBytes": 91134,
+      "previewWidth": 2380,
+      "previewHeight": 1684,
+      "previewEncoding": "lossless WebP",
+      "thumbnail": "public/jewellery/confluence/technical/previews/02-assembly-dimensions-thumb.webp",
+      "thumbnailBytes": 3452,
+      "thumbnailWidth": 240,
+      "thumbnailHeight": 170,
+      "previewReductionPercent": 69.6
+    },
+    {
+      "source": "public/jewellery/confluence/technical/03-construction-stone-setting.svg",
+      "sourceBytes": 2624676,
+      "preview": "public/jewellery/confluence/technical/previews/03-construction-stone-setting.webp",
+      "previewBytes": 176476,
+      "previewWidth": 2380,
+      "previewHeight": 1684,
+      "previewEncoding": "quality 94 WebP",
+      "thumbnail": "public/jewellery/confluence/technical/previews/03-construction-stone-setting-thumb.webp",
+      "thumbnailBytes": 5276,
+      "thumbnailWidth": 240,
+      "thumbnailHeight": 170,
+      "previewReductionPercent": 93.3
+    },
+    {
+      "source": "public/jewellery/confluence/technical/04-materials,-finish-bill-of-materials.svg",
+      "sourceBytes": 7580,
+      "preview": "public/jewellery/confluence/technical/previews/04-materials,-finish-bill-of-materials.webp",
+      "previewBytes": 128036,
+      "previewWidth": 2380,
+      "previewHeight": 1684,
+      "previewEncoding": "lossless WebP",
+      "thumbnail": "public/jewellery/confluence/technical/previews/04-materials,-finish-bill-of-materials-thumb.webp",
+      "thumbnailBytes": 3850,
+      "thumbnailWidth": 240,
+      "thumbnailHeight": 170,
+      "previewReductionPercent": -1589.1
+    },
+    {
+      "source": "public/jewellery/confluence/technical/05-manufacturing-route-tolerances.svg",
+      "sourceBytes": 9477,
+      "preview": "public/jewellery/confluence/technical/previews/05-manufacturing-route-tolerances.webp",
+      "previewBytes": 151214,
+      "previewWidth": 2380,
+      "previewHeight": 1684,
+      "previewEncoding": "lossless WebP",
+      "thumbnail": "public/jewellery/confluence/technical/previews/05-manufacturing-route-tolerances-thumb.webp",
+      "thumbnailBytes": 4240,
+      "thumbnailWidth": 240,
+      "thumbnailHeight": 170,
+      "previewReductionPercent": -1495.6
+    },
+    {
+      "source": "public/jewellery/confluence/technical/06-sample-review-quality-control.svg",
+      "sourceBytes": 9827,
+      "preview": "public/jewellery/confluence/technical/previews/06-sample-review-quality-control.webp",
+      "previewBytes": 152998,
+      "previewWidth": 2380,
+      "previewHeight": 1684,
+      "previewEncoding": "lossless WebP",
+      "thumbnail": "public/jewellery/confluence/technical/previews/06-sample-review-quality-control-thumb.webp",
+      "thumbnailBytes": 4464,
+      "thumbnailWidth": 240,
+      "thumbnailHeight": 170,
+      "previewReductionPercent": -1456.9
+    },
+    {
+      "source": "public/jewellery/confluence/technical/07-costing,-moq-supplier-quotation.svg",
+      "sourceBytes": 9181,
+      "preview": "public/jewellery/confluence/technical/previews/07-costing,-moq-supplier-quotation.webp",
+      "previewBytes": 136722,
+      "previewWidth": 2380,
+      "previewHeight": 1684,
+      "previewEncoding": "lossless WebP",
+      "thumbnail": "public/jewellery/confluence/technical/previews/07-costing,-moq-supplier-quotation-thumb.webp",
+      "thumbnailBytes": 4350,
+      "thumbnailWidth": 240,
+      "thumbnailHeight": 170,
+      "previewReductionPercent": -1389.2
+    },
+    {
+      "source": "public/jewellery/confluence/technical/08-release-checklist-source-control.svg",
+      "sourceBytes": 8802,
+      "preview": "public/jewellery/confluence/technical/previews/08-release-checklist-source-control.webp",
+      "previewBytes": 105360,
+      "previewWidth": 2380,
+      "previewHeight": 1684,
+      "previewEncoding": "lossless WebP",
+      "thumbnail": "public/jewellery/confluence/technical/previews/08-release-checklist-source-control-thumb.webp",
+      "thumbnailBytes": 3594,
+      "thumbnailWidth": 240,
+      "thumbnailHeight": 170,
+      "previewReductionPercent": -1097
+    }
+  ],
+  "contactSheet": "docs/confluence-previews-contact-sheet.png"
+}

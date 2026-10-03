@@ -190,6 +190,33 @@
 .jewellery-piece-page .object-main-view img.jewellery-drawing-view {
   height: auto;
 }
+.jewellery-drawing-preview {
+  position: relative;
+  background: var(--color-ivory);
+  color: var(--color-ivory-ink);
+}
+.jewellery-drawing-preview > a {
+  display: block;
+}
+.jewellery-drawing-status {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 4px;
+  margin: 0;
+  padding: 24px;
+  background: var(--color-ivory);
+  color: var(--color-ivory-ink);
+  font-size: 13px;
+  text-align: center;
+}
+.jewellery-drawing-status a {
+  color: inherit;
+  text-decoration: underline;
+}
 .jewellery-final {
   display: block;
   position: relative;
