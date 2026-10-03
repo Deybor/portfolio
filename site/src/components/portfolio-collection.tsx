@@ -19,7 +19,10 @@ export function ObjectsPreview() {
       <div>
         <p className="collection-kicker">Beyond jewellery</p>
         <h2 id="other-objects-title">Printed objects</h2>
-        <p>Trophies, medals and sculptural forms.</p>
+        <p>
+          Trophies, medals and sculptural forms I designed and physically 3D printed. Current images
+          are renders and model views.
+        </p>
         <Link className="collection-link" to="/objects">
           Browse the {printedObjects.length} objects <span aria-hidden="true">↗︎</span>
         </Link>

@@ -1,5 +1,7 @@
 import { Reveal, MotionArticle } from "@/components/jewellery/stage";
 import { SelectedReveal } from "@/components/jewellery/selected-reveal";
+import type { ReactNode } from "react";
+import { ArrowDown } from "lucide-react";
 
 const directions = [
   {
@@ -28,7 +30,7 @@ const directions = [
   },
 ];
 
-export function AmaraStory() {
+export function AmaraStory({ children }: { children?: ReactNode }) {
   return (
     <>
       <section
@@ -37,7 +39,7 @@ export function AmaraStory() {
         aria-labelledby="amara-title"
       >
         <div className="amara-hero-copy">
-          <p className="amara-kicker">My independent exploration / ÌTURA</p>
+          <p className="amara-kicker">Independent companion design / ÌTURA</p>
           <h1 id="amara-title">
             What if Amara
             <br />
@@ -53,13 +55,25 @@ export function AmaraStory() {
           <dl className="amara-hero-facts">
             <div>
               <dt>My work</dt>
-              <dd>Concept, Blender model &amp; renders</dd>
+              <dd>Design, technical drawings &amp; specifications</dd>
             </div>
             <div>
               <dt>Status</dt>
               <dd>Independent digital study</dd>
             </div>
           </dl>
+          <div className="amara-hero-actions">
+            <a
+              className="amara-action amara-action-primary"
+              href="/jewellery/amara-nest/specification.html"
+            >
+              Inspect dimensions &amp; specification
+            </a>
+            <a className="amara-action amara-decision-cue" href="#directions">
+              Design decisions
+              <ArrowDown className="amara-decision-arrow" aria-hidden="true" />
+            </a>
+          </div>
           <details className="amara-research-detail amara-opening-research">
             <summary>What informed the idea</summary>
             <p>
@@ -113,14 +127,14 @@ export function AmaraStory() {
           </figure>
         </div>
         <div className="amara-opening-path">
-          <a href="#directions" className="amara-text-link">
-            Three ideas. One companion.
-          </a>
-          <a className="amara-text-link" href="#inspect">
-            Go to the model
+          <a href="#directions" className="amara-text-link amara-decision-cue">
+            Design decisions
+            <ArrowDown className="amara-decision-arrow" aria-hidden="true" />
           </a>
         </div>
       </section>
+
+      {children}
 
       <Reveal
         className="amara-container amara-options amara-options-refined"
@@ -128,7 +142,7 @@ export function AmaraStory() {
         threshold={0.06}
       >
         <div className="amara-section-heading">
-          <p className="amara-kicker">01 / Exploring the companion</p>
+          <p className="amara-kicker">03 / Exploring the companion</p>
           <h2>
             Three ideas
             <br />

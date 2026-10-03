@@ -11,15 +11,26 @@ export function JewelleryLanding() {
       <div className="collection-wrap">
         <header className="collection-intro">
           <div>
-            <p className="collection-kicker">Adesina Adebola / Jewellery · 3D modelling · Visualization</p>
+            <p className="collection-kicker">
+              Adesina Adebola / Jewellery design · CAD · Technical development
+            </p>
             <h1>Jewellery Design</h1>
           </div>
           <p>
-            I explore how a piece looks, how it belongs
-            <br className="desktop-break" /> and how it can be made.
+            I develop jewellery from collection fit
+            <br className="desktop-break" /> to dimensioned CAD and technical specifications.
           </p>
         </header>
         <JewelleryShowcase />
+        <div className="technical-entry-fabrication jewellery-fabrication">
+          <p>
+            Alongside jewellery, I design and physically 3D print trophies, medals and sculptural
+            objects. Production is ongoing; the current gallery shows renders and model views.
+          </p>
+          <Link className="collection-link" to="/objects">
+            Fabrication work <span aria-hidden="true">↗︎</span>
+          </Link>
+        </div>
         <CollectionNav active="jewellery" />
         <JewelleryPieces />
         <Reveal className="amara-invitation" id="amara-study">

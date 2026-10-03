@@ -8,7 +8,7 @@ export const Route = createFileRoute("/jewellery/amara")({
       {
         name: "description",
         content:
-          "My independent exploration of an Amara companion earring: the necklace, three directions, the selected stud and the 3D modelling behind it.",
+          "An independent digital study of a companion stud for the Amara necklace, with design decisions, technical drawings and specifications.",
       },
     ],
   }),

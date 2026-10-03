@@ -39,10 +39,10 @@ export function AmaraPage() {
 
   const active = useActiveChapter([
     "overview",
-    "directions",
-    "selected",
     "inspect",
     "specification",
+    "directions",
+    "selected",
     "rendered",
   ]);
 
@@ -52,13 +52,7 @@ export function AmaraPage() {
         <span className="amara-local-title">Amara Nest</span>
         <div className="amara-local-links">
           <a href="#overview" aria-current={active === "overview" ? "location" : undefined}>
-            The question
-          </a>
-          <a
-            href="#directions"
-            aria-current={["directions", "selected"].includes(active) ? "location" : undefined}
-          >
-            The decisions
+            Overview
           </a>
           <a href="#inspect" aria-current={active === "inspect" ? "location" : undefined}>
             Model
@@ -69,66 +63,68 @@ export function AmaraPage() {
           >
             Spec sheet
           </a>
+          <a
+            href="#directions"
+            aria-current={["directions", "selected"].includes(active) ? "location" : undefined}
+          >
+            Decisions
+          </a>
         </div>
         <AmaraScrollProgress />
       </nav>
 
-      <AmaraStory />
+      <AmaraStory>
+        <Reveal className="amara-inspect" id="inspect" labelledBy="inspect-title" threshold={0.06}>
+          <div className="amara-container">
+            <div className="amara-section-heading amara-section-heading-light">
+              <p className="amara-kicker">01 / The model</p>
+              <h2 id="inspect-title">Building the stud</h2>
+              <p>I modelled the shell, seat, prongs and post in Blender.</p>
+            </div>
+            <ModelComparison />
+          </div>
+        </Reveal>
 
-      <Reveal className="amara-inspect" id="inspect" labelledBy="inspect-title" threshold={0.06}>
-        <div className="amara-container">
-          <div className="amara-section-heading amara-section-heading-light">
-            <p className="amara-kicker">03 / The model</p>
-            <h2 id="inspect-title">Building the stud</h2>
-            <p>
-              I modelled the shell, seat and prongs in Blender. Here’s the same view with the
-              materials and mesh.
+        <Reveal className="amara-spec" id="specification" labelledBy="spec-title" threshold={0.02}>
+          <div className="amara-container">
+            <div className="amara-section-heading amara-section-heading-dark">
+              <p className="amara-kicker">02 / Specification</p>
+              <h2 id="spec-title">The spec sheet</h2>
+              <p>The model at a glance, with dimensions, materials and estimated weight.</p>
+            </div>
+            <div className="amara-spec-sheet-layout">
+              <figure className="amara-spec-model">
+                <img
+                  src={`${asset}model49/model-overview.svg`}
+                  alt="Amara Nest front and side sketches with overall width, height and depth dimensions, plus an isometric view"
+                  loading="lazy"
+                  width={1000}
+                  height={1400}
+                />
+                <figcaption>Model sketches</figcaption>
+                <a
+                  className="amara-action amara-action-dark"
+                  href={spec}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Open the full spec sheet
+                </a>
+              </figure>
+              <SpecificationTable />
+            </div>
+            <p className="amara-spec-note">
+              Model dimensions before finishing. Proposed metal and finish. Estimated weight
+              excludes backs; the unit cost is a planning target. Sample approval pending.
             </p>
           </div>
-          <ModelComparison />
-        </div>
-      </Reveal>
-
-      <Reveal className="amara-spec" id="specification" labelledBy="spec-title" threshold={0.02}>
-        <div className="amara-container">
-          <div className="amara-section-heading amara-section-heading-dark">
-            <p className="amara-kicker">04 / Specification</p>
-            <h2 id="spec-title">The spec sheet</h2>
-            <p>The model at a glance, with dimensions, materials and estimated weight.</p>
-          </div>
-          <div className="amara-spec-sheet-layout">
-            <figure className="amara-spec-model">
-              <img
-                src={`${asset}model49/model-overview.svg`}
-                alt="Amara Nest front and side sketches with overall width, height and depth dimensions, plus an isometric view"
-                loading="lazy"
-                width={1000}
-                height={1400}
-              />
-              <figcaption>Model sketches</figcaption>
-              <a
-                className="amara-action amara-action-dark"
-                href={spec}
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                Open the full spec sheet
-              </a>
-            </figure>
-            <SpecificationTable />
-          </div>
-          <p className="amara-spec-note">
-            Model dimensions before finishing. Proposed metal and finish. Estimated weight excludes
-            backs; the unit cost is a planning target. Sample approval pending.
-          </p>
-        </div>
-      </Reveal>
+        </Reveal>
+      </AmaraStory>
 
       <AmaraBeautyGallery />
 
       <nav className="amara-end-nav amara-container" aria-label="Continue browsing">
         <Link to="/jewellery">Jewellery overview</Link>
-        <Link to="/jewellery/workbench">More drawings and making</Link>
       </nav>
     </main>
   );

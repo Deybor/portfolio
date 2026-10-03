@@ -25,8 +25,9 @@ export function ObjectsIndex() {
             <h1>Printed Objects</h1>
           </div>
           <p>
-            Trophies, medals and sculptural forms.
-            <br className="desktop-break" /> Renders, clay studies, wireframes and original drawings.
+            Trophies, medals and sculptural forms I designed and 3D printed.
+            <br className="desktop-break" /> Production is ongoing; this gallery shows renders,
+            model views and original drawings.
           </p>
         </header>
         <CollectionNav active="objects" />

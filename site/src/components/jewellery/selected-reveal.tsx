@@ -133,7 +133,7 @@ export function SelectedReveal() {
           <figcaption>Amara Nest / Blender render</figcaption>
         </figure>
         <div className="amara-chosen-copy">
-          <p className="amara-kicker">02 / The Nest stud</p>
+          <p className="amara-kicker">04 / The Nest stud</p>
           <h2 id="selected-title">The heart, held in a fold.</h2>
           <p>
             I kept Amara’s heart and wrapped one side in gold. The fold gives the stud a shape of
