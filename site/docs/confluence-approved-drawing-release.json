@@ -1,0 +1,47 @@
+{
+  "date": "2026-10-04",
+  "approved_review": "04",
+  "changed_existing_assets": [
+    "dimensions-01.png",
+    "dimensions-01.webp",
+    "dimensions.pdf",
+    "dimensions.svg",
+    "specification.html",
+    "technical-specification.pdf",
+    "technical/01-design-specification-overview.svg",
+    "technical/02-assembly-dimensions.svg",
+    "technical/03-construction-stone-setting.svg",
+    "technical/previews/01-design-specification-overview-thumb.webp",
+    "technical/previews/01-design-specification-overview.webp",
+    "technical/previews/02-assembly-dimensions-thumb.webp",
+    "technical/previews/02-assembly-dimensions.webp",
+    "technical/previews/03-construction-stone-setting-thumb.webp",
+    "technical/previews/03-construction-stone-setting.webp"
+  ],
+  "source_sha256": "e53e30c18b5efca3f4165d868b4d2afd045e4d75fa17013333251ead4a189fb5",
+  "preserved_pdf_pages": [
+    4,
+    5,
+    6,
+    7,
+    8
+  ],
+  "svg_sha256": {
+    "dimensions.svg": "c2f31053f20d3cdaec26871683b825b4aaec431b14b5fa3d2953725e880d17d1",
+    "technical/01-design-specification-overview.svg": "0692f3dba51c8b8f92bfde7bbba7bf2afc5d3593dec0410155589e4332fb3700",
+    "technical/02-assembly-dimensions.svg": "c2f31053f20d3cdaec26871683b825b4aaec431b14b5fa3d2953725e880d17d1",
+    "technical/03-construction-stone-setting.svg": "8c6228b96268ef8a4de2251489093e1d68599e0cb29e614aed2da2b0f991af0e"
+  },
+  "pdf_sha256": {
+    "technical-specification.pdf": "3d52caf8e82a5ba5619d5e147c1ba678e5d98404e7874c37fb73b71f5b9db134",
+    "dimensions.pdf": "6fcd9255f7026d65d2951a4539bc3a58d798de845837a02ba619308caa5c598b"
+  },
+  "preview_totals": {
+    "sourceBytes": 2174243,
+    "previewBytes": 1229276,
+    "thumbnailBytes": 35538,
+    "initialDimensionsGalleryBytes": 216176,
+    "sourceMainAndAllThumbnailsBytes": 2174243
+  },
+  "source_of_truth": "The three installed SVG sheets and first three PDF pages are the approved review. The legacy CAD specification generator uses an earlier presentation and must not overwrite these sheets without a new reviewed replacement."
+}

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-03T18:20:06.150Z",
+  "generatedAt": "2026-10-04T00:40:54.865Z",
   "renderer": "Sharp/libvips SVG renderer; directly derived from existing SVG sheets",
   "rendererVersions": {
     "aom": "3.14.1",
@@ -37,13 +37,13 @@
     "before": [
       {
         "path": "public/jewellery/confluence/dimensions.pdf",
-        "bytes": 3041297,
-        "sha256": "b315b8cfc863e080e7d28f63198da6ea3e906845505e83cf3aefad1afaf455d1"
+        "bytes": 139007,
+        "sha256": "6fcd9255f7026d65d2951a4539bc3a58d798de845837a02ba619308caa5c598b"
       },
       {
         "path": "public/jewellery/confluence/dimensions.svg",
-        "bytes": 3430929,
-        "sha256": "e512fe059560219a427486c24710c15ec41af49406c91904ac4872f468763812"
+        "bytes": 233972,
+        "sha256": "c2f31053f20d3cdaec26871683b825b4aaec431b14b5fa3d2953725e880d17d1"
       },
       {
         "path": "public/jewellery/confluence/sketches.svg",
@@ -57,23 +57,23 @@
       },
       {
         "path": "public/jewellery/confluence/technical-specification.pdf",
-        "bytes": 6205143,
-        "sha256": "010d25a774dfb4bcc4b39a8693b8f360049f0910146dc934854da4449299df69"
+        "bytes": 2190425,
+        "sha256": "3d52caf8e82a5ba5619d5e147c1ba678e5d98404e7874c37fb73b71f5b9db134"
       },
       {
         "path": "public/jewellery/confluence/technical/01-design-specification-overview.svg",
-        "bytes": 1143093,
-        "sha256": "586e18694a00543a322c3dcaa5adab4d5a03783e45de37d179d9dfe8d45bc9c3"
+        "bytes": 774007,
+        "sha256": "0692f3dba51c8b8f92bfde7bbba7bf2afc5d3593dec0410155589e4332fb3700"
       },
       {
         "path": "public/jewellery/confluence/technical/02-assembly-dimensions.svg",
-        "bytes": 3430929,
-        "sha256": "e512fe059560219a427486c24710c15ec41af49406c91904ac4872f468763812"
+        "bytes": 233972,
+        "sha256": "c2f31053f20d3cdaec26871683b825b4aaec431b14b5fa3d2953725e880d17d1"
       },
       {
         "path": "public/jewellery/confluence/technical/03-construction-stone-setting.svg",
-        "bytes": 3431246,
-        "sha256": "ad329cb253e3a9e3b82ea515bfef9d7bad6c19c901fa85ccf4cac58eeffeeec3"
+        "bytes": 1121397,
+        "sha256": "8c6228b96268ef8a4de2251489093e1d68599e0cb29e614aed2da2b0f991af0e"
       },
       {
         "path": "public/jewellery/confluence/technical/04-materials,-finish-bill-of-materials.svg",
@@ -104,13 +104,13 @@
     "after": [
       {
         "path": "public/jewellery/confluence/dimensions.pdf",
-        "bytes": 3041297,
-        "sha256": "b315b8cfc863e080e7d28f63198da6ea3e906845505e83cf3aefad1afaf455d1"
+        "bytes": 139007,
+        "sha256": "6fcd9255f7026d65d2951a4539bc3a58d798de845837a02ba619308caa5c598b"
       },
       {
         "path": "public/jewellery/confluence/dimensions.svg",
-        "bytes": 3430929,
-        "sha256": "e512fe059560219a427486c24710c15ec41af49406c91904ac4872f468763812"
+        "bytes": 233972,
+        "sha256": "c2f31053f20d3cdaec26871683b825b4aaec431b14b5fa3d2953725e880d17d1"
       },
       {
         "path": "public/jewellery/confluence/sketches.svg",
@@ -124,23 +124,23 @@
       },
       {
         "path": "public/jewellery/confluence/technical-specification.pdf",
-        "bytes": 6205143,
-        "sha256": "010d25a774dfb4bcc4b39a8693b8f360049f0910146dc934854da4449299df69"
+        "bytes": 2190425,
+        "sha256": "3d52caf8e82a5ba5619d5e147c1ba678e5d98404e7874c37fb73b71f5b9db134"
       },
       {
         "path": "public/jewellery/confluence/technical/01-design-specification-overview.svg",
-        "bytes": 1143093,
-        "sha256": "586e18694a00543a322c3dcaa5adab4d5a03783e45de37d179d9dfe8d45bc9c3"
+        "bytes": 774007,
+        "sha256": "0692f3dba51c8b8f92bfde7bbba7bf2afc5d3593dec0410155589e4332fb3700"
       },
       {
         "path": "public/jewellery/confluence/technical/02-assembly-dimensions.svg",
-        "bytes": 3430929,
-        "sha256": "e512fe059560219a427486c24710c15ec41af49406c91904ac4872f468763812"
+        "bytes": 233972,
+        "sha256": "c2f31053f20d3cdaec26871683b825b4aaec431b14b5fa3d2953725e880d17d1"
       },
       {
         "path": "public/jewellery/confluence/technical/03-construction-stone-setting.svg",
-        "bytes": 3431246,
-        "sha256": "ad329cb253e3a9e3b82ea515bfef9d7bad6c19c901fa85ccf4cac58eeffeeec3"
+        "bytes": 1121397,
+        "sha256": "8c6228b96268ef8a4de2251489093e1d68599e0cb29e614aed2da2b0f991af0e"
       },
       {
         "path": "public/jewellery/confluence/technical/04-materials,-finish-bill-of-materials.svg",
@@ -180,54 +180,54 @@
     "smartSubsample": true
   },
   "totals": {
-    "sourceBytes": 8050135,
-    "previewBytes": 1149122,
-    "thumbnailBytes": 34192,
-    "initialDimensionsGalleryBytes": 206102,
-    "sourceMainAndAllThumbnailsBytes": 8050135
+    "sourceBytes": 2174243,
+    "previewBytes": 1229276,
+    "thumbnailBytes": 35538,
+    "initialDimensionsGalleryBytes": 216176,
+    "sourceMainAndAllThumbnailsBytes": 2174243
   },
   "sheets": [
     {
       "source": "public/jewellery/confluence/technical/01-design-specification-overview.svg",
-      "sourceBytes": 1143093,
+      "sourceBytes": 774007,
       "preview": "public/jewellery/confluence/technical/previews/01-design-specification-overview.webp",
-      "previewBytes": 171910,
+      "previewBytes": 180638,
       "previewWidth": 2380,
       "previewHeight": 1684,
       "previewEncoding": "quality 94 WebP",
       "thumbnail": "public/jewellery/confluence/technical/previews/01-design-specification-overview-thumb.webp",
-      "thumbnailBytes": 4542,
+      "thumbnailBytes": 4540,
       "thumbnailWidth": 240,
       "thumbnailHeight": 170,
-      "previewReductionPercent": 85
+      "previewReductionPercent": 76.7
     },
     {
       "source": "public/jewellery/confluence/technical/02-assembly-dimensions.svg",
-      "sourceBytes": 3430929,
+      "sourceBytes": 233972,
       "preview": "public/jewellery/confluence/technical/previews/02-assembly-dimensions.webp",
-      "previewBytes": 129976,
+      "previewBytes": 131924,
       "previewWidth": 2380,
       "previewHeight": 1684,
-      "previewEncoding": "quality 94 WebP",
+      "previewEncoding": "lossless WebP",
       "thumbnail": "public/jewellery/confluence/technical/previews/02-assembly-dimensions-thumb.webp",
-      "thumbnailBytes": 3786,
+      "thumbnailBytes": 4466,
       "thumbnailWidth": 240,
       "thumbnailHeight": 170,
-      "previewReductionPercent": 96.2
+      "previewReductionPercent": 43.6
     },
     {
       "source": "public/jewellery/confluence/technical/03-construction-stone-setting.svg",
-      "sourceBytes": 3431246,
+      "sourceBytes": 1121397,
       "preview": "public/jewellery/confluence/technical/previews/03-construction-stone-setting.webp",
-      "previewBytes": 172906,
+      "previewBytes": 242384,
       "previewWidth": 2380,
       "previewHeight": 1684,
       "previewEncoding": "quality 94 WebP",
       "thumbnail": "public/jewellery/confluence/technical/previews/03-construction-stone-setting-thumb.webp",
-      "thumbnailBytes": 5366,
+      "thumbnailBytes": 6034,
       "thumbnailWidth": 240,
       "thumbnailHeight": 170,
-      "previewReductionPercent": 95
+      "previewReductionPercent": 78.4
     },
     {
       "source": "public/jewellery/confluence/technical/04-materials,-finish-bill-of-materials.svg",
