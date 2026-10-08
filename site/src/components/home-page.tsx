@@ -80,9 +80,9 @@ export function HomePage() {
         </h1>
         <div className="intro-bottom">
           <p>
-            Product imagery, animation,
+            3D visuals and animation,
             <br />
-            and jewellery developed through to a detailed 3D model.
+            showing how products look, move and work.
           </p>
           <a className="text-link" href="#work">
             Explore product visualization <span aria-hidden="true">↓</span>
@@ -260,6 +260,7 @@ export function HomePage() {
         </div>
       </section>
 
+      <section className="home-film-link"><div><h2>Stories in motion.</h2><p>Automotive explanation, documentary reconstruction and animated films.</p></div><a className="text-link" href={import.meta.env.BASE_URL+"film"}>Explore Film ↗</a></section>
       <section className="about section" id="about">
         <p className="eyebrow">Behind the images</p>
         <div className="about-layout">

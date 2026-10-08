@@ -1,5 +1,6 @@
 @import "tailwindcss";
 @import "./styles/home.css";
+@import "./styles/film.css";
 @import "./styles/jewel.css";
 @import "./styles/stage.css";
 @import "./styles/amara-case.css";
@@ -191,7 +192,7 @@
   color: var(--color-muted);
 }
 
-@media (max-width: 700px) {
+@media (max-width: 1050px) {
   .site-header {
     padding: 14px 5% 10px;
     flex-wrap: wrap;

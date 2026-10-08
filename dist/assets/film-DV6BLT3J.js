@@ -1,0 +1,1 @@
+import{n as e}from"./film-pages-CxGpz9XN.js";var t=e;export{t as component};

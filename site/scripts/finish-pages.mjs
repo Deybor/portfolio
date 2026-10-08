@@ -24,7 +24,8 @@ const shell = readFileSync(join(output, "index.html"), "utf8");
 const pieces = ["confluence", "iced-out-ring", "heartline-pendant", "ribbon-leaf"];
 const objectData = JSON.parse(readFileSync(join(root, "src/lib/printed-objects.json"), "utf8"));
 const objects = Array.isArray(objectData) ? objectData : objectData.projects;
-const routes = ["", "jewellery", "jewellery/amara", "jewellery/workbench", ...pieces.map((slug) => `jewellery/${slug}`), "objects", ...objects.map(({ slug }) => `objects/${slug}`)];
+const filmSlugs = ["lotus-drivetrain", "flight-705", "prophetbots", "billy", "unexpected-guardian"];
+const routes = ["", "film", ...filmSlugs.map(slug => `film/${slug}`), "jewellery", "jewellery/amara", "jewellery/workbench", ...pieces.map((slug) => `jewellery/${slug}`), "objects", ...objects.map(({ slug }) => `objects/${slug}`)];
 for (const route of routes) {
   const folder = join(output, route); mkdirSync(folder, { recursive: true });
   if (!existsSync(join(folder, "index.html"))) throw Error(`Missing prerendered page: ${route}`);

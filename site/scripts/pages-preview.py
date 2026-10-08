@@ -7,5 +7,10 @@ class Handler(SimpleHTTPRequestHandler):
     def translate_path(self, path):
         if path.startswith('/portfolio'): path = path[len('/portfolio'):] or '/'
         return super().translate_path(path)
+    def do_GET(self):
+        if not self.path.startswith('/portfolio/'):
+            self.send_error(404, 'Use the public /portfolio/ prefix')
+            return
+        super().do_GET()
     def log_message(self, *args): pass
 ThreadingHTTPServer(('127.0.0.1', 8082), Handler).serve_forever()

@@ -1,0 +1,1 @@
+import{t as e}from"./jsx-runtime-Dk72oS4N.js";import{o as t}from"./index-BMp6L3Yr.js";import{t as n}from"./film-pages-CxGpz9XN.js";var r=e();function i(){let{slug:e}=t.useParams();return(0,r.jsx)(n,{slug:e})}export{i as component};

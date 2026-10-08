@@ -147,7 +147,8 @@ function authPopupPlugin(): Plugin {
 // The dev server starts once `src/router.tsx` and `src/routes/` exist — see
 // AGENTS.md § "First scaffold".
 const githubPages = process.env.VITE_GITHUB_PAGES === "true";
-const pagesRoutes = ["/", "/jewellery", "/jewellery/amara", "/jewellery/workbench",
+const filmSlugs = ["lotus-drivetrain", "flight-705", "prophetbots", "billy", "unexpected-guardian"];
+const pagesRoutes = ["/", "/film", ...filmSlugs.map(slug => `/film/${slug}`), "/jewellery", "/jewellery/amara", "/jewellery/workbench",
   ...["confluence", "iced-out-ring", "heartline-pendant", "ribbon-leaf"].map(slug => `/jewellery/${slug}`),
   "/objects", ...JSON.parse(readFileSync("src/lib/printed-objects.json", "utf8")).map((project: { slug: string }) => `/objects/${project.slug}`)];
 export default defineConfig(({ command, isPreview }) => ({

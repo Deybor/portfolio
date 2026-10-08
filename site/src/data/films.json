@@ -1,0 +1,89 @@
+[
+  {
+    "slug": "lotus-drivetrain",
+    "title": "Lotus 7",
+    "subtitle": "How the drivetrain works",
+    "kind": "Automotive explainer",
+    "duration": "1:12",
+    "format": "Landscape",
+    "summary": "A journey beneath the bodywork: from the inline-four engine to the gearbox and rear wheels.",
+    "notes": "The bonnet lifts, the engine mechanism comes into view, and the transmission tunnel opens for a first and second gear comparison. An overview connects the engine, gearbox and driven wheels.",
+    "credit": "Blender animation using representative engine and gearbox assets. Lotus model: Britdawgmasterfunk (CC0). Inline-four: oldtimer; gearbox: lp41 (CC BY 3.0). Rigs, materials and animation adapted. The sequence illustrates operation rather than a factory Lotus installation.",
+    "links": [
+      [
+        "Lotus model",
+        "https://blendswap.com/blend/31343"
+      ],
+      [
+        "Engine model",
+        "https://blendswap.com/blend/8611"
+      ],
+      [
+        "Gearbox model",
+        "https://blendswap.com/blend/20452"
+      ],
+      [
+        "CC BY 3.0",
+        "https://creativecommons.org/licenses/by/3.0/"
+      ]
+    ],
+    "video": "/films/lotus-drivetrain.mp4",
+    "poster": "/films/lotus-drivetrain.jpg"
+  },
+  {
+    "slug": "flight-705",
+    "title": "Flight 705",
+    "subtitle": "A documentary reconstruction",
+    "kind": "Documentary animation",
+    "duration": "2:07",
+    "format": "Landscape",
+    "summary": "An aviation story told through airport scenes, route graphics and a reconstructed cockpit.",
+    "notes": "The sequence establishes the aircraft and route, introduces the crew, and moves from the apron into the cockpit. Animation is presented alongside an interview excerpt.",
+    "credit": "Full 3D production by Adesina Adebola: scene creation, animation, lighting, cameras and rendering. 3D documentary reconstruction with a live-action interview excerpt.",
+    "links": [],
+    "video": "/films/flight-705.mp4",
+    "poster": "/films/flight-705.jpg"
+  },
+  {
+    "slug": "prophetbots",
+    "title": "ProphetBots",
+    "subtitle": "An animated product film",
+    "kind": "Product film",
+    "duration": "1:21",
+    "format": "Landscape",
+    "summary": "A character-led product story built around a smart speaker, mobile interactions and a richly lit interior.",
+    "notes": "A conversation introduces the product through close-ups, character actions and device screens. Warm materials and magenta light establish a consistent setting.",
+    "credit": "Full 3D production by Adesina Adebola: scene creation, animation, lighting, cameras and rendering. Character animation, product shots and device-screen sequences.",
+    "links": [],
+    "video": "/films/prophetbots.mp4",
+    "poster": "/films/prophetbots.jpg"
+  },
+  {
+    "slug": "billy",
+    "title": "Billy",
+    "subtitle": "The returned ring",
+    "kind": "Narrative short",
+    "duration": "0:35",
+    "format": "Portrait",
+    "summary": "A short story of a returned ring, told through character interactions, close-ups and changing viewpoints.",
+    "notes": "A compact vertical sequence combines animated scenes, on-screen captions and a live-action ending.",
+    "credit": "Full 3D production by Adesina Adebola: scene creation, animation, lighting, cameras and rendering. Animated story with Miss Wholesome branding and a live-action ending.",
+    "links": [],
+    "video": "/films/billy.mp4",
+    "poster": "/films/billy.jpg"
+  },
+  {
+    "slug": "unexpected-guardian",
+    "title": "An unexpected guardian",
+    "subtitle": "A short narrative scene",
+    "kind": "Narrative short",
+    "duration": "0:12",
+    "format": "Portrait",
+    "summary": "A brief outdoor scene shifts attention from departing figures to a cat approaching a baby.",
+    "notes": "A short vertical animation using character staging, changing viewpoints and an outdoor environment.",
+    "credit": "Full 3D production by Adesina Adebola: scene creation, animation, lighting, cameras and rendering. A vertical animation built around character staging and an outdoor setting.",
+    "links": [],
+    "video": "/films/unexpected-guardian.mp4",
+    "poster": "/films/unexpected-guardian.jpg"
+  }
+]

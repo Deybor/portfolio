@@ -10,6 +10,8 @@
 
 import { Route as rootRouteImport } from './routes/__root'
 import { Route as IndexRouteImport } from './routes/index'
+import { Route as FilmIndexRouteImport } from './routes/film/index'
+import { Route as FilmSlugRouteImport } from './routes/film/$slug'
 import { Route as JewelleryIndexRouteImport } from './routes/jewellery/index'
 import { Route as JewellerySlugRouteImport } from './routes/jewellery/$slug'
 import { Route as JewelleryAmaraRouteImport } from './routes/jewellery/amara'
@@ -20,6 +22,16 @@ import { Route as ObjectsSlugRouteImport } from './routes/objects/$slug'
 const IndexRoute = IndexRouteImport.update({
   id: '/',
   path: '/',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const FilmIndexRoute = FilmIndexRouteImport.update({
+  id: '/film/',
+  path: '/film/',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const FilmSlugRoute = FilmSlugRouteImport.update({
+  id: '/film/$slug',
+  path: '/film/$slug',
   getParentRoute: () => rootRouteImport,
 } as any)
 const JewelleryIndexRoute = JewelleryIndexRouteImport.update({
@@ -55,29 +67,35 @@ const ObjectsSlugRoute = ObjectsSlugRouteImport.update({
 
 export interface FileRoutesByFullPath {
   '/': typeof IndexRoute
+  '/film/$slug': typeof FilmSlugRoute
   '/jewellery/$slug': typeof JewellerySlugRoute
   '/jewellery/amara': typeof JewelleryAmaraRoute
   '/jewellery/workbench': typeof JewelleryWorkbenchRoute
   '/objects/$slug': typeof ObjectsSlugRoute
+  '/film/': typeof FilmIndexRoute
   '/jewellery/': typeof JewelleryIndexRoute
   '/objects/': typeof ObjectsIndexRoute
 }
 export interface FileRoutesByTo {
   '/': typeof IndexRoute
+  '/film/$slug': typeof FilmSlugRoute
   '/jewellery/$slug': typeof JewellerySlugRoute
   '/jewellery/amara': typeof JewelleryAmaraRoute
   '/jewellery/workbench': typeof JewelleryWorkbenchRoute
   '/objects/$slug': typeof ObjectsSlugRoute
+  '/film': typeof FilmIndexRoute
   '/jewellery': typeof JewelleryIndexRoute
   '/objects': typeof ObjectsIndexRoute
 }
 export interface FileRoutesById {
   __root__: typeof rootRouteImport
   '/': typeof IndexRoute
+  '/film/$slug': typeof FilmSlugRoute
   '/jewellery/$slug': typeof JewellerySlugRoute
   '/jewellery/amara': typeof JewelleryAmaraRoute
   '/jewellery/workbench': typeof JewelleryWorkbenchRoute
   '/objects/$slug': typeof ObjectsSlugRoute
+  '/film/': typeof FilmIndexRoute
   '/jewellery/': typeof JewelleryIndexRoute
   '/objects/': typeof ObjectsIndexRoute
 }
@@ -85,38 +103,46 @@ export interface FileRouteTypes {
   fileRoutesByFullPath: FileRoutesByFullPath
   fullPaths:
     | '/'
+    | '/film/$slug'
     | '/jewellery/$slug'
     | '/jewellery/amara'
     | '/jewellery/workbench'
     | '/objects/$slug'
+    | '/film/'
     | '/jewellery/'
     | '/objects/'
   fileRoutesByTo: FileRoutesByTo
   to:
     | '/'
+    | '/film/$slug'
     | '/jewellery/$slug'
     | '/jewellery/amara'
     | '/jewellery/workbench'
     | '/objects/$slug'
+    | '/film'
     | '/jewellery'
     | '/objects'
   id:
     | '__root__'
     | '/'
+    | '/film/$slug'
     | '/jewellery/$slug'
     | '/jewellery/amara'
     | '/jewellery/workbench'
     | '/objects/$slug'
+    | '/film/'
     | '/jewellery/'
     | '/objects/'
   fileRoutesById: FileRoutesById
 }
 export interface RootRouteChildren {
   IndexRoute: typeof IndexRoute
+  FilmSlugRoute: typeof FilmSlugRoute
   JewellerySlugRoute: typeof JewellerySlugRoute
   JewelleryAmaraRoute: typeof JewelleryAmaraRoute
   JewelleryWorkbenchRoute: typeof JewelleryWorkbenchRoute
   ObjectsSlugRoute: typeof ObjectsSlugRoute
+  FilmIndexRoute: typeof FilmIndexRoute
   JewelleryIndexRoute: typeof JewelleryIndexRoute
   ObjectsIndexRoute: typeof ObjectsIndexRoute
 }
@@ -128,6 +154,20 @@ declare module '@tanstack/react-router' {
       path: '/'
       fullPath: '/'
       preLoaderRoute: typeof IndexRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/film/': {
+      id: '/film/'
+      path: '/film'
+      fullPath: '/film/'
+      preLoaderRoute: typeof FilmIndexRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/film/$slug': {
+      id: '/film/$slug'
+      path: '/film/$slug'
+      fullPath: '/film/$slug'
+      preLoaderRoute: typeof FilmSlugRouteImport
       parentRoute: typeof rootRouteImport
     }
     '/jewellery/': {
@@ -177,10 +217,12 @@ declare module '@tanstack/react-router' {
 
 const rootRouteChildren: RootRouteChildren = {
   IndexRoute: IndexRoute,
+  FilmSlugRoute: FilmSlugRoute,
   JewellerySlugRoute: JewellerySlugRoute,
   JewelleryAmaraRoute: JewelleryAmaraRoute,
   JewelleryWorkbenchRoute: JewelleryWorkbenchRoute,
   ObjectsSlugRoute: ObjectsSlugRoute,
+  FilmIndexRoute: FilmIndexRoute,
   JewelleryIndexRoute: JewelleryIndexRoute,
   ObjectsIndexRoute: ObjectsIndexRoute,
 }

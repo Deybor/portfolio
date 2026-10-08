@@ -14,6 +14,7 @@ export function SiteHeader() {
       </Link>
       <nav className="site-nav" aria-label="Main">
         <a href="/#work">Product visualization</a>
+        <a href={import.meta.env.BASE_URL+"film"} aria-current={path.startsWith("/film") ? "page" : undefined}>Film</a>
         <Link to="/jewellery" aria-current={jewel ? "page" : undefined}>
           Jewellery
         </Link>
